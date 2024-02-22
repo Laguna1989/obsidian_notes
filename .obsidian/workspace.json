@@ -49,7 +49,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math stuff.md",
+                "file": "tools/github tricks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "778e64922ad6eadc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-02-22 Dangerous Optimizations.md",
                 "mode": "source",
                 "source": false
               }
@@ -68,21 +80,7 @@
             }
           }
         ],
-        "currentTab": 3
-      },
-      {
-        "id": "fa3d193cb0a59257",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "3ff88ef8ffaa4779",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          }
-        ]
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -132,7 +130,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d02a40f61708ec57",
@@ -148,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math stuff.md",
+                "file": "2024-02-22 Dangerous Optimizations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math stuff.md",
+                "file": "2024-02-22 Dangerous Optimizations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math stuff.md"
+                "file": "2024-02-22 Dangerous Optimizations.md"
               }
             }
           }
@@ -209,11 +208,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5d94d9ac8edd4cb4",
+  "active": "778e64922ad6eadc",
   "lastOpenFiles": [
+    "assets/Pasted image 20240222181558.png",
+    "assets/Pasted image 20240222181534.png",
     "tools/github tricks.md",
-    "Math stuff.md",
+    "2024-02-22 Dangerous Optimizations.md",
     "tools/_tools.md",
+    "tools/OpenGL Debugging.md",
+    "tools/pmccabe.md",
+    "tools/pluginval.md",
+    "Math stuff.md",
     "book_reviews/_book reviews.md",
     "tools",
     "book_reviews/Mark Seeman - \"Code that fits in your head\".md",
@@ -227,8 +232,6 @@
     "Pasted image 20240131073731.png",
     "Pasted image 20240131073619.png",
     "Pasted image 20240131073633.png",
-    "tools/OpenGL Debugging.md",
-    "tools/pmccabe.md",
     "Sloth UI changes checklist.md",
     "helpers",
     "Welcome.md"

@@ -46,3 +46,34 @@ ssh-add - <<< '${{ secrets.[Name of the repository secret] }}'
 git config --global url."ssh://git@github.com".insteadOf "https://github.com"
 ```
 
+# git stash --all
+- `git stash` ignores ignored and untracked files, use `git stash --all` to include those.
+- works also for `git clean --all`
+# git blame -L, git log -L
+* `git blame -L 15,26:path/to/file.txt` will blame only this range of lines
+* Works also for `git log -L ...` 
+* Does not need to be a line range, but can be a function name 
+	* `git log -L :<function_name>:path/to/file.txt`
+	* will try to figure out heuristically what was changed
+
+# git blame -w
+* ignore whitespaces
+# git blame -C
+* ignore lines  moved in the same file
+* Can be appended up to three times
+* `git blame -C -C -C path/to/file`
+	* will ignore lines moved, creation of file
+
+# git reflog
+- will store comands (e.g. rebase, reset, ...)
+
+# git diff --word-diff
+- will not diff by lines, but by words: make it easy to spot any small change
+
+# git config --gobal rerere.enabled
+- REuse REcorded Resolution
+- whenever you solve a merge conflict, me git remember that and reuse it to solve a similar merge conflict in the future
+
+# git push --force-with-lease
+- like force push, but works out only if the reference is correct. 
+- This will avoid deleting commits of other people
