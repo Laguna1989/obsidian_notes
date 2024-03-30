@@ -9,3 +9,6 @@
 ![[2024-01-31_seqlock3.png]]
 
 Taken from [this talk](https://www.youtube.com/watch?v=8uAW5FQtcvE) 
+
+
+Todo: check with [[C++ Concurrency]]
