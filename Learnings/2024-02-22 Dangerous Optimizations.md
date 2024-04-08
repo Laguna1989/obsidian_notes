@@ -1,4 +1,5 @@
-- Premise: Compiler writers use undefined behaviour to perform optimizations
+- Premise: Compiler writers use undefined behavior to perform optimizations
+	- after all, a compiler is a big optimizer
 - Difficult for programmers but for static analysis tools as well
 - UD: 
 	- implementations may ignore UD completely with unpredictable results

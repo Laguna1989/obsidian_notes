@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Elden Ring - Strength Build.md",
+                "file": "tools/C++ Concurrency.md",
                 "mode": "source",
                 "source": false
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Elden Ring - Strength Build.md",
+                "file": "tools/C++ Concurrency.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Elden Ring - Strength Build.md",
+                "file": "tools/C++ Concurrency.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Elden Ring - Strength Build.md"
+                "file": "tools/C++ Concurrency.md"
               }
             }
           }
@@ -245,8 +245,11 @@
   },
   "active": "b5cf83e4ffd051a8",
   "lastOpenFiles": [
+    "Learnings/2024-02-22 Dangerous Optimizations.md",
+    "Gaming/Elden Ring - Strength Build.md",
+    "Learnings",
+    "Gaming",
     "Catch2 v3.md",
-    "Elden Ring - Strength Build.md",
     "SEQLock.md",
     "tools/C++ Concurrency.md",
     "tools/_tools.md",
@@ -256,7 +259,6 @@
     "book_reviews/_book reviews.md",
     "tools/github tricks.md",
     "tools/cppcheck.md",
-    "2024-02-22 Dangerous Optimizations.md",
     "assets/Pasted image 20240222181558.png",
     "assets/Pasted image 20240222181534.png",
     "tools/OpenGL Debugging.md",
