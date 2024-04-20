@@ -92,18 +92,6 @@
             }
           },
           {
-            "id": "b5cf83e4ffd051a8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tools/C++ Concurrency.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "8ce09d08f6db4ec0",
             "type": "leaf",
             "state": {
@@ -116,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -182,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/C++ Concurrency.md",
+                "file": "Catch2 v3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/C++ Concurrency.md",
+                "file": "Catch2 v3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/C++ Concurrency.md"
+                "file": "Catch2 v3.md"
               }
             }
           }
@@ -243,23 +231,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b5cf83e4ffd051a8",
+  "active": "cdb47b79135f30d6",
   "lastOpenFiles": [
+    "tools/pluginval.md",
+    "Learnings/MathStuff.md",
+    "assets/fibonacci_sphere_code.png",
+    "assets/Pasted image 20240222181558.png",
+    "tools/C++ Concurrency.md",
     "Learnings/2024-02-22 Dangerous Optimizations.md",
     "Gaming/Elden Ring - Strength Build.md",
     "Learnings",
     "Gaming",
     "Catch2 v3.md",
     "SEQLock.md",
-    "tools/C++ Concurrency.md",
     "tools/_tools.md",
-    "tools/pluginval.md",
     "wohnung/Isolde Humbserstr. 24.md",
     "wohnung",
     "book_reviews/_book reviews.md",
     "tools/github tricks.md",
     "tools/cppcheck.md",
-    "assets/Pasted image 20240222181558.png",
     "assets/Pasted image 20240222181534.png",
     "tools/OpenGL Debugging.md",
     "tools/pmccabe.md",
