@@ -3,7 +3,7 @@
 Can be used to verify AU, VST and VST3 plugins
 
 # Process
--build vst3 release of plugin
+- build vst3 release of plugin
 - open pluginval
 - remove old version of plugin to be tested
 - drag and drop vst3 file into pluginval
