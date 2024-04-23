@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Catch2 v3.md",
+                "file": "tools/OpenGL Debugging.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Catch2 v3.md",
+                "file": "tools/OpenGL Debugging.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Catch2 v3.md",
+                "file": "tools/OpenGL Debugging.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Catch2 v3.md"
+                "file": "tools/OpenGL Debugging.md"
               }
             }
           }
@@ -233,6 +233,12 @@
   },
   "active": "cdb47b79135f30d6",
   "lastOpenFiles": [
+    "tools/clion_astyle.md",
+    "ai_trickery/stable-diffusion upscale.md",
+    "ai_trickery",
+    "book_reviews/Derby - \"Agile Retrospectives\".md",
+    "book_reviews/Mark Seeman - \"Code that fits in your head\".md",
+    "Catch2 v3.md",
     "tools/pluginval.md",
     "Learnings/MathStuff.md",
     "assets/fibonacci_sphere_code.png",
@@ -242,7 +248,6 @@
     "Gaming/Elden Ring - Strength Build.md",
     "Learnings",
     "Gaming",
-    "Catch2 v3.md",
     "SEQLock.md",
     "tools/_tools.md",
     "wohnung/Isolde Humbserstr. 24.md",
@@ -255,7 +260,6 @@
     "tools/pmccabe.md",
     "Math stuff.md",
     "tools",
-    "book_reviews/Mark Seeman - \"Code that fits in your head\".md",
     "assets/2024-01-31_seqlock3.png",
     "book_reviews",
     "assets/2024-01-31_seqlock1.png",
