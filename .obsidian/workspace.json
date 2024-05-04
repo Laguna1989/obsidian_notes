@@ -97,14 +97,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learnings/SWEC24.md",
+                "file": "Learnings/2024-05-04_SWEC24.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "70cb0a18fb144385",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learnings/2024-05-04_SWEC24.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -170,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learnings/SWEC24.md",
+                "file": "Learnings/2024-05-04_SWEC24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learnings/SWEC24.md",
+                "file": "Learnings/2024-05-04_SWEC24.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learnings/SWEC24.md"
+                "file": "Learnings/2024-05-04_SWEC24.md"
               }
             }
           }
@@ -231,10 +243,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8ce09d08f6db4ec0",
+  "active": "b4017a2eff9594db",
   "lastOpenFiles": [
     "tools/github tricks.md",
-    "Learnings/SWEC24.md",
+    "Learnings/2024-05-04_SWEC24.md",
     "tools/C++ Concurrency.md",
     "Catch2 v3.md",
     "wohnung/Isolde Humbserstr. 24.md",
