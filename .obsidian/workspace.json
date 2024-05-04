@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/OpenGL Debugging.md",
+                "file": "book_reviews/_book reviews.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,14 +97,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "book_reviews/_book reviews.md",
+                "file": "Learnings/SWEC24.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/OpenGL Debugging.md",
+                "file": "Learnings/SWEC24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/OpenGL Debugging.md",
+                "file": "Learnings/SWEC24.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/OpenGL Debugging.md"
+                "file": "Learnings/SWEC24.md"
               }
             }
           }
@@ -231,32 +231,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cdb47b79135f30d6",
+  "active": "8ce09d08f6db4ec0",
   "lastOpenFiles": [
+    "tools/github tricks.md",
+    "Learnings/SWEC24.md",
+    "tools/C++ Concurrency.md",
+    "Catch2 v3.md",
+    "wohnung/Isolde Humbserstr. 24.md",
+    "book_reviews/_book reviews.md",
+    "tools/pluginval.md",
+    "tools/OpenGL Debugging.md",
     "tools/clion_astyle.md",
     "ai_trickery/stable-diffusion upscale.md",
     "ai_trickery",
     "book_reviews/Derby - \"Agile Retrospectives\".md",
     "book_reviews/Mark Seeman - \"Code that fits in your head\".md",
-    "Catch2 v3.md",
-    "tools/pluginval.md",
     "Learnings/MathStuff.md",
     "assets/fibonacci_sphere_code.png",
     "assets/Pasted image 20240222181558.png",
-    "tools/C++ Concurrency.md",
     "Learnings/2024-02-22 Dangerous Optimizations.md",
     "Gaming/Elden Ring - Strength Build.md",
     "Learnings",
     "Gaming",
     "SEQLock.md",
     "tools/_tools.md",
-    "wohnung/Isolde Humbserstr. 24.md",
     "wohnung",
-    "book_reviews/_book reviews.md",
-    "tools/github tricks.md",
     "tools/cppcheck.md",
     "assets/Pasted image 20240222181534.png",
-    "tools/OpenGL Debugging.md",
     "tools/pmccabe.md",
     "Math stuff.md",
     "tools",
