@@ -1,3 +1,9 @@
+---
+created:
+  - 2024-04-15
+tags:
+  - "#book"
+---
 # 1 helping your team inspect and adapt
 - Set the stage
 	- Welcome and appreciation of peoples time
