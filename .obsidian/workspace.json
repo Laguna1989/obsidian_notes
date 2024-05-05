@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learnings/2024-05-04_SWEC24.md",
+                "file": "Learnings/2024-05-04_SWEC24_Folder/2024-05-04_SWEC24.md",
                 "mode": "source",
                 "source": false
               }
@@ -107,16 +107,20 @@
             "id": "70cb0a18fb144385",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learnings/2024-05-04_SWEC24.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "1192ee92ab932ac6",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -182,7 +186,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learnings/2024-05-04_SWEC24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +202,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learnings/2024-05-04_SWEC24.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,9 +223,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Learnings/2024-05-04_SWEC24.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -243,10 +243,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b4017a2eff9594db",
+  "active": "1192ee92ab932ac6",
   "lastOpenFiles": [
+    "Learnings/2024-05-04_SWEC24_Folder/2024-05-04 Future of Guitar Pedals.md",
+    "Learnings/2024-05-04_SWEC24_Folder/2024-05-04_SWEC24.md",
+    "Learnings/2024-05-04_SWEC24_Folder/2024-05-04 libAFL.md",
+    "Learnings/2024-05-04_SWEC24_Folder/2024-05-04 Psychische Gesundheit.md",
+    "Learnings/2024-05-04_SWEC24_Folder",
     "tools/github tricks.md",
-    "Learnings/2024-05-04_SWEC24.md",
     "tools/C++ Concurrency.md",
     "Catch2 v3.md",
     "wohnung/Isolde Humbserstr. 24.md",
