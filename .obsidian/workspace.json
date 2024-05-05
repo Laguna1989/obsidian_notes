@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "407823aa32ee0f2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SEQLock.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "9aab4cfbc915ba7d",
             "type": "leaf",
             "state": {
@@ -97,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learnings/2024-05-04_SWEC24_Folder/2024-05-04_SWEC24.md",
+                "file": "Learnings/__Conferences/2024-05-04_SWEC24_Folder/2024-05-04_SWEC24.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,14 +129,46 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learnings/2024-05-04_SWEC24_Folder/2024-05-04_SWEC24.md",
+                "file": "Learnings/__Conferences/__Confrerences.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "e6fc1c5721743626",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learnings/__Conferences/2023-09-22_SenecaCampFolder/2023-09-22 SenecaCamp.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a3d0913198017b8a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learnings/__Conferences/2023-09-22_SenecaCampFolder/2023-09-22_NeoVim.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2c93d0b79b03ff1a",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -190,7 +234,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learnings/2024-05-04_SWEC24_Folder/2024-05-04_SWEC24.md",
+                "file": "SEQLock.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +251,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learnings/2024-05-04_SWEC24_Folder/2024-05-04_SWEC24.md",
+                "file": "SEQLock.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +274,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learnings/2024-05-04_SWEC24_Folder/2024-05-04_SWEC24.md"
+                "file": "SEQLock.md"
               }
             }
           }
@@ -251,15 +295,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1192ee92ab932ac6",
+  "active": "407823aa32ee0f2f",
   "lastOpenFiles": [
-    "2024-05-05_OpenSourceLicenses.md",
+    "Learnings/MathStuff.md",
+    "Math stuff.md",
+    "Learnings/__Conferences/2024-05-04_SWEC24_Folder/2024-05-05_OpenSourceLicenses.md",
+    "book_reviews/Mark Seeman - \"Code that fits in your head\".md",
+    "Learnings/__Conferences",
+    "Learnings/__Conferences/2023-09-22_SenecaCampFolder/2023-09-22 SenecaCamp.md",
+    "Learnings/__Conferences/2023-09-22_SenecaCampFolder/2023-09-22 Habits of highly effective Devs.md",
+    "Learnings/__Conferences/2023-09-22_SenecaCampFolder/2023-09-22_NeoVim.md",
+    "Learnings/__Conferences/2023-09-22_SenecaCampFolder/2023-09-22_RecruiterFromHell.md",
+    "Learnings/__Conferences/2023-09-22_SenecaCampFolder",
+    "Learnings/__Conferences/__Confrerences.md",
+    "Learnings/__Conferences/2024-05-04_SWEC24_Folder/2024-05-04_SWEC24.md",
     "assets/opensourcelicenses.jpeg",
-    "Learnings/2024-05-04_SWEC24_Folder/2024-05-04_SWEC24.md",
-    "Learnings/2024-05-04_SWEC24_Folder/2024-05-04 Future of Guitar Pedals.md",
-    "Learnings/2024-05-04_SWEC24_Folder/2024-05-04 libAFL.md",
-    "Learnings/2024-05-04_SWEC24_Folder/2024-05-04 Psychische Gesundheit.md",
-    "Learnings/2024-05-04_SWEC24_Folder",
+    "Learnings/__Conferences/2024-05-04_SWEC24_Folder/2024-05-04 Future of Guitar Pedals.md",
+    "Learnings/__Conferences/2024-05-04_SWEC24_Folder/2024-05-04 libAFL.md",
+    "Learnings/__Conferences/2024-05-04_SWEC24_Folder/2024-05-04 Psychische Gesundheit.md",
+    "Learnings/__Conferences/2024-05-04_SWEC24_Folder",
     "tools/github tricks.md",
     "tools/C++ Concurrency.md",
     "Catch2 v3.md",
@@ -271,8 +325,6 @@
     "ai_trickery/stable-diffusion upscale.md",
     "ai_trickery",
     "book_reviews/Derby - \"Agile Retrospectives\".md",
-    "book_reviews/Mark Seeman - \"Code that fits in your head\".md",
-    "Learnings/MathStuff.md",
     "assets/fibonacci_sphere_code.png",
     "assets/Pasted image 20240222181558.png",
     "Learnings/2024-02-22 Dangerous Optimizations.md",
@@ -280,12 +332,8 @@
     "Learnings",
     "Gaming",
     "SEQLock.md",
-    "tools/_tools.md",
     "wohnung",
-    "tools/cppcheck.md",
     "assets/Pasted image 20240222181534.png",
-    "tools/pmccabe.md",
-    "Math stuff.md",
     "tools",
     "assets/2024-01-31_seqlock3.png",
     "book_reviews",
@@ -294,8 +342,6 @@
     "assets",
     "Pasted image 20240131073731.png",
     "Pasted image 20240131073619.png",
-    "Pasted image 20240131073633.png",
-    "Sloth UI changes checklist.md",
-    "helpers"
+    "Pasted image 20240131073633.png"
   ]
 }
