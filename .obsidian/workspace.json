@@ -115,12 +115,28 @@
             "id": "1192ee92ab932ac6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Learnings/2024-05-04_SWEC24_Folder/2024-05-04_SWEC24.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "05f403d69dfa3f47",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-05-05_OpenSourceLicenses.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -186,6 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2024-05-05_OpenSourceLicenses.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,6 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2024-05-05_OpenSourceLicenses.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -223,7 +241,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2024-05-05_OpenSourceLicenses.md"
+              }
             }
           }
         ]
@@ -243,10 +263,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1192ee92ab932ac6",
+  "active": "05f403d69dfa3f47",
   "lastOpenFiles": [
-    "Learnings/2024-05-04_SWEC24_Folder/2024-05-04 Future of Guitar Pedals.md",
+    "assets/opensourcelicenses.jpeg",
     "Learnings/2024-05-04_SWEC24_Folder/2024-05-04_SWEC24.md",
+    "2024-05-05_OpenSourceLicenses.md",
+    "Learnings/2024-05-04_SWEC24_Folder/2024-05-04 Future of Guitar Pedals.md",
     "Learnings/2024-05-04_SWEC24_Folder/2024-05-04 libAFL.md",
     "Learnings/2024-05-04_SWEC24_Folder/2024-05-04 Psychische Gesundheit.md",
     "Learnings/2024-05-04_SWEC24_Folder",
@@ -286,7 +308,6 @@
     "Pasted image 20240131073619.png",
     "Pasted image 20240131073633.png",
     "Sloth UI changes checklist.md",
-    "helpers",
-    "Welcome.md"
+    "helpers"
   ]
 }
