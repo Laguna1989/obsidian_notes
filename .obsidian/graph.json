@@ -22,7 +22,7 @@
       }
     },
     {
-      "query": "path:Learnings/__Conferences  ",
+      "query": "path:Learnings/_Conferences  ",
       "color": {
         "a": 1,
         "rgb": 11392604
@@ -40,5 +40,5 @@
   "linkStrength": 1,
   "linkDistance": 172,
   "scale": 0.8089912273843759,
-  "close": false
+  "close": true
 }

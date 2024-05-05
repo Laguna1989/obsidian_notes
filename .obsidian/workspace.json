@@ -23,12 +23,8 @@
             "id": "407823aa32ee0f2f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learnings/_Conferences/_Confrerences.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -234,7 +230,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learnings/_Conferences/_Confrerences.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -251,7 +246,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learnings/_Conferences/_Confrerences.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -273,9 +267,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Learnings/_Conferences/_Confrerences.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -295,9 +287,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b4017a2eff9594db",
+  "active": "407823aa32ee0f2f",
   "lastOpenFiles": [
+    "Learnings/books/Stone, Heed - Thanks for the feedback.md",
     "Learnings/books/_book reviews.md",
+    "Learnings/_Conferences/_Confrerences.md",
     "Learnings/books/Taze - Engineer's survival guide.md",
     "Learnings/books/Mark Seeman - \"Code that fits in your head\".md",
     "Learnings/books/Derby - \"Agile Retrospectives\".md",
@@ -312,7 +306,6 @@
     "Learnings/_Conferences/2023-09-22_SenecaCampFolder/2023-09-22_NeoVim.md",
     "Learnings/_Conferences/2023-09-22_SenecaCampFolder/2023-09-22_RecruiterFromHell.md",
     "Learnings/_Conferences/2023-09-22_SenecaCampFolder",
-    "Learnings/_Conferences/_Confrerences.md",
     "Learnings/_Conferences/2024-05-04_SWEC24_Folder/2024-05-04_SWEC24.md",
     "assets/opensourcelicenses.jpeg",
     "Learnings/_Conferences/2024-05-04_SWEC24_Folder/2024-05-04 Future of Guitar Pedals.md",
@@ -329,7 +322,6 @@
     "ai_trickery",
     "assets/fibonacci_sphere_code.png",
     "assets/Pasted image 20240222181558.png",
-    "Learnings/2024-02-22 Dangerous Optimizations.md",
     "Learnings",
     "Gaming",
     "wohnung",
