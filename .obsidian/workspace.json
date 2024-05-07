@@ -23,8 +23,12 @@
             "id": "407823aa32ee0f2f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Learnings/books/Derby - \"Agile Retrospectives\".md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -230,6 +234,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Learnings/books/Derby - \"Agile Retrospectives\".md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -246,6 +251,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Learnings/books/Derby - \"Agile Retrospectives\".md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -267,7 +273,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Learnings/books/Derby - \"Agile Retrospectives\".md"
+              }
             }
           }
         ],
@@ -289,6 +297,9 @@
   },
   "active": "407823aa32ee0f2f",
   "lastOpenFiles": [
+    "Learnings/_Conferences/2024-05-04_SWEC24_Folder/2024-05-05_OpenSourceLicenses.md",
+    "tools/OpenGL Debugging.md",
+    "Gaming/Elden Ring - Strength Build.md",
     "Learnings/books/Stone, Heed - Thanks for the feedback.md",
     "Learnings/books/_book reviews.md",
     "Learnings/_Conferences/_Confrerences.md",
@@ -299,7 +310,6 @@
     "SEQLock.md",
     "Learnings/MathStuff.md",
     "Math stuff.md",
-    "Learnings/_Conferences/2024-05-04_SWEC24_Folder/2024-05-05_OpenSourceLicenses.md",
     "Learnings/_Conferences",
     "Learnings/_Conferences/2023-09-22_SenecaCampFolder/2023-09-22 SenecaCamp.md",
     "Learnings/_Conferences/2023-09-22_SenecaCampFolder/2023-09-22 Habits of highly effective Devs.md",
@@ -316,9 +326,7 @@
     "Catch2 v3.md",
     "wohnung/Isolde Humbserstr. 24.md",
     "tools/pluginval.md",
-    "tools/OpenGL Debugging.md",
     "tools/clion_astyle.md",
-    "ai_trickery/stable-diffusion upscale.md",
     "ai_trickery",
     "assets/fibonacci_sphere_code.png",
     "assets/Pasted image 20240222181558.png",

@@ -25,3 +25,16 @@ tags:
 	- Action Items can also be written down as stories for the next sprint
 - Close the retrospective
 	- Gather feedback on the retrospective (either directly or individually)
+
+
+# 2 A Retro Custom fit to your team
+- Learn about the history. Study the context, scan the workspace, check cartoons, whiteboards and other artifacts
+- Talk to people
+	- what did this iteration produce? what is going on elsewhere in the companty (layoffs/hirings)? What learnings are there from previous retros? What are team members feelings?
+- Determine a goal for the retro
+	- "find ways to improve our practices" or "understand reasons behind missed targets"
+- Determine duration: approximately one hour retro per  work-week
+- Structure the retro
+	- include time for breaks
+	- Change rooms for a fresh perspective
+	- room layout: U-shape or circle is best. Classroom is worst.A conference table in the middle is a physical barrier that might become a psychological barrier

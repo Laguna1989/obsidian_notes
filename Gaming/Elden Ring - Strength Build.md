@@ -12,7 +12,7 @@
 - Talismane
 	- Ritualschwerttalisman: Altus Plateau, Ruinen von Lux (mehr angriff bei vollem Leben)
 	- Blue dancer Talisman: Limgrave hochstrassenhöhle  (höher angriff bei wenig Ausrüstung)
-	- Axttalisman  Limgrave Nebelwald (aufgeladene R2 Angriffe stärker)
+	- Axttalisman: Limgrave Nebelwald (aufgeladene R2 Angriffe stärker)
 - Tränen:
 	- Gesprungene Stachelträne: Ost Limgrave baum (Stärkerer aufgeladener R2 angriff)
 	- Gesprungene Steinstachelträne: Caelid Baum bei Brücke zu Radahn (verstärkt Haltungsschaden)
