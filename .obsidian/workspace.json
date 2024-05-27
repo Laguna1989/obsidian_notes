@@ -20,7 +20,43 @@
             }
           },
           {
-            "id": "ae316e81b1589a5e",
+            "id": "2a1774e85835e6bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learnings/books/Williams - Cpp Concurrency In Action/Williams - Cpp Concurrency In Action.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c659fda737d13681",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learnings/books/Williams - Cpp Concurrency In Action/Williams - Cpp Concurrency In Action.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1cdf22b77f290ef1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learnings/books/Williams - Cpp Concurrency In Action/4 - Synchronizing Data.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "087b9b1a843d2da1",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -28,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -151,11 +187,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ae316e81b1589a5e",
+  "active": "087b9b1a843d2da1",
   "lastOpenFiles": [
+    "Learnings/books/Williams - Cpp Concurrency In Action/Williams - Cpp Concurrency In Action.md",
+    "Learnings/books/Williams - Cpp Concurrency In Action/5 - Memory Model.md",
+    "Learnings/books/Williams - Cpp Concurrency In Action/4 - Synchronizing Data.md",
+    "tools/OpenGL Debugging.md",
+    "Learnings/books/Williams - Cpp Concurrency In Action/3 - Sharing Data.md",
+    "Learnings/books/Williams - Cpp Concurrency In Action/2 - Managing Threads.md",
+    "tools/pmccabe.md",
+    "Learnings/books/Williams - Cpp Concurrency In Action/1 - Multithreading Hello World.md",
+    "Learnings/_Conferences/_Confrerences.md",
+    "Learnings/books/Williams - Cpp Concurrency In Action",
+    "Learnings/books/_book reviews.md",
+    "tools/valgrind.md",
     "Learnings/_Conferences/2020-10-17_SoCraTesDayFranken 2020.md",
     "assets/Pasted image 20240527071925.png",
-    "Learnings/_Conferences/_Confrerences.md",
     "Catch2 v3.md",
     "Learnings/_Conferences/2021-10-09_SoCraTesDay Franken 2021.md",
     "tools/_tools.md",
@@ -168,7 +215,6 @@
     "assets/Pasted image 20240222181534.png",
     "assets/Pasted image 20240222181558.png",
     "Learnings/_Conferences/2023-09-22_SenecaCampFolder/2023-09-22 SenecaCamp.md",
-    "Learnings/books/_book reviews.md",
     "Learnings/Retrospectives.md",
     "Learnings/books/Mark Seeman - \"Code that fits in your head\".md",
     "Learnings/books/Stone, Heed - Thanks for the feedback.md",
@@ -176,19 +222,11 @@
     "Learnings/books/Derby - \"Agile Retrospectives\".md",
     "Gaming/Elden Ring.md",
     "Learnings/_Conferences/2024-05-04_SWEC24_Folder/2024-05-05_OpenSourceLicenses.md",
-    "tools/OpenGL Debugging.md",
     "tools/C++ Concurrency.md",
     "SEQLock.md",
-    "Learnings/MathStuff.md",
-    "Math stuff.md",
     "Learnings/_Conferences",
-    "Learnings/_Conferences/2023-09-22_SenecaCampFolder/2023-09-22 Habits of highly effective Devs.md",
-    "Learnings/_Conferences/2023-09-22_SenecaCampFolder/2023-09-22_NeoVim.md",
-    "Learnings/_Conferences/2023-09-22_SenecaCampFolder/2023-09-22_RecruiterFromHell.md",
     "Learnings/_Conferences/2023-09-22_SenecaCampFolder",
-    "Learnings/_Conferences/2024-05-04_SWEC24_Folder/2024-05-04_SWEC24.md",
     "assets/opensourcelicenses.jpeg",
-    "Learnings/_Conferences/2024-05-04_SWEC24_Folder/2024-05-04 Future of Guitar Pedals.md",
     "Learnings/_Conferences/2024-05-04_SWEC24_Folder",
     "ai_trickery",
     "assets/fibonacci_sphere_code.png",
@@ -196,7 +234,6 @@
     "Gaming",
     "wohnung",
     "tools",
-    "Learnings/books",
-    "assets"
+    "Learnings/books"
   ]
 }

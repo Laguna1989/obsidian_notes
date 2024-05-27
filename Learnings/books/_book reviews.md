@@ -1,3 +1,4 @@
+- [[Williams - Cpp Concurrency In Action]]
 - [[Stone, Heed - Thanks for the feedback]]
 - [[Taze - Engineer's survival guide]]
 - [[Mark Seeman - "Code that fits in your head"]]
