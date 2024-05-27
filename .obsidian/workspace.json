@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learnings/_Conferences/_Confrerences.md",
+                "file": "Learnings/_Conferences/2023-09-22_SenecaCampFolder/2023-09-22 SenecaCamp.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learnings/Obsidian.md",
+                "file": "Learnings/_Conferences/_Confrerences.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -91,7 +91,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Learnings/Obsidian.md",
+                "file": "Learnings/_Conferences/_Confrerences.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learnings/Obsidian.md",
+                "file": "Learnings/_Conferences/_Confrerences.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learnings/Obsidian.md",
+                "file": "Learnings/_Conferences/_Confrerences.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learnings/Obsidian.md"
+                "file": "Learnings/_Conferences/_Confrerences.md"
               }
             }
           },
@@ -209,7 +209,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Learnings/Obsidian.md"
+                "file": "Learnings/_Conferences/_Confrerences.md"
               }
             }
           }
@@ -231,20 +231,25 @@
   },
   "active": "553015b977abc003",
   "lastOpenFiles": [
+    "Learnings/_Conferences/2023-06-24_SoCratesDay Franken.md",
+    "Learnings/_Conferences/_Confrerences.md",
+    "Learnings/_Conferences/2021-10-09_SoCraTesDay Franken 2021.md",
+    "Learnings/_Conferences/2020-10-17_SoCraTesDayFranken 2020.md",
+    "Learnings/_Conferences/2024-05-04_SWEC24_Folder/2024-05-04_SWEC24.md",
+    "Learnings/_Conferences/2023-09-22_SenecaCampFolder/2023-09-22 SenecaCamp.md",
+    "Learnings/_Conferences/2023-09-22_SenecaCampFolder/2023-09-22_NeoVim.md",
     "Learnings/Obsidian.md",
     "tools/pluginval.md",
     "tools/pmccabe.md",
     "Learnings/MathStuff.md",
     "assets/2024-01-31_seqlock3.png",
     "assets/2024-01-31_seqlock2.png",
-    "Learnings/_Conferences/_Confrerences.md",
     "tools/cppcheck.md",
     "assets/Pasted image 20240527071129.png",
     "assets/fibonacci_sphere_code.png",
     "Learnings/books/Taze - Engineer's survival guide.md",
     "tools/C++ Concurrency.md",
     "Learnings/books/Williams - Cpp Concurrency In Action/Williams - Cpp Concurrency In Action.md",
-    "Learnings/_Conferences/2020-10-17_SoCraTesDayFranken 2020.md",
     "Learnings/books/Williams - Cpp Concurrency In Action/4 - Synchronizing Data.md",
     "tools/_tools.md",
     "tools/clion_astyle.md",
@@ -258,16 +263,11 @@
     "tools/valgrind.md",
     "assets/Pasted image 20240527071925.png",
     "Catch2 v3.md",
-    "Learnings/_Conferences/2021-10-09_SoCraTesDay Franken 2021.md",
     "assets/Pasted image 20240527071157.png",
     "assets/Pasted image 20240527071058.png",
     "assets/Pasted image 20240527070854.png",
-    "Learnings/_Conferences/2023-06-24_SoCratesDay Franken.md",
     "assets/2023-06-23_SoCraTesDayFrankenTimeline.png",
     "assets/Pasted image 20240222181534.png",
-    "Learnings/_Conferences/2023-09-22_SenecaCampFolder/2023-09-22 SenecaCamp.md",
-    "Learnings/Retrospectives.md",
-    "Learnings/books/Mark Seeman - \"Code that fits in your head\".md",
     "Learnings/_Conferences",
     "Learnings/_Conferences/2023-09-22_SenecaCampFolder",
     "Learnings/_Conferences/2024-05-04_SWEC24_Folder",

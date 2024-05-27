@@ -1,14 +1,8 @@
+---
+created: 2020-10-17
+---
+#conference
 # SoCraTesDay Franken 2020
-
-- [[#Timeline|Timeline]]
-- [[#SoCraTes Day Franken Introduction|SoCraTes Day Franken Introduction]]
-	- [[#SoCraTes Day Franken Introduction#Gesetze:|Gesetze:]]
-- [[#Konfiguration Management|Konfiguration Management]]
-- [[#tmux und terminals|tmux und terminals]]
-- [[#Podcasts|Podcasts]]
-- [[#Conditional Untangling|Conditional Untangling]]
-- [[#Corona Hacks|Corona Hacks]]
-
 
 ## Timeline
 ![[Pasted image 20240527071925.png]]

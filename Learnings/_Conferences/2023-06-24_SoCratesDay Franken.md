@@ -1,14 +1,7 @@
-
-- [[#Timeline|Timeline]]
-- [[#10:00 Testing without Mocks|10:00 Testing without Mocks]]
-- [[#11:00 Multiplayer Games are not that hard|11:00 Multiplayer Games are not that hard]]
-- [[#12:00 Mittagessen|12:00 Mittagessen]]
-- [[#12:45 Sport und Dehnen|12:45 Sport und Dehnen]]
-- [[#13:00 DevOps|13:00 DevOps]]
-- [[#14:00 Local LLM (large language models)|14:00 Local LLM (large language models)]]
-- [[#15:00 Prompt Injection Attacks vs Gandalf|15:00 Prompt Injection Attacks vs Gandalf]]
-- [[#17:00 Refucktoring|17:00 Refucktoring]]
-
+---
+created: 2023-06-24
+---
+#conference 
 # SoCraTes Day Franken 2023
 ## Timeline
 ![[2023-06-23_SoCraTesDayFrankenTimeline.png]]

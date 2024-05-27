@@ -1,14 +1,7 @@
-
-- [[#Timeline|Timeline]]
-- [[#Slot 1 StPauli TDD|Slot 1 StPauli TDD]]
-- [[#Slot 2 Wissenverwaltung|Slot 2 Wissenverwaltung]]
-- [[#Mittagspause|Mittagspause]]
-- [[#Slot 3 Github Actions|Slot 3 Github Actions]]
-- [[#Slot 4 Remote Onboarding|Slot 4 Remote Onboarding]]
-- [[#Remote Oboarding|Remote Oboarding]]
-- [[#Build your Lerncoach|Build your Lerncoach]]
-- [[#Wie lernt ihr?|Wie lernt ihr?]]
-
+---
+created: 2021-10-09
+---
+#conference 
 
 # SoCraTesDay Franken 2021
 

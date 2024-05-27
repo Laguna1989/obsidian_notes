@@ -1,6 +1,9 @@
-- [[2020-10-17_SoCraTesDayFranken 2020]]
-- [[2021-10-09_SoCraTesDay Franken 2021]]
-- [[2023-06-24_SoCratesDay Franken]]
-- [[2023-09-22 SenecaCamp]]
-- [[2024-05-04_SWEC24]]
-- 
+
+```dataview
+Table 
+	(""+ created +"") AS Date
+From #conference
+SORT file.ctime DESC
+```
+
+
