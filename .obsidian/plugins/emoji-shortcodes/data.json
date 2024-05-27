@@ -1,0 +1,13 @@
+{
+  "immediateReplace": true,
+  "suggester": true,
+  "historyPriority": true,
+  "historyLimit": 100,
+  "history": [
+    ":bouquet:",
+    ":slightly_frowning_face:",
+    ":frowning:",
+    ":grin:",
+    ":bulb:"
+  ]
+}

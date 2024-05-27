@@ -1,3 +1,5 @@
+# Strength Build
+
 - Goldener Federtierfuß am Strand
 - Drache in Caelid (vit 25,  kondition 15, strength 19)
 - Claymore (castle morne)
@@ -16,3 +18,8 @@
 - Tränen:
 	- Gesprungene Stachelträne: Ost Limgrave baum (Stärkerer aufgeladener R2 angriff)
 	- Gesprungene Steinstachelträne: Caelid Baum bei Brücke zu Radahn (verstärkt Haltungsschaden)
+
+
+
+# Dung Eater puppet
+https://www.youtube.com/watch?v=RwuimakyAw0
