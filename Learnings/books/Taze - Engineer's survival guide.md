@@ -130,8 +130,6 @@
 # Chapters
 
 ## 2. Impostor Syndrome
-
-
 * Impostor Syndrome was especially evident to me during my PhD. Everyone seemed so smart and seemed to work on really important problems. In fact everyone was struggling with the same basic Math, LaTeX Problems, unhelpful administration, supervisor availability and funding issues.
 ## 3. The importance of data to convince others
 * Good suggestion, but sometimes hard to argue about.

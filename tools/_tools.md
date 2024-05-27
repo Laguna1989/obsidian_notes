@@ -5,3 +5,4 @@
 - [[pluginval]]
 - [[C++ Concurrency]] 
 - [[valgrind]]
+- [[clion_astyle]]
