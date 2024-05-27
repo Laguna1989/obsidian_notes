@@ -13,13 +13,27 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learnings/books/Taze - Engineer's survival guide.md",
+                "file": "Learnings/_Conferences/_Confrerences.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "553015b977abc003",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learnings/Obsidian.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -66,10 +80,51 @@
             }
           }
         ]
+      },
+      {
+        "id": "dfb961f626af7cb3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ef9be256c619bffb",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Learnings/Obsidian.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": false,
+                  "centerStrength": 1,
+                  "repelStrength": 0,
+                  "linkStrength": 0,
+                  "linkDistance": 30,
+                  "scale": 1,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 354.5124969482422
   },
   "right": {
     "id": "d02a40f61708ec57",
@@ -85,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learnings/books/Taze - Engineer's survival guide.md",
+                "file": "Learnings/Obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learnings/books/Taze - Engineer's survival guide.md",
+                "file": "Learnings/Obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,16 +180,44 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learnings/books/Taze - Engineer's survival guide.md"
+                "file": "Learnings/Obsidian.md"
+              }
+            }
+          },
+          {
+            "id": "d40f86f5c88b5931",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
+      },
+      {
+        "id": "84ba8d1e2ed3699e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3cd0a2744153ccd1",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Learnings/Obsidian.md"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 451.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,8 +229,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "187c64365d472332",
+  "active": "553015b977abc003",
   "lastOpenFiles": [
+    "Learnings/_Conferences/_Confrerences.md",
+    "Learnings/Obsidian.md",
+    "tools/cppcheck.md",
+    "assets/Pasted image 20240527071129.png",
+    "assets/fibonacci_sphere_code.png",
+    "Learnings/books/Taze - Engineer's survival guide.md",
     "tools/C++ Concurrency.md",
     "Learnings/books/Williams - Cpp Concurrency In Action/Williams - Cpp Concurrency In Action.md",
     "Learnings/_Conferences/2020-10-17_SoCraTesDayFranken 2020.md",
@@ -160,7 +249,6 @@
     "Learnings/books/Williams - Cpp Concurrency In Action/2 - Managing Threads.md",
     "tools/pmccabe.md",
     "Learnings/books/Williams - Cpp Concurrency In Action/1 - Multithreading Hello World.md",
-    "Learnings/_Conferences/_Confrerences.md",
     "Learnings/books/Williams - Cpp Concurrency In Action",
     "Learnings/books/_book reviews.md",
     "tools/valgrind.md",
@@ -168,7 +256,6 @@
     "Catch2 v3.md",
     "Learnings/_Conferences/2021-10-09_SoCraTesDay Franken 2021.md",
     "assets/Pasted image 20240527071157.png",
-    "assets/Pasted image 20240527071129.png",
     "assets/Pasted image 20240527071058.png",
     "assets/Pasted image 20240527070854.png",
     "Learnings/_Conferences/2023-06-24_SoCratesDay Franken.md",
@@ -179,16 +266,12 @@
     "Learnings/Retrospectives.md",
     "Learnings/books/Mark Seeman - \"Code that fits in your head\".md",
     "Learnings/books/Stone, Heed - Thanks for the feedback.md",
-    "Learnings/books/Taze - Engineer's survival guide.md",
     "Learnings/books/Derby - \"Agile Retrospectives\".md",
-    "Gaming/Elden Ring.md",
-    "Learnings/_Conferences/2024-05-04_SWEC24_Folder/2024-05-05_OpenSourceLicenses.md",
     "Learnings/_Conferences",
     "Learnings/_Conferences/2023-09-22_SenecaCampFolder",
     "assets/opensourcelicenses.jpeg",
     "Learnings/_Conferences/2024-05-04_SWEC24_Folder",
     "ai_trickery",
-    "assets/fibonacci_sphere_code.png",
     "Learnings",
     "Gaming",
     "wohnung",

@@ -14,3 +14,8 @@ Resulting file will contain quite some false positives (because of `all`). E.g. 
 ```
 cppcheck impl/ --enable=all --suppress=unusedFunction 2> cpp_check_warnings.txt
 ```
+
+
+# Backlinks
+- Available on the right side via backlinks
+- Also available at the bottom of each document via `ctrl + p` -> `toggle backlinks in document`

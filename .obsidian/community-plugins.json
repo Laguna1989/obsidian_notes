@@ -1,4 +1,6 @@
 [
   "emoji-shortcodes",
-  "obsidian-plugin-toc"
+  "obsidian-plugin-toc",
+  "obsidian-meta-bind-plugin",
+  "obsidian-style-settings"
 ]
