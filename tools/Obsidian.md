@@ -142,6 +142,9 @@ Obsidian also supports footnotes via links [^1]
 ## Open settings
 `ctrl + ,`
 
+## Open Graph
+`ctrl + G`
+
 
 # Tags
 Tags can either be placed via inline tas, e.g. #tag.

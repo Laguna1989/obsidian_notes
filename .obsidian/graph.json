@@ -1,44 +1,22 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
-  "colorGroups": [
-    {
-      "query": "path:bo  ",
-      "color": {
-        "a": 1,
-        "rgb": 14048348
-      }
-    },
-    {
-      "query": "path:tools  ",
-      "color": {
-        "a": 1,
-        "rgb": 14069084
-      }
-    },
-    {
-      "query": "path:\"Learnings/Conferences and Talks\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 11392604
-      }
-    }
-  ],
-  "collapse-display": true,
+  "collapse-color-groups": true,
+  "colorGroups": [],
+  "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": -1.8,
-  "nodeSizeMultiplier": 1.5546875,
-  "lineSizeMultiplier": 1.2484375,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0.418590998043053,
+  "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 1,
-  "linkDistance": 172,
+  "linkDistance": 250,
   "scale": 0.8089912273843759,
   "close": true
 }
