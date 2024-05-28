@@ -1,4 +1,8 @@
-valgrind is a tool to find memory leaks, e.g. for #cpp files
+---
+tags:
+  - cpp
+---
+valgrind is a tool to find memory leaks
 
 # parameters for doing a full check
 ```

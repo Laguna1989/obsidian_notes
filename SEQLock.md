@@ -1,6 +1,10 @@
-#cpp #concurrency
- - store(): first increment counter, then store value, then increment counter again
-- load(): check if counter is odd -> early return. Load value. Check if counter has increased afterwards again
+---
+tags:
+  - cpp
+  - concurrency
+---
+ - `store()`: first increment counter, then store value, then increment counter again
+- `load()`: check if counter is odd -> early return. Load value. Check if counter has increased afterwards again
 
 ![[2024-01-31_seqlock1.png]]
 

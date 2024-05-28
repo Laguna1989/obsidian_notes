@@ -1,6 +1,10 @@
-#cpp 
+---
+tags:
+  - cpp
+---
+
 # Reference
-https://www.youtube.com/watch?v=gTNJXVmuRRA
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/gTNJXVmuRRA?si=JMCcGy_Ib2EbbXXM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 # Not about
 - `std::vector<std::any>`
@@ -9,7 +13,7 @@ type erasure
 
 
 # Binding interfaces
-```
+```cpp
 struct FooInterface {
   virtual auto func() const -> int = 0;
 };
@@ -31,7 +35,7 @@ auto func (std::unique_ptr<FooInterface foo2) {
 - pointer use
 # Templates/Concepts
 
-```
+```cpp
 template <typename T>
 concept CFoo = requires(T foo) {
   { foo.func() } -> std::same_as<int>;
@@ -60,7 +64,7 @@ auto func(CFoo auto& foo2) {
 
 # Owning polymorphic types (e.g. for DI)
 ## with virtual
-```
+```cpp
 class Bar {
 public:
   constexpr Bar(std::unique_ptr<FooInterface> input_foo;) : foo(std::move(input_foo)) {}
@@ -75,7 +79,7 @@ private:
 
 
 ## Without virtual
-```
+```cpp
 template <typename TFoo>
 class Bar {
 public:
@@ -91,7 +95,7 @@ private:
 
 
 ## Now with concepts
-```
+```cpp
 template <CFoo... TFoos>
 class Bar {
 public:
@@ -108,19 +112,19 @@ private:
 - This will give ugly template errors if the wrong type is provided. `auto` argument just takes everything
 - We want to get the concept error instead.
 - Apply concept constraint to function?
-```
+```cpp
 auto set_foo(CFOO auto input_foo) -> void {foo = input_foo;}
 ```
 - -> **No**: Not every type that conforms to `CFoo` might be in the list `TFoos`
 
 - We only want to accept types in `TFoos`
 - Let's write another concept
-```
+```cpp
 template <typename T, typename... Ts>
 concept same_as_any = (... or std::same_as<T, Ts>);
 ```
 -> fold over list of types with or, so any T out of ... Ts will work.
-```
+```cpp
 auto set_foo(same_as_any<TFoos...> auto input_foo) -> void { foo = input_foo;}
 
 
@@ -137,7 +141,7 @@ Bar<Foo1, Foo2> bar{Foo1{}};
 
 
 # Storing multiple types
-```
+```cpp
 class Baz {
 public:
   auto store(std::unique_ptr<FooInterface> value) -> void {
@@ -153,7 +157,7 @@ Desired properties:
 - container that can hold different types simultaneously
 - container that can hold multiple objects of a single type
 
-```
+```cpp
 template <CFoo... TFoos>
 class Baz {
 public:

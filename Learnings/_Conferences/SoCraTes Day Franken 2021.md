@@ -1,8 +1,9 @@
 ---
 created: 2021-10-09
+tags:
+  - conference
+links: "[[Confrerences]]"
 ---
-#conference 
-[[_Confrerences]]
 # SoCraTesDay Franken 2021
 
 - Miro Board [https://miro.com/app/board/o9J_lrh8_Qc=/?invite_link_id=30333629794](https://miro.com/app/board/o9J_lrh8_Qc=/?invite_link_id=30333629794) 

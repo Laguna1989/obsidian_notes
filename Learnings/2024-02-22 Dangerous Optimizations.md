@@ -1,4 +1,8 @@
-#cpp 
+---
+tags:
+  - cpp
+---
+
 - Premise: Compiler writers use undefined behavior to perform optimizations
 	- after all, a compiler is a big optimizer
 - Difficult for programmers but for static analysis tools as well

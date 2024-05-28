@@ -1,8 +1,9 @@
 ---
 created: 2020-10-17
+tags:
+  - conference
+links: "[[Confrerences]]"
 ---
-#conference
-[[_Confrerences]]
 # SoCraTesDay Franken 2020
 
 ## Timeline

@@ -1,4 +1,8 @@
-`pmccabe` is a #tool for #cpp #cyclomaticComplexity analysis.
+---
+tags:
+  - cpp
+---
+`pmccabe` is a tool for measuring #cyclomaticComplexity.
 
 call with
 ```
