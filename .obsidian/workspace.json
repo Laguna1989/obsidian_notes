@@ -44,9 +44,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "61eb1629ffc5417f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learnings/books/Derby - Agile Retrospectives.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "22a21d21882dee09",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learnings/books/Gene Kim - The DevOps Handbook.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -75,7 +99,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dev ops h",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -104,7 +128,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Learnings/books/Kent Beck - Extreme Programming Explained.md",
+                "file": "Learnings/books/Gene Kim - The DevOps Handbook.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -153,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learnings/books/Kent Beck - Extreme Programming Explained.md",
+                "file": "Learnings/books/Gene Kim - The DevOps Handbook.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learnings/books/Kent Beck - Extreme Programming Explained.md",
+                "file": "Learnings/books/Gene Kim - The DevOps Handbook.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learnings/books/Kent Beck - Extreme Programming Explained.md"
+                "file": "Learnings/books/Gene Kim - The DevOps Handbook.md"
               }
             }
           },
@@ -209,8 +233,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "84ba8d1e2ed3699e",
@@ -222,7 +245,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Learnings/books/Kent Beck - Extreme Programming Explained.md"
+                "file": "Learnings/books/Gene Kim - The DevOps Handbook.md"
               }
             }
           }
@@ -242,10 +265,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4780e4150583388d",
+  "active": "22a21d21882dee09",
   "lastOpenFiles": [
-    "Learnings/books/Book reviews.md",
+    "assets/devops_handbook_the_three_ways.png",
+    "Learnings/books/Gene Kim - The DevOps Handbook.md",
+    "Learnings/books/Derby - Agile Retrospectives.md",
     "Learnings/books/Kent Beck - Extreme Programming Explained.md",
+    "Learnings/books/Book reviews.md",
     "Learnings/Conferences and Talks/Confrerences and Talks.md",
     "Learnings/books/Williams - Cpp Concurrency In Action/Williams - Cpp Concurrency In Action.md",
     "Learnings/Conferences and Talks/Talks/Kate Gregory - Emotional Code.md",
@@ -260,10 +286,8 @@
     "Learnings/Conferences and Talks/Talks/Remove virtual.md",
     "Learnings/Conferences and Talks/Conferences",
     "Learnings/books/Taze - Engineer's survival guide.md",
-    "Learnings/books/Derby - \"Agile Retrospectives\".md",
     "Learnings/books/Gene Kim - Dev Ops Handbook.md",
     "Learnings/books/Mark Seeman - \"Code that fits in your head\".md",
-    "assets/devops_handbook_the_three_ways.png",
     "Learnings/books/Stone, Heed - Thanks for the feedback.md",
     "assets/devops_handbook_value_stream_complex.png",
     "assets/devops_handbook_value_stream_simple.png",
@@ -275,8 +299,6 @@
     "Learnings/Conferences and Talks/Conferences/SWEC 2024/Psychische Gesundheit.md",
     "Learnings/Conferences and Talks/Conferences/SWEC 2024/Open Source Licenses.md",
     "Learnings/Conferences and Talks/Conferences/SenecaCamp 2023/NeoVim.md",
-    "Learnings/Conferences and Talks/Conferences/SenecaCamp 2023/Recruiters From Hell.md",
-    "Learnings/Conferences and Talks/Conferences/SenecaCamp 2023/Habits of highly effective Devs.md",
     "assets/2024-01-31_seqlock3.png",
     "assets/2024-01-31_seqlock2.png",
     "assets/Pasted image 20240527071129.png",
