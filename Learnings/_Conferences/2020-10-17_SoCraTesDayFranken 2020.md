@@ -2,6 +2,7 @@
 created: 2020-10-17
 ---
 #conference
+[[_Confrerences]]
 # SoCraTesDay Franken 2020
 
 ## Timeline

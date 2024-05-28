@@ -1,3 +1,4 @@
+#cpp 
 # varargs strip first argument
 
 ```

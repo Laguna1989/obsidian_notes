@@ -4,6 +4,7 @@ created:
 tags:
   - "#book"
 ---
+#csharp 
 # Summary
 Great book, fully recommend reading this one. It is a rather advanced book that picks, reiterates and improves up some ideas from other books, e.g. [[The Pragmatic Programmer]], [[The Clean Coder]]
 or [[Dependency Injection]]

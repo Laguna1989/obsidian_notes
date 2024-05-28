@@ -1,4 +1,4 @@
-#concurrency 
+#cpp #concurrency 
 # Chapters
 [[1 - Multithreading Hello World]]
 [[2 - Managing Threads]]

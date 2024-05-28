@@ -1,7 +1,7 @@
 ---
 created: 2023-06-24
 ---
-#conference 
+#conference  [[_Confrerences]]
 # SoCraTes Day Franken 2023
 ## Timeline
 ![[2023-06-23_SoCraTesDayFrankenTimeline.png]]

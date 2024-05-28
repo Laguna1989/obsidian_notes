@@ -1,3 +1,4 @@
+#cpp 
 # Reference
 https://www.youtube.com/watch?v=gTNJXVmuRRA
 
@@ -28,8 +29,6 @@ auto func (std::unique_ptr<FooInterface foo2) {
 ```
 - :warning: **Rule of five**
 - pointer use
-
-
 # Templates/Concepts
 
 ```

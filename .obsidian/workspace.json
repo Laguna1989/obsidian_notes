@@ -8,32 +8,39 @@
         "type": "tabs",
         "children": [
           {
-            "id": "187c64365d472332",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learnings/_Conferences/2023-09-22_SenecaCampFolder/2023-09-22 SenecaCamp.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "553015b977abc003",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learnings/_Conferences/_Confrerences.md",
+                "file": "tools/Obsidian.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
-            }
+            },
+            "group": "793eb8a9ced6fdc4"
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "501488a1ca1bb771",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6743a55f796247d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tools/Obsidian.md",
+                "mode": "preview",
+                "source": false
+              }
+            },
+            "group": "793eb8a9ced6fdc4"
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -79,7 +86,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "dfb961f626af7cb3",
@@ -91,7 +99,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Learnings/_Conferences/_Confrerences.md",
+                "file": "tools/Obsidian.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -140,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learnings/_Conferences/_Confrerences.md",
+                "file": "tools/Obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learnings/_Conferences/_Confrerences.md",
+                "file": "tools/Obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learnings/_Conferences/_Confrerences.md"
+                "file": "tools/Obsidian.md"
               }
             }
           },
@@ -209,7 +217,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Learnings/_Conferences/_Confrerences.md"
+                "file": "tools/Obsidian.md"
               }
             }
           }
@@ -231,38 +239,38 @@
   },
   "active": "553015b977abc003",
   "lastOpenFiles": [
-    "Learnings/_Conferences/2023-06-24_SoCratesDay Franken.md",
     "Learnings/_Conferences/_Confrerences.md",
-    "Learnings/_Conferences/2021-10-09_SoCraTesDay Franken 2021.md",
-    "Learnings/_Conferences/2020-10-17_SoCraTesDayFranken 2020.md",
-    "Learnings/_Conferences/2024-05-04_SWEC24_Folder/2024-05-04_SWEC24.md",
-    "Learnings/_Conferences/2023-09-22_SenecaCampFolder/2023-09-22 SenecaCamp.md",
-    "Learnings/_Conferences/2023-09-22_SenecaCampFolder/2023-09-22_NeoVim.md",
-    "Learnings/Obsidian.md",
+    "tools/Obsidian.md",
+    "Learnings/2024-04-05 remove virtual.md",
+    "Learnings/2024-02-22 Dangerous Optimizations.md",
+    "Learnings/books/Taze - Engineer's survival guide.md",
+    "Learnings/books/Stone, Heed - Thanks for the feedback.md",
+    "Learnings/books/Mark Seeman - \"Code that fits in your head\".md",
+    "Learnings/books/Derby - \"Agile Retrospectives\".md",
+    "Learnings/books/Williams - Cpp Concurrency In Action/Williams - Cpp Concurrency In Action.md",
+    "Learnings/MathStuff.md",
+    "Learnings/Retrospectives.md",
+    "tools/C++ Concurrency.md",
+    "tools/CLion astyle setup.md",
+    "tools/cppcheck.md",
+    "tools/github tricks.md",
+    "tools/OpenGL Debugging.md",
     "tools/pluginval.md",
     "tools/pmccabe.md",
-    "Learnings/MathStuff.md",
+    "tools/valgrind.md",
+    "SEQLock.md",
+    "Catch2 v3.md",
+    "C++ template trickery.md",
+    "2024-05-27.md",
+    "Learnings/_Conferences/2023-06-24_SoCratesDay Franken.md",
+    "Learnings/_Conferences/2021-10-09_SoCraTesDay Franken 2021.md",
+    "Learnings/_Conferences/2020-10-17_SoCraTesDayFranken 2020.md",
     "assets/2024-01-31_seqlock3.png",
     "assets/2024-01-31_seqlock2.png",
-    "tools/cppcheck.md",
     "assets/Pasted image 20240527071129.png",
     "assets/fibonacci_sphere_code.png",
-    "Learnings/books/Taze - Engineer's survival guide.md",
-    "tools/C++ Concurrency.md",
-    "Learnings/books/Williams - Cpp Concurrency In Action/Williams - Cpp Concurrency In Action.md",
-    "Learnings/books/Williams - Cpp Concurrency In Action/4 - Synchronizing Data.md",
-    "tools/_tools.md",
-    "tools/clion_astyle.md",
-    "Learnings/books/Williams - Cpp Concurrency In Action/5 - Memory Model.md",
-    "tools/OpenGL Debugging.md",
-    "Learnings/books/Williams - Cpp Concurrency In Action/3 - Sharing Data.md",
-    "Learnings/books/Williams - Cpp Concurrency In Action/2 - Managing Threads.md",
-    "Learnings/books/Williams - Cpp Concurrency In Action/1 - Multithreading Hello World.md",
     "Learnings/books/Williams - Cpp Concurrency In Action",
-    "Learnings/books/_book reviews.md",
-    "tools/valgrind.md",
     "assets/Pasted image 20240527071925.png",
-    "Catch2 v3.md",
     "assets/Pasted image 20240527071157.png",
     "assets/Pasted image 20240527071058.png",
     "assets/Pasted image 20240527070854.png",

@@ -1,3 +1,4 @@
+#scrum #retrospective
 # Resources
 - [[Derby - "Agile Retrospectives"]]
 - [retromat](https://retromat.org/en)

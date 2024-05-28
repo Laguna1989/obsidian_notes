@@ -4,6 +4,7 @@ created:
 tags:
   - "#book"
 ---
+#scrum #agile #retrospective 
 # Derby - Agile Retrospectives 
 
 ## 1 helping your team inspect and adapt

@@ -13,5 +13,7 @@
   "Appearance-dark@@background-underlying-CSS-blend-mode-dark": "none",
   "Appearance-dark@@Active-states-file-explorer-select-dark": "activated-file-tab-style-dark",
   "Appearance-dark@@theme-dark-style-select": "theme-dark-background-default",
-  "Appearance-dark@@card-shadow-dark": "inset -2px -2px 40px 0px rgba(0, 0, 0,.2), inset 1px 1px 10px 0 rgba(255, 255, 255, .2)"
+  "Appearance-dark@@card-shadow-dark": "inset -2px -2px 40px 0px rgba(0, 0, 0,.2), inset 1px 1px 10px 0 rgba(255, 255, 255, .2)",
+  "Appearance-dark@@workspace-divider-transparent-dark": false,
+  "Editor@@inline-title-divider-remove": false
 }
