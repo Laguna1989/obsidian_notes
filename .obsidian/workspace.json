@@ -47,12 +47,8 @@
             "id": "4780e4150583388d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learnings/books/Kent Beck - Extreme Programming Explained.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -119,14 +115,16 @@
             "id": "e3a933ab9146414d",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "assets/designing_games_games.png"
+                "file": "tools/Mermaid Diagrams.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -186,7 +184,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "assets/designing_games_games.png",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -235,7 +232,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "assets/designing_games_games.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -252,7 +248,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "assets/designing_games_games.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -274,9 +269,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "assets/designing_games_games.png"
-              }
+              "state": {}
             }
           },
           {
@@ -303,16 +296,14 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "assets/designing_games_games.png"
-              }
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 420.5
+    "width": 510.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -324,11 +315,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b4017a2eff9594db",
+  "active": "4780e4150583388d",
   "lastOpenFiles": [
-    "assets/designing_games_funky_trip_dependencies.png",
+    "Untitled.md",
+    "Learnings/Conferences and Talks/Talks/Klaus Igelberger - Calling Functions.md",
+    "Learnings/books/Kent Beck - Extreme Programming Explained.md",
     "Learnings/books/Book reviews.md",
+    "tools/Mermaid Diagrams.md",
     "Learnings/books/Sylvester - Designing Games/Tynan Sylvester - Designing Games.md",
+    "Learnings/books/Emily Bache - The Coding Dojo Handbook.md",
+    "Learnings/books/Robert C Martin - The Clean Coder.md",
+    "Learnings/books/Derby - Agile Retrospectives.md",
+    "Learnings/Conferences and Talks/Confrerences and Talks.md",
+    "assets/designing_games_funky_trip_dependencies.png",
+    "assets/designing_games_games.png",
     "Learnings/books/Sylvester - Designing Games/03 - Elegance.md",
     "Learnings/books/Sylvester - Designing Games/20 - Endgame.md",
     "Learnings/books/Sylvester - Designing Games/15 - Dependencies.md",
@@ -345,15 +345,7 @@
     "Learnings/books/Sylvester - Designing Games/08 - Multiplayer.md",
     "Learnings/books/Sylvester - Designing Games/07 - Balancing.md",
     "Learnings/books/Sylvester - Designing Games/06 - Decisions.md",
-    "Learnings/books/Sylvester - Designing Games/05 - Narrative.md",
-    "Learnings/books/Sylvester - Designing Games/04 - Skill.md",
-    "Learnings/books/Sylvester - Designing Games/01 - Engines of Experiences.md",
-    "Learnings/books/Sylvester - Designing Games/02 - Game Crafting.md",
     "Learnings/books/Sylvester - Designing Games",
-    "assets/designing_games_games.png",
-    "Learnings/books/Emily Bache - The Coding Dojo Handbook.md",
-    "Untitled.md",
-    "Learnings/books/Robert C Martin - The Clean Coder.md",
     "assets/devops_handbook_the_three_ways.png",
     "Learnings/Conferences and Talks/Talks",
     "Learnings/Conferences and Talks/Conferences",
