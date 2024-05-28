@@ -36,6 +36,14 @@ inset -2px -2px 40px 0px rgba(0, 0, 0,.2), inset 1px 1px 10px 0 rgba(255, 255, 2
 # Excalidaw
 [Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin)
 
+# Numerals
+Plugin that allows to do math
+```math
+lemons = 5
+price = 2.50€
+
+full_price = lemons * price
+```
 # Markdown
 ## Block quotes
 > This is an awesome block quote which will can be started by typing `>` at the beginning of the line

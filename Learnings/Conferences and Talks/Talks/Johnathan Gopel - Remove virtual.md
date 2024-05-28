@@ -2,6 +2,7 @@
 tags:
   - cpp
   - Talk
+  - templates
 links: "[[Confrerences and Talks]]"
 created: 2024-05-04
 ---
@@ -11,8 +12,7 @@ created: 2024-05-04
 # Not about
 - `std::vector<std::any>`
 - `std::vector<std::variant>`
-type erasure
-
+- type erasure
 
 # Binding interfaces
 ```cpp
@@ -33,7 +33,9 @@ auto func (std::unique_ptr<FooInterface foo2) {
   // implementation
 }
 ```
-- :warning: **Rule of five**
+
+> [!warning] Rule of five
+
 - pointer use
 # Templates/Concepts
 
@@ -183,7 +185,7 @@ baz.store(Foo2{});
 - there is the overhead of empty vectors for every type in the list that is not used (vtable is one vector, here we have N vectors for N types)
 - ordering within each vector is stable. Ordering is **not** stable between different types
 
-# Downsize of avoiding virtual
+# Downsides of avoiding virtual
 
 - Increase translation unit size
   - For interfaces you just need the interface
@@ -195,7 +197,8 @@ baz.store(Foo2{});
 
 # Benefits of avoiding virtual
 
-- static virtual is not possible, no virtual needed so static can now be used
+- static and virtual is not possible at the same time 
+- without virtual, finally static can be used
 
 
 
