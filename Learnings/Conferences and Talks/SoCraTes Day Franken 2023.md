@@ -2,7 +2,7 @@
 created: 2023-06-24
 tags:
   - conference
-links: "[[Confrerences]]"
+links: "[[Confrerences and Talks]]"
 ---
 
 # SoCraTes Day Franken 2023

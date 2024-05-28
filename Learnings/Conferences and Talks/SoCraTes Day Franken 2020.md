@@ -2,7 +2,7 @@
 created: 2020-10-17
 tags:
   - conference
-links: "[[Confrerences]]"
+links: "[[Confrerences and Talks]]"
 ---
 # SoCraTesDay Franken 2020
 

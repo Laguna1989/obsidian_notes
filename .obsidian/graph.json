@@ -22,7 +22,7 @@
       }
     },
     {
-      "query": "path:Learnings/_Conferences  ",
+      "query": "path:\"Learnings/Conferences and Talks\"  ",
       "color": {
         "a": 1,
         "rgb": 11392604

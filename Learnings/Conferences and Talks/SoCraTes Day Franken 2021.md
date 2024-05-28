@@ -2,7 +2,7 @@
 created: 2021-10-09
 tags:
   - conference
-links: "[[Confrerences]]"
+links: "[[Confrerences and Talks]]"
 ---
 # SoCraTesDay Franken 2021
 

@@ -1,3 +1,8 @@
+---
+tags:
+  - rust
+  - fuzzing
+---
 aus afl++ entstanden
 - rust library
 - korpus(testcase), target und objectives
