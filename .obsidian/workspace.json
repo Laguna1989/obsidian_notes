@@ -32,8 +32,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4780e4150583388d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learnings/books/Kent Beck - Extreme Programming Explained.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -91,7 +104,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Learnings/books/Book reviews.md",
+                "file": "Learnings/books/Kent Beck - Extreme Programming Explained.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -140,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learnings/books/Book reviews.md",
+                "file": "Learnings/books/Kent Beck - Extreme Programming Explained.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learnings/books/Book reviews.md",
+                "file": "Learnings/books/Kent Beck - Extreme Programming Explained.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learnings/books/Book reviews.md"
+                "file": "Learnings/books/Kent Beck - Extreme Programming Explained.md"
               }
             }
           },
@@ -209,7 +222,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Learnings/books/Book reviews.md"
+                "file": "Learnings/books/Kent Beck - Extreme Programming Explained.md"
               }
             }
           }
@@ -229,12 +242,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f4e3af911f4f448e",
+  "active": "4780e4150583388d",
   "lastOpenFiles": [
+    "Learnings/books/Book reviews.md",
     "Learnings/books/Kent Beck - Extreme Programming Explained.md",
     "Learnings/Conferences and Talks/Confrerences and Talks.md",
     "Learnings/books/Williams - Cpp Concurrency In Action/Williams - Cpp Concurrency In Action.md",
-    "Learnings/books/Book reviews.md",
     "Learnings/Conferences and Talks/Talks/Kate Gregory - Emotional Code.md",
     "tools/C++ template trickery.md",
     "tools/OpenGL Debugging.md",

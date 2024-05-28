@@ -1,6 +1,7 @@
 ---
 tags:
   - book
+  - xp
 created: 2022-05-01
 links: "[[Book reviews]]"
 ---
@@ -65,9 +66,9 @@ Source: [[Ultralearning]]
 ## What is XP?
 
 * Social change
-* letting go of old habits that once were “adaptive”
-* getting past “I know better than anybody else”
-* writing great code that is beneficial for the business
+* Letting go of old habits that once were “adaptive”
+* Getting past “I know better than anybody else”
+* Writing great code that is beneficial for the business
 * **Do your best and then deal with the consequences**
 * Based on values:
     * Communication 
@@ -79,17 +80,17 @@ Source: [[Ultralearning]]
 * XP is a path to Excellence for people developing software
 * Crucial:
     * Short development cycles
-    * incremental planning
-    * ability to flexibly schedule
-    * automated tests
-    * oral communication, test and sourcecode to communicate system structure and intent
-    * evolutionary design process
-    * close collaboration of actively engaged individuals
-* xp can be described as
-    * xp is lightweight
-    * xp is a methodology for constraints of software development, Not portfolio mangement/financial justification
-    * xp can work with any team size
-    * xp adapts to vague and rapidly changing requirements but can be applied for stable requirements
+    * Incremental planning
+    * Ability to flexibly schedule
+    * Automated tests
+    * Oral communication, test and sourcecode to communicate system structure and intent
+    * Evolutionary design process
+    * Close collaboration of actively engaged individuals
+* XP can be described as
+    * XP is lightweight
+    * XP is a methodology for constraints of software development, Not portfolio mangement/financial justification
+    * XP can work with any team size
+    * XP adapts to vague and rapidly changing requirements but can be applied for stable requirements
 
 ## Learning to drive
 
