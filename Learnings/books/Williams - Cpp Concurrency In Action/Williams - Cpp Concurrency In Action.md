@@ -1,12 +1,10 @@
 ---
-created: 
-  2019-01-12
+created: 2019-12-01
 tags:
   - cpp
   - conference
   - book
 links: "[[Book reviews]]"
-
 ---
 # Chapters
 [[1 - Multithreading Hello World]]

@@ -32,17 +32,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "a6d2efe83c271aa1",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,6 +91,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Learnings/books/Book reviews.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -148,6 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Learnings/books/Book reviews.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,6 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Learnings/books/Book reviews.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +179,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Learnings/books/Book reviews.md"
+              }
             }
           },
           {
@@ -212,7 +208,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "Learnings/books/Book reviews.md"
+              }
             }
           }
         ]
@@ -231,10 +229,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a6d2efe83c271aa1",
+  "active": "f4e3af911f4f448e",
   "lastOpenFiles": [
-    "Learnings/Conferences and Talks/Talks/Kate Gregory - Emotional Code.md",
+    "Learnings/books/Kent Beck - Extreme Programming Explained.md",
     "Learnings/Conferences and Talks/Confrerences and Talks.md",
+    "Learnings/books/Williams - Cpp Concurrency In Action/Williams - Cpp Concurrency In Action.md",
+    "Learnings/books/Book reviews.md",
+    "Learnings/Conferences and Talks/Talks/Kate Gregory - Emotional Code.md",
     "tools/C++ template trickery.md",
     "tools/OpenGL Debugging.md",
     "tools/Tools.md",
@@ -245,12 +246,10 @@
     "Learnings/Conferences and Talks/Talks",
     "Learnings/Conferences and Talks/Talks/Remove virtual.md",
     "Learnings/Conferences and Talks/Conferences",
-    "Learnings/books/Book reviews.md",
     "Learnings/books/Taze - Engineer's survival guide.md",
     "Learnings/books/Derby - \"Agile Retrospectives\".md",
     "Learnings/books/Gene Kim - Dev Ops Handbook.md",
     "Learnings/books/Mark Seeman - \"Code that fits in your head\".md",
-    "Learnings/books/Williams - Cpp Concurrency In Action/Williams - Cpp Concurrency In Action.md",
     "assets/devops_handbook_the_three_ways.png",
     "Learnings/books/Stone, Heed - Thanks for the feedback.md",
     "assets/devops_handbook_value_stream_complex.png",
@@ -265,7 +264,6 @@
     "Learnings/Conferences and Talks/Conferences/SenecaCamp 2023/NeoVim.md",
     "Learnings/Conferences and Talks/Conferences/SenecaCamp 2023/Recruiters From Hell.md",
     "Learnings/Conferences and Talks/Conferences/SenecaCamp 2023/Habits of highly effective Devs.md",
-    "tools/pmccabe.md",
     "assets/2024-01-31_seqlock3.png",
     "assets/2024-01-31_seqlock2.png",
     "assets/Pasted image 20240527071129.png",
