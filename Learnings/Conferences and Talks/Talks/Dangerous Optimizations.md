@@ -1,6 +1,9 @@
 ---
 tags:
   - cpp
+  - Talk
+links: "[[Confrerences and Talks]]"
+created: 2024-02-22
 ---
 
 - Premise: Compiler writers use undefined behavior to perform optimizations

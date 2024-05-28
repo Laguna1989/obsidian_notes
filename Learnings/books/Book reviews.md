@@ -1,5 +1,9 @@
-- [[Williams - Cpp Concurrency In Action]]
-- [[Stone, Heed - Thanks for the feedback]]
-- [[Taze - Engineer's survival guide]]
-- [[Mark Seeman - "Code that fits in your head"]]
-- [[Derby - "Agile Retrospectives"]]
+
+```dataview
+Table 
+	created AS "Reading Date"
+From #book
+SORT created ASC
+```
+
+

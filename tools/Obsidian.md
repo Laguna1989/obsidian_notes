@@ -2,6 +2,8 @@
 Progress: 30
 tags:
   - tag
+  - tool
+links: "[[Tools]]"
 ---
 #tool 
 # Local graph

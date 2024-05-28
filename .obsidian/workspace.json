@@ -8,28 +8,41 @@
         "type": "tabs",
         "children": [
           {
-            "id": "515ebce80de2dfc1",
+            "id": "f4e3af911f4f448e",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learnings/books/Book reviews.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "43a9d73fedffae26",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learnings/books/Gene Kim - Dev Ops Handbook.md",
+                "file": "Learnings/Conferences and Talks/Confrerences and Talks.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c6ab4ed6115c6684",
+            "id": "a6d2efe83c271aa1",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "assets/devops_handbook_the_three_ways.png"
-              }
+              "type": "graph",
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -87,7 +100,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Learnings/books/Gene Kim - Dev Ops Handbook.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -136,7 +148,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learnings/books/Gene Kim - Dev Ops Handbook.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +164,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learnings/books/Gene Kim - Dev Ops Handbook.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,9 +185,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Learnings/books/Gene Kim - Dev Ops Handbook.md"
-              }
+              "state": {}
             }
           },
           {
@@ -204,16 +212,14 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "Learnings/books/Gene Kim - Dev Ops Handbook.md"
-              }
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 420.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -225,38 +231,41 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "515ebce80de2dfc1",
+  "active": "a6d2efe83c271aa1",
   "lastOpenFiles": [
-    "assets/devops_handbook_the_three_ways.png",
-    "Learnings/books/Gene Kim - Dev Ops Handbook.md",
+    "Learnings/Conferences and Talks/Talks/Kate Gregory - Emotional Code.md",
+    "Learnings/Conferences and Talks/Confrerences and Talks.md",
+    "tools/C++ template trickery.md",
+    "tools/OpenGL Debugging.md",
+    "tools/Tools.md",
+    "2024-01-01.md",
     "tools/Obsidian.md",
+    "Learnings/Conferences and Talks/Talks/Dangerous Optimizations.md",
+    "Learnings/Conferences and Talks/Conferences/SoCraTes Day Franken 2020.md",
+    "Learnings/Conferences and Talks/Talks",
+    "Learnings/Conferences and Talks/Talks/Remove virtual.md",
+    "Learnings/Conferences and Talks/Conferences",
+    "Learnings/books/Book reviews.md",
+    "Learnings/books/Taze - Engineer's survival guide.md",
+    "Learnings/books/Derby - \"Agile Retrospectives\".md",
+    "Learnings/books/Gene Kim - Dev Ops Handbook.md",
+    "Learnings/books/Mark Seeman - \"Code that fits in your head\".md",
+    "Learnings/books/Williams - Cpp Concurrency In Action/Williams - Cpp Concurrency In Action.md",
+    "assets/devops_handbook_the_three_ways.png",
+    "Learnings/books/Stone, Heed - Thanks for the feedback.md",
     "assets/devops_handbook_value_stream_complex.png",
     "assets/devops_handbook_value_stream_simple.png",
-    "Learnings/books/Stone, Heed - Thanks for the feedback.md",
     "Learings/books/Dev Ops Handbook.md",
     "Learings/books",
     "Learings",
-    "Learnings/Conferences and Talks/SWEC 2024/Future of Guitar Pedals.md",
-    "Learnings/Conferences and Talks/SWEC 2024/libAFL.md",
-    "Learnings/Conferences and Talks/SWEC 2024/Psychische Gesundheit.md",
-    "Learnings/Conferences and Talks/SWEC 2024/Open Source Licenses.md",
-    "Learnings/Conferences and Talks/SenecaCamp 2023/NeoVim.md",
-    "Learnings/Conferences and Talks/SenecaCamp 2023/Recruiters From Hell.md",
-    "Learnings/Conferences and Talks/SenecaCamp 2023/Habits of highly effective Devs.md",
-    "Learnings/Conferences and Talks/Confrerences and Talks.md",
-    "Learnings/Conferences and Talks/Kate Gregory - Emotional Code.md",
+    "Learnings/Conferences and Talks/Conferences/SWEC 2024/Future of Guitar Pedals.md",
+    "Learnings/Conferences and Talks/Conferences/SWEC 2024/libAFL.md",
+    "Learnings/Conferences and Talks/Conferences/SWEC 2024/Psychische Gesundheit.md",
+    "Learnings/Conferences and Talks/Conferences/SWEC 2024/Open Source Licenses.md",
+    "Learnings/Conferences and Talks/Conferences/SenecaCamp 2023/NeoVim.md",
+    "Learnings/Conferences and Talks/Conferences/SenecaCamp 2023/Recruiters From Hell.md",
+    "Learnings/Conferences and Talks/Conferences/SenecaCamp 2023/Habits of highly effective Devs.md",
     "tools/pmccabe.md",
-    "tools/Tools.md",
-    "tools/valgrind.md",
-    "tools/Mermaid Diagrams.md",
-    "Learnings/Retrospectives.md",
-    "Learnings/2024-04-05 remove virtual.md",
-    "Learnings/2024-02-22 Dangerous Optimizations.md",
-    "SEQLock.md",
-    "Learnings/books/Book reviews.md",
-    "Learnings/Conferences and Talks/SoCraTes Day Franken 2023.md",
-    "Learnings/Conferences and Talks/SoCraTes Day Franken 2021.md",
-    "Learnings/Conferences and Talks/SoCraTes Day Franken 2020.md",
     "assets/2024-01-31_seqlock3.png",
     "assets/2024-01-31_seqlock2.png",
     "assets/Pasted image 20240527071129.png",
@@ -266,11 +275,9 @@
     "assets/Pasted image 20240527071157.png",
     "assets/Pasted image 20240527071058.png",
     "Learnings/Conferences and Talks",
-    "Learnings/Conferences and Talks/SenecaCamp 2023",
-    "Learnings/Conferences and Talks/SWEC 2024",
+    "Learnings/Conferences and Talks/Conferences/SenecaCamp 2023",
+    "Learnings/Conferences and Talks/Conferences/SWEC 2024",
     "ai_trickery",
-    "Learnings",
-    "Gaming",
-    "wohnung"
+    "Learnings"
   ]
 }

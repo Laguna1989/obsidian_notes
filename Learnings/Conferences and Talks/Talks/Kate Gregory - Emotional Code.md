@@ -3,6 +3,7 @@ tags:
   - Meetup
   - Talk
 created: 2020-08-28
+links: "[[Confrerences and Talks]]"
 ---
 # What to aim for
 

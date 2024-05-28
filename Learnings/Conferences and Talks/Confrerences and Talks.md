@@ -2,16 +2,16 @@
 # Conferences
 ```dataview
 Table 
-	(""+ created +"") AS Date
+	created AS Date
 From #conference
-SORT file.ctime DESC
+SORT created DESC
 ```
 
 
 
 ```dataview
 Table 
-	(""+ created +"") AS Date
+	created AS Date
 From #talk
-SORT file.ctime DESC
+SORT created DESC
 ```

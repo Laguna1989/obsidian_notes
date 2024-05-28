@@ -1,4 +1,9 @@
-#cpp 
+---
+tags:
+  - cpp
+  - templates
+links: "[[Tools]]"
+---
 # varargs strip first argument
 
 ```

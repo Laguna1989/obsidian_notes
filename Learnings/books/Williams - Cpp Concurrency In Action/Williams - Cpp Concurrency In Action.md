@@ -1,4 +1,13 @@
-#cpp #concurrency 
+---
+created: 
+  2019-01-12
+tags:
+  - cpp
+  - conference
+  - book
+links: "[[Book reviews]]"
+
+---
 # Chapters
 [[1 - Multithreading Hello World]]
 [[2 - Managing Threads]]

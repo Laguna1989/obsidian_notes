@@ -1,3 +1,9 @@
+---
+tags:
+  - book
+created: 2023-09-01
+links: "[[Book reviews]]"
+---
 # Engineer’s Survival Guide
 
 # Bookclub

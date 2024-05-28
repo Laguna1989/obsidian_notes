@@ -1,8 +1,9 @@
 ---
 created:
-  - 2024-01-31 23:00
+  2024-01-31
 tags:
   - "#book"
+links: "[[Book reviews]]"
 ---
 #csharp 
 # Summary
