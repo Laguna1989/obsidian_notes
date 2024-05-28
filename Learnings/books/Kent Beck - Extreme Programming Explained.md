@@ -7,7 +7,7 @@ links: "[[Book reviews]]"
 ---
 # Ultralearning
 
-Source: [[Ultralearning]]
+Source: [[Scott Young - Ultralearning]]
 
 
 <table>

@@ -6,7 +6,8 @@ links: "[[Book reviews]]"
 ---
 # Dependency Injection
 
-[[Ultralearning]] Plan
+
+[[Scott Young - Ultralearning]] Plan
 <table>
   <tr>
    <td>What Topic and scope?

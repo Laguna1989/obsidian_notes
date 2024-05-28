@@ -6,7 +6,7 @@ links: "[[Book reviews]]"
 ---
 # Ultralearning Preface
 
-see [[Ultralearning]]
+see [[Scott Young - Ultralearning]]
 
 
 
