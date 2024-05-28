@@ -37,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learnings/books/Robert Nystrom - Game Programming Patterns.md",
+                "file": "tools/C++ 17 Allocators.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -112,6 +112,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "tools/C++ 17 Allocators.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -160,6 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "tools/C++ 17 Allocators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,6 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "tools/C++ 17 Allocators.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,7 +200,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "tools/C++ 17 Allocators.md"
+              }
             }
           },
           {
@@ -224,7 +229,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "tools/C++ 17 Allocators.md"
+              }
             }
           }
         ]
@@ -243,10 +250,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "af3588c6e50fc0f4",
+  "active": "3cd0a2744153ccd1",
   "lastOpenFiles": [
-    "Learnings/books/Book reviews.md",
+    "tools/Tools.md",
+    "tools/C++ 17 Allocators.md",
+    "Learnings/Conferences and Talks/Confrerences and Talks.md",
+    "tools/SEQLock.md",
     "Learnings/books/Robert Nystrom - Game Programming Patterns.md",
+    "Learnings/books/Book reviews.md",
     "Learnings/books/Scott Young - Ultralearning.md",
     "Learnings/books/Kent Beck - Extreme Programming Explained.md",
     "Learnings/books/Gene Kim - The DevOps Handbook.md",
@@ -255,9 +266,7 @@
     "Learnings/books/Robert C Martin - Agile Software Development/Robert C Martin - Agile Software Development.md",
     "Learnings/books/Robert C Martin - Agile Software Development/2 - Agile Design.md",
     "Learnings/books/Robert C Martin - Agile Software Development/1 - Agile Practices.md",
-    "Learnings/Conferences and Talks/Confrerences and Talks.md",
     "Learnings/books/Robert C Martin - Agile Software Development",
-    "tools/Tools.md",
     "Learnings/Conferences and Talks/Talks/Marc Gregoire - An Almost complete overview of cpp20.md",
     "tools/tools 1.md",
     "tools/tools 2.md",
@@ -272,10 +281,8 @@
     "Learnings/Conferences and Talks/Talks/Klaus Igelberger - Calling Functions.md",
     "Learnings/books/Emily Bache - The Coding Dojo Handbook.md",
     "Learnings/books/Robert C Martin - The Clean Coder.md",
-    "Learnings/books/Derby - Agile Retrospectives.md",
     "assets/designing_games_funky_trip_dependencies.png",
     "assets/designing_games_games.png",
-    "Learnings/books/Sylvester - Designing Games/03 - Elegance.md",
     "Learnings/books/Sylvester - Designing Games",
     "assets/devops_handbook_the_three_ways.png",
     "Learnings/Conferences and Talks/Talks",
