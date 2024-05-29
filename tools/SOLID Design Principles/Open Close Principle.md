@@ -6,26 +6,151 @@ tags:
 
 > [!quote] Code should be open for extension but closed for modification
 
-> [!example] Filtering products, e.g. by color or size
->  ![Enter image alt description](Images/3TD_Image_3.png)
->  - Problems occur when second filtering is needed, e.g. by size
->  ![Enter image alt description](Images/Nsc_Image_4.png)
+# Example: Filtering Products
 
-> [!warning] Problem:
-> - This does not scale well for more parameters
-> - Modifying existing code -> bad
+```cpp
+struct Product 
+{
+	std::string name;
+	Color color;
+	Size size;
+};
 
-Let’s use the specification pattern
-- Create two new classes: `Specification` and `Filter`
+struct ProductFilter
+{
+	std::vector<Product*> by_color(std::vector<Product*> items, Color color)
+	{
+		std::vector<Product*> result;
+		for(auto &i : items)
+			if(i->color == color)
+				result.push_back(i);
+		return result;
+	}
+};
+```
+
+> [!warning] Problem Description
+> Different filters required, e.g. by size or combined filters
+
+## Bad Solution
+
+Add a new function that handles the filtering
+
+```cpp
+std::vector<Product*> by_size(std::vector<Product*> items, Size size)
+{
+	std::vector<Product*> result;
+	for(auto &i : items)
+		if(i->size == size)
+			result.push_back(i);
+	return result;
+}
+
+std::vector<Product*> by_size_and_color(std::vector<Product*> items, Size size, Color color)
+{
+	std::vector<Product*> result;
+	for(auto &i : items)
+		if(i->size == size && i->color == color)
+			result.push_back(i);
+	return result;
+}
+
+```
+
+> [!danger] This does not scale at all for more parameters
+> For any new parameters existing code/classes need to be modified
+
+## Good Solution
+
+Let’s use the [[specification]] pattern
+- Create two interfaces: `Specification` and `Filter`
 - Use inheritance to extend without modifying existing code
-![Enter image alt description](Images/lhW_Image_5.png)
 
-Introduce `BetterFilter` that does not need to be modified anymore
-![Enter image alt description](Images/Bcc_Image_6.png)
+```cpp
+template <typename T> 
+struct Specification
+{
+	virtual bool is_satisfied(T* item) = 0;
+};
 
-Now we can create and combine `Specification`s, e.g.
-![Enter image alt description](Images/H6o_Image_7.png)
+template <typename T> 
+struct Filter
+{
+	virtual std::vector<T*> filter(std::vector<T*> items, Specification<T>& spec) = 0;
+};
+```
 
-- With this we can also write a `Specification` for Size or a `Specification` combination, like `AndSpecification`
-- Note that most `Specification` are very generic, but combinations can be combined
-![Enter image alt description](Images/HNw_Image_8.png)
+Introduce `BetterFilter` class that does the filtering. It will not need to be modified anymore in the future.
+
+```cpp
+struct BetterFilter : Filter<Product>
+{
+	std::vector<Product*> filter(std::vector<Product*> items, Specification<Product>& spec) override
+	{
+		std::vector<Product*> result;
+		for(auto& item : items)
+			if(spec.is_satisfied(item))
+				result.push_back(item);
+		return result;
+	}
+};
+```
+
+Now we can create `Specification`s, e.g.
+
+```cpp
+struct ColorSpecification : Specification<Product>
+{
+	Color color;
+	bool is_satisfied(Product* item) override
+	{
+		return item->color == color;
+	}
+};
+
+struct SizeSpecification : Specification<Product>
+{
+	Size size;
+	bool is_satisfied(Product* item) override
+	{
+		return item->size == size;
+	}
+};
+```
+
+Combinations of `Specification`s are possible via an `AndSpecification`
+
+```cpp
+template <typename T>
+struct AndSpecification : Specification<T>
+{
+	Specification<T> &specA;
+	Specification<T> &specB;
+	AndSpecification(Specification<T>& a, Specification<T>& b) : specA{a}, specB{b} {}
+	
+	bool is_satisfied(T* item) override
+	{
+		return specA->is_satisfied(item) && specB->is_satisfied(item);
+	}
+};
+```
+
+> [!check] Open for extension
+> New properties can easily be added by a new `Specification` implementation
+
+> [!check] Closed for modification
+> Existing code in `Filter` and `Specification` does not need to be modified when new functionality is required
+
+We can even do better and provide a custom `operator&&` in `Specification`
+
+```cpp
+template <typename T> struct Specification
+{
+	// code from above...
+
+	AndSpecification<T> operator&&(Specification<T>&& other)
+	{
+		return AndSpecification<T>(*this, other);
+	}
+}
+```

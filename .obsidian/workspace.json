@@ -56,9 +56,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e246a4b27843259c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tools/SOLID Design Principles/Single Responsibility Principle.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ce094ab0fead0660",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tools/SOLID Design Principles/Liskov Substitution Principle.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -126,6 +150,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "tools/SOLID Design Principles/Liskov Substitution Principle.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -174,6 +199,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "tools/SOLID Design Principles/Liskov Substitution Principle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,6 +216,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "tools/SOLID Design Principles/Liskov Substitution Principle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +238,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "tools/SOLID Design Principles/Liskov Substitution Principle.md"
+              }
             }
           },
           {
@@ -238,7 +267,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "tools/SOLID Design Principles/Liskov Substitution Principle.md"
+              }
             }
           }
         ]
@@ -257,9 +288,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "af3588c6e50fc0f4",
+  "active": "ce094ab0fead0660",
   "lastOpenFiles": [
+    "tools/SOLID Design Principles/Open Close Principle.md",
+    "tools/SOLID Design Principles/Single Responsibility Principle.md",
+    "tools/Obsidian.md",
     "Learnings/books/Book reviews.md",
+    "tools/SOLID Design Principles/SOLID Design Principles.md",
     "Learnings/books/Skelton, Pais - Team Topologies/1 - The Problem with Org Charts.md",
     "Learnings/books/Skelton, Pais - Team Topologies/2 - Conway’s Law and why it Matters.md",
     "Learnings/books/Skelton, Pais - Team Topologies/3 - Team-first Thinking.md",
@@ -268,7 +303,6 @@
     "Learnings/books/Skelton, Pais - Team Topologies/Skelton, Pais - Team Topologies.md",
     "Learnings/books/Gene Kim - The DevOps Handbook.md",
     "Learnings/books/Skelton, Pais - Team Topologies/6 - The Four Fundamental Team Topologies.md",
-    "tools/Obsidian.md",
     "Learnings/books/Skelton, Pais - Team Topologies/7 - Team Interaction Modes.md",
     "Learnings/books/Skelton, Pais - Team Topologies/8 - Evolve Team Structures with Organizational Sensing.md",
     "Learnings/books/Skelton, Pais - Team Topologies/9 - The Next-generation Digital Operating Model.md",
@@ -294,9 +328,6 @@
     "Learnings/books/Sylvester - Designing Games/20 - Endgame.md",
     "Learnings/books/Sylvester - Designing Games/19 - Values.md",
     "Learnings/books/Sylvester - Designing Games/18 - Complex Decisions.md",
-    "Learnings/books/Sylvester - Designing Games/17 - Motivation.md",
-    "Learnings/books/Sylvester - Designing Games/16 - Authority.md",
-    "Learnings/books/Sylvester - Designing Games/15 - Dependencies.md",
     "tools/SOLID Design Principles",
     "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images",
     "Learnings/books/Robert C Martin - Agile Software Development",
