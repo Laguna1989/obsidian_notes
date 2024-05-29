@@ -15,9 +15,9 @@ tags:
 	- What about default values?
 - Build allows for piecewise construction of an object succinctly
 
-> [!example] Without a builder: creating html 
->  Manually add `<p> </p> tags  or <ul><li>` 
-> ![Enter image alt description](bfg_Image_1.png) 
+> [!example] Without a builder: creating html
+>  Manually add `<p> </p> tags  or <ul><li>`
+> ![Enter image alt description](bfg_Image_1.png)
 > Instead of piecing together a string that pieces together the different tags, lets represent the inherent html structure in classes
 
 ## Builder
@@ -93,7 +93,7 @@ tags:
 
 ## Summary:
 
-> [!summary] 
+> [!summary]
 > - Builder is a separate component with the purpose of building objects
 > - Fluent builders by return `*this`
 > - Facets allow to combine builders together with the baseclass linking the different builder types together
@@ -104,13 +104,12 @@ tags:
 > - Operation logics becomes too complicated/convoluted
 > 	- E.g. constructor is not descriptive
 > 	- Constructor does not allow for overloads with same arguments
-> 	-  Optionally parameters
+> 	- Optionally parameters
 > - Non-Piecewise construction is outsourced
 > 	- Separate function
 > 	- Separate class
 > 	- Abstract factory
 > - Component responsible for the wholesale creation of objects
-
 
 > [!example] Life without factories
 >  Create Point with cartesian or polar coordinates
@@ -135,6 +134,7 @@ tags:
 ![Enter image alt description](e41_Image_17.png)
 
 - Private constructor not actually needed. `Point` can be a POD type
+
 ## Inner Factory
 
 - Drawback: There is no obvious link from `Point` to `PointFactory`, which might confuse users
@@ -157,6 +157,7 @@ tags:
 ![Enter image alt description](l6k_Image_21.png)
 
 > [!warning] Drawback: a lot of classes needed
+
 ## Functional Factory
 
 - We used classes in the abstract factory, but this can be done in a procedural way.
@@ -175,6 +176,7 @@ tags:
 # Prototype
 
 ## Idea
+
 - All about object copying
 - Complicated Objects are not designed from scratch. Most of them start from an existing object. A prototype
 - Create a copy of the prototype and then modify it
@@ -263,7 +265,6 @@ tags:
 	- Prevent users from creating objects multiple times
 	- “A component that is instantiated only once”
 	- Example: Read Cities and Citizens into a database
-	- 
 > [!note] Singletons should have deleted copy operations
 
 ![Enter image alt description](7TN_Image_33.png)
@@ -293,7 +294,7 @@ tags:
 - This allows to have a DummyDatabase to vary the behavior for the test
 - We need to change the `RecordFinding`
 
-> [!hint] Takeaway: 
+> [!hint] Takeaway:
 > The singleton itself is not a bad idea, but having a hard dependency on a singleton is bad.
 
 ## Singleton Lifetime in DI Containers
@@ -335,7 +336,7 @@ tags:
 
 ![Enter image alt description](Ne0_Image_42.png)
 
-> [!summary] 
+> [!summary]
 > - Making a “safe singleton is easy
 > - Hide or delete copy and assignment and ctors
 > - Create a static method that returns a reference to a static member

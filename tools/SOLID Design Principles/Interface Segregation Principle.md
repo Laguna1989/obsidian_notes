@@ -3,7 +3,7 @@ tags:
   - design-patterns
   - solid
 ---
-## Interface Segregation Principle
+# Interface Segregation Principle
 
 - Create interfaces that are not too large
 

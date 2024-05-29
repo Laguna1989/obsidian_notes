@@ -5,7 +5,7 @@ tags:
 created: 2022-05-01
 links: "[[Book reviews]]"
 ---
-# Book club schedule
+# Book Club Schedule
 
 <table>
   <tr>
@@ -21,7 +21,7 @@ links: "[[Book reviews]]"
    </td>
   </tr>
   <tr>
-   <td>1  
+   <td>1
    </td>
    <td>8.5. - 15.5.
    </td>
@@ -113,7 +113,7 @@ links: "[[Book reviews]]"
    </td>
    <td>15
    </td>
-   <td>8: Motivation 
+   <td>8: Motivation
    </td>
   </tr>
   <tr>
@@ -190,8 +190,7 @@ links: "[[Book reviews]]"
   </tr>
 </table>
 
-
-**average**: 28 pages/week, **median**:  27 pages/week
+**average**: 28 pages/week, **median**: 27 pages/week
 
 # Reading the Book
 
@@ -222,11 +221,12 @@ links: "[[Book reviews]]"
 [[18 - Complex Decisions]]
 [[19 - Values]]
 [[20 - Endgame]]
+
 # Retro:
 
 Bestes Kapitel:
-* Einleitung
-* Dependencies
+- Einleitung
+- Dependencies
 
 Schlechtestes:
-*  Market
+- Market

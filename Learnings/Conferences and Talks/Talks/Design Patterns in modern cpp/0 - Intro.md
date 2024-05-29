@@ -34,7 +34,7 @@
 
 # Solid Design Principles
 
-- [[SOLID Design Principles]] 
+- [[SOLID Design Principles]]
 
 # Gamma Categorization (from GoF book):
 

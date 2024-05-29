@@ -36,9 +36,9 @@ tags:
 
 - If no cache found, recalculate and add to static cache
 
-> [!warning] General Problem 
+> [!warning] General Problem
 > The adapter often spawns temporary objects and if this is a problem.
-> 
+>
 > => Caching is a massive improvement
 
 > [!summary]
@@ -72,6 +72,7 @@ tags:
 	- No need to give away inner details of a class (that would normally be in the header files)
 	- Improves compilation speed
 	- Ensures Binary compatibility
+
 ## Shrink-Wrapped Pimpl
 
 - Library-fied version of pimpl
@@ -79,6 +80,7 @@ tags:
 
 - Horrible looking template is the forwarding constructor
 - Also add `operator*` and `operator->`
+
 ## Bridge Design Pattern
 
 > [!example] Rendering different kinds of shapes
@@ -86,14 +88,14 @@ tags:
  Now we have different types of renderers
    ![Enter image alt description](Images/qAo_Image_14.png)
 > > [!note] 👆 Cout in wrong order
-> 
-> 
+>
+>
 > Let’s introduce a `Shape` class that acts as a bridge
 > ![Enter image alt description](Images/YMP_Image_15.png)
 > ![Enter image alt description](Images/cFw_Image_16.png)
 > Non Intrusive design by Igelberger seems more powerful (but also way more complex)
 
-> [!summary] 
+> [!summary]
 > - Decouple abstraction from implementation
 > - A stronger form encapsulation
 
@@ -112,13 +114,14 @@ tags:
 
 ![Enter image alt description](Images/pNe_Image_17.png)
 
-- Now  let’s add a `Group`
+- Now let’s add a `Group`
 ![Enter image alt description](Images/All_Image_18.png)
 
 - `Group`s can be added to other `Group`s
 ![Enter image alt description](Images/s5n_Image_19.png)
 
 - Here the common behavior is enforced by the interface.
+
 ## ML Example
 
 - Neuron struct
@@ -131,7 +134,7 @@ tags:
 
 - This does not yet allow to connect multiple neurons
 - Let’s add `NeuronLayers`
-> [!warning] Bad style 
+> [!warning] Bad style
 > Do not inherit from vector
 
 ![Enter image alt description](Images/uFB_Image_22.png)
@@ -167,7 +170,7 @@ tags:
 - Same for setter. Calculating aggregate statistics becomes very simple
 ![Enter image alt description](Images/k1m_Image_26.png)
 
-> [!summary] 
+> [!summary]
 > - Objects can use other objects either by composition or inheritance
 > - Sometimes they need similar behaviours
 > - The Composite design pattern lets us treat scalar and composite objects similarly
@@ -224,7 +227,7 @@ Once you decorate a type, you are restricted to the interface
 - Applying decorator on a decorator:
 ![Enter image alt description](Images/9w7_Image_34.png)
 
-- Through inheritance, `bis` is a `Square`, a `ColoredShape2` and a `TransparentShape2`. 
+- Through inheritance, `bis` is a `Square`, a `ColoredShape2` and a `TransparentShape2`.
 - Members can be modified easily, even if they are not part of the interface
 
 ## Functional Decorator
@@ -254,7 +257,7 @@ Once you decorate a type, you are restricted to the interface
 
 > [!summary]
 > - A dynamic decorator keeps the reference to the decorated object(s)
-> - A static decorator uses mixin inheritance 
+> - A static decorator uses mixin inheritance
 > 	- `ColoredShape<Square>`
 > - Both approaches allow limitless composition
 > 	- `TransparentShape<ColoredShape<Circle>>`
@@ -265,11 +268,11 @@ Once you decorate a type, you are restricted to the interface
 
 > [!quote] Provides a simple, easy to understand interface over a large, complicated code base
 
-> [!example] 
+> [!example]
 > - House is a system which needs to balance complexity and presentation/usability
 > - The end user is not exposed to the internal details
 
-> [!example] Without facace 
+> [!example] Without facace
 > ![Enter image alt description](Images/bAT_Image_43.png)
 
 > [!example] With a facade
@@ -321,7 +324,7 @@ Once you decorate a type, you are restricted to the interface
 - The interface looks like the interface of the object you want to access
 - Same interface but entirely different internal behavior
 - A class that functions as an interface to a particular resource which may be remote, expensive to construct or may require logging or any other added functionality
-- Best Example: Smart Pointers. 
+- Best Example: Smart Pointers.
 	- Same functionality as with a raw pointer, but with some extensions available and very different underlying behavior.
 
 ## Property Proxy
@@ -354,11 +357,12 @@ Once you decorate a type, you are restricted to the interface
 - In main we only need to replace `Pong` with `RemotePong`
 ![Enter image alt description](Images/CcF_Image_55.png)
 
-## Proxy vs Decorator
+## Proxy Vs Decorator
 
 - They are really similar
 - Proxy provides an identical interface, decorated provides an enhanced interface
 - Decorator typically aggregates, Proxy can be a brand new object, not related to the original implementation at all
+
 # Chain of Responsibility
 
 - Unethical behavior by an employee. Who takes the blame?
@@ -371,8 +375,8 @@ Once you decorate a type, you are restricted to the interface
 	- Creature has attack and defense
 	- Those values can be boosted by other cards
 
-> [!quote] Definition: 
-> A chain of components who all gets a chance to process a command, query and optionally having a default processing  implementation and an ability to terminate the processing chain
+> [!quote] Definition:
+> A chain of components who all gets a chance to process a command, query and optionally having a default processing implementation and an ability to terminate the processing chain
 
 ## Pointer Chain
 
@@ -382,7 +386,7 @@ Once you decorate a type, you are restricted to the interface
 ![Enter image alt description](Images/fe6_Image_56.png)
 
 - Some of the abilities are modified (e.g. by picking up a magic sword). This is done by the Creature Modifier
-- `CreatureModifier` has a pointer  to the next `Modifier` (or null if the chain ends)
+- `CreatureModifier` has a pointer to the next `Modifier` (or null if the chain ends)
 - `CreatureModifier` has a `Creature&` and a function `add` (to put something into the list)
 ![Enter image alt description](Images/FUF_Image_57.png)
 

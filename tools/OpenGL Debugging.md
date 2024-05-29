@@ -1,11 +1,15 @@
-- Generally hard to do
-# glsl-debugger
-does not work `debugee killed`
-# apitrace
+Generally hard to do
+
+# Glsl-debugger
+
+Does not work `debugee killed`
+
+# Apitrace
+
 - apitrace is a #tool for #opengl debugging
 - Seems to work reasonably well
-- https://github.com/apitrace/apitrace
-- Build via 
+- <https://github.com/apitrace/apitrace>
+- Build via
 	- ```git clone --recurse-submodules  https://github.com/apitrace/apitrace.git```
 	- ```cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=RelWithDebInfo```
 	- ```make -C build```
@@ -18,4 +22,6 @@ does not work `debugee killed`
 		- created log file can be inspected with vim
 	- investigate with `./qapitrace` -> file -> open `[path to trace file]`
 		- gives list of frames with list of instructions
-		- right click on any instruction ->  lookup state
+		- right click on any instruction -> lookup state
+
+# Renderdoc

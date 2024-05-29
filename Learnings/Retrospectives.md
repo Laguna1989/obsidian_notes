@@ -4,8 +4,8 @@ tags:
   - agile
   - retrospective
 ---
-
 # Resources
+
 - [[Derby - Agile Retrospectives]]
 - [[Loeffler - Improving Agile Retrospectives]]
 - [retromat](https://retromat.org/en)

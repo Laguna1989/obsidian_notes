@@ -5,5 +5,3 @@ Table
 From #book
 SORT created ASC
 ```
-
-

@@ -7,6 +7,7 @@ tags:
 links: "[[Book reviews]]"
 ---
 # Chapters
+
 [[1 - Multithreading Hello World]]
 [[2 - Managing Threads]]
 [[3 - Sharing Data]]
@@ -14,7 +15,5 @@ links: "[[Book reviews]]"
 [[5 - Memory Model]]
 
 # See also
+
 [[C++ Concurrency]]
-
-
-

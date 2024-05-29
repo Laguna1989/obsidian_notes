@@ -1,11 +1,9 @@
-## 11 The Market
-### Excerpt
+# Excerpt
 
-* Every design decision is affected by the purpose of the game
-* In the market, most games lose
+- Every design decision is affected by the purpose of the game
+- In the market, most games lose
 
-### Discussions/Questions
+# Discussions/Questions
 
-* Setting expectations: No mans sky
-* Werbung für Handyspiele
-
+- Setting expectations: No mans sky
+- Werbung für Handyspiele

@@ -1,8 +1,9 @@
+> [!quote] Can be used to verify AU, VST and VST3 plugins
+
 [https://github.com/Tracktion/pluginval](https://github.com/Tracktion/pluginval)
 
-Can be used to verify AU, VST and VST3 plugins
-
 # Process
+
 - build vst3 release of plugin
 - open pluginval
 - remove old version of plugin to be tested
@@ -12,4 +13,4 @@ Can be used to verify AU, VST and VST3 plugins
 - click `Test Selected`
 - Wait until tests complete
 - Click `save log`
-- open log file, scroll to bottom and check for `ALL TESTS PASSED` 
+- open log file, scroll to bottom and check for `ALL TESTS PASSED`

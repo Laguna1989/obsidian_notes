@@ -121,7 +121,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learnings/Conferences and Talks/Talks/Johny Swalb - The true price of virtual functions in c++.md",
+                "file": "ai_trickery/stable-diffusion upscale.md",
                 "mode": "source",
                 "source": false
               }
@@ -140,7 +140,7 @@
       {
         "id": "129889246f47d1f3",
         "type": "tabs",
-        "dimension": 77.21649484536083,
+        "dimension": 58.82352941176471,
         "children": [
           {
             "id": "b4017a2eff9594db",
@@ -188,7 +188,7 @@
       {
         "id": "dfb961f626af7cb3",
         "type": "tabs",
-        "dimension": 22.783505154639172,
+        "dimension": 41.17647058823529,
         "children": [
           {
             "id": "ef9be256c619bffb",
@@ -196,7 +196,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Learnings/Conferences and Talks/Talks/Johny Swalb - The true price of virtual functions in c++.md",
+                "file": "ai_trickery/stable-diffusion upscale.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -229,7 +229,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.5
+    "width": 349.5
   },
   "right": {
     "id": "d02a40f61708ec57",
@@ -245,7 +245,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learnings/Conferences and Talks/Talks/Johny Swalb - The true price of virtual functions in c++.md",
+                "file": "ai_trickery/stable-diffusion upscale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -262,7 +262,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learnings/Conferences and Talks/Talks/Johny Swalb - The true price of virtual functions in c++.md",
+                "file": "ai_trickery/stable-diffusion upscale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -285,7 +285,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learnings/Conferences and Talks/Talks/Johny Swalb - The true price of virtual functions in c++.md"
+                "file": "ai_trickery/stable-diffusion upscale.md"
               }
             }
           },
@@ -314,7 +314,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Learnings/Conferences and Talks/Talks/Johny Swalb - The true price of virtual functions in c++.md"
+                "file": "ai_trickery/stable-diffusion upscale.md"
               }
             }
           }
@@ -322,8 +322,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 421.5,
-    "collapsed": true
+    "width": 421.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -337,21 +336,34 @@
   },
   "active": "da7c493425a93cab",
   "lastOpenFiles": [
+    "Gaming/Elden Ring.md",
+    "Learnings/books/Robert C Martin - Agile Software Development/2 - Agile Design.md",
+    "Learnings/books/Robert C Martin - Agile Software Development/1 - Agile Practices.md",
+    "Learnings/books/Sylvester - Designing Games/Tynan Sylvester - Designing Games.md",
+    "Learnings/books/Sylvester - Designing Games/20 - Endgame.md",
+    "Learnings/books/Sylvester - Designing Games/19 - Values.md",
+    "Learnings/books/Sylvester - Designing Games/18 - Complex Decisions.md",
+    "Learnings/books/Sylvester - Designing Games/17 - Motivation.md",
+    "Learnings/books/Sylvester - Designing Games/16 - Authority.md",
+    "Learnings/books/Sylvester - Designing Games/15 - Dependencies.md",
+    "Learnings/books/Sylvester - Designing Games/14 - Knowledge Creation.md",
+    "Learnings/books/Sylvester - Designing Games/13 - Planning and Iteration.md",
+    "Learnings/books/Sylvester - Designing Games/12 - Process.md",
+    "Learnings/books/Sylvester - Designing Games/11 - The Market.md",
+    "Learnings/books/Sylvester - Designing Games/10 - Interface.md",
+    "Learnings/books/Sylvester - Designing Games/09 - Motivation and Fulfillment.md",
+    "Learnings/books/Sylvester - Designing Games/08 - Multiplayer.md",
+    "Learnings/books/Sylvester - Designing Games/07 - Balancing.md",
+    "Learnings/books/Sylvester - Designing Games/06 - Decisions.md",
+    "Learnings/books/Sylvester - Designing Games/05 - Narrative.md",
+    "Learnings/books/Sylvester - Designing Games/04 - Skill.md",
+    "Learnings/books/Sylvester - Designing Games/03 - Elegance.md",
+    "Learnings/books/Sylvester - Designing Games/02 - Game Crafting.md",
+    "Learnings/books/Sylvester - Designing Games/01 - Engines of Experiences.md",
+    "Learnings/books/Williams - Cpp Concurrency In Action/1 - Multithreading Hello World.md",
+    "Learnings/books/Williams - Cpp Concurrency In Action/3 - Sharing Data.md",
     "assets/true_price_of_virtual_functions_vtables.png",
-    "Learnings/Conferences and Talks/Talks/Johny Swalb - The true price of virtual functions in c++.md",
-    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Design Patterns in modern cpp.md",
-    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/0 - Intro.md",
-    "tools/SOLID Design Principles/SOLID Design Principles.md",
-    "tools/SOLID Design Principles/Interface Segregation Principle.md",
-    "tools/SOLID Design Principles/Liskov Substitution Principle.md",
-    "tools/SOLID Design Principles/Open Close Principle.md",
-    "tools/SOLID Design Principles/Single Responsibility Principle.md",
-    "tools/SOLID Design Principles/Dependency Inversion Principle.md",
-    "Learnings/books/Book reviews.md",
-    "tools/Tools.md",
-    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/1 - Structural Design Patterns.md",
     "tools/SOLID Design Principles",
-    "tools/Google docs - Markdown export.md",
     "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images/jGF_Image_18.png",
     "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images/jXO_Image_17.png",
     "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images/nCl_Image_16.png",
@@ -361,19 +373,7 @@
     "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images/xBR_Image_12.png",
     "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images/nTT_Image_11.png",
     "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images/tY1_Image_10.png",
-    "Learnings/Conferences and Talks/Confrerences and Talks.md",
-    "Learnings/books/Robert Nystrom - Game Programming Patterns.md",
-    "Learnings/books/Mark Seeman - Dependency Injection.md",
-    "plantuml.md",
-    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/2 - Creational Design Patterns.md",
-    "Learnings/books/Robert C Martin - Agile Software Development/2 - Agile Design.md",
-    "tools/C++ 17 Allocators.md",
-    "Learnings/Conferences and Talks/Talks/Testing Anti-Patterns.md",
-    "tools/Obsidian.md",
     "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images",
-    "tools/SEQLock.md",
-    "Learnings/books/Scott Young - Ultralearning.md",
-    "Learnings/books/Kent Beck - Extreme Programming Explained.md",
     "Learnings/books/Robert C Martin - Agile Software Development",
     "Tags",
     "Untitled.canvas",

@@ -4,6 +4,7 @@ tags:
   - conference
 links: "[[Confrerences and Talks]]"
 ---
+
 - [[Recruiters From Hell]]
 - [[NeoVim]]
 - [[Habits of highly effective Devs]]

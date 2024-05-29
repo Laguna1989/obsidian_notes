@@ -3,7 +3,7 @@ tags:
   - design-patterns
   - solid
 ---
-## Dependency Inversion Principle
+# Dependency Inversion Principle
 
 - General:
 
@@ -28,4 +28,3 @@ tags:
 ![Enter image alt description](Images/jGF_Image_18.png)
 
 - Research does now only use the relationship browser interface instead of the actual relationships data
-

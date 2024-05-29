@@ -6,7 +6,6 @@ links: "[[Book reviews]]"
 ---
 # Dependency Injection
 
-
 [[Scott Young - Ultralearning]] Plan
 <table>
   <tr>
@@ -45,11 +44,11 @@ links: "[[Book reviews]]"
    <td>
 <ul>
 
-<li>Bookclub successful 
+<li>Bookclub successful
 <ul>
- 
+
 <li>Weekly questions/meetings/exercises
-</li> 
+</li>
 </ul>
 
 <li><del>Book read ~500 pages</del>
@@ -90,7 +89,7 @@ links: "[[Book reviews]]"
   </tr>
 </table>
 
-# Bookclub schedule
+# Bookclub Schedule
 
 <table>
   <tr>
@@ -106,7 +105,7 @@ links: "[[Book reviews]]"
    </td>
   </tr>
   <tr>
-   <td>1  
+   <td>1
    </td>
    <td>10.1.
    </td>
@@ -150,7 +149,7 @@ links: "[[Book reviews]]"
    </td>
    <td>39
    </td>
-   <td>Dependency Injection anti patterns 
+   <td>Dependency Injection anti patterns
    </td>
   </tr>
   <tr>
@@ -162,7 +161,7 @@ links: "[[Book reviews]]"
    </td>
    <td>77
    </td>
-   <td>code smells  + application composition
+   <td>code smells + application composition
    </td>
   </tr>
   <tr>
@@ -174,7 +173,7 @@ links: "[[Book reviews]]"
    </td>
    <td>64
    </td>
-   <td>Object lifetime + Interception 
+   <td>Object lifetime + Interception
    </td>
   </tr>
   <tr>
@@ -240,24 +239,25 @@ links: "[[Book reviews]]"
 </table>
 
 # Discussion Questions
+
 ## Week 1 (Basics of Dependency Injection)
 
 Questions
 
-* What are myths that you have heard about when talking about DI?
-* Page 11 mentions the Liskov Substitution Principle (LSP). Can you give an example from your current project where the LSP is used?
-* Page 11 mentions the [[Single Responsibility Principle]] (SRP). Can you provide an example from your current project where this is violated? What lead to this issue?
-* Page 14 mentions the Open Close Principle (OCP). 
-* The LSP, OCP and SRP are three of the SOLID Principles. What other principles are part of SOLID?
-* Name one stable and one volatile dependency in your current project
+- What are myths that you have heard about when talking about DI?
+- Page 11 mentions the Liskov Substitution Principle (LSP). Can you give an example from your current project where the LSP is used?
+- Page 11 mentions the [[Single Responsibility Principle]] (SRP). Can you provide an example from your current project where this is violated? What lead to this issue?
+- Page 14 mentions the Open Close Principle (OCP).
+- The LSP, OCP and SRP are three of the SOLID Principles. What other principles are part of SOLID?
+- Name one stable and one volatile dependency in your current project
 
 Possible Exercises
-* Extend the HelloWorld Example with a simple FileWriter (without late binding)
-* Expectations towards the book
+- Extend the HelloWorld Example with a simple FileWriter (without late binding)
+- Expectations towards the book
 
 ### Text Week 1:
 
-Hello everyone and welcome to the first week of the bookclub. Great to have you. Let’s embark on our journey with the first chapter of “Dependency Injection”. 
+Hello everyone and welcome to the first week of the bookclub. Great to have you. Let’s embark on our journey with the first chapter of “Dependency Injection”.
 
 This week we are going to read Chapter 1: “The basics of Dependency Injection: What, why and how” (pages 1-34).
 
@@ -265,20 +265,21 @@ Before you start reading, I would like to ask you to share your expectations for
 
 While and after reading this week's chapter it would be great to discuss with you:
 
-* Are you familiar with any of the myths about DI mentioned in the book?
-* The text mentions the SOLID principles. Are you familiar with them and can you list them?
-* The concept of volatile and stable dependencies is introduced. Think about any project you work(ed) on. How would the dependencies be classified and have any dependencies (especially the volatile ones) caused problems for you?
+- Are you familiar with any of the myths about DI mentioned in the book?
+- The text mentions the SOLID principles. Are you familiar with them and can you list them?
+- The concept of volatile and stable dependencies is introduced. Think about any project you work(ed) on. How would the dependencies be classified and have any dependencies (especially the volatile ones) caused problems for you?
 
-## Week 2 (Tightly and loosely coupled code)
+## Week 2 (Tightly and Loosely Coupled code)
 
 Questions
-* What are the issues in the tightly coupled example?
-* How are those issues removed by loose coupling?
-* The tightly coupled example starts with an inside-out approach from the database layer. How would you approach the task inside-out and avoid the issues?
+- What are the issues in the tightly coupled example?
+- How are those issues removed by loose coupling?
+- The tightly coupled example starts with an inside-out approach from the database layer. How would you approach the task inside-out and avoid the issues?
 
 Possible Exercises
-* Follow the two examples in your IDE
-### Text week 2
+- Follow the two examples in your IDE
+
+### Text Week 2
 
 Hello everyone. It is the second week of the bookclub. This week we are going to read chapter 2 and 3 “Writing tightly & loosely coupled code”, which corresponds to pages 34 to 80.
 
@@ -286,18 +287,17 @@ This week’s content is all about examples. I strongly recommend you to open yo
 
 This week I would like to discuss with you:
 
-* There are quite some issues with the tightly coupled code mentioned in the book. Could you find additional ones?
-* Does it make sense to you how those issues are avoided by using loosely coupled code?
-* The tightly coupled example starts with an inside-out approach and it is stated that using an outside-in approach gives quicker feedback. What would you do if you work on this problem with an inside-out approach to get reasonably fast feedback, too?
-
+- There are quite some issues with the tightly coupled code mentioned in the book. Could you find additional ones?
+- Does it make sense to you how those issues are avoided by using loosely coupled code?
+- The tightly coupled example starts with an inside-out approach and it is stated that using an outside-in approach gives quicker feedback. What would you do if you work on this problem with an inside-out approach to get reasonably fast feedback, too?
 
 ## Week 3 (Dependency Injection Patterns)
 
 Questions
 
-* In this Chapter some patterns were introduced: Composition Root, Constructor Injection, Method Injection and Property Injection. Have you used any of those Patterns? 
-* Were they helpful and if not, why?
-* Can you share an example when you used a specific pattern?
+- In this Chapter some patterns were introduced: Composition Root, Constructor Injection, Method Injection and Property Injection. Have you used any of those Patterns?
+- Were they helpful and if not, why?
+- Can you share an example when you used a specific pattern?
 
 ### Text Week 3
 
@@ -307,17 +307,18 @@ After the examples from last week, common DI patterns are introduced, namely “
 
 This week I would like to discuss with you:
 
-* Have you used any of the mentioned patterns already? Can you share an example?
-* Why did you decide to go for that specific pattern?
-* What problem did the respective pattern solve and was it helpful?
+- Have you used any of the mentioned patterns already? Can you share an example?
+- Why did you decide to go for that specific pattern?
+- What problem did the respective pattern solve and was it helpful?
 
 ## Week 4 (Anti Patterns)
 
 Questions:
 
-* The anti patterns described in this section are: Control-Freak, Service Locator, Ambient Context and Constrained Construction
-* Have you noticed any of the anti-patterns in your current or previous project? In which way are/were they harmful?
-* Were you able to refactor or at least mitigate the effects of the anti-pattern? 
+- The anti patterns described in this section are: Control-Freak, Service Locator, Ambient Context and Constrained Construction
+- Have you noticed any of the anti-patterns in your current or previous project? In which way are/were they harmful?
+- Were you able to refactor or at least mitigate the effects of the anti-pattern?
+
 ### Text for Week4
 
 Hello dear members of the book club. We are already in week 4 of the book club. This week we are going to read about DI Anti-Patterns (page 124-163).
@@ -326,35 +327,34 @@ The Anti-Patterns introduced in this week are Control-Freak, Service Locator, Am
 
 I would like to discuss with you:
 
-* Have you noticed any of the anti-patterns in your current or previous project? In which way are/were they harmful?
-* Were you able to refactor or at least mitigate the effects of the anti-pattern? 
-
+- Have you noticed any of the anti-patterns in your current or previous project? In which way are/were they harmful?
+- Were you able to refactor or at least mitigate the effects of the anti-pattern?
 
 ## Week 5 (Code Smells and Application-Design)
 
-* The code smells introduced were Constructor-overinjection, Abstract Factory and Cyclic Dependencies
-* Have you noticed any of the code smells in your current or previous project? Were they harmful or could you live with the code smell?  Were you able to refactor or mitigate the effects of the code smells?
-* There are examples given for application composition. Do you follow the example given in your current or previous project? What is the outcome and effect?
-* One point not mentioned here is the design of middleware or library code. How would you proceed in this case? What smells might originate there?
+- The code smells introduced were Constructor-overinjection, Abstract Factory and Cyclic Dependencies
+- Have you noticed any of the code smells in your current or previous project? Were they harmful or could you live with the code smell? Were you able to refactor or mitigate the effects of the code smells?
+- There are examples given for application composition. Do you follow the example given in your current or previous project? What is the outcome and effect?
+- One point not mentioned here is the design of middleware or library code. How would you proceed in this case? What smells might originate there?
 
-
-### Text week 5
+### Text Week 5
 
 Hi everyone. This week we are going to read about Code Smells and Application design (page 163 236).
 
-The code smells introduced in the book are Constructor-overinjection, Abstract Factory and Cyclic Dependencies. 
+The code smells introduced in the book are Constructor-overinjection, Abstract Factory and Cyclic Dependencies.
 
 I would like to discuss with you:
 
-* Have you noticed any of the code smells in your current or previous project? Were they harmful or could you live with the code smell?  Were you able to refactor or mitigate the effects of the code smells?
-* There are examples given for application composition. Do you follow the example given in your current or previous project? What is the outcome and effect?
-* One point not explicitly mentioned by the book is the design of middleware or library code. How would you proceed in this case? What smells might originate there?
+- Have you noticed any of the code smells in your current or previous project? Were they harmful or could you live with the code smell? Were you able to refactor or mitigate the effects of the code smells?
+- There are examples given for application composition. Do you follow the example given in your current or previous project? What is the outcome and effect?
+- One point not explicitly mentioned by the book is the design of middleware or library code. How would you proceed in this case? What smells might originate there?
 
 ## Week 6 (Object Lifetime and Interception)
 
-* How does the IDisposable idea translate to languages without garbage collection?
-* Table 9.1 lists multiple cross cutting concerns. Do you have similar cross cutting concerns in you project and how did you solve them?
-* In listing 9.7 (interception for security) it is suggested to throw an exception if the user has insufficient rights to perform a certain action. This might be a valid approach in c#, but in c++, exceptions should be exceptional. How would you handle the behavior there?
+- How does the IDisposable idea translate to languages without garbage collection?
+- Table 9.1 lists multiple cross cutting concerns. Do you have similar cross cutting concerns in you project and how did you solve them?
+- In listing 9.7 (interception for security) it is suggested to throw an exception if the user has insufficient rights to perform a certain action. This might be a valid approach in c#, but in c++, exceptions should be exceptional. How would you handle the behavior there?
+
 ### Text Week 6
 
 Hi everyone. This week we are going to read about Object Lifetime and Interception (page 236 - 301).
@@ -363,16 +363,16 @@ The book introduces Dependency lifetime and introduces singleton, transient and 
 
 I would like to discuss the following topics with you
 
-* Have you had to deal with bad lifestyle choices in you project and how did you solve/mitigate them?
-* How does the IDisposable idea translate to languages without garbage collection?
-* Table 9.1 lists multiple cross cutting concerns. Do you have similar cross cutting concerns in you project and how did you solve them?
-* In listing 9.7 (interception for security) it is suggested to throw an exception if the user has insufficient rights to perform a certain action. This is a valid approach in c#, but in other languages, e.g. c++, exceptions should be exceptional. How would you handle the behavior there?
+- Have you had to deal with bad lifestyle choices in you project and how did you solve/mitigate them?
+- How does the IDisposable idea translate to languages without garbage collection?
+- Table 9.1 lists multiple cross cutting concerns. Do you have similar cross cutting concerns in you project and how did you solve them?
+- In listing 9.7 (interception for security) it is suggested to throw an exception if the user has insufficient rights to perform a certain action. This is a valid approach in c#, but in other languages, e.g. c++, exceptions should be exceptional. How would you handle the behavior there?
 
-## Week 7 (Aspect Oriented Programming and Tool based AOP)
+## Week 7 (Aspect Oriented Programming and Tool Based AOP)
 
-Hi everyone, the book club is already entering the last third of its lifetime. This week we will read the chapters about aspect oriented programming (AOP) by design and  tool based aspect oriented programming (pages 301 - 357).
+Hi everyone, the book club is already entering the last third of its lifetime. This week we will read the chapters about aspect oriented programming (AOP) by design and tool based aspect oriented programming (pages 301 - 357).
 
-The chapter starts with an recap of the solid principles and shows how the solid principles enable AOP and can be used to prevent code duplication. Furthermore the command-query-separation is introduced and cross cutting concerns (from last week) are discussed. 
+The chapter starts with an recap of the solid principles and shows how the solid principles enable AOP and can be used to prevent code duplication. Furthermore the command-query-separation is introduced and cross cutting concerns (from last week) are discussed.
 
 When talking about tool based AOP, the advantages and disadvantages are discussed.
 
@@ -380,7 +380,7 @@ My question this week would be if you have used tool based AOP and if so in whic
 
 ## Week 8 (DI Container Intro)
 
-Hi everyone, 
+Hi everyone,
 
 sorry for the vacation-induced late post this week.This week will mark the final chapter that we will read together. It introduces DI Containers (pages 359 - 392).
 

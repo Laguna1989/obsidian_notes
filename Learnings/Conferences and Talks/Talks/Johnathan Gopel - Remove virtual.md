@@ -7,14 +7,17 @@ links: "[[Confrerences and Talks]]"
 created: 2024-05-04
 ---
 # Reference
+
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/gTNJXVmuRRA?si=JMCcGy_Ib2EbbXXM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 # Not about
+
 - `std::vector<std::any>`
 - `std::vector<std::variant>`
 - type erasure
 
-# Binding interfaces
+# Binding Interfaces
+
 ```cpp
 struct FooInterface {
   virtual auto func() const -> int = 0;
@@ -37,6 +40,7 @@ auto func (std::unique_ptr<FooInterface foo2) {
 > [!warning] Rule of five
 
 - pointer use
+
 # Templates/Concepts
 
 ```cpp
@@ -65,9 +69,10 @@ auto func(CFoo auto& foo2) {
 - Here we can use **Rule of zero** instead of **Rule of five**
 - We can bind more loosely (Concepts vs Interfaces) -> Duck Typing
 
+# Owning Polymorphic Types (e.g. for DI)
 
-# Owning polymorphic types (e.g. for DI)
-## with virtual
+## With Virtual
+
 ```cpp
 class Bar {
 public:
@@ -81,8 +86,8 @@ private:
 };
 ```
 
+## Without Virtual
 
-## Without virtual
 ```cpp
 template <typename TFoo>
 class Bar {
@@ -97,8 +102,8 @@ private:
 
 - Type cannot be changed after compilation
 
+## Now with Concepts
 
-## Now with concepts
 ```cpp
 template <CFoo... TFoos>
 class Bar {
@@ -113,21 +118,27 @@ private:
   std::variant<TFoos...> foo{};
 };
 ```
+
 - This will give ugly template errors if the wrong type is provided. `auto` argument just takes everything
 - We want to get the concept error instead.
 - Apply concept constraint to function?
+
 ```cpp
 auto set_foo(CFOO auto input_foo) -> void {foo = input_foo;}
 ```
+
 - -> **No**: Not every type that conforms to `CFoo` might be in the list `TFoos`
 
 - We only want to accept types in `TFoos`
 - Let's write another concept
+
 ```cpp
 template <typename T, typename... Ts>
 concept same_as_any = (... or std::same_as<T, Ts>);
 ```
+
 -> fold over list of types with or, so any T out of ... Ts will work.
+
 ```cpp
 auto set_foo(same_as_any<TFoos...> auto input_foo) -> void { foo = input_foo;}
 
@@ -143,8 +154,8 @@ Bar<Foo1, Foo2> bar{Foo1{}};
 - Not possible for users to expand the list (this is possible with Interfaces)
 - List of types can be stored in `using`
 
+# Storing Multiple Types
 
-# Storing multiple types
 ```cpp
 class Baz {
 public:
@@ -185,7 +196,7 @@ baz.store(Foo2{});
 - there is the overhead of empty vectors for every type in the list that is not used (vtable is one vector, here we have N vectors for N types)
 - ordering within each vector is stable. Ordering is **not** stable between different types
 
-# Downsides of avoiding virtual
+# Downsides of Avoiding Virtual
 
 - Increase translation unit size
   - For interfaces you just need the interface
@@ -195,33 +206,7 @@ baz.store(Foo2{});
 - Increase in compile time
 - May add complexity to your code (vtables are pretty easy to understand and common knowledge)
 
-# Benefits of avoiding virtual
+# Benefits of Avoiding Virtual
 
-- static and virtual is not possible at the same time 
+- static and virtual is not possible at the same time
 - without virtual, finally static can be used
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

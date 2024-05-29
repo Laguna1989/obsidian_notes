@@ -4,7 +4,7 @@ tags:
   - templates
 links: "[[Tools]]"
 ---
-# varargs strip first argument
+# Varargs Strip First Argument
 
 ```
 template <typename ... Args>

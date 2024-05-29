@@ -3,7 +3,7 @@
 - [[OpenGL Debugging]]
 - [[github tricks]]
 - [[pluginval]]
-- [[C++ Concurrency]] 
+- [[C++ Concurrency]]
 - [[valgrind]]
 - [[CLion astyle setup]]
 

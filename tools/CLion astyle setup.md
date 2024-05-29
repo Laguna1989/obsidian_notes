@@ -1,4 +1,5 @@
-# setup process
+# Setup Process
+
 - Settings -> Marketplace -> Install `File Watchers` -> `Apply`
 - Settings -> Tools -> File Watchers -> new rule
   - File Type: C++ files

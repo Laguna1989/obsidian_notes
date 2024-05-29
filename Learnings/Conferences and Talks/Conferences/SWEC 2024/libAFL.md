@@ -3,6 +3,7 @@ tags:
   - rust
   - fuzzing
 ---
+
 aus afl++ entstanden
 - rust library
 - korpus(testcase), target und objectives
@@ -14,7 +15,9 @@ aus afl++ entstanden
 - stages: baut pipeline auf
 - executor: kombiniert input, observer und porgamm (inkl hardware support)
 - ideal: programm direkt über memory parameter fuzzbar
-### beispiel xpdf
+
+# Beispiel Xpdf
+
 - cve von 2019
 - infinite recursion bug
 - fix: recursion limit und fehler schmeissen
@@ -25,11 +28,11 @@ aus afl++ entstanden
 		- -> corpus schreiben
 		- in.-memory corpus contained die pdfs
 	- **findings** on disc corpus contained findings
-	- **observer** greift mittels shared memory auf fuzzingtarget 
+	- **observer** greift mittels shared memory auf fuzzingtarget
 		- time observer (laufzeit)
 		- edge observer (coverage)
 	- **objectives** timeout UND neue code pfade
-	- **monitor**  printed wie viele targets
+	- **monitor** printed wie viele targets
 	- **forkserver** forked für jede execution und startet xpdf und füge datei als cmdl argument hinzu
 	- timeout wert sinnvoll wählen ("wie lange läuft das tool?")
 	- havoc mutator: sehr random, kommt von haus aus mit
@@ -38,5 +41,5 @@ aus afl++ entstanden
 - schneller machen:
 	- multicore
 	- mehr sinnvoller input
-	- kein fork&exec sondern direkt in memory 
+	- kein fork&exec sondern direkt in memory
 	- lto compiler

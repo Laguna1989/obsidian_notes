@@ -196,7 +196,7 @@
     "heading-blank-lines": {
       "enabled": true,
       "bottom": true,
-      "empty-line-after-yaml": true
+      "empty-line-after-yaml": false
     },
     "line-break-at-document-end": {
       "enabled": true
