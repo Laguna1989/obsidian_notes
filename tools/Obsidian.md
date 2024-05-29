@@ -164,3 +164,6 @@ They can also be placed in the properties view.
 ```meta-bind
 INPUT[progressBar(title(Progress), minValue(0), maxValue(100)):Progress]
 ```
+
+# TODO
+- Check out https://github.com/gapmiss/croppie-for-obsidian for cropping images inside obisidian

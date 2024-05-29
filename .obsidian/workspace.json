@@ -32,43 +32,19 @@
             }
           },
           {
-            "id": "1c96ef45faea13cb",
+            "id": "f3af92e2f25a6efb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/C++ 17 Allocators.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "163d5a0bf982ed87",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learnings/Conferences and Talks/Talks/Testing Anti-Patterns.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cbcfd520c51b452b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/2 - creational patterns/2 - Creational Design Patterns.md",
+                "file": "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/1 - Structural Design Patterns.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -136,7 +112,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/2 - creational patterns/2 - Creational Design Patterns.md",
+                "file": "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/1 - Structural Design Patterns.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -185,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/2 - creational patterns/2 - Creational Design Patterns.md",
+                "file": "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/1 - Structural Design Patterns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/2 - creational patterns/2 - Creational Design Patterns.md",
+                "file": "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/1 - Structural Design Patterns.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -225,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/2 - creational patterns/2 - Creational Design Patterns.md"
+                "file": "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/1 - Structural Design Patterns.md"
               }
             }
           },
@@ -254,7 +230,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/2 - creational patterns/2 - Creational Design Patterns.md"
+                "file": "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/1 - Structural Design Patterns.md"
               }
             }
           }
@@ -274,15 +250,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b4017a2eff9594db",
+  "active": "f3af92e2f25a6efb",
   "lastOpenFiles": [
-    "Learnings/Conferences and Talks/Talks/Testing Anti-Patterns.md",
+    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/2 - Creational Design Patterns.md",
+    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/1 - Structural Design Patterns.md",
+    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images/yga_Image_38.png",
+    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images/y0w_Image_12.png",
     "tools/C++ 17 Allocators.md",
-    "tools/Tools.md",
+    "Learnings/Conferences and Talks/Talks/Testing Anti-Patterns.md",
+    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Design Patterns in Modern C++.md",
+    "tools/Obsidian.md",
     "Learnings/Conferences and Talks/Confrerences and Talks.md",
+    "Learnings/books/Book reviews.md",
+    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images/1dK_Image_24.png",
+    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images/QSq_Image_61.png",
+    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images/76z_Image_60.png",
+    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images/zzQ_Image_59.png",
+    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images/F9t_Image_58.png",
+    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images/FUF_Image_57.png",
+    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images/fe6_Image_56.png",
+    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images/CcF_Image_55.png",
+    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images",
+    "tools/Tools.md",
     "tools/SEQLock.md",
     "Learnings/books/Robert Nystrom - Game Programming Patterns.md",
-    "Learnings/books/Book reviews.md",
     "Learnings/books/Scott Young - Ultralearning.md",
     "Learnings/books/Kent Beck - Extreme Programming Explained.md",
     "Learnings/books/Gene Kim - The DevOps Handbook.md",
@@ -297,31 +288,15 @@
     "tools/tools 2.md",
     "Learnings/Conferences and Talks/Talks/Dangerous Optimizations.md",
     "Learnings/Conferences and Talks/Talks/Johnathan Gopel - Remove virtual.md",
-    "tools/Obsidian.md",
     "Learnings/books/Sylvester - Designing Games/Tynan Sylvester - Designing Games.md",
-    "tools/Mermaid Diagrams.md",
     "Tags",
     "Untitled.canvas",
-    "Untitled.md",
-    "Learnings/Conferences and Talks/Talks/Klaus Igelberger - Calling Functions.md",
-    "Learnings/books/Emily Bache - The Coding Dojo Handbook.md",
-    "assets/designing_games_funky_trip_dependencies.png",
-    "assets/designing_games_games.png",
     "Learnings/books/Sylvester - Designing Games",
-    "assets/devops_handbook_the_three_ways.png",
     "Learnings/Conferences and Talks/Talks",
     "Learnings/Conferences and Talks/Conferences",
-    "assets/devops_handbook_value_stream_complex.png",
-    "assets/devops_handbook_value_stream_simple.png",
     "Learings/books",
     "Learings",
-    "assets/2024-01-31_seqlock3.png",
-    "assets/2024-01-31_seqlock2.png",
-    "assets/Pasted image 20240527071129.png",
-    "assets/fibonacci_sphere_code.png",
     "Learnings/books/Williams - Cpp Concurrency In Action",
-    "assets/Pasted image 20240527071925.png",
-    "Learnings/Conferences and Talks",
-    "Learnings/Conferences and Talks/Conferences/SenecaCamp 2023"
+    "Learnings/Conferences and Talks"
   ]
 }

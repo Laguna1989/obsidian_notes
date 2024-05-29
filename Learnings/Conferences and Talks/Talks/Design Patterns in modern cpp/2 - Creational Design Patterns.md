@@ -129,7 +129,7 @@ tags:
 
 - This prohibits “normal” construction
 - Better than the original version
-- This of violates the Single Responsibility Principle as the class now needs to care about all construction possibilities and might blow the class up
+- This of violates the [[Single Responsibility Principle]] as the class now needs to care about all construction possibilities and might blow the class up
 - => Better Separation of Concerns:
 	- Have a separate Factory Class
 ![Enter image alt description](e41_Image_17.png)
