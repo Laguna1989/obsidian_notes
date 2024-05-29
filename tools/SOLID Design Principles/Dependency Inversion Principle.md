@@ -5,26 +5,111 @@ tags:
 ---
 # Dependency Inversion Principle
 
-- General:
+> [!quote] General Idea
+> - High level should not depend on low level. Both should depend on abstractions
+> - Abstractions should not depend on details. Details should depend on Abstractions
 
-- High level should not depend on low level. Both should depend on abstractions
+# Example: Relationships and Persons
 
-- Abstractions should not depend on details. Details should depend on Abstractions
+```cpp
+enum class Relationship
+{
+	parent,
+	child,
+	sibling
+};
+```
 
-- Examples: Relationships and Persons
+Low level modules
 
-![Enter image alt description](Images/pGD_Image_15.png)
+```cpp
+struct Person
+{
+	std::string name;
+};
 
-- Low level modules
+struct Relationships // low level
+{
+	std::vector<std::tuple<Person, Relationship, Person>> relations;
 
-![Enter image alt description](Images/nCl_Image_16.png)
+	void add_parent_and_child(Person const& parent, Person const& child)
+	{
+		relations.push_back({parent, Relationship::parent, child});
+		relations.push_back({child, Relationship::child, parent});
+	}
+};
 
-- High level module: Research
+int main()
+{
+	Person parent{"John"};
+	Person child1{"Chris"};
+	Person child2{"Matt"};
+	Relationships relationships;
+	relationships.add_parent_and_child(parent, child1);
+	relationships.add_parent_and_child(parent, child2);
+}
+```
 
-![Enter image alt description](Images/jXO_Image_17.png)
+High level module: Research
 
-- Introduce a new layer: Relationship Browser as an interface
+```cpp
+struct Research // high level
+{
+	Research(Relationships& relationships)
+	{
+		for(auto&& [first, rel, second] : relationships.relations)
+		{
+			if(first.name == "John" && rel == Relationship::parent)
+				std::cout << "John has a child called " second.name << std::endl;
+		}
+	}
+};
+```
 
-![Enter image alt description](Images/jGF_Image_18.png)
+> [!danger] High level module depends directly on low level module
 
-- Research does now only use the relationship browser interface instead of the actual relationships data
+# Good Solution
+
+Introduce a new layer: `RelationshipBrowser` as an interface
+
+```cpp
+struct RelationshipBrowser
+{
+	virtual std::vector<Person> find_all_children_of(std::string const& name) = 0;
+};
+
+struct Relationships : RelationshipBrowser // low level
+{
+	// as above
+
+	std::vector<Person> find_all_children_of(std::string const& name) override 
+	{
+		std::vector<Person> result;
+		for(auto&& [first, rel, second])
+		{
+			if (first.name == name && rel == Relationship::Parent)
+				result.push_back(second);
+		}
+		return result;
+	}
+};
+```
+
+> [!check] Low level module depends on abstraction (implements)
+
+Rewrite `Research` (high level module) to use `RelationshipBrowser`
+
+```cpp
+struct Research // high level
+{
+	Research(RelationshipBrowser& browser)
+	{
+		for(auto&& child : browser.find_all_children_of("John"))
+		{
+			std::cout << "John has a child called " child.name << std::endl;
+		}
+	}
+};
+```
+
+> [!check] High level module depends on abstraction (uses)

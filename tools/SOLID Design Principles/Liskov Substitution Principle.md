@@ -6,15 +6,58 @@ tags:
 
 > [!quote] Subtypes should be immediately usable for their parent types
 
-- `Rectangle` and `Square` classes
-- Now threre is the `process` function that takes a `Rectangle` and has some internal assumptions
-![Enter image alt description](Images/CP8_Image_9.png)
+`Rectangle` class
 
-- Extend by `Square` class:
-	- This will break the existing functionality
-	- In the code: Not every rectangle is a square ("behaves like")
-- A `Square` does not need (or offer) independent `width` and `height` setters
-![Enter image alt description](Images/tY1_Image_10.png)
+```cpp
+class Rectangle
+{
+protected:
+	int width;
+	int height;
+
+public:
+	Rectangle(int width, int height) : width{width}, height{height} {}
+
+	int getWidth() const { return width; }
+	int getHeight() const { return height; }
+
+	virtual void setWidth(int width) { Rectangle::width = width; }
+	virtual void setHeight(int height) { Rectangle::height = height; }
+
+	int area() const { return width * height; }
+};
+```
+
+Now threre is the `process` function that takes a `Rectangle&` and has some internal assumptions
+
+```cpp
+void process(Rectangle& r)
+{
+	int w = r.getWidth();
+	r.setHeight(10);
+
+	std::cout << "expected area: " << w*10 << "\n";
+	std::cout << "resulting area: " << r.area() << "\n";
+}
+```
+
+Extend `Rectangle` by `Square` class
+
+```cpp
+class Square : public Rectangle
+{
+public:
+	Square(int size) : Rectangle{size, size} {}
+
+	void setWidth(int width) override { this->width = this->height = width; }
+	void setHeight(int height) override { this->width = this->height = height; }
+};
+```
+
+> [!danger] This will break existing functionality in `process()`
+> Not every `Rectangle` implementation behaves like a `Rectangle`
+
+A `Square` does not need (or offer) independent `width` and `height` setters
 
 > [!quote] If there is a base class, every derived class has to be fully substitutable for the base class.
 

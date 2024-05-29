@@ -75,7 +75,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/SOLID Design Principles/Liskov Substitution Principle.md",
+                "file": "tools/SOLID Design Principles/Dependency Inversion Principle.md",
                 "mode": "source",
                 "source": false
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "tools/SOLID Design Principles/Liskov Substitution Principle.md",
+                "file": "tools/SOLID Design Principles/Dependency Inversion Principle.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -199,7 +199,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/SOLID Design Principles/Liskov Substitution Principle.md",
+                "file": "tools/SOLID Design Principles/Dependency Inversion Principle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -216,7 +216,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/SOLID Design Principles/Liskov Substitution Principle.md",
+                "file": "tools/SOLID Design Principles/Dependency Inversion Principle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -239,7 +239,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/SOLID Design Principles/Liskov Substitution Principle.md"
+                "file": "tools/SOLID Design Principles/Dependency Inversion Principle.md"
               }
             }
           },
@@ -268,7 +268,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "tools/SOLID Design Principles/Liskov Substitution Principle.md"
+                "file": "tools/SOLID Design Principles/Dependency Inversion Principle.md"
               }
             }
           }
@@ -290,6 +290,8 @@
   },
   "active": "ce094ab0fead0660",
   "lastOpenFiles": [
+    "tools/SOLID Design Principles/Interface Segregation Principle.md",
+    "tools/SOLID Design Principles/Liskov Substitution Principle.md",
     "tools/SOLID Design Principles/Open Close Principle.md",
     "tools/SOLID Design Principles/Single Responsibility Principle.md",
     "tools/Obsidian.md",
@@ -326,8 +328,6 @@
     "Learnings/books/Robert C Martin - Agile Software Development/1 - Agile Practices.md",
     "Learnings/books/Sylvester - Designing Games/Tynan Sylvester - Designing Games.md",
     "Learnings/books/Sylvester - Designing Games/20 - Endgame.md",
-    "Learnings/books/Sylvester - Designing Games/19 - Values.md",
-    "Learnings/books/Sylvester - Designing Games/18 - Complex Decisions.md",
     "tools/SOLID Design Principles",
     "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images",
     "Learnings/books/Robert C Martin - Agile Software Development",
