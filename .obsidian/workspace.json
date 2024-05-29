@@ -32,57 +32,21 @@
             }
           },
           {
-            "id": "da7c493425a93cab",
+            "id": "ce094ab0fead0660",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learnings/books/Skelton, Pais - Team Topologies/Skelton, Pais - Team Topologies.md",
+                "file": "Learnings/books/Mik Kersten - Project To Product.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true
             }
-          },
-          {
-            "id": "de2d7a477a4cdf3c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learnings/books/Skelton, Pais - Team Topologies/1 - The Problem with Org Charts.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e246a4b27843259c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tools/SOLID Design Principles/Single Responsibility Principle.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ce094ab0fead0660",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tools/SOLID Design Principles/Dependency Inversion Principle.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -150,7 +114,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "tools/SOLID Design Principles/Dependency Inversion Principle.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -199,7 +162,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/SOLID Design Principles/Dependency Inversion Principle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -216,7 +178,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/SOLID Design Principles/Dependency Inversion Principle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -238,9 +199,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "tools/SOLID Design Principles/Dependency Inversion Principle.md"
-              }
+              "state": {}
             }
           },
           {
@@ -267,9 +226,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "tools/SOLID Design Principles/Dependency Inversion Principle.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -288,14 +245,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ce094ab0fead0660",
+  "active": "af3588c6e50fc0f4",
   "lastOpenFiles": [
+    "Learnings/books/Book reviews.md",
+    "Learnings/books/Mik Kersten - Project To Product.md",
+    "assets/project2prodct_businessresults.png",
+    "assets/project2product_FlowTime.png",
+    "assets/Pasted image 20240529231353.png",
+    "assets/project2product_theFourFlowItems.png",
+    "assets/project2product_management2.png",
+    "assets/project2product_management1.png",
+    "assets/project2product_different_ages.png",
+    "assets/project2product_installationToDeployment.png",
+    "tools/SOLID Design Principles/Dependency Inversion Principle.md",
     "tools/SOLID Design Principles/Interface Segregation Principle.md",
     "tools/SOLID Design Principles/Liskov Substitution Principle.md",
     "tools/SOLID Design Principles/Open Close Principle.md",
     "tools/SOLID Design Principles/Single Responsibility Principle.md",
     "tools/Obsidian.md",
-    "Learnings/books/Book reviews.md",
     "tools/SOLID Design Principles/SOLID Design Principles.md",
     "Learnings/books/Skelton, Pais - Team Topologies/1 - The Problem with Org Charts.md",
     "Learnings/books/Skelton, Pais - Team Topologies/2 - Conway’s Law and why it Matters.md",
@@ -310,24 +277,13 @@
     "Learnings/books/Skelton, Pais - Team Topologies/9 - The Next-generation Digital Operating Model.md",
     "Learnings/books/Skelton, Pais - Team Topologies/assets/stream_aligned_team_feedback.png",
     "Learnings/books/Skelton, Pais - Team Topologies/assets/org1.png",
-    "Learnings/books/Skelton, Pais - Team Topologies/assets/arch2.png",
-    "Learnings/books/Skelton, Pais - Team Topologies/assets/arch1.png",
-    "Learnings/books/Skelton, Pais - Team Topologies/assets/scaling_teams_using_dunbars_number.png",
     "Learnings/books/Skelton, Pais - Team Topologies/assets",
-    "Learnings/books/Skelton, Pais - Team Topologies/assets/eng_maturity_vs_org_size.png",
-    "Learnings/books/Skelton, Pais - Team Topologies/assets/only_one_complex_domain_per_team.png",
-    "Learnings/books/Skelton, Pais - Team Topologies/assets/org_chart.png",
-    "assets/Pasted image 20240527071925.png",
-    "Learnings/books/Skelton, Pais - Team Topologies/assets/org2.png",
     "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/1 - Structural Design Patterns.md",
     "Learnings/books/Mark Seeman - Dependency Injection.md",
     "Learnings/books/Skelton, Pais - Team Topologies",
     "ai_trickery/stable-diffusion upscale.md",
     "Gaming/Elden Ring.md",
     "Learnings/books/Robert C Martin - Agile Software Development/2 - Agile Design.md",
-    "Learnings/books/Robert C Martin - Agile Software Development/1 - Agile Practices.md",
-    "Learnings/books/Sylvester - Designing Games/Tynan Sylvester - Designing Games.md",
-    "Learnings/books/Sylvester - Designing Games/20 - Endgame.md",
     "tools/SOLID Design Principles",
     "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images",
     "Learnings/books/Robert C Martin - Agile Software Development",
