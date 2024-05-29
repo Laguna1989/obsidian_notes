@@ -209,7 +209,7 @@ INPUT[progressBar(title(Progress), minValue(0), maxValue(100)):Progress]
 
 # Linter
 
-There is an awesome linter plugin that auto-formats notes.
+There is an awesome [linter plugin](https://github.com/platers/obsidian-linter) that auto-formats notes.
 
 # TODO
 

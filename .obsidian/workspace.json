@@ -32,103 +32,33 @@
             }
           },
           {
-            "id": "f3af92e2f25a6efb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/1 - Structural Design Patterns.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b62c14b6837052d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learnings/books/Mark Seeman - Dependency Injection.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4d4421a39dbcec87",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learnings/books/Mark Seeman - Dependency Injection.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f8ff80c46f9bdc67",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learnings/books/Robert Nystrom - Game Programming Patterns.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "81b7733500886258",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/0 - Intro.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3e1eeee18e82c405",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tools/SOLID Design Principles/SOLID Design Principles.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "02e7099a8e0fa645",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Design Patterns in modern cpp.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "da7c493425a93cab",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/Obsidian.md",
+                "file": "Learnings/books/Skelton, Pais - Team Topologies/Skelton, Pais - Team Topologies.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "de2d7a477a4cdf3c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learnings/books/Skelton, Pais - Team Topologies/1 - The Problem with Org Charts.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -158,7 +88,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "SOLID",
+                "query": "dunbar",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -196,7 +126,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "tools/Obsidian.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -245,7 +174,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/Obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -262,7 +190,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/Obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -284,9 +211,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "tools/Obsidian.md"
-              }
+              "state": {}
             }
           },
           {
@@ -313,9 +238,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "tools/Obsidian.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -334,8 +257,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "da7c493425a93cab",
+  "active": "af3588c6e50fc0f4",
   "lastOpenFiles": [
+    "Learnings/books/Book reviews.md",
+    "Learnings/books/Skelton, Pais - Team Topologies/1 - The Problem with Org Charts.md",
+    "Learnings/books/Skelton, Pais - Team Topologies/2 - Conway’s Law and why it Matters.md",
+    "Learnings/books/Skelton, Pais - Team Topologies/3 - Team-first Thinking.md",
+    "Learnings/books/Skelton, Pais - Team Topologies/4 - Static Team Topologies.md",
+    "Learnings/books/Skelton, Pais - Team Topologies/6 - Choose Team-first Boundaries.md",
+    "Learnings/books/Skelton, Pais - Team Topologies/Skelton, Pais - Team Topologies.md",
+    "Learnings/books/Gene Kim - The DevOps Handbook.md",
+    "Learnings/books/Skelton, Pais - Team Topologies/6 - The Four Fundamental Team Topologies.md",
+    "tools/Obsidian.md",
+    "Learnings/books/Skelton, Pais - Team Topologies/7 - Team Interaction Modes.md",
+    "Learnings/books/Skelton, Pais - Team Topologies/8 - Evolve Team Structures with Organizational Sensing.md",
+    "Learnings/books/Skelton, Pais - Team Topologies/9 - The Next-generation Digital Operating Model.md",
+    "Learnings/books/Skelton, Pais - Team Topologies/assets/stream_aligned_team_feedback.png",
+    "Learnings/books/Skelton, Pais - Team Topologies/assets/org1.png",
+    "Learnings/books/Skelton, Pais - Team Topologies/assets/arch2.png",
+    "Learnings/books/Skelton, Pais - Team Topologies/assets/arch1.png",
+    "Learnings/books/Skelton, Pais - Team Topologies/assets/scaling_teams_using_dunbars_number.png",
+    "Learnings/books/Skelton, Pais - Team Topologies/assets",
+    "Learnings/books/Skelton, Pais - Team Topologies/assets/eng_maturity_vs_org_size.png",
+    "Learnings/books/Skelton, Pais - Team Topologies/assets/only_one_complex_domain_per_team.png",
+    "Learnings/books/Skelton, Pais - Team Topologies/assets/org_chart.png",
+    "assets/Pasted image 20240527071925.png",
+    "Learnings/books/Skelton, Pais - Team Topologies/assets/org2.png",
+    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/1 - Structural Design Patterns.md",
+    "Learnings/books/Mark Seeman - Dependency Injection.md",
+    "Learnings/books/Skelton, Pais - Team Topologies",
     "ai_trickery/stable-diffusion upscale.md",
     "Gaming/Elden Ring.md",
     "Learnings/books/Robert C Martin - Agile Software Development/2 - Agile Design.md",
@@ -347,32 +297,7 @@
     "Learnings/books/Sylvester - Designing Games/17 - Motivation.md",
     "Learnings/books/Sylvester - Designing Games/16 - Authority.md",
     "Learnings/books/Sylvester - Designing Games/15 - Dependencies.md",
-    "Learnings/books/Sylvester - Designing Games/14 - Knowledge Creation.md",
-    "Learnings/books/Sylvester - Designing Games/13 - Planning and Iteration.md",
-    "Learnings/books/Sylvester - Designing Games/12 - Process.md",
-    "Learnings/books/Sylvester - Designing Games/11 - The Market.md",
-    "Learnings/books/Sylvester - Designing Games/10 - Interface.md",
-    "Learnings/books/Sylvester - Designing Games/09 - Motivation and Fulfillment.md",
-    "Learnings/books/Sylvester - Designing Games/08 - Multiplayer.md",
-    "Learnings/books/Sylvester - Designing Games/07 - Balancing.md",
-    "Learnings/books/Sylvester - Designing Games/06 - Decisions.md",
-    "Learnings/books/Sylvester - Designing Games/05 - Narrative.md",
-    "Learnings/books/Sylvester - Designing Games/04 - Skill.md",
-    "Learnings/books/Sylvester - Designing Games/03 - Elegance.md",
-    "Learnings/books/Sylvester - Designing Games/02 - Game Crafting.md",
-    "Learnings/books/Sylvester - Designing Games/01 - Engines of Experiences.md",
-    "Learnings/books/Williams - Cpp Concurrency In Action/1 - Multithreading Hello World.md",
-    "assets/true_price_of_virtual_functions_vtables.png",
     "tools/SOLID Design Principles",
-    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images/jGF_Image_18.png",
-    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images/jXO_Image_17.png",
-    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images/nCl_Image_16.png",
-    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images/pGD_Image_15.png",
-    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images/aM1_Image_14.png",
-    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images/tqJ_Image_13.png",
-    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images/xBR_Image_12.png",
-    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images/nTT_Image_11.png",
-    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images/tY1_Image_10.png",
     "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images",
     "Learnings/books/Robert C Martin - Agile Software Development",
     "Tags",
@@ -380,8 +305,6 @@
     "Learnings/books/Sylvester - Designing Games",
     "Learnings/Conferences and Talks/Talks",
     "Learnings/Conferences and Talks/Conferences",
-    "Learings/books",
-    "Learings",
-    "Learnings/books/Williams - Cpp Concurrency In Action"
+    "Learings/books"
   ]
 }
