@@ -42,9 +42,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "163d5a0bf982ed87",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learnings/Conferences and Talks/Talks/Testing Anti-Patterns.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cbcfd520c51b452b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/2 - creational patterns/2 - Creational Design Patterns.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -112,7 +136,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "tools/C++ 17 Allocators.md",
+                "file": "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/2 - creational patterns/2 - Creational Design Patterns.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -161,7 +185,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/C++ 17 Allocators.md",
+                "file": "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/2 - creational patterns/2 - Creational Design Patterns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +202,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/C++ 17 Allocators.md",
+                "file": "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/2 - creational patterns/2 - Creational Design Patterns.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,7 +225,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/C++ 17 Allocators.md"
+                "file": "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/2 - creational patterns/2 - Creational Design Patterns.md"
               }
             }
           },
@@ -230,7 +254,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "tools/C++ 17 Allocators.md"
+                "file": "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/2 - creational patterns/2 - Creational Design Patterns.md"
               }
             }
           }
@@ -250,10 +274,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3cd0a2744153ccd1",
+  "active": "b4017a2eff9594db",
   "lastOpenFiles": [
-    "tools/Tools.md",
+    "Learnings/Conferences and Talks/Talks/Testing Anti-Patterns.md",
     "tools/C++ 17 Allocators.md",
+    "tools/Tools.md",
     "Learnings/Conferences and Talks/Confrerences and Talks.md",
     "tools/SEQLock.md",
     "Learnings/books/Robert Nystrom - Game Programming Patterns.md",
@@ -280,7 +305,6 @@
     "Untitled.md",
     "Learnings/Conferences and Talks/Talks/Klaus Igelberger - Calling Functions.md",
     "Learnings/books/Emily Bache - The Coding Dojo Handbook.md",
-    "Learnings/books/Robert C Martin - The Clean Coder.md",
     "assets/designing_games_funky_trip_dependencies.png",
     "assets/designing_games_games.png",
     "Learnings/books/Sylvester - Designing Games",
