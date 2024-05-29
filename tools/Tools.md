@@ -7,7 +7,6 @@
 - [[valgrind]]
 - [[CLion astyle setup]]
 
-
 ```dataview
 Table 
 	created AS Date

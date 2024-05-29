@@ -42,9 +42,93 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b62c14b6837052d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learnings/books/Mark Seeman - Dependency Injection.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4d4421a39dbcec87",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learnings/books/Mark Seeman - Dependency Injection.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f8ff80c46f9bdc67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learnings/books/Robert Nystrom - Game Programming Patterns.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "81b7733500886258",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/0 - Intro.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3e1eeee18e82c405",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tools/SOLID Design Principles/SOLID Design Principles.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "02e7099a8e0fa645",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Design Patterns in modern cpp.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "da7c493425a93cab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learnings/Conferences and Talks/Talks/Johny Swalb - The true price of virtual functions in c++.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -74,7 +158,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ultralea",
+                "query": "SOLID",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -112,7 +196,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/1 - Structural Design Patterns.md",
+                "file": "Learnings/Conferences and Talks/Talks/Johny Swalb - The true price of virtual functions in c++.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -161,7 +245,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/1 - Structural Design Patterns.md",
+                "file": "Learnings/Conferences and Talks/Talks/Johny Swalb - The true price of virtual functions in c++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +262,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/1 - Structural Design Patterns.md",
+                "file": "Learnings/Conferences and Talks/Talks/Johny Swalb - The true price of virtual functions in c++.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,7 +285,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/1 - Structural Design Patterns.md"
+                "file": "Learnings/Conferences and Talks/Talks/Johny Swalb - The true price of virtual functions in c++.md"
               }
             }
           },
@@ -230,7 +314,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/1 - Structural Design Patterns.md"
+                "file": "Learnings/Conferences and Talks/Talks/Johny Swalb - The true price of virtual functions in c++.md"
               }
             }
           }
@@ -238,7 +322,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 421.5
+    "width": 421.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -250,45 +335,46 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f3af92e2f25a6efb",
+  "active": "da7c493425a93cab",
   "lastOpenFiles": [
-    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/2 - Creational Design Patterns.md",
+    "assets/true_price_of_virtual_functions_vtables.png",
+    "Learnings/Conferences and Talks/Talks/Johny Swalb - The true price of virtual functions in c++.md",
+    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Design Patterns in modern cpp.md",
+    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/0 - Intro.md",
+    "tools/SOLID Design Principles/SOLID Design Principles.md",
+    "tools/SOLID Design Principles/Interface Segregation Principle.md",
+    "tools/SOLID Design Principles/Liskov Substitution Principle.md",
+    "tools/SOLID Design Principles/Open Close Principle.md",
+    "tools/SOLID Design Principles/Single Responsibility Principle.md",
+    "tools/SOLID Design Principles/Dependency Inversion Principle.md",
+    "Learnings/books/Book reviews.md",
+    "tools/Tools.md",
     "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/1 - Structural Design Patterns.md",
-    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images/yga_Image_38.png",
-    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images/y0w_Image_12.png",
+    "tools/SOLID Design Principles",
+    "tools/Google docs - Markdown export.md",
+    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images/jGF_Image_18.png",
+    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images/jXO_Image_17.png",
+    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images/nCl_Image_16.png",
+    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images/pGD_Image_15.png",
+    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images/aM1_Image_14.png",
+    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images/tqJ_Image_13.png",
+    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images/xBR_Image_12.png",
+    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images/nTT_Image_11.png",
+    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images/tY1_Image_10.png",
+    "Learnings/Conferences and Talks/Confrerences and Talks.md",
+    "Learnings/books/Robert Nystrom - Game Programming Patterns.md",
+    "Learnings/books/Mark Seeman - Dependency Injection.md",
+    "plantuml.md",
+    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/2 - Creational Design Patterns.md",
+    "Learnings/books/Robert C Martin - Agile Software Development/2 - Agile Design.md",
     "tools/C++ 17 Allocators.md",
     "Learnings/Conferences and Talks/Talks/Testing Anti-Patterns.md",
-    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Design Patterns in Modern C++.md",
     "tools/Obsidian.md",
-    "Learnings/Conferences and Talks/Confrerences and Talks.md",
-    "Learnings/books/Book reviews.md",
-    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images/1dK_Image_24.png",
-    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images/QSq_Image_61.png",
-    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images/76z_Image_60.png",
-    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images/zzQ_Image_59.png",
-    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images/F9t_Image_58.png",
-    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images/FUF_Image_57.png",
-    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images/fe6_Image_56.png",
-    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images/CcF_Image_55.png",
     "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images",
-    "tools/Tools.md",
     "tools/SEQLock.md",
-    "Learnings/books/Robert Nystrom - Game Programming Patterns.md",
     "Learnings/books/Scott Young - Ultralearning.md",
     "Learnings/books/Kent Beck - Extreme Programming Explained.md",
-    "Learnings/books/Gene Kim - The DevOps Handbook.md",
-    "Learnings/books/Mark Seeman - Dependency Injection.md",
-    "Learnings/books/Mark Seeman - \"Code that fits in your head\".md",
-    "Learnings/books/Robert C Martin - Agile Software Development/Robert C Martin - Agile Software Development.md",
-    "Learnings/books/Robert C Martin - Agile Software Development/2 - Agile Design.md",
-    "Learnings/books/Robert C Martin - Agile Software Development/1 - Agile Practices.md",
     "Learnings/books/Robert C Martin - Agile Software Development",
-    "Learnings/Conferences and Talks/Talks/Marc Gregoire - An Almost complete overview of cpp20.md",
-    "tools/tools 1.md",
-    "tools/tools 2.md",
-    "Learnings/Conferences and Talks/Talks/Dangerous Optimizations.md",
-    "Learnings/Conferences and Talks/Talks/Johnathan Gopel - Remove virtual.md",
-    "Learnings/books/Sylvester - Designing Games/Tynan Sylvester - Designing Games.md",
     "Tags",
     "Untitled.canvas",
     "Learnings/books/Sylvester - Designing Games",
@@ -296,7 +382,6 @@
     "Learnings/Conferences and Talks/Conferences",
     "Learings/books",
     "Learings",
-    "Learnings/books/Williams - Cpp Concurrency In Action",
-    "Learnings/Conferences and Talks"
+    "Learnings/books/Williams - Cpp Concurrency In Action"
   ]
 }

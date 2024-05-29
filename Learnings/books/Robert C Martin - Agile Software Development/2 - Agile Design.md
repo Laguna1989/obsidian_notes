@@ -14,10 +14,7 @@
 * Why does software rot?
     * requirements change in ways that the initial design did not anticipate.
 
-Single Responsibility Principle
-
-
-
+[[Single Responsibility Principle]]
 * Also known as cohesion
 * A Class should have only one reason to Change
 * A Responsibility is defined as a reason to Change

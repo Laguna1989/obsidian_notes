@@ -246,7 +246,7 @@ Questions
 
 * What are myths that you have heard about when talking about DI?
 * Page 11 mentions the Liskov Substitution Principle (LSP). Can you give an example from your current project where the LSP is used?
-* Page 11 mentions the Single Responsibility principle (SRP). Can you provide an example from your current project where this is violated? What lead to this issue?
+* Page 11 mentions the [[Single Responsibility Principle]] (SRP). Can you provide an example from your current project where this is violated? What lead to this issue?
 * Page 14 mentions the Open Close Principle (OCP). 
 * The LSP, OCP and SRP are three of the SOLID Principles. What other principles are part of SOLID?
 * Name one stable and one volatile dependency in your current project
