@@ -207,6 +207,10 @@ INPUT[progressBar(title(Progress), minValue(0), maxValue(100)):Progress]
 - Available on the right side via backlinks
 - Also available at the bottom of each document via `ctrl + p` -> `toggle backlinks in document`
 
+# Linter
+
+There is an awesome linter plugin that auto-formats notes.
+
 # TODO
 
 - Check out <https://github.com/gapmiss/croppie-for-obsidian> for cropping images inside obisidian

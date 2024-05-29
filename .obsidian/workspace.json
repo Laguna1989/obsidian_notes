@@ -121,7 +121,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ai_trickery/stable-diffusion upscale.md",
+                "file": "tools/Obsidian.md",
                 "mode": "source",
                 "source": false
               }
@@ -196,7 +196,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "ai_trickery/stable-diffusion upscale.md",
+                "file": "tools/Obsidian.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -245,7 +245,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ai_trickery/stable-diffusion upscale.md",
+                "file": "tools/Obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -262,7 +262,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ai_trickery/stable-diffusion upscale.md",
+                "file": "tools/Obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -285,7 +285,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ai_trickery/stable-diffusion upscale.md"
+                "file": "tools/Obsidian.md"
               }
             }
           },
@@ -314,7 +314,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "ai_trickery/stable-diffusion upscale.md"
+                "file": "tools/Obsidian.md"
               }
             }
           }
@@ -336,6 +336,7 @@
   },
   "active": "da7c493425a93cab",
   "lastOpenFiles": [
+    "ai_trickery/stable-diffusion upscale.md",
     "Gaming/Elden Ring.md",
     "Learnings/books/Robert C Martin - Agile Software Development/2 - Agile Design.md",
     "Learnings/books/Robert C Martin - Agile Software Development/1 - Agile Practices.md",
@@ -361,7 +362,6 @@
     "Learnings/books/Sylvester - Designing Games/02 - Game Crafting.md",
     "Learnings/books/Sylvester - Designing Games/01 - Engines of Experiences.md",
     "Learnings/books/Williams - Cpp Concurrency In Action/1 - Multithreading Hello World.md",
-    "Learnings/books/Williams - Cpp Concurrency In Action/3 - Sharing Data.md",
     "assets/true_price_of_virtual_functions_vtables.png",
     "tools/SOLID Design Principles",
     "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images/jGF_Image_18.png",
