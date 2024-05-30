@@ -1,5 +1,5 @@
 ---
-Progress: 30
+Progress: 51
 tags:
   - tag
   - tool
@@ -42,6 +42,8 @@ date1: 2024-05-30
 
 # Numerals
 
+> [!danger] Can result in quite some startup time
+
 Plugin that allows to do math
 
 ```math
@@ -55,7 +57,7 @@ full_price = lemons * price
 
 ## Images
 
-### Width
+### Image Width
 
 Use a pipe `|<width>` in the image square brackets to define the width (for consistency)
 ![|500](https://picsum.photos/536/354)
@@ -75,7 +77,6 @@ Use a pipe `|<width>x<height>`in the image square brackets. This will squash the
 ## Dividers
 
 Dividers can be added via `***`in a single line, e.g.
-
 ***
 
 Many other symbols can be used, e.g.
@@ -138,6 +139,8 @@ They can also be placed in the properties view.
 
 # Meta Bind
 
+> [!danger] Can result in quite some loading time.
+
 [Github page](https://github.com/mProjectsCode/obsidian-meta-bind-plugin)
 [TTRPG explanation video](https://www.youtube.com/watch?v=iAYS0254a7I)
 
@@ -165,6 +168,19 @@ INPUT[progressBar(title(Progress), minValue(0), maxValue(100)):Progress]
 # Linter
 
 There is an awesome [linter plugin](https://github.com/platers/obsidian-linter) that auto-formats notes.
+
+# Non Linking Links
+
+- `ctrl + p`-> `Copy Obsidian URL`
+- create a link
+
+```
+[Link Text](Obsidian URL)
+```
+
+# CSS Folder
+
+`Settings` -> `Appearance`->`CSS Snippets`
 
 # TODO
 

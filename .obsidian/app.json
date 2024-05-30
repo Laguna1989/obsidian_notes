@@ -2,5 +2,12 @@
   "attachmentFolderPath": "assets",
   "alwaysUpdateLinks": true,
   "spellcheck": false,
-  "propertiesInDocument": "hidden"
+  "propertiesInDocument": "hidden",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Tabloid",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }

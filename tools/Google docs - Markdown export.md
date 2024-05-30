@@ -1,3 +1,7 @@
+---
+tags:
+  - tool
+---
 To export google doc files there are two extensions available
 
 # Docs To Markdown

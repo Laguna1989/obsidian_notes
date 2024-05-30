@@ -1,11 +1,10 @@
 [
   "emoji-shortcodes",
   "obsidian-plugin-toc",
-  "obsidian-meta-bind-plugin",
   "obsidian-style-settings",
   "beautitab",
   "dataview",
-  "numerals",
   "settings-search",
-  "obsidian-linter"
+  "obsidian-linter",
+  "attachment-management"
 ]

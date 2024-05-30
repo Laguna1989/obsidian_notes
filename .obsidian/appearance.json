@@ -1,5 +1,9 @@
 {
   "accentColor": "",
   "theme": "obsidian",
-  "cssTheme": "Border"
+  "cssTheme": "Border",
+  "enabledCssSnippets": [
+    "Minecraft",
+    "img-grids-floats"
+  ]
 }

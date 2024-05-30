@@ -3,6 +3,7 @@ tags:
   - tool
   - cpp
   - testing
+links: "[[Tools]]"
 ---
 
 - Modern c++14 testing framework
