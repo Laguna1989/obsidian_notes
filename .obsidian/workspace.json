@@ -44,9 +44,68 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "ab455f218b0fd1e2",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "assets/Pasted image 20240527070854.png"
+              }
+            }
+          },
+          {
+            "id": "398ba5bc73642630",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tools/SOLID Design Principles/Open Close Principle.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c909208119072511",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/0 - Design Patterns Intro.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "552ab0807bb14a20",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learnings/books/Robert C Martin - Agile Software Development/1 - Agile Practices.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2238f24b0ae5c375",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learnings/Conferences and Talks/Talks/Dangerous Optimizations.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -76,7 +135,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dunbar",
+                "query": "obsidian",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,6 +173,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Learnings/Conferences and Talks/Talks/Dangerous Optimizations.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -162,6 +222,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Learnings/Conferences and Talks/Talks/Dangerous Optimizations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,6 +239,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Learnings/Conferences and Talks/Talks/Dangerous Optimizations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +261,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Learnings/Conferences and Talks/Talks/Dangerous Optimizations.md"
+              }
             }
           },
           {
@@ -226,7 +290,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "Learnings/Conferences and Talks/Talks/Dangerous Optimizations.md"
+              }
             }
           }
         ]
@@ -245,9 +311,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "af3588c6e50fc0f4",
+  "active": "2238f24b0ae5c375",
   "lastOpenFiles": [
+    "Learnings/Learnlist.md",
+    "tools/Obsidian/Obsidian.md",
+    "tools/Obsidian/Hotkeys.md",
+    "tools/Obsidian/Callouts.md",
+    "tools/Obsidian/Untitled.md",
+    "tools/Obsidian",
     "Learnings/books/Book reviews.md",
+    "Learnings/books/Williams - Cpp Concurrency In Action/Williams - Cpp Concurrency In Action.md",
+    "Learnings/books/Mark Seeman - \"Code that fits in your head\".md",
+    "Learnings/books/Sylvester - Designing Games/Tynan Sylvester - Designing Games.md",
+    "Learnings/books/Skelton, Pais - Team Topologies/Skelton, Pais - Team Topologies.md",
+    "Learnings/books/Robert C Martin - Agile Software Development/Robert C Martin - Agile Software Development.md",
+    "Learnings/books/Robert C Martin - Agile Software Development/1 - Agile Practices.md",
+    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/0 - Design Patterns Intro.md",
+    "tools/SOLID Design Principles/Open Close Principle.md",
+    "specification.md",
+    "assets/Pasted image 20240527070854.png",
     "Learnings/books/Mik Kersten - Project To Product.md",
     "assets/project2prodct_businessresults.png",
     "assets/project2product_FlowTime.png",
@@ -260,30 +342,16 @@
     "tools/SOLID Design Principles/Dependency Inversion Principle.md",
     "tools/SOLID Design Principles/Interface Segregation Principle.md",
     "tools/SOLID Design Principles/Liskov Substitution Principle.md",
-    "tools/SOLID Design Principles/Open Close Principle.md",
     "tools/SOLID Design Principles/Single Responsibility Principle.md",
-    "tools/Obsidian.md",
     "tools/SOLID Design Principles/SOLID Design Principles.md",
     "Learnings/books/Skelton, Pais - Team Topologies/1 - The Problem with Org Charts.md",
     "Learnings/books/Skelton, Pais - Team Topologies/2 - Conway’s Law and why it Matters.md",
     "Learnings/books/Skelton, Pais - Team Topologies/3 - Team-first Thinking.md",
     "Learnings/books/Skelton, Pais - Team Topologies/4 - Static Team Topologies.md",
     "Learnings/books/Skelton, Pais - Team Topologies/6 - Choose Team-first Boundaries.md",
-    "Learnings/books/Skelton, Pais - Team Topologies/Skelton, Pais - Team Topologies.md",
-    "Learnings/books/Gene Kim - The DevOps Handbook.md",
-    "Learnings/books/Skelton, Pais - Team Topologies/6 - The Four Fundamental Team Topologies.md",
-    "Learnings/books/Skelton, Pais - Team Topologies/7 - Team Interaction Modes.md",
-    "Learnings/books/Skelton, Pais - Team Topologies/8 - Evolve Team Structures with Organizational Sensing.md",
-    "Learnings/books/Skelton, Pais - Team Topologies/9 - The Next-generation Digital Operating Model.md",
     "Learnings/books/Skelton, Pais - Team Topologies/assets/stream_aligned_team_feedback.png",
-    "Learnings/books/Skelton, Pais - Team Topologies/assets/org1.png",
     "Learnings/books/Skelton, Pais - Team Topologies/assets",
-    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/1 - Structural Design Patterns.md",
-    "Learnings/books/Mark Seeman - Dependency Injection.md",
     "Learnings/books/Skelton, Pais - Team Topologies",
-    "ai_trickery/stable-diffusion upscale.md",
-    "Gaming/Elden Ring.md",
-    "Learnings/books/Robert C Martin - Agile Software Development/2 - Agile Design.md",
     "tools/SOLID Design Principles",
     "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images",
     "Learnings/books/Robert C Martin - Agile Software Development",
@@ -291,7 +359,6 @@
     "Untitled.canvas",
     "Learnings/books/Sylvester - Designing Games",
     "Learnings/Conferences and Talks/Talks",
-    "Learnings/Conferences and Talks/Conferences",
-    "Learings/books"
+    "Learnings/Conferences and Talks/Conferences"
   ]
 }

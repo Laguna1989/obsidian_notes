@@ -9,6 +9,6 @@ links: "[[Confrerences and Talks]]"
 
 Based on [udemy course](https://www.udemy.com/course/patterns-cplusplus/)
 
-[[0 - Intro]]
+[[0 - Design Patterns Intro]]
 [[1 - Structural Design Patterns]]
 [[2 - Creational Design Patterns]]

@@ -3,26 +3,15 @@ Progress: 30
 tags:
   - tag
   - tool
+  - obsidian
 links: "[[Tools]]"
+date1: 2024-05-30
 ---
 # Local Graph
 
 - shows only the connections going out from the currently opened tab
 - can be linked in the sidebar
 - open with `ctrl + p`-> `local graph`
-
-# Images
-
-## Width
-
-Use a pipe `|<width>` in the image square brackets to define the width (for consistency)
-![|500](https://picsum.photos/536/354)
-
-## Custom Ratio
-
-Use a pipe `|<width>x<height>`in the image square brackets. This will squash the image.
-
-![|600x50](https://picsum.photos/536/354)
 
 # Property view
 
@@ -31,18 +20,21 @@ Use a pipe `|<width>x<height>`in the image square brackets. This will squash the
 
 # Style
 
-- Use general theme: `settings` -> `appearance` -> border
-- Install `Style Settings`community plugin
-- Pick a theme that fits me
-- Adjust accordingly
+- Use general theme: `settings` -> `appearance` -> [Border](https://github.com/Akifyss/obsidian-border)
+- Install `Style Settings`[community plugin](https://github.com/mgmeyers/obsidian-style-settings)
+- Pick a theme that fits
+- Adjust accordingly, e.g. for [sunset theme](https://github.com/Akifyss/obsidian-border/blob/main/presets/Sunset.json) , remove the `background-mod`noise layers
 
 ## Custom Card Layout
 
-- `settings` -> `style settings` -> `dark mode` -> card -> custom card shadow
+> [!danger] Problem: Card shadows only work well for light themes
 
-```
-inset -2px -2px 40px 0px rgba(0, 0, 0,.2), inset 1px 1px 10px 0 rgba(255, 255, 255, .2) 
-```
+> [!check] Fix:
+> `settings` -> `style settings` -> `dark mode` -> card -> custom card shadow
+>
+> ```
+> inset -2px -2px 40px 0px rgba(0, 0, 0,.2), inset 1px 1px 10px 0 rgba(255, 255, 255, .2) 
+> ```
 
 # Excalidaw
 
@@ -61,58 +53,24 @@ full_price = lemons * price
 
 # Markdown
 
+## Images
+
+### Width
+
+Use a pipe `|<width>` in the image square brackets to define the width (for consistency)
+![|500](https://picsum.photos/536/354)
+
+### Custom Ratio
+
+Use a pipe `|<width>x<height>`in the image square brackets. This will squash the image.
+
+![|600x50](https://picsum.photos/536/354)
+
 ## Block Quotes
 
 > This is an awesome block quote which will can be started by typing `>` at the beginning of the line
 
-## Callouts
-
-Some special sort of block quote which are formatted in a nice way
-
-> [!Info] This is an info
-> Infos can contain other MD elements, like
-> - lists or
-> - images
-
-> [!info]+ Collapsible Callouts
-> By adding a `+` or `-` directly after the title the callout is collapsible.
-> - `+`expanded by default
-> - `-`collapsed by default
-
-### Other Callout Types
-
-> [!success]
-> Alias `check`, `done`
-
-> [!question]
-> Alias `help`, `faq`
-
-> [!warning] This is a warning
-> Be cautious about stuff
-> ---
-> Alias `caution`, `attention`
-
-> [!Failure]
-> Alias: `fail`, `missing`
-
-> [!danger]
-> Alias `error`
-
-> [!bug]
->
-
-> [!abstract]
-> - useful for longer notes
-
-> [!example]
-> Can also contain
->
-> ```
-> block code
-> ```
-
-> [!cite]
-> offer way better formatting and look than just normal block quote
+[[Callouts]]
 
 ## Dividers
 
@@ -171,23 +129,7 @@ Obsidian also supports footnotes via links [^1]
 
 [^1]: My footnote
 
-# Hotkeys
-
-## Find in Files
-
-`ctrl + shift + F`
-
-## Show File Explorer (custom)
-
-`ctrl + shift + D`
-
-## Open Settings
-
-`ctrl + ,`
-
-## Open Graph
-
-`ctrl + G`
+[[Hotkeys]]
 
 # Tags
 
@@ -196,11 +138,24 @@ They can also be placed in the properties view.
 
 # Meta Bind
 
-- Allows input fields like this to connect to properties
+[Github page](https://github.com/mProjectsCode/obsidian-meta-bind-plugin)
+[TTRPG explanation video](https://www.youtube.com/watch?v=iAYS0254a7I)
+
+## Input Fields
+
+Allows input fields like this to be connected to properties
 
 ```meta-bind
 INPUT[progressBar(title(Progress), minValue(0), maxValue(100)):Progress]
 ```
+
+`INPUT[date:date1]`
+`INPUT[datePicker:date1]`
+
+## Views
+
+- Can be used in view mode : `VIEW[{date1}]`
+- Can be used to cross-reference properties from different notes
 
 # Backlinks
 

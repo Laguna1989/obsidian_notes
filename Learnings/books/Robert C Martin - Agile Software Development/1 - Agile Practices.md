@@ -22,7 +22,7 @@
     - Continuous attention to technical excellence and good Design enhances agility.
     - Simplicity, the Art of maximizing the amount of work Not done, is Essential
     - The best architectures, requirements and Designs emerge from self-organizing teams
-    - At regular Intervals the Team reflects on how to become more effective and adjusts.
+    - At regular Intervals the Team reflects on how to become more effective and adjusts. -> [[Retrospectives]]
 
 # Overview of Extreme Programming XP
 

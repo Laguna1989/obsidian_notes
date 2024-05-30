@@ -10,8 +10,7 @@ links: "[[Book reviews]]"
 
 # Summary
 
-Great book, fully recommend reading this one. It is a rather advanced book that picks, reiterates and improves up some ideas from other books, e.g. [[The Pragmatic Programmer]], [[Robert C Martin - The Clean Coder]]
-or [[Mark Seeman - Dependency Injection]]
+Great book, fully recommend reading this one. It is a rather advanced book that picks up, reiterates and improves some ideas from other books, e.g. [[The Pragmatic Programmer]], [[Robert C Martin - The Clean Coder]] or [[Mark Seeman - Dependency Injection]].
 
 # Things to Remember
 
