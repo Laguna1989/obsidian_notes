@@ -10,7 +10,7 @@
 		- Builder, Factory, Prototype, Singleton
 	- Structural
 		- Adapter, Bridge, Composite, Decorator, Facade, Flyweight, Proxy
-	- Behavioural:
+	- Behavioral:
 		- Chain of Responsibility
 		- Command
 		- Interpreter

@@ -44,31 +44,19 @@
             }
           },
           {
-            "id": "e88539ba4490722c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tools/Google docs - Markdown export.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "089f492b82f35f33",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/Obsidian/Obsidian.md",
+                "file": "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/3 - Behavioral Design Patterns.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -136,7 +124,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "tools/Obsidian/Obsidian.md",
+                "file": "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/3 - Behavioral Design Patterns.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -169,7 +157,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 349.5
+    "width": 349.5,
+    "collapsed": true
   },
   "right": {
     "id": "d02a40f61708ec57",
@@ -185,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/Obsidian/Obsidian.md",
+                "file": "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/3 - Behavioral Design Patterns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/Obsidian/Obsidian.md",
+                "file": "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/3 - Behavioral Design Patterns.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -225,7 +214,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/Obsidian/Obsidian.md"
+                "file": "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/3 - Behavioral Design Patterns.md"
               }
             }
           },
@@ -254,7 +243,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "tools/Obsidian/Obsidian.md"
+                "file": "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/3 - Behavioral Design Patterns.md"
               }
             }
           }
@@ -262,7 +251,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304.5
+    "width": 304.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -276,52 +266,52 @@
   },
   "active": "089f492b82f35f33",
   "lastOpenFiles": [
+    "connyfotografie/iterator_oDGgfab_.json.xz",
+    "connyfotografie/2022-01-11_19-04-25_UTC.jpg",
+    "connyfotografie/2022-01-11_19-04-25_UTC.jpg.temp",
+    "connyfotografie/2022-01-13_17-57-05_UTC.jpg",
+    "connyfotografie/2022-01-13_17-57-05_UTC.jpg.temp",
+    "connyfotografie/2022-01-27_16-24-54_UTC.jpg",
+    "connyfotografie/2022-01-27_16-24-54_UTC.jpg.temp",
+    "connyfotografie/2022-02-03_17-51-39_UTC.jpg",
+    "connyfotografie/2022-02-03_17-51-39_UTC.jpg.temp",
+    "connyfotografie/2022-02-10_17-51-55_UTC.jpg",
+    "connyfotografie/2022-02-10_17-51-55_UTC.jpg.temp",
+    "connyfotografie/2022-02-17_18-24-26_UTC.jpg",
+    "connyfotografie/2022-02-17_18-24-26_UTC.jpg.temp",
+    "connyfotografie/2022-02-24_17-49-09_UTC.jpg",
+    "connyfotografie/2022-02-24_17-49-09_UTC.jpg.temp",
+    "connyfotografie/2022-03-03_18-38-16_UTC.jpg",
+    "connyfotografie/2022-03-03_18-38-16_UTC.jpg.temp",
+    "connyfotografie/2022-03-07_18-13-45_UTC.jpg",
+    "connyfotografie/2022-03-07_18-13-45_UTC.jpg.temp",
+    "connyfotografie/2022-03-11_17-23-55_UTC.jpg",
+    "connyfotografie/2022-03-11_17-23-55_UTC.jpg.temp",
+    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/2 - Creational Design Patterns.md",
+    "tools/Obsidian/Callouts.md",
     "tools/Google docs - Markdown export.md",
-    "tools/Catch2 v3.md",
+    "Learnings/books/Book reviews.md",
+    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/3 - Behavioral Design Patterns.md",
+    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/1 - Structural Design Patterns.md",
+    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/0 - Design Patterns Intro.md",
+    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Design Patterns in modern cpp.md",
+    "tools/pmccabe.md",
+    "tools/c++/C++ 17 Allocators.md",
     "Learnings/Learnlist.md",
     "tools/Obsidian/Obsidian.md",
+    "tools/Catch2 v3.md",
     "Learnings/Conferences and Talks/Confrerences and Talks.md",
-    "Learnings/books/Book reviews.md",
-    "assets/2023-06-23_SoCraTesDayFrankenTimeline.png",
-    "assets/opensourcelicenses.jpeg",
-    "assets/Pasted image 20240222181558.png",
-    "assets/Pasted image 20240527070854.png",
-    "assets/Pasted image 20240527071058.png",
-    "assets/Pasted image 20240527071129.png",
-    "assets/Pasted image 20240527071157.png",
-    "assets/Pasted image 20240527071925.png",
-    "assets/true_price_of_virtual_functions_vtables.png",
-    "assets/GeneKim_DevOpsHandbook/devops_handbook_the_three_ways.png",
-    "assets/GeneKim_DevOpsHandbook",
-    "assets/Sylvester_DesigningGames",
-    "assets/seqlock",
-    "assets/MikKersten_ProjectToProduct",
     "Learnings/Conferences and Talks/Talks/Misko Hevery - Inheritance, Polimorphism, Testing.md",
-    "assets/MiskoHevery_InheritancePolymorphismTesting",
-    "tools/Obsidian/Callouts.md",
     "tools/Obsidian/Images Alignment.md",
     "Learnings/books/Mik Kersten - Project To Product.md",
     "tools/SOLID Design Principles/Open Close Principle.md",
-    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/0 - Design Patterns Intro.md",
     "Learnings/books/Robert C Martin - Agile Software Development/1 - Agile Practices.md",
     "Learnings/Conferences and Talks/Talks/Dangerous Optimizations.md",
     "tools/Obsidian/Hotkeys.md",
-    "tools/Obsidian",
     "Learnings/books/Williams - Cpp Concurrency In Action/Williams - Cpp Concurrency In Action.md",
     "Learnings/books/Mark Seeman - \"Code that fits in your head\".md",
     "Learnings/books/Sylvester - Designing Games/Tynan Sylvester - Designing Games.md",
     "Learnings/books/Skelton, Pais - Team Topologies/Skelton, Pais - Team Topologies.md",
-    "Learnings/books/Robert C Martin - Agile Software Development/Robert C Martin - Agile Software Development.md",
-    "specification.md",
-    "tools/SOLID Design Principles/Dependency Inversion Principle.md",
-    "tools/SOLID Design Principles/Interface Segregation Principle.md",
-    "tools/SOLID Design Principles/Liskov Substitution Principle.md",
-    "tools/SOLID Design Principles/Single Responsibility Principle.md",
-    "tools/SOLID Design Principles/SOLID Design Principles.md",
-    "Learnings/books/Skelton, Pais - Team Topologies/assets",
-    "Learnings/books/Skelton, Pais - Team Topologies",
-    "tools/SOLID Design Principles",
-    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Images",
     "Untitled.canvas"
   ]
 }
