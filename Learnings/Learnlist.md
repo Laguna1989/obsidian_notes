@@ -2,12 +2,16 @@
 cssclasses:
   - minecraft
 ---
-# TODO
+# In Progress
 
 - [/] Udemy - Design Patterns in Modern Cpp
 	- [Design Patterns in Modern C++](obsidian://open?vault=obsidian_notes&file=Learnings%2FConferences%20and%20Talks%2FTalks%2FDesign%20Patterns%20in%20modern%20cpp%2FDesign%20Patterns%20in%20modern%20cpp)
+
+
+# TODO
 - [ ] Loeffler - "Improving agile retrospectives" book hardcover
 - [ ] Martin Fowler - "Refactoring", book hardcover
+- [ ] [[Regular expressions]]
 
 # Done
 

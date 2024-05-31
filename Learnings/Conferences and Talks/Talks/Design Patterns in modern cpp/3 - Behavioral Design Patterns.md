@@ -1,5 +1,6 @@
 ---
-tags: []
+tags: 
+links:
 ---
 
 >[!hint] see also [[Behavioral Design Patterns]]
@@ -11,3 +12,7 @@ tags: []
 # Command
 
 [[Command]]
+
+# Interpreter
+
+[[Interpreter]]
