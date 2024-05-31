@@ -1,3 +1,9 @@
+---
+tags:
+  - Talk
+created: 2021-01-04
+links: "[[Confrerences and Talks]]"
+---
 > [!info] VTables
 > ![[true_price_of_virtual_functions_vtables.png]]
 

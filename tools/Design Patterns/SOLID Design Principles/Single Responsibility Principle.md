@@ -46,7 +46,7 @@ We could add `serialize()`/`deserialize()` methods to the `Journal` class.
 - `Journal`is hard to change, e.g. if you want to save to a file or a database.
 ## Good Solution
 - Better: `PersistenceManager` class
-![Enter image alt description](Images/GAg_Image_2.png)
+![Enter image alt description](IMG-2024-05-30-204033689.png)
 
 > [!check] This separates the concerns nicely.
 

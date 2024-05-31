@@ -4,132 +4,41 @@ tags:
 ---
 # Adapter
 
-- First structural design pattern
-- Getting the interface you want by the interface you are given
-- Same as e.g. with power adapters
-- We can not support every possible interface
-- “A construct which adapts an existing interface X to the required interface Y”
-
-> [!example]+ MFC technology with `CAboutDilg`
-> Interface: `DrawPoints`
-> ![Enter image alt description](Images/uX0_Image_1.png)
-> - `DrawPoints`, but we have lines
-> - Define geometric objects
-> ![Enter image alt description](Images/uBK_Image_2.png)
-> - Vector object is made out of lines
-> - ![Enter image alt description](Images/2fD_Image_3.png)
-> - `Rectangle`s are basically `VectorObject`s
-> - ![Enter image alt description](Images/1d9_Image_4.png)
-> - => We need a conversion from `VectorObject`s to `Point`s,
-> - This is where the Adapter comes in
-> - ![Enter image alt description](Images/XKl_Image_5.png)
-> - ![Enter image alt description](Images/sB0_Image_6.png)
-> - Concrete implementation is not that important
-> - ![Enter image alt description](Images/5Rt_Image_7.png)
->
-
-> [!warning] Problem
-> No caching. Can be added with the adapter easily
-
-- Let’s build a caching adapter
-![Enter image alt description](Images/TlR_Image_8.png)
-
-- If no cache found, recalculate and add to static cache
-
-> [!warning] General Problem
-> The adapter often spawns temporary objects and if this is a problem.
->
-> => Caching is a massive improvement
-
-> [!summary]
-> - Implementing an Adapter is easy
-> 	- Determine the API you have and the API you need and then create a component which has a reference to the origin and provides access to the destination.
-> - Be careful about caching and other optimizations to avoid spawning too much data and cleaning up correctly
+![[Adapter]]
 
 # Bridge
-
-> [!quote] Connecting Classes together, avoiding cartesian product complexity explosion
-
-> [!example] Bad design
->  ![Enter image alt description](Images/bbT_Image_9.png)
-
-> [!example] Good design
-> ![Enter image alt description](Images/aOj_Image_10.png)
-
-> [!note] Aggregation over inheritance
-> A bridge is a pattern that decouples an interface from an implementation
-
-## Pimpl
-
-- Manifestation of the bridge design pattern, hiding the implementation details
-- The implementation details are deferred
-> [!example] Person and PersonImpl classes
-> ![Enter image alt description](Images/2uk_Image_11.png)
-
-- Does not need to be an inner class, important is the forward declaration of the impl class
-- `Person` does not need any Details of what `PersonImpl` does
-- Benefits:
-	- No need to give away inner details of a class (that would normally be in the header files)
-	- Improves compilation speed
-	- Ensures Binary compatibility
-
-## Shrink-Wrapped Pimpl
-
-- Library-fied version of pimpl
-![[Images/y0w_Image_12.png]]
-
-- Horrible looking template is the forwarding constructor
-- Also add `operator*` and `operator->`
-
-## Bridge Design Pattern
-
-> [!example] Rendering different kinds of shapes
->  ![Enter image alt description](Images/nmp_Image_13.png)
- Now we have different types of renderers
-   ![Enter image alt description](Images/qAo_Image_14.png)
-> > [!note] 👆 Cout in wrong order
->
->
-> Let’s introduce a `Shape` class that acts as a bridge
-> ![Enter image alt description](Images/YMP_Image_15.png)
-> ![Enter image alt description](Images/cFw_Image_16.png)
-> Non Intrusive design by Igelberger seems more powerful (but also way more complex)
-
-> [!summary]
-> - Decouple abstraction from implementation
-> - A stronger form encapsulation
-
+![[Bridge]]
 # Composite
 
-- Allowing us to handle aggregate objects and individual components in the same way.
-- Objects work through inheritance and composition
-- Composition lets us make compound objects
-> [!example]
-> - Math expression built from simple applications
-> - Shape or grouping of shapes
-- Composite allows to use both single and composite objects uniformly
-- `Foo` and `Collection<Foo>` have common APIs
-
-## Shapes and Groups of Shapes
-
-![Enter image alt description](Images/pNe_Image_17.png)
-
-- Now let’s add a `Group`
-![Enter image alt description](Images/All_Image_18.png)
-
-- `Group`s can be added to other `Group`s
-![Enter image alt description](Images/s5n_Image_19.png)
-
-- Here the common behavior is enforced by the interface.
+![[Composite]]
 
 ## ML Example
 
-- Neuron struct
-- Neurons have connections for other Neurons (in and out)
+- `Neuron` struct
+- `Neuron`s have connections for other Neurons (in and out)
 - Every Neuron has a unique ID
-![Enter image alt description](Images/HB7_Image_20.png)
 
-- Neuron also has a stream output operator
+```cpp
+struct Neuron
+{
+	std::vector<Neuron*> in, out;
+	unsigned int id;
+
+	Neuron() 
+	{
+		static int id{1};
+		this->id = id++;
+	}
+
+	void connect_to(Neuron& other)
+	{
+		out.push_back(&other);
+		other.in.push_back(this);
+	}
+};
+```
+
+Neuron also has a stream output operator
 ![Enter image alt description](Images/smL_Image_21.png)
 
 - This does not yet allow to connect multiple neurons
@@ -146,9 +55,9 @@ tags:
 	- Neuron to neuron (all done)
 
 - => State space explosion for connections
-- Let’s introduce a new interface using CRTP `SomeNeurons`
+- Let’s introduce a new interface using [[CRTP]] `SomeNeurons`
 - This will be used in Neuron and NeuronLayer
-- CRTP is used to deduct which type we have
+- [[CRTP]] is used to deduct which type we have
 ![Enter image alt description](Images/8db_Image_23.png)
 
 - 👆 This is the single function that connects all Neurons together

@@ -2,7 +2,7 @@
 tags:
   - design-patterns
   - tool
-links: "[[Tools]]"
+links: "[[Design Patterns]]"
 ---
 
 - Introduced by Robert C Martin

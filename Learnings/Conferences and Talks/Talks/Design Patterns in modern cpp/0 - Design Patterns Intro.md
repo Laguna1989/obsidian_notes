@@ -9,7 +9,7 @@
 	- Creational
 		- Builder, Factory, Prototype, Singleton
 	- Structural
-		- Adapter, Bridge, Composite, Decorator, Facade, Flyweight, Proxy
+		- [[Adapter]], [[Bridge]], [[Composite]], Decorator, Facade, Flyweight, Proxy
 	- Behavioral:
 		- Chain of Responsibility
 		- Command
@@ -34,7 +34,7 @@
 
 # Solid Design Principles
 
-- [[SOLID Design Principles]]
+![[SOLID Design Principles]]
 
 # Gamma Categorization (from GoF book):
 

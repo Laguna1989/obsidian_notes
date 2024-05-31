@@ -62,7 +62,7 @@ std::vector<Product*> by_size_and_color(std::vector<Product*> items, Size size, 
 
 ## Good Solution
 
-Let’s use the [[specification]] pattern
+Let’s use the [[Specification]] pattern
 - Create two interfaces: `Specification` and `Filter`
 - Use inheritance to extend without modifying existing code
 
