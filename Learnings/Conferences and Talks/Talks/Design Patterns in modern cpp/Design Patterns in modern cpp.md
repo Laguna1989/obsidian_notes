@@ -13,6 +13,3 @@ Based on [udemy course](https://www.udemy.com/course/patterns-cplusplus/)
 [[1 - Structural Design Patterns]]
 [[2 - Creational Design Patterns]]
 [[3 - Behavioral Design Patterns]]
-
-> [!hint] See also
-> [[Design Patterns]]

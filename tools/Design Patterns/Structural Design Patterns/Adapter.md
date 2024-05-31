@@ -1,7 +1,7 @@
 ---
 tags:
   - design-patterns
-links: "[[00 Structural Design Patterns]]"
+links: "[[Structural Design Patterns]]"
 ---
 # Overview
 

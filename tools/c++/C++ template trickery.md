@@ -16,3 +16,7 @@ const auto withStrippedArguments = [](auto&& /*first*/, auto&&... args_)
 };  
 withStrippedArguments(args...);
 ```
+
+
+# CRTP
+[[CRTP]]

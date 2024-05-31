@@ -25,14 +25,14 @@ links: "[[Book reviews]]"
 
 # Design Patterns Revisited
 
-## Command
+## [[Command]]
 
 - Objectified Function call
 - E.g. for input actions
 - Objects can be parametrized either via method argument or construction
 - Undo/Redo
 
-## Flyweight
+## [[Flyweight]]
 
 - Object/Class that does not contain all of its heavy data
 - Reference to some common data shared between the objects
@@ -48,7 +48,7 @@ links: "[[Book reviews]]"
 - mysterious action over distance
 - Jamtemplate: E.g. for HUD
 
-## Prototype
+## [[Prototype]]
 
 - Create new instances of objects by cloning old instances
 - Downsides:
@@ -66,7 +66,7 @@ links: "[[Book reviews]]"
     - It is nice to write it in json format, but I expect quite some pain when doing the object creation in game based on the data. Latest when it comes to using the modeled functionality
 - Not mentioned alternative: “ObjectRepository”
 
-## Singleton
+## [[Singleton]]
 
 - Chapter is mainly about how not to use a singleton
 - Singleton: Have only one instance and make it available globally

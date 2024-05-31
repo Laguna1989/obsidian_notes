@@ -1,16 +1,16 @@
 # Intro
 
-- Based on 1994 “Gang of Four” Book
+- Based on 1994 [[Gang Of Four]] Book
 	- Smalltalk and oldschool c++
 	- This course: Modern C++
 - Design Patterns are universally relevant in all programming languages
 - [[SOLID Design Principles]]
 - Contents:
-	- Creational
+	- [[2 - Creational Design Patterns]]
 		- Builder, Factory, Prototype, Singleton
-	- Structural
-		- [[Adapter]], [[Bridge]], [[Composite]], Decorator, Facade, Flyweight, Proxy
-	- Behavioral:
+	- [[1 - Structural Design Patterns]]
+		- Adapter, Bridge, Composite, Decorator, Facade, Flyweight, Proxy
+	- [[3 - Behavioral Design Patterns]]:
 		- Chain of Responsibility
 		- Command
 		- Interpreter

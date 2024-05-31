@@ -1,7 +1,7 @@
 ---
 tags:
   - design-patterns
-links: "[[00 Structural Design Patterns]]"
+links: "[[Structural Design Patterns]]"
 ---
 
 > [!quote] Composite allows to use both single and composite objects uniformly

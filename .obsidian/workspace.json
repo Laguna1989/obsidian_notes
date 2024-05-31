@@ -49,14 +49,98 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/Design Patterns/Structural Design Patterns/Bridge.md",
+                "file": "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/1 - Structural Design Patterns.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e74feebcbc9eb4f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tools/Design Patterns/Structural Design Patterns/Proxy.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8840000f6f6c4cb2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/3 - Behavioral Design Patterns.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dfbe48e0443b31e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/0 - Design Patterns Intro.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8976bdd7fe1518c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tools/Design Patterns/Behavioral Design Patterns/Behavioral Design Patterns.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "742a40a69f19b877",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/3 - Behavioral Design Patterns.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3aec65888a8bc131",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learnings/books/Robert Nystrom - Game Programming Patterns.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c9098bbb2b8e5844",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Design Patterns in modern cpp.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +169,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "composite",
+                "query": "Decorator",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -130,7 +214,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/Design Patterns/Structural Design Patterns/Bridge.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +230,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/Design Patterns/Structural Design Patterns/Bridge.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,9 +251,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "tools/Design Patterns/Structural Design Patterns/Bridge.md"
-              }
+              "state": {}
             }
           },
           {
@@ -198,9 +278,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "tools/Design Patterns/Structural Design Patterns/Bridge.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -219,44 +297,46 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cce61896eaa660b5",
+  "active": "0448b7f67f35bd14",
   "lastOpenFiles": [
-    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/0 - Design Patterns Intro.md",
-    "Learnings/books/Sylvester - Designing Games/13 - Planning and Iteration.md",
-    "tools/Design Patterns/Structural Design Patterns/Bridge.md",
-    "tools/Obsidian/Callouts.md",
-    "tools/Design Patterns/Structural Design Patterns/00 Structural Design Patterns.md",
-    "tools/Design Patterns/Design Patterns.md",
-    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/1 - Structural Design Patterns.md",
-    "tools/Design Patterns/Structural Design Patterns/Adapter.md",
-    "tools/Design Patterns/Structural Design Patterns/Composite.md",
-    "assets/tools/Design Patterns/Structural Design Patterns/Bridge",
-    "tools/Design Patterns/Behavioral Design Patterns/Command.md",
-    "tools/Design Patterns/Behavioral Design Patterns",
-    "assets/tools/Design Patterns/Structural Design Patterns/Adapter",
-    "assets/tools/Design Patterns/Structural Design Patterns",
-    "tools/Design Patterns/Structural Design Patterns",
-    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/2 - Creational Design Patterns.md",
-    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/3 - Behavioral Design Patterns.md",
-    "Learnings/books/Robert C Martin - The Clean Coder.md",
-    "Learnings/books/Book reviews.md",
-    "tools/Design Patterns/SOLID Design Principles/Dependency Inversion Principle.md",
-    "tools/Design Patterns/Command Query Separation.md",
     "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Design Patterns in modern cpp.md",
-    "Learnings/books/Mark Seeman - Dependency Injection.md",
-    "tools/Design Patterns/SOLID Design Principles/Single Responsibility Principle.md",
-    "tools/Obsidian/Images Alignment.md",
-    "tools/Google docs - Markdown export.md",
-    "Learnings/Conferences and Talks/Talks/Johny Swalb - The true price of virtual functions in c++.md",
-    "tools/Design Patterns/SOLID Design Principles/Open Close Principle.md",
-    "specification.md",
-    "tools/Design Patterns/SOLID Design Principles/SOLID Design Principles.md",
-    "tools/Tools.md",
-    "assets/tools/Design Patterns/SOLID Design Principles/Single Responsibility Principle",
-    "assets/tools/Design Patterns/SOLID Design Principles",
-    "assets/tools/Design Patterns",
-    "tools/Design Patterns",
-    "connyfotografie/iterator_oDGgfab_.json.xz",
+    "Learnings/books/Robert Nystrom - Game Programming Patterns.md",
+    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/3 - Behavioral Design Patterns.md",
+    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/2 - Creational Design Patterns.md",
+    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/1 - Structural Design Patterns.md",
+    "tools/Design Patterns/Design Patterns.md",
+    "tools/Design Patterns/Behavioral Design Patterns/Behavioral Design Patterns.md",
+    "tools/Design Patterns/Behavioral Design Patterns/Chain of Responsibility.md",
+    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/0 - Design Patterns Intro.md",
+    "tools/Design Patterns/Creational Design Patterns/Singleton.md",
+    "tools/Design Patterns/Creational Design Patterns/Prototype.md",
+    "tools/Design Patterns/Creational Design Patterns/Factory.md",
+    "tools/Design Patterns/Creational Design Patterns/Builder.md",
+    "tools/Design Patterns/Creational Design Patterns/Creational Design Patterns.md",
+    "assets/tools/Design Patterns/Creational Design Patterns/Prototype",
+    "assets/tools/Design Patterns/Creational Design Patterns/Factory",
+    "assets/tools/Design Patterns/Creational Design Patterns/Singleton",
+    "assets/tools/Design Patterns/Creational Design Patterns/Builder",
+    "assets/tools/Design Patterns/Creational Design Patterns",
+    "tools/Design Patterns/Creational Design Patterns",
+    "tools/Design Patterns/Command Query Separation.md",
+    "tools/Design Patterns/Structural Design Patterns/Proxy.md",
+    "tools/Design Patterns/Structural Design Patterns/Flyweight.md",
+    "tools/Design Patterns/Structural Design Patterns/Facade.md",
+    "tools/Design Patterns/Structural Design Patterns/Decorator.md",
+    "tools/Design Patterns/Structural Design Patterns/Composite.md",
+    "tools/Design Patterns/Structural Design Patterns/Bridge.md",
+    "tools/Design Patterns/Structural Design Patterns/Adapter.md",
+    "assets/tools/Design Patterns/Structural Design Patterns/Flyweight",
+    "assets/tools/Design Patterns/Structural Design Patterns/Facade",
+    "assets/tools/Design Patterns/Structural Design Patterns/Proxy",
+    "tools/c++/C++ template trickery.md",
+    "tools/Design Patterns/SOLID Design Principles/Interface Segregation Principle.md",
+    "assets/tools/Design Patterns/Creational Design Patterns/Prototype/IMG-2024-05-31-134636258.png",
+    "assets/tools/Design Patterns/Creational Design Patterns/Prototype/IMG-2024-05-31-134636245.png",
+    "Learnings/books/Book reviews.md",
+    "tools/Design Patterns/Structural Design Patterns/Structural Design Patterns.md",
+    "assets/tools/Design Patterns/Structural Design Patterns/Decorator",
     "connyfotografie/2022-01-11_19-04-25_UTC.jpg",
     "connyfotografie/2022-01-13_17-57-05_UTC.jpg",
     "connyfotografie/2022-01-27_16-24-54_UTC.jpg",
@@ -265,8 +345,6 @@
     "connyfotografie/2022-02-17_18-24-26_UTC.jpg",
     "connyfotografie/2022-02-24_17-49-09_UTC.jpg",
     "connyfotografie/2022-03-03_18-38-16_UTC.jpg",
-    "connyfotografie/2022-03-07_18-13-45_UTC.jpg",
-    "connyfotografie/2022-03-11_17-23-55_UTC.jpg",
     "Untitled.canvas"
   ]
 }

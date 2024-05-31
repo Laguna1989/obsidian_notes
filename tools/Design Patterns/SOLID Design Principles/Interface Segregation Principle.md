@@ -101,6 +101,8 @@ struct MFP : IPrinter, IScanner, IFax
 
 ## Combinations Using Decorators
 
+> [!hint] See [[Decorator]]
+
 ```cpp
 struct IMachine : IPrinter, IScanner {};
 
