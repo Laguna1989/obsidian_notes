@@ -78,9 +78,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e6b7290abcc0f81f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tools/Design Patterns/Behavioral Design Patterns/Behavioral Design Patterns.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3864b1dbd8fd5efd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learnings/books/Robert Nystrom - Game Programming Patterns.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "79021c8896008374",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learnings/Talks/Johny Swalb - The true price of virtual functions in c++.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -154,6 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Learnings/Talks/Johny Swalb - The true price of virtual functions in c++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,6 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Learnings/Talks/Johny Swalb - The true price of virtual functions in c++.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +229,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Learnings/Talks/Johny Swalb - The true price of virtual functions in c++.md"
+              }
             }
           },
           {
@@ -218,7 +258,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "Learnings/Talks/Johny Swalb - The true price of virtual functions in c++.md"
+              }
             }
           }
         ]
@@ -237,8 +279,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0448b7f67f35bd14",
+  "active": "79021c8896008374",
   "lastOpenFiles": [
+    "tools/Design Patterns/SOLID Design Principles/Dependency Inversion Principle.md",
+    "Learnings/books/Robert Nystrom - Game Programming Patterns.md",
+    "tools/Design Patterns/Behavioral Design Patterns/Behavioral Design Patterns.md",
+    "tools/Design Patterns/Behavioral Design Patterns/Memento.md",
+    "tools/Design Patterns/Behavioral Design Patterns/Mediator.md",
+    "Learnings/Talks/Design Patterns in modern cpp/3 - Behavioral Design Patterns.md",
     "Learnings/Talks/Talks.md",
     "Learnings/Talks/Marc Gregoire - An Almost complete overview of cpp20.md",
     "Learnings/Conferences/Conferences.md",
@@ -259,7 +307,6 @@
     "assets/Learnings/Conferences and Talks/Johny Swalb - The true price of virtual functions in c++",
     "assets/Learnings/Conferences and Talks/Dangerous Optimizations",
     "assets/Learnings/Conferences and Talks/Design Patterns in modern cpp/1 - Structural Design Patterns",
-    "Learnings/Talks/Design Patterns in modern cpp/3 - Behavioral Design Patterns.md",
     "Learnings/Conferences/2020 SoCraTes Day Franken/Podcasts.md",
     "Learnings/Conferences/2023 Socrates Day Franken/Refuctoring Game.md",
     "Learnings/Conferences/2020 SoCraTes Day Franken/Configuration Management Talk.md",
@@ -270,11 +317,6 @@
     "Learnings/Conferences/2021 SoCraTes Day Franken/Remote Onboarding.md",
     "Learnings/Conferences/2021 SoCraTes Day Franken/StPauli TDD.md",
     "Learnings/Conferences/2023 Socrates Day Franken/DevOps Discussion.md",
-    "Learnings/Conferences/2023 SenecaCamp/NeoVim.md",
-    "Learnings/Conferences/2023 Socrates Day Franken/Local Large Language Models.md",
-    "Learnings/Conferences/2023 Socrates Day Franken/Prompt Injection Attacks against Gandalf.md",
-    "tools/Design Patterns/Behavioral Design Patterns/Mediator.md",
-    "tools/Design Patterns/Behavioral Design Patterns/Iterator.md",
     "assets/tools/Design Patterns/Creational Design Patterns/Prototype/IMG-2024-05-31-134636258.png",
     "assets/tools/Design Patterns/Creational Design Patterns/Prototype/IMG-2024-05-31-134636245.png",
     "connyfotografie/2022-01-11_19-04-25_UTC.jpg",

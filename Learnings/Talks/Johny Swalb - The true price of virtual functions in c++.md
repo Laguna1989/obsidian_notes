@@ -4,6 +4,7 @@ tags:
 created: 2021-01-04
 links: "[[Talks]]"
 ---
+
 > [!info] VTables
 > ![[IMG-2024-06-01-102526984.png]]
 
@@ -22,6 +23,7 @@ links: "[[Talks]]"
 - Per-Type-Vector, very useful, if you do not need specific ordering in the vector
 	- (e.g. `boost: :base_collection`)
 	- [multivector](https://github.com/ibogosavljevic/johnysswlab/blob/master/2021-02-virtualfunctions/multivector.h)
+
 > [!hint] See also [[Johnathan Gopel - Remove virtual]]
 
 # Type Based Processing

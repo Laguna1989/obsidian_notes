@@ -41,7 +41,7 @@ links: "[[Book reviews]]"
 - Purely about efficiency
 - Already pretty well represented in the JamTemplate
 
-## Observer
+## [[Observer]]
 
 - Abstract communication channel
 - No need to know about details
@@ -169,6 +169,8 @@ links: "[[Book reviews]]"
 - In the best case, the components can be made reusable between different entities (not the case for alakajam)
 
 ## Event Queue
+
+> [!hint] See also [[Mediator#Event Broker|Event Broker]]
 
 - Temporal decoupling
 - Did not work out that great in Funky Trip
