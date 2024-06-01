@@ -23,7 +23,7 @@ links: "[[Talks]]"
     - `requires`
 - `constinit`
 - `consteval`
-- [[C++ Coroutines]
+- [[C++ Coroutines]]
     - `co_await`
     - `co_return`
     - `co_yield`
