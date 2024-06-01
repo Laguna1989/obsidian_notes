@@ -32,115 +32,31 @@
             }
           },
           {
-            "id": "089f492b82f35f33",
+            "id": "30a18423190b45d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/Design Patterns/Design Patterns.md",
+                "file": "tools/Obsidian/Hotkeys.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "cce61896eaa660b5",
+            "id": "0ffa34e284686ade",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/1 - Structural Design Patterns.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e74feebcbc9eb4f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tools/Design Patterns/Structural Design Patterns/Proxy.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8840000f6f6c4cb2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/3 - Behavioral Design Patterns.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dfbe48e0443b31e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/0 - Design Patterns Intro.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8976bdd7fe1518c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tools/Design Patterns/Behavioral Design Patterns/Behavioral Design Patterns.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "742a40a69f19b877",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/3 - Behavioral Design Patterns.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3aec65888a8bc131",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learnings/books/Robert Nystrom - Game Programming Patterns.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c9098bbb2b8e5844",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tools/Design Patterns/Behavioral Design Patterns/Behavioral Design Patterns.md",
+                "file": "Learnings/Conferences and Talks/Talks/Marc Gregoire - An Almost complete overview of cpp20.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -169,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "interpre",
+                "query": "hotkey",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -194,7 +110,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -214,6 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "tools/Obsidian/Hotkeys.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,6 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "tools/Obsidian/Hotkeys.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -251,7 +170,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "tools/Obsidian/Hotkeys.md"
+              }
             }
           },
           {
@@ -278,14 +199,17 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "tools/Obsidian/Hotkeys.md"
+              }
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 304.5
+    "width": 304.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -297,17 +221,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0448b7f67f35bd14",
+  "active": "30a18423190b45d1",
   "lastOpenFiles": [
-    "tools/Design Patterns/Design Patterns.md",
-    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Design Patterns in modern cpp.md",
-    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/0 - Design Patterns Intro.md",
-    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/3 - Behavioral Design Patterns.md",
-    "tools/Design Patterns/Behavioral Design Patterns/Behavioral Design Patterns.md",
-    "tools/Design Patterns/Behavioral Design Patterns/Interpreter.md",
+    "tools/Design Patterns/Behavioral Design Patterns/Iterator.md",
+    "Learnings/Conferences and Talks/Talks/Marc Gregoire - An Almost complete overview of cpp20.md",
+    "C++Coroutines.md",
     "Learnings/Learnlist.md",
-    "tools/Design Patterns/Behavioral Design Patterns/Command.md",
+    "tools/Design Patterns/Behavioral Design Patterns/Behavioral Design Patterns.md",
+    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/3 - Behavioral Design Patterns.md",
+    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Design Patterns in modern cpp.md",
     "Learnings/books/Robert Nystrom - Game Programming Patterns.md",
+    "tools/Design Patterns/Design Patterns.md",
+    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/0 - Design Patterns Intro.md",
+    "tools/Design Patterns/Behavioral Design Patterns/Interpreter.md",
+    "tools/Design Patterns/Behavioral Design Patterns/Command.md",
     "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/2 - Creational Design Patterns.md",
     "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/1 - Structural Design Patterns.md",
     "tools/Design Patterns/Behavioral Design Patterns/Chain of Responsibility.md",
@@ -328,12 +255,9 @@
     "tools/Design Patterns/Structural Design Patterns/Facade.md",
     "tools/Design Patterns/Structural Design Patterns/Decorator.md",
     "tools/Design Patterns/Structural Design Patterns/Composite.md",
-    "tools/Design Patterns/Structural Design Patterns/Bridge.md",
-    "tools/Design Patterns/Structural Design Patterns/Adapter.md",
     "assets/tools/Design Patterns/Structural Design Patterns/Flyweight",
     "assets/tools/Design Patterns/Structural Design Patterns/Facade",
     "assets/tools/Design Patterns/Structural Design Patterns/Proxy",
-    "tools/c++/C++ template trickery.md",
     "assets/tools/Design Patterns/Creational Design Patterns/Prototype/IMG-2024-05-31-134636258.png",
     "assets/tools/Design Patterns/Creational Design Patterns/Prototype/IMG-2024-05-31-134636245.png",
     "assets/tools/Design Patterns/Structural Design Patterns/Decorator",

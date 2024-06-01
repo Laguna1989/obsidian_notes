@@ -20,4 +20,10 @@
 
 # Developer Window
 
-`crtl + shift + I`
+`ctrl + shift + I`
+
+# Add Code Block
+
+```
+ctrl + shift + `
+```

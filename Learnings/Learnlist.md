@@ -12,6 +12,8 @@ cssclasses:
 - [ ] Loeffler - "Improving agile retrospectives" book hardcover
 - [ ] Martin Fowler - "Refactoring", book hardcover
 - [ ] [[Regular expressions]]
+- [ ] [[Binary Tree]]
+- [ ] [[C++Coroutines]]
 
 # Done
 
