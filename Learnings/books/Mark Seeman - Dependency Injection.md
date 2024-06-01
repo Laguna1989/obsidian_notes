@@ -359,7 +359,7 @@ I would like to discuss with you:
 
 Hi everyone. This week we are going to read about Object Lifetime and Interception (page 236 - 301).
 
-The book introduces Dependency lifetime and introduces singleton, transient and scoped lifestyles. This shows how to deal with dependency lifetime and how to avoid or fix bad lifestyle choices. In the Interception chapter we learn how to intercept calls between objects, get to know the Decorator design pattern and how to apply cross cutting concerns.
+The book introduces Dependency lifetime and introduces singleton, transient and scoped lifestyles. This shows how to deal with dependency lifetime and how to avoid or fix bad lifestyle choices. In the Interception chapter we learn how to intercept calls between objects, get to know the [[Decorator]] design pattern and how to apply cross cutting concerns.
 
 I would like to discuss the following topics with you
 

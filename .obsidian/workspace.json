@@ -44,79 +44,43 @@
             }
           },
           {
-            "id": "e53c50a605915f1d",
+            "id": "2b6ff6dceccce163",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learnings/Conferences/Conferences.md",
+                "file": "Learnings/books/Emily Bache - The Coding Dojo Handbook.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "0129e1f0252f359a",
+            "id": "36eb31a60a0f6def",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learnings/Talks/Marc Gregoire - An Almost complete overview of cpp20.md",
+                "file": "tools/Design Patterns/Command Query Separation.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "f1244782cd2c816e",
+            "id": "072d7a294631c990",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learnings/Talks/Talks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e6b7290abcc0f81f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tools/Design Patterns/Behavioral Design Patterns/Behavioral Design Patterns.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3864b1dbd8fd5efd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learnings/books/Robert Nystrom - Game Programming Patterns.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "79021c8896008374",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learnings/Talks/Johny Swalb - The true price of virtual functions in c++.md",
+                "file": "tools/Design Patterns/Behavioral Design Patterns/Chain of Responsibility.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -145,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "SRP",
+                "query": "Design Patterns",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -170,7 +134,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -190,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learnings/Talks/Johny Swalb - The true price of virtual functions in c++.md",
+                "file": "tools/Design Patterns/Behavioral Design Patterns/Chain of Responsibility.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learnings/Talks/Johny Swalb - The true price of virtual functions in c++.md",
+                "file": "tools/Design Patterns/Behavioral Design Patterns/Chain of Responsibility.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learnings/Talks/Johny Swalb - The true price of virtual functions in c++.md"
+                "file": "tools/Design Patterns/Behavioral Design Patterns/Chain of Responsibility.md"
               }
             }
           },
@@ -259,7 +224,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Learnings/Talks/Johny Swalb - The true price of virtual functions in c++.md"
+                "file": "tools/Design Patterns/Behavioral Design Patterns/Chain of Responsibility.md"
               }
             }
           }
@@ -279,24 +244,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "79021c8896008374",
+  "active": "072d7a294631c990",
   "lastOpenFiles": [
-    "tools/Design Patterns/SOLID Design Principles/Dependency Inversion Principle.md",
-    "Learnings/books/Robert Nystrom - Game Programming Patterns.md",
-    "tools/Design Patterns/Behavioral Design Patterns/Behavioral Design Patterns.md",
-    "tools/Design Patterns/Behavioral Design Patterns/Memento.md",
-    "tools/Design Patterns/Behavioral Design Patterns/Mediator.md",
-    "Learnings/Talks/Design Patterns in modern cpp/3 - Behavioral Design Patterns.md",
+    "tools/Design Patterns/Structural Design Patterns/Adapter.md",
+    "Learnings/Talks/Design Patterns in modern cpp/1 - Structural Design Patterns.md",
+    "Learnings/books/Robert C Martin - Agile Software Development/2 - Agile Design.md",
     "Learnings/Talks/Talks.md",
-    "Learnings/Talks/Marc Gregoire - An Almost complete overview of cpp20.md",
+    "tools/Design Patterns/Command Query Separation.md",
+    "Learnings/books/Emily Bache - The Coding Dojo Handbook.md",
     "Learnings/Conferences/Conferences.md",
+    "Learnings/Talks/Marc Gregoire - An Almost complete overview of cpp20.md",
+    "tools/Design Patterns/Behavioral Design Patterns/Behavioral Design Patterns.md",
+    "Learnings/books/Robert Nystrom - Game Programming Patterns.md",
+    "tools/Design Patterns/Behavioral Design Patterns/Memento.md",
+    "Learnings/Talks/Design Patterns in modern cpp/3 - Behavioral Design Patterns.md",
+    "tools/Design Patterns/SOLID Design Principles/Open Close Principle.md",
+    "Learnings/books/Mark Seeman - Dependency Injection.md",
+    "Learnings/books/Mik Kersten - Project To Product.md",
+    "tools/Design Patterns/Behavioral Design Patterns/Chain of Responsibility.md",
+    "tools/Design Patterns/Behavioral Design Patterns/Observer.md",
+    "Learnings/books/Book reviews.md",
+    "Learnings/Talks/Design Patterns in modern cpp/0 - Design Patterns Intro.md",
+    "Learnings/Talks/Johny Swalb - The true price of virtual functions in c++.md",
+    "tools/Design Patterns/SOLID Design Principles/Dependency Inversion Principle.md",
+    "tools/Design Patterns/Behavioral Design Patterns/Mediator.md",
     "Learnings/Conferences/2024 SWEC/SWEC 2024.md",
     "Learnings/Conferences/2023 Socrates Day Franken/Testing Without Mocks.md",
     "Learnings/Conferences/2023 Socrates Day Franken/SoCraTes Day Franken 2023.md",
     "Learnings/Conferences/2023 SenecaCamp/SenecaCamp 2023.md",
-    "Learnings/Conferences/2021 SoCraTes Day Franken/SoCraTes Day Franken 2021.md",
-    "Learnings/Conferences/2020 SoCraTes Day Franken/Corona Hacks Discussion.md",
-    "Learnings/Conferences/2020 SoCraTes Day Franken/SoCraTes Day Franken 2020.md",
     "assets/Learnings/Talks/Misko Hevery - Inheritance, Polimorphism, Testing",
     "assets/Learnings/Talks/Johny Swalb - The true price of virtual functions in c++",
     "assets/Learnings/Talks/Dangerous Optimizations",
@@ -307,16 +282,6 @@
     "assets/Learnings/Conferences and Talks/Johny Swalb - The true price of virtual functions in c++",
     "assets/Learnings/Conferences and Talks/Dangerous Optimizations",
     "assets/Learnings/Conferences and Talks/Design Patterns in modern cpp/1 - Structural Design Patterns",
-    "Learnings/Conferences/2020 SoCraTes Day Franken/Podcasts.md",
-    "Learnings/Conferences/2023 Socrates Day Franken/Refuctoring Game.md",
-    "Learnings/Conferences/2020 SoCraTes Day Franken/Configuration Management Talk.md",
-    "Learnings/Conferences/2020 SoCraTes Day Franken/Tmux Und Terminals.md",
-    "Learnings/Conferences/2021 SoCraTes Day Franken/Wissensverwaltung.md",
-    "Learnings/Conferences/2021 SoCraTes Day Franken/Wie lernt ihr?.md",
-    "Learnings/Conferences/2021 SoCraTes Day Franken/Build Your Lerncoach.md",
-    "Learnings/Conferences/2021 SoCraTes Day Franken/Remote Onboarding.md",
-    "Learnings/Conferences/2021 SoCraTes Day Franken/StPauli TDD.md",
-    "Learnings/Conferences/2023 Socrates Day Franken/DevOps Discussion.md",
     "assets/tools/Design Patterns/Creational Design Patterns/Prototype/IMG-2024-05-31-134636258.png",
     "assets/tools/Design Patterns/Creational Design Patterns/Prototype/IMG-2024-05-31-134636245.png",
     "connyfotografie/2022-01-11_19-04-25_UTC.jpg",

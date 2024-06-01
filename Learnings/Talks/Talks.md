@@ -1,6 +1,4 @@
 
-# Talks
-
 ```dataview
 Table 
 	created AS Date

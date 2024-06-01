@@ -24,3 +24,11 @@ links:
 # Mediator
 
 [[Mediator]]
+
+# Memento
+
+[[Memento]]
+
+# Observer
+
+[[Observer]]

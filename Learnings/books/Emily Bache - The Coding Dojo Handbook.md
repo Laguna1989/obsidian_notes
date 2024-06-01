@@ -64,11 +64,11 @@ links: "[[Book reviews]]"
 
 - Dojo 2-3 hours
 - Retreat: 1 day
-- - optional socializing at the end
+	- optional socializing at the end
 
 ### Group Size:
 
-- 5-15 people
+- 3-15 people
 
 ### Room:
 
@@ -84,14 +84,15 @@ links: "[[Book reviews]]"
 
 ### Programming Language:
 
-- If TDD is the focus: some language you are familiar with
+- If TDD is the focus: Some language you are familiar with
 - If you want to learn a language, pick a new one
 
 ### Work time of Free Time:
 
 - Different people will show up
 
-Martin Fowler quote “Any fool can write code that a computer can understand. Great programmers can write code that everyone else can understand”
+> [!quote] Martin Fowler
+> Any fool can write code that a computer can understand. Great programmers can write code that everyone else can understand
 
 Ask Questions
 
@@ -121,9 +122,9 @@ Social Skills:
 - One can’t discuss a form without code. And there cannot be code without tests. The code is the design and code without tests does not exist.
 - The Master can’t be a master of every form
 - Come without your relics: Of course you know how and why to do it. The point is to do it right now and to explain it to others
-- Learn again (easier when you are together with someone who is learning it for the first time
-- Slow down. Learning will force you to slow down anyway. You cannot learn something new and be faster at the same time
-- Throw Yourself in a prepared Kata, if you find yourself threatened by boredom
+- Learn again (easier when you are together with someone who is learning it for the first time)
+- Slow down. Learning will force you to slow down anyway. You cannot learn something new and be faster at the same time.
+- Throw yourself in a prepared Kata, if you find yourself threatened by boredom
 - If it seems difficult to you, look for others to help you until it is no longer difficult
 - Mastering a subject. If it seems easy to you, explain it to others.
 
