@@ -22,7 +22,8 @@
     - Skippable tutorials
     - Catch the player with other things (art, philosophy, …) while he learns
     - One step at a time
-    - Special tutorial Blood dragon [https://www.youtube.com/watch?v=pItOJfE_GYg](https://www.youtube.com/watch?v=pItOJfE_GYg)
+    - Special tutorial Blood dragon 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pItOJfE_GYg?si=NcKCoMwTZ_SU2bDH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 - Difficulty adjustments
     - Player selects difficulty
     - Adaptive Difficulty

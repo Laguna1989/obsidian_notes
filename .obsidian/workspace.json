@@ -49,14 +49,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learnings/Conferences and Talks/Talks/Marc Gregoire - An Almost complete overview of cpp20.md",
+                "file": "tools/c++/SEQLock.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hotkey",
+                "query": "youtube",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -115,7 +115,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 366.5
+    "width": 363.5
   },
   "right": {
     "id": "d02a40f61708ec57",
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/Obsidian/Hotkeys.md",
+                "file": "tools/c++/SEQLock.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/Obsidian/Hotkeys.md",
+                "file": "tools/c++/SEQLock.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/Obsidian/Hotkeys.md"
+                "file": "tools/c++/SEQLock.md"
               }
             }
           },
@@ -200,7 +200,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "tools/Obsidian/Hotkeys.md"
+                "file": "tools/c++/SEQLock.md"
               }
             }
           }
@@ -221,12 +221,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "30a18423190b45d1",
+  "active": "0ffa34e284686ade",
   "lastOpenFiles": [
-    "tools/Design Patterns/Behavioral Design Patterns/Iterator.md",
-    "Learnings/Conferences and Talks/Talks/Marc Gregoire - An Almost complete overview of cpp20.md",
-    "C++Coroutines.md",
+    "tools/Obsidian/Obsidian.md",
+    "Learnings/Conferences and Talks/Talks/Misko Hevery - Inheritance, Polimorphism, Testing.md",
     "Learnings/Learnlist.md",
+    "Learnings/Conferences and Talks/Talks/Johnathan Gopel - Remove virtual.md",
+    "Learnings/books/Gene Kim - The DevOps Handbook.md",
+    "tools/c++/C++ Concurrency.md",
+    "tools/c++/C++ 17 Allocators.md",
+    "Learnings/books/Sylvester - Designing Games/07 - Balancing.md",
+    "Learnings/books/Sylvester - Designing Games/04 - Skill.md",
+    "Learnings/Conferences and Talks/Talks/Marc Gregoire - An Almost complete overview of cpp20.md",
+    "tools/Obsidian/Hotkeys.md",
+    "tools/Design Patterns/Behavioral Design Patterns/Iterator.md",
+    "C++Coroutines.md",
     "tools/Design Patterns/Behavioral Design Patterns/Behavioral Design Patterns.md",
     "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/3 - Behavioral Design Patterns.md",
     "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Design Patterns in modern cpp.md",
@@ -240,21 +249,12 @@
     "tools/Design Patterns/Behavioral Design Patterns/Chain of Responsibility.md",
     "tools/Design Patterns/Creational Design Patterns/Singleton.md",
     "tools/Design Patterns/Creational Design Patterns/Prototype.md",
-    "tools/Design Patterns/Creational Design Patterns/Factory.md",
-    "tools/Design Patterns/Creational Design Patterns/Builder.md",
-    "tools/Design Patterns/Creational Design Patterns/Creational Design Patterns.md",
     "assets/tools/Design Patterns/Creational Design Patterns/Prototype",
     "assets/tools/Design Patterns/Creational Design Patterns/Factory",
     "assets/tools/Design Patterns/Creational Design Patterns/Singleton",
     "assets/tools/Design Patterns/Creational Design Patterns/Builder",
     "assets/tools/Design Patterns/Creational Design Patterns",
     "tools/Design Patterns/Creational Design Patterns",
-    "tools/Design Patterns/Command Query Separation.md",
-    "tools/Design Patterns/Structural Design Patterns/Proxy.md",
-    "tools/Design Patterns/Structural Design Patterns/Flyweight.md",
-    "tools/Design Patterns/Structural Design Patterns/Facade.md",
-    "tools/Design Patterns/Structural Design Patterns/Decorator.md",
-    "tools/Design Patterns/Structural Design Patterns/Composite.md",
     "assets/tools/Design Patterns/Structural Design Patterns/Flyweight",
     "assets/tools/Design Patterns/Structural Design Patterns/Facade",
     "assets/tools/Design Patterns/Structural Design Patterns/Proxy",
