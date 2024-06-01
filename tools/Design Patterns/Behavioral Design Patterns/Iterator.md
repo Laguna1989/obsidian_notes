@@ -259,3 +259,123 @@ int main()
 > [!hint] If we want a different iterator type, define it as another inner class of `BinaryTree`
 
 # Tree Iterator with [[C++ Coroutines]]
+
+> [!danger] Problem
+> - Normally tree traversal is a simple recursive problem
+> - Problem with the above code is that `operator++()` can not easily be written recursively
+
+>[!check] Solution
+>[[C++ Coroutines]]
+
+Let's write a normal, readable algorithm
+
+```cpp
+#include <experimental/coroutine>
+#include <experimental/generator>
+
+struct BinaryTree
+{
+	// all the stuff from above
+	
+	// agenerator is iterable and will reuse existing code
+	experimental::generator<Node<T>*> post_order()
+	{
+		return post_order_impl(root);
+	}
+
+	experimental::generator<Node<T>*> post_order_impl(Node<T>* node)
+	{
+		if(node)
+		{
+			for(auto x : post_order_impl(node->left))
+				co_yield x; // return in a suspended mechanism
+			for(auto y : post_order_impl(node->right))
+				co_yield y;
+			co_yield node;
+		}
+	}
+};
+```
+
+> [!check] Way easier to read and understand
+
+Application
+
+```cpp
+for(auto it : family.post_order())
+{
+	std::cout << it->value << std::endl;
+}
+```
+
+# Boost Iterator Facade
+
+> [!quote]  Boost Iterator Facade is just a helpful construct to build iterator types
+
+Singly linked list
+
+> [!hint]
+> `boost::iterator_facace` uses [[CRTP]]
+
+```cpp
+struct Node
+{
+	std::string value;
+	Node *next{nullptr};
+	
+	Node(std::string const& value) : value{value} {}
+	Node(std::string const& value, Node* parent) : value{value}
+	{
+		parent.next = this;
+	}
+}
+
+struct ListIterator : boost::iterator_facade<ListIterator, Node, boost::forward_traversal_tag>
+{
+	Node* current{nullptr};
+	ListIterator() = default;
+	ListIterator(Node* current) : current{current} {}
+	
+private:
+	friend class boost::iterator_core_access;
+	
+	// define functions that the iterator expects us to have
+	void increment() { current = current->next; }
+	bool equal(ListIterator const& other)
+	{
+		return other.current = current;
+	}
+	
+	Node& dereference() const
+	{
+		return *current;
+	}
+}
+```
+
+Let's use this
+
+```cpp
+int main()
+{
+	Node alpha{"alpha"};
+	Node beta{"beta", &alpha};
+	Node gamma{"gamma", &beta};
+
+	std::for_each(ListIterator{&alpha, ListIterator{}, [](Node const& n)
+	{
+		std::cout << n.value << std::endl;
+	}
+	});
+}
+```
+
+# Summary
+
+> [!summary]
+> - An object can be iterated (traversed) if it defines `begin()`/`end()`
+> - An iterator specifies how you can traverse an object
+> - Typically requires `operator++()` and `operator!=()`
+> - `operator++` is called sporadically so it can not be called recursively
+> - Coroutines allows recursion through generator-yielding functions
+

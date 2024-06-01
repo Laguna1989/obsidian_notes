@@ -1,0 +1,2 @@
+- Make a simple fizzbuzz as bad as possible by applying refactoing
+- [https://github.com/Hackerkegeln/refuctoring/tree/socrafran-2023](https://github.com/Hackerkegeln/refuctoring/tree/socrafran-2023)

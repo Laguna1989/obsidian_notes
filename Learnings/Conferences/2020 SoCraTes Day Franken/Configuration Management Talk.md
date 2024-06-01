@@ -1,0 +1,26 @@
+- Früher wenig linux admins, sondern v.a. linux oder noch ältere systeme
+- admins loggen sich manuell remote ein und ändern configs manuell
+- next step: shell scripte, die sich selber einloggen, aber ebenfalls fehleranfällig
+- Erstes gutes und weit verbreitetes Tool: Puppet
+    - deklarative beschreibung des Zielzustands
+    - Client muss auf zielrechner laufen
+    - Server speichert Konfigurationen
+- Chef ähnlich zu Puppet
+- beide vor containern und cloud. Alte Rechenzentrumswelt
+- Ab jetzt dynamische Infrastruktur
+- 2010 Amazon startet cloud Anwendungen mit AWS mit proprietären Konfigurationsmanagement
+- Jetzt Saltstack oder Ansible (super einfach) auch noch für statische Welt
+- Heat, Terraform v.a. für dynamisches Umfeld
+- terraform:
+    - deklarativer Zustand
+- Pets vs Cattle
+    - Pets sind die alte generation, um die man sich individuell kümmert
+    - Cattle ist eine anonyme Herde, wo Tiere beliebig dazu oder weg kommen.
+- Tool: Packer
+    - Baue mir automatisiert das Abbild einer VM und führe bestimme Anwendungen aus
+    - Automatisierung des Image Builds
+    - Kann für beliebige Targets kompilieren (docker, aws, google cloud, …)
+- Vagrant: lokales testing ohne Cloud oder VM
+    - provisionierung lokal - wie terraform für cloud, hier lokal
+    - docker steuert container
+    - vagrant steuert vms oder docker

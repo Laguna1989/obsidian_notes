@@ -1,0 +1,20 @@
+- Statt Termine mit 1h dauer - 45min  Termine weil Wegzeiten wegfallen.
+- Laptop am Abend abbauen
+- Morgens/Abends um den Block laufen um Arbeitsweg zu simulieren
+- Kameras einschalten - lange Diskussion
+- Feste Zeiten für Kaffeepausen
+- Mittagspause blocken
+- Kaffeeklatsch Termine um Flurfunk zu simulieren
+- Privatleben/Arbeitszeit
+- Liste von Leuten die man lange nicht getroffen hat
+- Tagebuch führen, was man alles erledigt hat
+- Hybride Meetings (halb online, halb offline) funktioniert nicht
+- “Kreativ” mit Arbeitszeit umgehen
+- Vorteile:
+    - Office Utilization
+    - Einstellen von Leuten, die nicht in der Gegend wohnen
+    - Umwelt
+    - Alle Teilnehmer (20) sagen, sie sind im home office produktiver
+- Nachteile:
+    - Soziale Isolation
+    - Falls sich homeoffice durchsetzt: Mehr Konkurrenz auf dem Arbeitsmarkt?

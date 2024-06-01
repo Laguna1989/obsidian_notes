@@ -1,0 +1,53 @@
+
+- Motivation
+    - Slides im terminal :O (“patat”)
+    - TMux : Terminal Multiplexer, wie gnu screen
+    - Window manager für terminals
+    - Keep stuff running after logout
+    - Skripting
+- Begriffliches:
+    - Terminal
+        - Provides IO to a computer
+        - Ursprung in den 60ern, TeleTYpeWriter Ausgabe
+        - Visual Display Units (erste screens, “glass TTYs”)
+        - Control Codes: ^M carriage return, ^J Line feed, ^G Bell
+        - Escape Sequences like Ansi escape sequences
+        - Unterschiedliche Hersteller, Chaos wegen proprietären Protokollen
+        - Unix führt Abstraktionsschicht ein: termcap/terminfo
+            - welche Escape sequences, welche Features?
+            - $TERM
+        - VT100 oder VT220 sehr stark verbreitet
+    - Terminal Emulators
+        - Terminal bietet nur IO
+        - Terminal Emulator: Schicht zwischen Shell und Terminal
+        - Terminal bietet keine Syntax Highlighting oder Tab Completion -> shell
+        - Job Control ctrl Z, crtl C, fg, bg, jobs, ….
+        - Posix Terminal In----terface: Input/Output
+    - Terminal Impl / API
+        - Unix system provide tty devices tty1, tty2, … controlled vio ioctl, system calls
+        - Pseudoterminals PTYs (/devpts/*)
+        - Windows bietet ConPTY API
+        - Deutliche Verbesserung für Windows in den letzten Jahren
+    - Linux Basics (most likely never required in real work)
+        - stty command to get/set terminal capabilities, e.g. stty -a
+    - Notable Terminal Emulators:
+        - Linux: console, xterm, konsole, GNOME Terminal
+        - macOS: Terminal, iTerm2, Terminator
+        - Windows: Windows Terminal, mintty, PuTTY, ConEmu
+        - TODO Check out Windows Terminal!!
+        - Features: Unicode, Emojis, 256 Colors, look and feel
+        - Keyboard Shortcuts
+    - Command line shell
+        - “command line shell”
+        - Shell und terminal kann beliebig kombiniert werden
+    - CLI
+        - auch python hat ein CLI
+        - verarbeitet parameter
+        - edit/edit command lines
+        - convenience features (tab completion, …)
+    - TUI
+        - nachmalen von windows in shells
+        - z.B. vim, tmux
+    - Console
+        - nicht gut definierter term, sehr schwammig
+        - Windows manager für anwendungen im terminal

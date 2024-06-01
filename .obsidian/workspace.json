@@ -32,31 +32,31 @@
             }
           },
           {
-            "id": "30a18423190b45d1",
+            "id": "e3004cd50446828d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/Obsidian/Hotkeys.md",
+                "file": "Learnings/Talks/Talks.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "0ffa34e284686ade",
+            "id": "e53c50a605915f1d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/c++/SEQLock.md",
+                "file": "Learnings/Conferences/Conferences.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "youtube",
+                "query": "SRP",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,8 +110,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -131,7 +130,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/c++/SEQLock.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +146,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/c++/SEQLock.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,9 +167,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "tools/c++/SEQLock.md"
-              }
+              "state": {}
             }
           },
           {
@@ -199,17 +194,14 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "tools/c++/SEQLock.md"
-              }
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 304.5,
-    "collapsed": true
+    "width": 304.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -221,46 +213,46 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0ffa34e284686ade",
+  "active": "0448b7f67f35bd14",
   "lastOpenFiles": [
-    "tools/Obsidian/Obsidian.md",
-    "Learnings/Conferences and Talks/Talks/Misko Hevery - Inheritance, Polimorphism, Testing.md",
-    "Learnings/Learnlist.md",
-    "Learnings/Conferences and Talks/Talks/Johnathan Gopel - Remove virtual.md",
-    "Learnings/books/Gene Kim - The DevOps Handbook.md",
-    "tools/c++/C++ Concurrency.md",
-    "tools/c++/C++ 17 Allocators.md",
-    "Learnings/books/Sylvester - Designing Games/07 - Balancing.md",
-    "Learnings/books/Sylvester - Designing Games/04 - Skill.md",
-    "Learnings/Conferences and Talks/Talks/Marc Gregoire - An Almost complete overview of cpp20.md",
-    "tools/Obsidian/Hotkeys.md",
+    "Learnings/Conferences/Conferences.md",
+    "Learnings/Conferences/2024 SWEC/SWEC 2024.md",
+    "Learnings/Conferences/2023 Socrates Day Franken/Testing Without Mocks.md",
+    "Learnings/Conferences/2023 Socrates Day Franken/SoCraTes Day Franken 2023.md",
+    "Learnings/Conferences/2023 SenecaCamp/SenecaCamp 2023.md",
+    "Learnings/Conferences/2021 SoCraTes Day Franken/SoCraTes Day Franken 2021.md",
+    "Learnings/Conferences/2020 SoCraTes Day Franken/Corona Hacks Discussion.md",
+    "Learnings/Conferences/2020 SoCraTes Day Franken/SoCraTes Day Franken 2020.md",
+    "Learnings/Talks/Talks.md",
+    "assets/Learnings/Talks/Misko Hevery - Inheritance, Polimorphism, Testing",
+    "assets/Learnings/Talks/Johny Swalb - The true price of virtual functions in c++",
+    "assets/Learnings/Talks/Dangerous Optimizations",
+    "assets/Learnings/Talks/Design Patterns in modern cpp/1 - Structural Design Patterns",
+    "assets/Learnings/Talks/Design Patterns in modern cpp",
+    "assets/Learnings/Talks",
+    "assets/Learnings/Conferences and Talks/Misko Hevery - Inheritance, Polimorphism, Testing",
+    "assets/Learnings/Conferences and Talks/Johny Swalb - The true price of virtual functions in c++",
+    "assets/Learnings/Conferences and Talks/Dangerous Optimizations",
+    "assets/Learnings/Conferences and Talks/Design Patterns in modern cpp/1 - Structural Design Patterns",
+    "Learnings/Talks/Design Patterns in modern cpp/3 - Behavioral Design Patterns.md",
+    "Learnings/Conferences/2020 SoCraTes Day Franken/Podcasts.md",
+    "Learnings/Conferences/2023 Socrates Day Franken/Refuctoring Game.md",
+    "Learnings/Conferences/2020 SoCraTes Day Franken/Configuration Management Talk.md",
+    "Learnings/Conferences/2020 SoCraTes Day Franken/Tmux Und Terminals.md",
+    "Learnings/Conferences/2021 SoCraTes Day Franken/Wissensverwaltung.md",
+    "Learnings/Conferences/2021 SoCraTes Day Franken/Wie lernt ihr?.md",
+    "Learnings/Conferences/2021 SoCraTes Day Franken/Build Your Lerncoach.md",
+    "Learnings/Conferences/2021 SoCraTes Day Franken/Remote Onboarding.md",
+    "Learnings/Conferences/2021 SoCraTes Day Franken/StPauli TDD.md",
+    "Learnings/Conferences/2023 Socrates Day Franken/DevOps Discussion.md",
+    "Learnings/Conferences/2023 SenecaCamp/NeoVim.md",
+    "Learnings/Conferences/2023 Socrates Day Franken/Local Large Language Models.md",
+    "Learnings/Conferences/2023 Socrates Day Franken/Prompt Injection Attacks against Gandalf.md",
+    "tools/Design Patterns/Behavioral Design Patterns/Mediator.md",
     "tools/Design Patterns/Behavioral Design Patterns/Iterator.md",
-    "C++Coroutines.md",
-    "tools/Design Patterns/Behavioral Design Patterns/Behavioral Design Patterns.md",
-    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/3 - Behavioral Design Patterns.md",
-    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/Design Patterns in modern cpp.md",
-    "Learnings/books/Robert Nystrom - Game Programming Patterns.md",
-    "tools/Design Patterns/Design Patterns.md",
-    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/0 - Design Patterns Intro.md",
     "tools/Design Patterns/Behavioral Design Patterns/Interpreter.md",
-    "tools/Design Patterns/Behavioral Design Patterns/Command.md",
-    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/2 - Creational Design Patterns.md",
-    "Learnings/Conferences and Talks/Talks/Design Patterns in modern cpp/1 - Structural Design Patterns.md",
-    "tools/Design Patterns/Behavioral Design Patterns/Chain of Responsibility.md",
-    "tools/Design Patterns/Creational Design Patterns/Singleton.md",
-    "tools/Design Patterns/Creational Design Patterns/Prototype.md",
-    "assets/tools/Design Patterns/Creational Design Patterns/Prototype",
-    "assets/tools/Design Patterns/Creational Design Patterns/Factory",
-    "assets/tools/Design Patterns/Creational Design Patterns/Singleton",
-    "assets/tools/Design Patterns/Creational Design Patterns/Builder",
-    "assets/tools/Design Patterns/Creational Design Patterns",
-    "tools/Design Patterns/Creational Design Patterns",
-    "assets/tools/Design Patterns/Structural Design Patterns/Flyweight",
-    "assets/tools/Design Patterns/Structural Design Patterns/Facade",
-    "assets/tools/Design Patterns/Structural Design Patterns/Proxy",
     "assets/tools/Design Patterns/Creational Design Patterns/Prototype/IMG-2024-05-31-134636258.png",
     "assets/tools/Design Patterns/Creational Design Patterns/Prototype/IMG-2024-05-31-134636245.png",
-    "assets/tools/Design Patterns/Structural Design Patterns/Decorator",
     "connyfotografie/2022-01-11_19-04-25_UTC.jpg",
     "connyfotografie/2022-01-13_17-57-05_UTC.jpg",
     "connyfotografie/2022-01-27_16-24-54_UTC.jpg",

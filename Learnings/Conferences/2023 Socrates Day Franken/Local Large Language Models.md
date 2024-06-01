@@ -1,0 +1,3 @@
+- Private gpt (nicht gut)
+- Gpt4all (gute Übersicht)
+- Braucht viel Speicher
