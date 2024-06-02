@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/Design Patterns/Behavioral Design Patterns/Strategy.md",
+                "file": "Learnings/Learnlist.md",
                 "mode": "source",
                 "source": false
               }
@@ -66,9 +66,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "351f3fb48c3203e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tools/Design Patterns/Behavioral Design Patterns/Behavioral Design Patterns.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f35e5589438f2f30",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learnings/Talks/Design Patterns in modern cpp/3 - Behavioral Design Patterns.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8343131fa93c8162",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learnings/Learnlist.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -97,7 +133,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "template",
+                "query": "learnlist",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -126,8 +162,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 363.5,
-    "collapsed": true
+    "width": 363.5
   },
   "right": {
     "id": "d02a40f61708ec57",
@@ -143,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/Design Patterns/SOLID Design Principles/Single Responsibility Principle.md",
+                "file": "Learnings/Learnlist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/Design Patterns/SOLID Design Principles/Single Responsibility Principle.md",
+                "file": "Learnings/Learnlist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/Design Patterns/SOLID Design Principles/Single Responsibility Principle.md"
+                "file": "Learnings/Learnlist.md"
               }
             }
           },
@@ -212,7 +247,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "tools/Design Patterns/SOLID Design Principles/Single Responsibility Principle.md"
+                "file": "Learnings/Learnlist.md"
               }
             }
           }
@@ -220,8 +255,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304.5,
-    "collapsed": true
+    "width": 304.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -233,34 +267,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "db088772f2127182",
+  "active": "b4017a2eff9594db",
   "lastOpenFiles": [
+    "Cooking/Chicken Bowl with Rice and green beans.md",
+    "Learnings/Learnlist.md",
+    "Cooking",
+    "Learnings/MathStuff.md",
+    "Learnings/Talks/Leading Change.md",
+    "assets/COACH SS2022 - Lesson 11 - Leading Change - Peter Koning.pdf",
+    "Learnings/Talks/Learning And Teaching C++.md",
+    "tools/Design Patterns/Design Patterns.md",
+    "Learnings/Talks/Talks.md",
+    "Learnings/Talks/Design Patterns in modern cpp/3 - Behavioral Design Patterns.md",
+    "tools/Design Patterns/Behavioral Design Patterns/Behavioral Design Patterns.md",
     "tools/Design Patterns/Behavioral Design Patterns/Visitor.md",
+    "tools/Design Patterns/Structural Design Patterns/Bridge.md",
+    "tools/Design Patterns/Behavioral Design Patterns/Strategy.md",
+    "tools/Design Patterns/Behavioral Design Patterns/Template Method.md",
+    "tools/Design Patterns/SOLID Design Principles/Single Responsibility Principle.md",
     "Learnings/Talks/Design Patterns in modern cpp/0 - Design Patterns Intro.md",
     "Learnings/Talks/Design Patterns in modern cpp/Design Patterns in modern cpp.md",
     "Learnings/Talks/Design Patterns in modern cpp/2 - Creational Design Patterns.md",
     "Learnings/Talks/Design Patterns in modern cpp/1 - Structural Design Patterns.md",
-    "Learnings/Talks/Design Patterns in modern cpp/3 - Behavioral Design Patterns.md",
-    "tools/Design Patterns/Behavioral Design Patterns/Template Method.md",
     "Learnings/books/Mark Seeman - Dependency Injection.md",
-    "tools/Design Patterns/Behavioral Design Patterns/Strategy.md",
-    "tools/Design Patterns/Behavioral Design Patterns/Behavioral Design Patterns.md",
     "tools/Design Patterns/Behavioral Design Patterns/State.md",
     "tools/Design Patterns/Behavioral Design Patterns/Observer.md",
     "Learnings/books/Robert Nystrom - Game Programming Patterns.md",
-    "Learnings/Learnlist.md",
     "tools/Design Patterns/Creational Design Patterns/Creational Design Patterns.md",
-    "Learnings/Talks/Talks.md",
     "Learnings/books/Emily Bache - The Coding Dojo Handbook.md",
     "tools/Design Patterns/Behavioral Design Patterns/Chain of Responsibility.md",
     "tools/Design Patterns/Structural Design Patterns/Adapter.md",
-    "Learnings/books/Robert C Martin - Agile Software Development/2 - Agile Design.md",
-    "tools/Design Patterns/Command Query Separation.md",
-    "Learnings/Conferences/Conferences.md",
-    "Learnings/Talks/Marc Gregoire - An Almost complete overview of cpp20.md",
-    "tools/Design Patterns/Behavioral Design Patterns/Memento.md",
-    "tools/Design Patterns/SOLID Design Principles/Open Close Principle.md",
-    "Learnings/books/Mik Kersten - Project To Product.md",
     "assets/Learnings/Talks/Misko Hevery - Inheritance, Polimorphism, Testing",
     "assets/Learnings/Talks/Johny Swalb - The true price of virtual functions in c++",
     "assets/Learnings/Talks/Dangerous Optimizations",
@@ -269,8 +305,6 @@
     "assets/Learnings/Talks",
     "assets/Learnings/Conferences and Talks/Misko Hevery - Inheritance, Polimorphism, Testing",
     "assets/Learnings/Conferences and Talks/Johny Swalb - The true price of virtual functions in c++",
-    "assets/Learnings/Conferences and Talks/Dangerous Optimizations",
-    "assets/Learnings/Conferences and Talks/Design Patterns in modern cpp/1 - Structural Design Patterns",
     "assets/tools/Design Patterns/Creational Design Patterns/Prototype/IMG-2024-05-31-134636258.png",
     "assets/tools/Design Patterns/Creational Design Patterns/Prototype/IMG-2024-05-31-134636245.png",
     "connyfotografie/2022-01-11_19-04-25_UTC.jpg",

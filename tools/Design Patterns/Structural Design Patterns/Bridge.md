@@ -145,7 +145,7 @@ struct Circle : Shape
 ```
 
  > [!info]
- Non Intrusive design by Igelberger seems more powerful (but also way more complex)
+ [[Non-intrusive Design]] by Igelberger seems more powerful (but also way more complex)
 
 > [!summary]
 > - Decouple abstraction from implementation
