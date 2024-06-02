@@ -75,7 +75,7 @@ links: "[[Book reviews]]"
 - Unmentioned Drawback: Worst testing ever
 - Solution: [[Mark Seeman - Dependency Injection]]. Yes, it requires some thought, but it works out great in the JamTemplate.
 
-## State
+## [[State]]
 
 - Allow an object to alter its behavior on internal state changes
 - State Machines
@@ -146,7 +146,7 @@ links: "[[Book reviews]]"
 
 - Avoid big inheritance hierarchies by adding a data subclass
 - Defining behavior will be very hard with this pattern
-    - -> Strategy or State pattern can help out
+    - -> [[Strategy]] or [[State]] pattern can help out
 - Construction options
     - Monster(Breed const&) or
     - monster = breed.newMonster

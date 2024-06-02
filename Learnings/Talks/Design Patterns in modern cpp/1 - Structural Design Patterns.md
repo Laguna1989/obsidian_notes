@@ -2,7 +2,7 @@
 tags: []
 ---
 
->[!hint] see also [[Structural Design Patterns]]
+>[!hint] See also [[Structural Design Patterns]]
 
 # Adapter
 
@@ -87,7 +87,7 @@ Neuron also has a stream output operator
 > - Objects can use other objects either by composition or inheritance
 > - Sometimes they need similar behaviours
 > - The Composite design pattern lets us treat scalar and composite objects similarly
-> - C++ supports “duck typing” when using begin() and end() objects and ranged based for loops
+> - C++ supports “duck typing” when using `begin()` and `end()` objects and ranged based for loops
 
 # Decorator
 

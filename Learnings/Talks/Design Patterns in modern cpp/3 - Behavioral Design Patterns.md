@@ -3,7 +3,7 @@ tags:
 links:
 ---
 
->[!hint] see also [[Behavioral Design Patterns]]
+>[!hint] See also [[Behavioral Design Patterns]]
 
 # Chain of Responsibility
 
@@ -32,3 +32,19 @@ links:
 # Observer
 
 [[Observer]]
+
+# State
+
+[[State]]
+
+# Strategy
+
+[[Strategy]]
+
+# Template Method
+
+[[Template Method]]
+
+# Visitor
+
+[[Visitor]]

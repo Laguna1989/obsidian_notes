@@ -245,9 +245,9 @@ links: "[[Book reviews]]"
 Questions
 
 - What are myths that you have heard about when talking about DI?
-- Page 11 mentions the Liskov Substitution Principle (LSP). Can you give an example from your current project where the LSP is used?
+- Page 11 mentions the [[Liskov Substitution Principle]] (LSP). Can you give an example from your current project where the LSP is used?
 - Page 11 mentions the [[Single Responsibility Principle]] (SRP). Can you provide an example from your current project where this is violated? What lead to this issue?
-- Page 14 mentions the Open Close Principle (OCP).
+- Page 14 mentions the [[Open Close Principle]] (OCP).
 - The LSP, OCP and SRP are three of the SOLID Principles. What other principles are part of SOLID?
 - Name one stable and one volatile dependency in your current project
 
@@ -266,7 +266,7 @@ Before you start reading, I would like to ask you to share your expectations for
 While and after reading this week's chapter it would be great to discuss with you:
 
 - Are you familiar with any of the myths about DI mentioned in the book?
-- The text mentions the SOLID principles. Are you familiar with them and can you list them?
+- The text mentions the [[SOLID Design Principles]]. Are you familiar with them and can you list them?
 - The concept of volatile and stable dependencies is introduced. Think about any project you work(ed) on. How would the dependencies be classified and have any dependencies (especially the volatile ones) caused problems for you?
 
 ## Week 2 (Tightly and Loosely Coupled code)
@@ -351,7 +351,7 @@ I would like to discuss with you:
 
 ## Week 6 (Object Lifetime and Interception)
 
-- How does the IDisposable idea translate to languages without garbage collection?
+- How does the `IDisposable` idea translate to languages without garbage collection?
 - Table 9.1 lists multiple cross cutting concerns. Do you have similar cross cutting concerns in you project and how did you solve them?
 - In listing 9.7 (interception for security) it is suggested to throw an exception if the user has insufficient rights to perform a certain action. This might be a valid approach in c#, but in c++, exceptions should be exceptional. How would you handle the behavior there?
 

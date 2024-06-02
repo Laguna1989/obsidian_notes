@@ -22,7 +22,6 @@
 		- Strategy
 		- Template Method
 		- Visitor
-- 100% practical Course, live coding sessions
 - End of section coding exercises
 - Heavy use of clion editing features
 - Simplification

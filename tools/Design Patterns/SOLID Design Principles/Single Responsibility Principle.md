@@ -44,9 +44,24 @@ We could add `serialize()`/`deserialize()` methods to the `Journal` class.
 - If that functionality is added, the journal has **two** responsibilities.
 - Avoid classes that have multiple responsibilities/concerns
 - `Journal`is hard to change, e.g. if you want to save to a file or a database.
+
 ## Good Solution
+
 - Better: `PersistenceManager` class
-![Enter image alt description](IMG-2024-05-30-204033689.png)
+
+```cpp
+struct PersistenceManager
+{
+	static void save(Journal const& j, std::string const& filename)
+	{
+		std::ofstream ofs{filename};
+		for(auto& e : j.entries)
+		{
+			ofs << e << std::endl;
+		}
+	}
+};
+```
 
 > [!check] This separates the concerns nicely.
 

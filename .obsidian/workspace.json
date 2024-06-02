@@ -32,55 +32,43 @@
             }
           },
           {
-            "id": "e3004cd50446828d",
+            "id": "ea4205fac8592ce2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learnings/Talks/Talks.md",
+                "file": "tools/Design Patterns/Behavioral Design Patterns/Strategy.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "2b6ff6dceccce163",
+            "id": "6aa624f8562743a1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learnings/books/Emily Bache - The Coding Dojo Handbook.md",
+                "file": "tools/Design Patterns/Behavioral Design Patterns/Template Method.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "36eb31a60a0f6def",
+            "id": "db088772f2127182",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/Design Patterns/Command Query Separation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "072d7a294631c990",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tools/Design Patterns/Behavioral Design Patterns/Chain of Responsibility.md",
+                "file": "tools/Design Patterns/SOLID Design Principles/Single Responsibility Principle.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -109,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Design Patterns",
+                "query": "template",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -134,12 +122,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 363.5
+    "width": 363.5,
+    "collapsed": true
   },
   "right": {
     "id": "d02a40f61708ec57",
@@ -155,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/Design Patterns/Behavioral Design Patterns/Chain of Responsibility.md",
+                "file": "tools/Design Patterns/SOLID Design Principles/Single Responsibility Principle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/Design Patterns/Behavioral Design Patterns/Chain of Responsibility.md",
+                "file": "tools/Design Patterns/SOLID Design Principles/Single Responsibility Principle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/Design Patterns/Behavioral Design Patterns/Chain of Responsibility.md"
+                "file": "tools/Design Patterns/SOLID Design Principles/Single Responsibility Principle.md"
               }
             }
           },
@@ -212,7 +200,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "84ba8d1e2ed3699e",
@@ -224,7 +212,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "tools/Design Patterns/Behavioral Design Patterns/Chain of Responsibility.md"
+                "file": "tools/Design Patterns/SOLID Design Principles/Single Responsibility Principle.md"
               }
             }
           }
@@ -232,7 +220,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304.5
+    "width": 304.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -244,34 +233,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "072d7a294631c990",
+  "active": "db088772f2127182",
   "lastOpenFiles": [
-    "tools/Design Patterns/Structural Design Patterns/Adapter.md",
+    "tools/Design Patterns/Behavioral Design Patterns/Visitor.md",
+    "Learnings/Talks/Design Patterns in modern cpp/0 - Design Patterns Intro.md",
+    "Learnings/Talks/Design Patterns in modern cpp/Design Patterns in modern cpp.md",
+    "Learnings/Talks/Design Patterns in modern cpp/2 - Creational Design Patterns.md",
     "Learnings/Talks/Design Patterns in modern cpp/1 - Structural Design Patterns.md",
-    "Learnings/books/Robert C Martin - Agile Software Development/2 - Agile Design.md",
+    "Learnings/Talks/Design Patterns in modern cpp/3 - Behavioral Design Patterns.md",
+    "tools/Design Patterns/Behavioral Design Patterns/Template Method.md",
+    "Learnings/books/Mark Seeman - Dependency Injection.md",
+    "tools/Design Patterns/Behavioral Design Patterns/Strategy.md",
+    "tools/Design Patterns/Behavioral Design Patterns/Behavioral Design Patterns.md",
+    "tools/Design Patterns/Behavioral Design Patterns/State.md",
+    "tools/Design Patterns/Behavioral Design Patterns/Observer.md",
+    "Learnings/books/Robert Nystrom - Game Programming Patterns.md",
+    "Learnings/Learnlist.md",
+    "tools/Design Patterns/Creational Design Patterns/Creational Design Patterns.md",
     "Learnings/Talks/Talks.md",
-    "tools/Design Patterns/Command Query Separation.md",
     "Learnings/books/Emily Bache - The Coding Dojo Handbook.md",
+    "tools/Design Patterns/Behavioral Design Patterns/Chain of Responsibility.md",
+    "tools/Design Patterns/Structural Design Patterns/Adapter.md",
+    "Learnings/books/Robert C Martin - Agile Software Development/2 - Agile Design.md",
+    "tools/Design Patterns/Command Query Separation.md",
     "Learnings/Conferences/Conferences.md",
     "Learnings/Talks/Marc Gregoire - An Almost complete overview of cpp20.md",
-    "tools/Design Patterns/Behavioral Design Patterns/Behavioral Design Patterns.md",
-    "Learnings/books/Robert Nystrom - Game Programming Patterns.md",
     "tools/Design Patterns/Behavioral Design Patterns/Memento.md",
-    "Learnings/Talks/Design Patterns in modern cpp/3 - Behavioral Design Patterns.md",
     "tools/Design Patterns/SOLID Design Principles/Open Close Principle.md",
-    "Learnings/books/Mark Seeman - Dependency Injection.md",
     "Learnings/books/Mik Kersten - Project To Product.md",
-    "tools/Design Patterns/Behavioral Design Patterns/Chain of Responsibility.md",
-    "tools/Design Patterns/Behavioral Design Patterns/Observer.md",
-    "Learnings/books/Book reviews.md",
-    "Learnings/Talks/Design Patterns in modern cpp/0 - Design Patterns Intro.md",
-    "Learnings/Talks/Johny Swalb - The true price of virtual functions in c++.md",
-    "tools/Design Patterns/SOLID Design Principles/Dependency Inversion Principle.md",
-    "tools/Design Patterns/Behavioral Design Patterns/Mediator.md",
-    "Learnings/Conferences/2024 SWEC/SWEC 2024.md",
-    "Learnings/Conferences/2023 Socrates Day Franken/Testing Without Mocks.md",
-    "Learnings/Conferences/2023 Socrates Day Franken/SoCraTes Day Franken 2023.md",
-    "Learnings/Conferences/2023 SenecaCamp/SenecaCamp 2023.md",
     "assets/Learnings/Talks/Misko Hevery - Inheritance, Polimorphism, Testing",
     "assets/Learnings/Talks/Johny Swalb - The true price of virtual functions in c++",
     "assets/Learnings/Talks/Dangerous Optimizations",
