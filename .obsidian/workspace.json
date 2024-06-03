@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learnings/Learnlist.md",
+                "file": "Cooking/Chicken-Bowl with Rice and green beans.md",
                 "mode": "source",
                 "source": false
               }
@@ -162,7 +162,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 363.5
+    "width": 363.5,
+    "collapsed": true
   },
   "right": {
     "id": "d02a40f61708ec57",
@@ -178,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learnings/Learnlist.md",
+                "file": "Cooking/Chicken-Bowl with Rice and green beans.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learnings/Learnlist.md",
+                "file": "Cooking/Chicken-Bowl with Rice and green beans.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learnings/Learnlist.md"
+                "file": "Cooking/Chicken-Bowl with Rice and green beans.md"
               }
             }
           },
@@ -247,7 +248,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Learnings/Learnlist.md"
+                "file": "Cooking/Chicken-Bowl with Rice and green beans.md"
               }
             }
           }
@@ -264,13 +265,17 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "recipe-view:Toggle recipe view": false
     }
   },
-  "active": "b4017a2eff9594db",
+  "active": "8343131fa93c8162",
   "lastOpenFiles": [
-    "Cooking/Chicken Bowl with Rice and green beans.md",
+    "tools/Design Patterns/Behavioral Design Patterns/Template Method.md",
+    "Cooking/Chicken-Bowl with Rice and green beans.md",
     "Learnings/Learnlist.md",
+    "Cooking",
+    "Cooking/Chicken Bowl with Rice and green beans.md",
     "Cooking",
     "Learnings/MathStuff.md",
     "Learnings/Talks/Leading Change.md",
@@ -283,7 +288,6 @@
     "tools/Design Patterns/Behavioral Design Patterns/Visitor.md",
     "tools/Design Patterns/Structural Design Patterns/Bridge.md",
     "tools/Design Patterns/Behavioral Design Patterns/Strategy.md",
-    "tools/Design Patterns/Behavioral Design Patterns/Template Method.md",
     "tools/Design Patterns/SOLID Design Principles/Single Responsibility Principle.md",
     "Learnings/Talks/Design Patterns in modern cpp/0 - Design Patterns Intro.md",
     "Learnings/Talks/Design Patterns in modern cpp/Design Patterns in modern cpp.md",
@@ -296,7 +300,6 @@
     "tools/Design Patterns/Creational Design Patterns/Creational Design Patterns.md",
     "Learnings/books/Emily Bache - The Coding Dojo Handbook.md",
     "tools/Design Patterns/Behavioral Design Patterns/Chain of Responsibility.md",
-    "tools/Design Patterns/Structural Design Patterns/Adapter.md",
     "assets/Learnings/Talks/Misko Hevery - Inheritance, Polimorphism, Testing",
     "assets/Learnings/Talks/Johny Swalb - The true price of virtual functions in c++",
     "assets/Learnings/Talks/Dangerous Optimizations",
@@ -304,7 +307,6 @@
     "assets/Learnings/Talks/Design Patterns in modern cpp",
     "assets/Learnings/Talks",
     "assets/Learnings/Conferences and Talks/Misko Hevery - Inheritance, Polimorphism, Testing",
-    "assets/Learnings/Conferences and Talks/Johny Swalb - The true price of virtual functions in c++",
     "assets/tools/Design Patterns/Creational Design Patterns/Prototype/IMG-2024-05-31-134636258.png",
     "assets/tools/Design Patterns/Creational Design Patterns/Prototype/IMG-2024-05-31-134636245.png",
     "connyfotografie/2022-01-11_19-04-25_UTC.jpg",
