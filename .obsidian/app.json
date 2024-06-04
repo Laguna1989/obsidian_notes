@@ -1,7 +1,7 @@
 {
   "attachmentFolderPath": "assets",
   "alwaysUpdateLinks": true,
-  "spellcheck": false,
+  "spellcheck": true,
   "propertiesInDocument": "hidden",
   "pdfExportSettings": {
     "includeName": true,

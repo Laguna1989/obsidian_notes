@@ -10,17 +10,17 @@ links: "[[Book reviews]]"
 ---
 # 1 Helping Your Team Inspect and Adapt
 
-- Set the stage
+1. Set the stage
 	- Welcome and appreciation of peoples time
 	- restate the purpose and goalof the retro
 	- Set a clear time frame
 	- invest time in working agreements (values)
-- Gather Data
+2. Gather Data
 	- start with hard data: events, metrics, features, ...
 	- Don't ignore feelings. They tell what is important to the team. And emotions will not go away
-- Generate Insights
+3. Generate Insights
 	- Try to understand what has happened and why, based on the gathered data
-- Decide what to do
+4. Decide what to do
 	- Note down action items
 		- Need to be stored in a central place, accessible by everyone
 		- Clear assignee (person, role or team)
@@ -28,7 +28,7 @@ links: "[[Book reviews]]"
 		- Can explicitly be phrased as experiments
 	- Limit the number to a reasonable amount
 	- Action Items can also be written down as stories for the next sprint
-- Close the retrospective
+5. Close the retrospective
 	- Gather feedback on the retrospective (either directly or individually)
 
 # 2 A Retro Custom Fit to Your Team

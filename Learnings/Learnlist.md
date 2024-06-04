@@ -3,14 +3,16 @@ cssclasses:
   - minecraft
 ---
 # In Progress
-
+- [/] Loeffler - "Improving agile retrospectives" book hardcover
+	- [Marc Loeffler - Improving Agile Retrospectives](obsidian://open?vault=obsidian_notes&file=Learnings%2Fbooks%2FMarc%20Loeffler%20-%20Improving%20Agile%20Retrospectives)
 # TODO
-- [ ] Loeffler - "Improving agile retrospectives" book hardcover
+
 - [ ] Martin Fowler - "Refactoring", book hardcover
 - [ ] [[Regular expressions]]
 - [ ] [[Binary Tree]]
 - [ ] [[C++Coroutines]]
 - [ ] UML
+- [ ] Clinton Keith - "Agile Game Development with Scrum"  book
 
 # Done
 
