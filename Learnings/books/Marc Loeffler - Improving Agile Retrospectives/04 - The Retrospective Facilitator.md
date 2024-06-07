@@ -27,7 +27,7 @@ tags:
 
 # Techniques to Become a Better Facilitator
 
-Practice **one** of the techniques until you have mastered them, then pick the next one
+Practice **one** of the techniques until you have mastered it, then pick the next one
 
 ## Respect Different Communication Styles
 
@@ -54,16 +54,16 @@ Sometimes has problems with clearly expressing his idea or a statement is confus
 
 ## Stacking
 
-If people are talking all over
+If people are talking all over the place
 
 - Say "Everyone who has something to say, please raise your hand"
-- Decide on a running order
+- Decide on a running order (the "stack")
 - Only one person is allowed to speak at a time, this is an exclusive right to speak
 - After all participants from the stack have spoken, ask if there are any new points, and start from the top
 
 ## Encourage
 
-If people are holding back, leave work to others or are naturally more introverted
+If people are holding back, leave work to others or are naturally more introverted, the following questions can help
 
 - Who else has an idea?
 - Can someone give me an example of this point of view?
@@ -72,7 +72,7 @@ If people are holding back, leave work to others or are naturally more introvert
 - How could we get to the heart of this?
 - Who want's to play devil's advocate for this idea?
 
-The idea is to give someone the opportunity to make his opinion heard
+The idea is to give someone the opportunity to make their opinion heard
 
 ## Feedback Emotion
 
@@ -109,7 +109,8 @@ In the beginning, talking about emotions will feel odd. The more often you to it
 - Improve your handwriting
 - Use visualizations
 
-**TODO** Draw a frame image
+Preparation Idea
+![[IMG-2024-06-07-200954973.png|center]]
 
 # Visual Retrospective Ideas
 
@@ -138,7 +139,7 @@ Gather feedback about a particular topic (how was the retrospective, how was thi
 
 Collect all the forces that support or hinder a specific change
 
-**TODO picture from force field analysis**
+![[Pasted image 20240607201027.png|center]]
 
 # Further References for Visual Meetings
 
