@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learnings/Learnlist.md",
+                "file": "tools/FMod/FMod.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,8 +134,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -155,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learnings/Learnlist.md",
+                "file": "tools/FMod/FMod.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learnings/Learnlist.md",
+                "file": "tools/FMod/FMod.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learnings/Learnlist.md"
+                "file": "tools/FMod/FMod.md"
               }
             }
           },
@@ -224,7 +223,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Learnings/Learnlist.md"
+                "file": "tools/FMod/FMod.md"
               }
             }
           }
@@ -232,7 +231,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304.5
+    "width": 304.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -247,6 +247,12 @@
   },
   "active": "68cb1243261e1fe3",
   "lastOpenFiles": [
+    "assets/tools/FMod/FMod",
+    "assets/tools/FMod",
+    "assets/tools/FMod/FMod/IMG-2024-06-06-143828000.png",
+    "Learnings/Learnlist.md",
+    "tools/FMod/FMod.md",
+    "tools/FMod",
     "Learnings/books/Marc Loeffler - Improving Agile Retrospectives/02 - Preparing Retrospectives.md",
     "Learnings/books/Marc Loeffler - Improving Agile Retrospectives/01 - Retrospective 101.md",
     "Learnings/books/Marc Loeffler - Improving Agile Retrospectives/Marc Loeffler - Improving Agile Retrospectives.md",
@@ -263,7 +269,6 @@
     "tools/Agile/Agile Printicples.md",
     "tools/Tools.md",
     "tools/Agile",
-    "Learnings/Learnlist.md",
     "Cooking/Chicken-Bowl with Rice and green beans.md",
     "tools/Design Patterns/Behavioral Design Patterns/Template Method.md",
     "Cooking",
@@ -271,7 +276,6 @@
     "Cooking",
     "Learnings/MathStuff.md",
     "Learnings/Talks/Leading Change.md",
-    "assets/COACH SS2022 - Lesson 11 - Leading Change - Peter Koning.pdf",
     "Learnings/Talks/Learning And Teaching C++.md",
     "tools/Design Patterns/Design Patterns.md",
     "Learnings/Talks/Talks.md",
@@ -281,9 +285,6 @@
     "tools/Design Patterns/Structural Design Patterns/Bridge.md",
     "tools/Design Patterns/Behavioral Design Patterns/Strategy.md",
     "tools/Design Patterns/SOLID Design Principles/Single Responsibility Principle.md",
-    "Learnings/Talks/Design Patterns in modern cpp/0 - Design Patterns Intro.md",
-    "Learnings/Talks/Design Patterns in modern cpp/Design Patterns in modern cpp.md",
-    "assets/Learnings/Talks/Misko Hevery - Inheritance, Polimorphism, Testing",
     "assets/tools/Design Patterns/Creational Design Patterns/Prototype/IMG-2024-05-31-134636258.png",
     "assets/tools/Design Patterns/Creational Design Patterns/Prototype/IMG-2024-05-31-134636245.png",
     "connyfotografie/2022-01-11_19-04-25_UTC.jpg",
@@ -292,7 +293,6 @@
     "connyfotografie/2022-02-03_17-51-39_UTC.jpg",
     "connyfotografie/2022-02-10_17-51-55_UTC.jpg",
     "connyfotografie/2022-02-17_18-24-26_UTC.jpg",
-    "connyfotografie/2022-02-24_17-49-09_UTC.jpg",
     "Untitled.canvas"
   ]
 }
