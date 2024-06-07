@@ -13,6 +13,7 @@ cssclasses:
 - [ ] [[C++Coroutines]]
 - [ ] UML
 - [ ] Clinton Keith - "Agile Game Development with Scrum"  book
+- [ ] [FMOD Tutorial](https://www.youtube.com/watch?v=7A1HMOsD2eU) youtube video
 
 # Done
 
