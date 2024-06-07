@@ -207,6 +207,7 @@ If you have at least one prisoner tell them they can spend their time however th
 ## Five Whys
 
 - Team members group in pairs or small groups to look at one specific issue. They as "why?" five times to get beyond habitual thinking.
+- Repeat the question "Why?" 5 times to get to the root cause of a problem
 
 ## Fishbone
 
