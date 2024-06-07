@@ -1,7 +1,7 @@
 - [[pmccabe]]
 - [[cppcheck]]
 - [[OpenGL Debugging]]
-- [[github tricks]]
+- [[git tricks]]
 - [[pluginval]]
 - [[C++ Concurrency]]
 - [[valgrind]]

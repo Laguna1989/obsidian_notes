@@ -98,3 +98,11 @@ git config --global url."ssh://git@github.com".insteadOf "https://github.com"
 
 - like force push, but works out only if the reference is correct.
 - This will avoid deleting commits of other people
+
+# Add a Base Version of a File, Ignore Future Changes
+
+```bash
+git update-index --skip-worktree .obsidian/workspace.json
+```
+
+- Works for local and upstream changes
