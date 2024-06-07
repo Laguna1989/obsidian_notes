@@ -15,6 +15,8 @@ There are two versions of libraries available
 	- This allows sound designers to do work in a DAW-like environment
 	- Support for Bank files
 
+> [!danger] Versions of [[fmod studio]] and fmod library need to match
+
 # Processing Modes
 
 > [!hint] See also [[C++ Concurrency]]
@@ -74,3 +76,33 @@ Reference counting: If all instances of banks/events are unloaded, they are left
 Need to call once per frame:
 - [Studio::System::setListenerAttributes()](https://www.fmod.com/docs/2.03/api/studio-api-system.html#studio_system_setlistenerattributes)
 - [Studio::EventInstance::set3DAttributes()](https://www.fmod.com/docs/2.03/api/studio-api-eventinstance.html#studio_eventinstance_set3dattributes)
+
+# String Handling
+
+> [!warning] Seems to be only possible by the **strings bank**
+
+> [!warning] FMod strings are null-terminated. Termination char is included in "retrieved" size.
+
+```cpp
+FMOD_GUID guid;  
+char path[512];  
+int retrieved;  
+stringsBank->getStringInfo(stringIndex, &guid, path, 512, &retrieved);  
+  
+std::cout << stringIndex << " guid: '" << std::hex << guid.Data1 << std::dec << "', path: '" << path << "', retrieved: " << retrieved << std::endl;  
+const auto size = static_cast<std::size_t>(retrieved);  
+
+// NOTE size - 1,  otherwise string comparison will fail because of termination string
+const std::string pathStr{path, size - 1};
+if (pathStr == std::string{"event:/laser"})  
+{  
+    laserGuid = guid;  
+}
+```
+
+## Questions
+
+- 3d Position values and spatializer: What are the units? meters?
+- Core channels vs studio busses vs studio VCA. How to map those?
+- One bank, multiple banks?
+- Naming convention for events. Can we keep the folder structure in `data/base/sfx` and prefix with event:/?
