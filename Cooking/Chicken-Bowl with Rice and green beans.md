@@ -2,6 +2,7 @@
 tags:
   - recipe
   - recipe/high-protein
+  - recipe/meal-prep
 ---
 
 Based on [this recipe](https://www.rewe.de/rezepte/haehnchen-bowl-basmati-reis-brechbohnen/)

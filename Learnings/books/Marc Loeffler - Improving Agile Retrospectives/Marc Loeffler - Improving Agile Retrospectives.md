@@ -18,3 +18,11 @@ links: "[[Book reviews]]"
 # 3 The First Retrospective
 
 [[03 - The First Retrospective]]
+
+# 4 The Retrospective Facilitator
+
+[[04 - The Retrospective Facilitator]]
+
+# 5 From the Metaphor to the Retrospective
+
+[[05 - From the Metaphor to the Retrospective]]

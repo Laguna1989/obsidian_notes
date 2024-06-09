@@ -137,7 +137,7 @@ Gather feedback about a particular topic (how was the retrospective, how was thi
 
 ## Force Field Analysis
 
-Collect all the forces that support or hinder a specific change
+Collect all the forces that support (positive) or hinder (negative) a specific change
 
 ![[Pasted image 20240607201027.png|center]]
 
