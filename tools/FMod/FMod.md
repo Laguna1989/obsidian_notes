@@ -53,7 +53,7 @@ There are two versions of libraries available
 	- Synchronous ([FMOD_STUDIO_LOAD_BANK_NORMAL](https://www.fmod.com/docs/2.03/api/studio-api-system.html#fmod_studio_load_bank_normal) ) or
 	- Asynchronous ([FMOD_STUDIO_LOAD_BANK_NONBLOCKING](https://www.fmod.com/docs/2.03/api/studio-api-system.html#fmod_studio_load_bank_nonblocking))
 - After a bank has completed loading, all metadata can be accessed
-	- **???** There is a `getLoadingState()` function **???**
+	- There is a `getLoadingState()` function
 
 # Sample Data Loading
 
@@ -67,7 +67,7 @@ Reference counting: If all instances of banks/events are unloaded, they are left
 # Live Update ([[fmod studio]])
 
 - This allows fmod studio to call into the code
-	- I assume this enables hot-reload from fmod studio
+	- this enables hot-reload from fmod studio
 - Set [`FMOD_STUDIO_INIT_LIVEUPDATE`](https://fmod.com/docs/2.01/api/studio-api-system.html#fmod_studio_initflags) when initializing
 - FMOD Studio listens for connections on port `9264`, different port can be specified by [System::setAdvancedSettings()](https://fmod.com/docs/2.01/api/core-api-system.html#system_setadvancedsettings)
 
@@ -79,9 +79,9 @@ Need to call once per frame:
 
 # String Handling
 
-> [!warning] Seems to be only possible by the **strings bank**
+> [!warning] Only possible via the **strings bank**
 
-> [!warning] FMod strings are null-terminated. Termination char is included in "retrieved" size.
+> [!warning] FMod strings from `getStringInfo()` are null-terminated. Termination char is included in "retrieved" size.
 
 ```cpp
 FMOD_GUID guid;  
@@ -100,9 +100,19 @@ if (pathStr == std::string{"event:/laser"})
 }
 ```
 
+> [!hint] This is not needed for `Studio::System::getEvent(<string>)`, here you can just pass the string directly.
+
 ## Questions
 
-- 3d Position values and spatializer: What are the units? meters?
-- Core channels vs studio busses vs studio VCA. How to map those?
+- 3d Position values and spatializer: I assume the units are meters (if we pass them in as meters.
+- Core channels vs studio busses vs studio VCA. How to map those, what should we use?
+	- We want to control game sound (e.g. from settings)
+	- At the same time we want to give you options for tweaking sound (e.g. via live update or when mixing in fmod studio)
+	- **Suggestion**: We have some predefined VCA channel (names) for our in-game options, the rest is up to you
 - One bank, multiple banks?
-- Naming convention for events. Can we keep the folder structure in `data/base/sfx` and prefix with event:/?
+- Naming convention for events
+	- Can we keep the folder structure in `data/base/sfx` and prefix with event:/?
+- Naming convention for bus/vca/...
+- Only one instance per event? I guess we want multiple? How to organize individual instances?
+	- In Code support one shots (that will just retrigger) and instances
+- Parameters? Which are helpful to the sound designer?
