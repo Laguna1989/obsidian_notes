@@ -116,3 +116,5 @@ if (pathStr == std::string{"event:/laser"})
 - Only one instance per event? I guess we want multiple? How to organize individual instances?
 	- In Code support one shots (that will just retrigger) and instances
 - Parameters? Which are helpful to the sound designer?
+
+-> see [[FMod Presentation]]

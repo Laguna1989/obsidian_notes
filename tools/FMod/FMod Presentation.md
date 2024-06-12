@@ -1,3 +1,8 @@
+---
+tags:
+  - presentation
+links:
+---
 # Intro to FMod
 
 ## 2024-06-13
@@ -34,6 +39,20 @@
 
 ---
 
+# Reference Games
+
+- Dark Souls 3
+- StarCraft 2
+- Kingdom Come Deliverance
+- Crysis Series
+- Fall Guys
+- Forza Series
+- Just Cause
+- Celeste
+- Torchlight 3
+- ...
+---
+
 # Overview
 
 - FMod core:
@@ -47,15 +66,47 @@
 
 ---
 
-# Live Update (fmod studio integration)
+# Banks
+
+**TODO**
+
+---
+
+# Example: Playing a Sound
+
+**TODO**
+
+---
+
+# FMod Studio
+
+**TODO**
+- example
+
+---
+
+# Lifetime Management
+
+**TODO**
+
+- `Handle`s concept
+- Stealing/Virtualization
+- `release()`
+
+---
+
+# Live Update (fmod Studio integration)
 
 **TODO**
 - command line argument
 - benefits...
+- demo
 
 ---
 
 # Random
 
+**TODO**
 - 2d, 3d events
-- deleting/stopping sounds
+- stopping sounds
+- parameters
