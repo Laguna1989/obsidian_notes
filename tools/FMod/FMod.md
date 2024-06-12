@@ -117,4 +117,4 @@ if (pathStr == std::string{"event:/laser"})
 	- In Code support one shots (that will just retrigger) and instances
 - Parameters? Which are helpful to the sound designer?
 
--> see [[FMod Presentation]]
+-> see [[Intro to FMod Studio]]
