@@ -12,12 +12,10 @@ maxScale: "2.0"
 
 # What is FMod?
 
-- Proprietary sound effects engine
-- Mainly for video games and applications
-- Support `C`, `C++` and `C#`
-- Engine Integration: Unity and Unreal
-- Builds for Win, Mac, Linux, Android, WiiU, Playstation 3/4, XBox, XBox360 and HTML5
-- De Facto "Industry Standard"
+- Proprietary sound effects engine for video games
+- Bindings for `C`, `C++` and `C#`
+- Integration for Unity and Unreal
+- Runs on Win, Mac, Linux, Android, WiiU, Playstation 3/4, XBox, XBox360 and HTML5
 
 ---
 
@@ -28,7 +26,7 @@ maxScale: "2.0"
 	- Basic
 	- Premium
 - No feature-stripped versions
-- You basically get increased support and source code access
+- Increased support and source code access
 
 ---
 
@@ -73,11 +71,13 @@ maxScale: "2.0"
 - Assets
 	- Streaming
 - Events
-	- Timeline
-	- Action
+	- Action (volume, effects)
+	- Timeline (loops, markers)
+	- Path
 - Busses
 - 2D/3D sounds
 - Instances
+- Banks
 
 ---
 
@@ -88,7 +88,7 @@ maxScale: "2.0"
 ![[IMG-2024-06-07-065959695.png]]
 
 - Metadata contains information events, parameters, busses, ...
-- Sounds can be arbitrarily distributed on banks (e.g. splitted by level)
+- Sounds can be arbitrarily distributed on banks (split by game-level)
 
 ---
 
@@ -130,11 +130,33 @@ FMOD::Studio::System* studioSystem;
 FMOD::Studio::System::create(&studioSystem);
 
 studioSystem->initialize(
-    <channels>, 
+    <channels>, // effectively the max number of sounds playing 
     <FMOD_STUDIO_INITFLAGS>, 
     <FMOD_INITFLAGS>, 
     nullptr
 );
+```
+
+Flag options:
+- live update
+- sync update / mix update
+- memory tracking
+- ...
+- clip output
+- profiling
+
+---
+
+# Cleanup
+
+```cpp
+studioSystem->initialize(...);
+
+// ...
+// run game loop
+// ...
+
+studioSystem->release();
 ```
 
 ---
@@ -142,13 +164,18 @@ studioSystem->initialize(
 # Loading a Bank
 
 ```cpp
-FMOD::Studio::Bank* stringBank;
+FMOD::Studio::Bank* bank;
 
 studioSystem->loadBankFile(
-	"path/to/strings.bank", 
+	"path/to/my.bank", 
 	FMOD_STUDIO_LOAD_BANK_NORMAL, 
-	&stringBank)
+	&bank)
 ```
+
+Other flags include
+- Non-blocking
+- Decompress samples
+- Unencrypted
 
 ---
 
@@ -164,7 +191,7 @@ eventDescription->createInstance(&eventInstance);
 eventInstance->play();
 ```
 
-Nothing happens!!! <!-- element class="fragment" data-fragment-index="1" -->
+Nothing happens! <!-- element class="fragment" data-fragment-index="1" -->
 
 ---
 
@@ -176,7 +203,7 @@ studioSystem->update();
 
 - Call regularly from gameloop
 - Async mode (default) <!-- element class="fragment" data-fragment-index="1" -->
-	- Processing takes place in studio async thread
+	- Processing takes place in studio async thread, triggered by `update()`
 	- Works with shadow data
 - Sync mode <!-- element class="fragment" data-fragment-index="2" -->
 	- All processing happens from within blocking `update()`
@@ -186,7 +213,8 @@ studioSystem->update();
 # Playing a Sound II
 
 - Calling `start()` a second time, will restart the sound
-- `stop()`
+- `stop(FMOD_STUDIO_STOP_MODE)`
+	- immediate or fadeout options
 - `setPaused(bool)`
 
 ---
@@ -241,9 +269,20 @@ studioSystem->getBus("bus:/UI", &bus);
 bus->setVolume(0.5f);
 ```
 
-- Busses can also be used to pause/mute/stop all eventInstances that play on this bus
-- Alternative option: VCA group
+- Alternative option: VCA groups <!-- element class="fragment" data-fragment-index="2" -->
 	- Only Volume controls
+
+---
+
+# More Bus Functions
+
+- Busses can also be used to pause/mute/stop all event instances that play on this bus <!-- element class="fragment" data-fragment-index="1" -->
+
+```cpp
+bus->setPaused(true);
+bus->setMute(false);
+bus->stopAllEvents(FMOD_STUDIO_STOP_MODE);
+``` 
 
 ---
 
@@ -283,6 +322,16 @@ eventInstance->release();
 
 ---
 
+# Thread Safety
+
+- All API functions are thread safe, except for
+	- `FMOD::Studio::System::create()`
+	- `FMOD::Studio::System::release()`
+
+> [!danger] Those two functions must not overlap with any other API calls
+
+---
+
 # FMod Live Update
 
 - FMod Studio listens on Port `9264`
@@ -294,3 +343,7 @@ eventInstance->release();
 
 - Parameters
 	- Control the crowd sound based on the number of guests in the part
+
+---
+
+# Questions?
