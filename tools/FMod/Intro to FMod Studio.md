@@ -49,8 +49,6 @@ maxScale: "2.0"
 - Forza Series
 - Just Cause
 - Celeste
-- Torchlight 3
-- ...
 ---
 
 # Overview
@@ -65,8 +63,6 @@ maxScale: "2.0"
 ---
 
 # FMod Studio
-
-## Demo
 
 - Assets
 	- Streaming
@@ -83,12 +79,12 @@ maxScale: "2.0"
 
 # Banks
 
-> [!info] Bank files are the interface between [[fmod studio]] and the code
+> [!info] The interface between [[fmod studio]] and the code
 
 ![[IMG-2024-06-07-065959695.png]]
 
-- Metadata contains information events, parameters, busses, ...
-- Sounds can be arbitrarily distributed on banks (split by game-level)
+- Metadata contains information events, busses, ...
+- Distribute Sounds to banks (split by game-level)
 
 ---
 
@@ -137,13 +133,16 @@ studioSystem->initialize(
 );
 ```
 
-Flag options:
+---
+
+# Init Flags
+
 - live update
 - sync update / mix update
 - memory tracking
-- ...
 - clip output
 - profiling
+- ...
 
 ---
 
@@ -179,7 +178,7 @@ Other flags include
 
 ---
 
-# Playing a Sound
+# Playing Sounds
 
 ```cpp
 FMOD::Studio::EventDescription* eventDescription;
@@ -202,15 +201,20 @@ studioSystem->update();
 ```
 
 - Call regularly from gameloop
-- Async mode (default) <!-- element class="fragment" data-fragment-index="1" -->
+
+---
+
+# Update Modes
+
+- Async mode (default)
 	- Processing takes place in studio async thread, triggered by `update()`
 	- Works with shadow data
-- Sync mode <!-- element class="fragment" data-fragment-index="2" -->
+- Sync mode <!-- element class="fragment" data-fragment-index="1" -->
 	- All processing happens from within blocking `update()`
 
 ---
 
-# Playing a Sound II
+# Playing Sounds II
 
 - Calling `start()` a second time, will restart the sound
 - `stop(FMOD_STUDIO_STOP_MODE)`
@@ -231,11 +235,15 @@ studioSystem->setListenerAttributes(
 );
 ```
 
+---
+
+# Positioning 3D Sounds
+
 ## SoundInstance
 
 ```cpp
 FMOD_3D_ATTRIBUTES sound3DAttributes;
-eventInstance->set3DAttributes(&sound3DAttributes)
+eventInstance->set3DAttributes(&sound3DAttributes);
 ```
 
 Check if Event is 3D:
@@ -261,7 +269,15 @@ typedef struct FMOD_3D_ATTRIBUTES
 
 ---
 
-# Controlling Volume
+# Volume
+
+```cpp
+eventInstance->setVolume(1.0f);
+```
+
+---
+
+# Volume
 
 ```cpp
 FMOD::Studio::Bus *bus;   
@@ -269,14 +285,11 @@ studioSystem->getBus("bus:/UI", &bus);
 bus->setVolume(0.5f);
 ```
 
-- Alternative option: VCA groups <!-- element class="fragment" data-fragment-index="2" -->
-	- Only Volume controls
+- Alternative option: VCA groups (only Volume control) <!-- element class="fragment" data-fragment-index="2" -->
 
 ---
 
 # More Bus Functions
-
-- Busses can also be used to pause/mute/stop all event instances that play on this bus <!-- element class="fragment" data-fragment-index="1" -->
 
 ```cpp
 bus->setPaused(true);
@@ -295,8 +308,6 @@ eventInstance->release();
 - `release()` marks a sound for deletion
 - can be directly called after `start()`
 - fmod studio automatically disposes sounds after they have stopped
-- Reuse one `eventInstance` by not calling `release()`.
-- EventInstances are leightweight handles
 
 -> No extra effort needed on implementation side
 
@@ -304,7 +315,7 @@ eventInstance->release();
 
 # Handles
 
-- `eventInstance`is a pointer type
+- `eventInstance` is a pointer type
 - Actually consist of packed handle data
 - If the underlying type has been destroyed by FMod, an error is be returned
 
@@ -312,13 +323,13 @@ eventInstance->release();
 
 # Instance Stealing
 
-- It is possible to limit the number of event instances
-- FMod Studio offers:
-	- Oldest
-	- Quietest
-	- Furthest
-	- None
-	- Virtualize (effectively: "continues to play in silence")
+Limit the number of event instances
+
+- Oldest
+- Quietest
+- Furthest
+- None
+- Virtualize ("continues to play in silence")
 
 ---
 
@@ -328,7 +339,7 @@ eventInstance->release();
 	- `FMOD::Studio::System::create()`
 	- `FMOD::Studio::System::release()`
 
-> [!danger] Those two functions must not overlap with any other API calls
+> [!danger] Those two functions must have strictly-before/strictly-after relations with any other API call
 
 ---
 
@@ -336,13 +347,16 @@ eventInstance->release();
 
 - FMod Studio listens on Port `9264`
 - Allows live audio adjustments for sound designers
+- Demo
 
 ---
 
 # Further Topics
 
 - Parameters
-	- Control the crowd sound based on the number of guests in the part
+	- e.g. Control the crowd sound based on the number of guests in the park
+- Error handling:
+	- Almost all API functions return `FMOD_RESULT`
 
 ---
 
