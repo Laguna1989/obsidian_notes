@@ -2,6 +2,7 @@
 tags:
   - recipe
   - recipe/bread
+links: "[[Recipes]]"
 ---
 # Ingredients
 
