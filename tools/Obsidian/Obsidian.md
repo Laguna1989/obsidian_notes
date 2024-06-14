@@ -182,6 +182,10 @@ There is an awesome [linter plugin](https://github.com/platers/obsidian-linter) 
 
 `Settings` -> `Appearance`->`CSS Snippets`
 
+# Alternate Checkboxes
+
+![[IMG-2024-06-14-175114344.png]]
+
 # TODO
 
 - Check out <https://github.com/gapmiss/croppie-for-obsidian> for cropping images inside obisidian
