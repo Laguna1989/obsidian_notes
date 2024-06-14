@@ -28,4 +28,4 @@
     - Objekt kann genau so konfiguriert werden wie benötigt (KISS!)
     - Seiteneffekte lösen Events aus, die zum testen oder in produktion benutzt werden können
     - Highlevel Objekte transformieren ihre Nullkonfiguration in das Format für die darunterliegende Ebene
-- Violation vom [[Single Responsibility Principle]]?!?
+- Violation vom [Single Responsibility Principle](obsidian://open?vault=obsidian_notes&file=tools%2FDesign%20Patterns%2FSOLID%20Design%20Principles%2FSingle%20Responsibility%20Principle)?!?
