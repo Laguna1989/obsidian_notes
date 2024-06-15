@@ -34,6 +34,20 @@
         "a": 1,
         "rgb": 5412832
       }
+    },
+    {
+      "query": "path:\"Learnings/Code Kata\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "path:Cooking  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701228
+      }
     }
   ],
   "collapse-display": true,
