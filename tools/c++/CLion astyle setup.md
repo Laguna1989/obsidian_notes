@@ -1,3 +1,9 @@
+---
+tags:
+  - tool
+  - cpp
+links: "[[Tools MOC]]"
+---
 # Setup Process
 
 - Settings -> Marketplace -> Install `File Watchers` -> `Apply`

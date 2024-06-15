@@ -1,9 +1,3 @@
----
-tags:
-  - cpp
-  - templates
-links: "[[Tools]]"
----
 # Varargs Strip First Argument
 
 ```
@@ -16,7 +10,3 @@ const auto withStrippedArguments = [](auto&& /*first*/, auto&&... args_)
 };  
 withStrippedArguments(args...);
 ```
-
-
-# CRTP
-[[CRTP]]

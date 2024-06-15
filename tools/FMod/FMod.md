@@ -2,8 +2,13 @@
 tags:
   - tool
   - audio
+  - library
+links: "[[Tools MOC]]"
 ---
 # Overview
+
+> [!hint] See [[Intro to FMod Studio]]
+
 
 There are two versions of libraries available
 - `fmod core`:
@@ -116,5 +121,3 @@ if (pathStr == std::string{"event:/laser"})
 - Only one instance per event? I guess we want multiple? How to organize individual instances?
 	- In Code support one shots (that will just retrigger) and instances
 - Parameters? Which are helpful to the sound designer?
-
--> see [[Intro to FMod Studio]]

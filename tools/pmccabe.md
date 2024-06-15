@@ -1,6 +1,7 @@
 ---
 tags:
   - cpp
+links: "[[Tools MOC]]"
 ---
 
 > [!quote] `pmccabe` is a tool for measuring #cyclomaticComplexity.

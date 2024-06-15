@@ -1,3 +1,8 @@
+---
+tags:
+  - tool
+links: "[[Tools MOC]]"
+---
 Generally hard to do
 
 # Glsl-debugger

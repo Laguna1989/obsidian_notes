@@ -1,3 +1,8 @@
+---
+tags:
+  - tool
+links: "[[Tools MOC]]"
+---
 > [!quote] `cppcheck` is a #tool for static #cpp code analysis. [Website](https://cppcheck.sourceforge.io/)
 
 # Usage

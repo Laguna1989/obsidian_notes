@@ -1,3 +1,9 @@
+---
+tags:
+  - tool
+  - agile
+links: "[[Tools MOC]]"
+---
 [Reference](https://www.reddit.com/r/StableDiffusion/comments/xkjjf9/upscale_to_huge_sizes_and_add_detail_with_sd/)
 
 - Open the automatic1111 webui.

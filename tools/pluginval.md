@@ -1,3 +1,8 @@
+---
+tags:
+  - tool
+links: "[[Tools MOC]]"
+---
 > [!quote] Can be used to verify AU, VST and VST3 plugins
 
 [https://github.com/Tracktion/pluginval](https://github.com/Tracktion/pluginval)

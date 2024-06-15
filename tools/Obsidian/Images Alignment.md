@@ -1,3 +1,7 @@
+---
+tags:
+  - obsidian
+---
 
 > [!info]- Css Snippet
 >
@@ -51,5 +55,5 @@
 
 - Put this in your [[Obsidian#CSS Folder]] and enable it
 - When using images use `[[image_path|left]]`, `[[image_path|center]]`or `[[image_path|right]]` to set the alignment
-- Can also be combined with [[Obsidian#Image Width]] by `[[image_path|<width>|center]]
+- Can also be combined with [[Obsidian#Image Width]] by `[[image_path|<width>|center]]`
 

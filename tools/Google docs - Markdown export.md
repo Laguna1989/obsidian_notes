@@ -1,7 +1,7 @@
 ---
 tags:
   - tool
-links: "[[Tools]]"
+links: "[[Tools MOC]]"
 ---
 To export google doc files there are two extensions available
 

@@ -4,7 +4,7 @@ tags:
   - tag
   - tool
   - obsidian
-links: "[[Tools]]"
+links: "[[Tools MOC]]"
 date1: 2024-05-30
 ---
 # Local Graph
@@ -136,6 +136,10 @@ Obsidian also supports footnotes via links [^1]
 
 Tags can either be placed via inline tas, e.g. #tag.
 They can also be placed in the properties view.
+
+# Advanced Slides
+
+[[Advanced Slides]]
 
 # Meta Bind
 

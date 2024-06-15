@@ -1,7 +1,7 @@
 ---
 tags:
   - design-patterns
-links: "[[Tools]]"
+links: "[[Tools MOC]]"
 ---
 ```dataview
 Table 

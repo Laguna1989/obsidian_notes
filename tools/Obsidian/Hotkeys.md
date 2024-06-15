@@ -1,3 +1,8 @@
+---
+tags:
+  - obsidian
+  - hotkeys
+---
 # Command Pallete
 
 `ctrl + p`
