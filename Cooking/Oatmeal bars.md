@@ -17,7 +17,7 @@ links: "[[Recipes]]"
 
 - Preheat Oven to 180° C Air circulation (Umluft)
 - Mix all ingredients, except grains
-- Form 5 bars
+- Form 5 bars, around 120g each
 - Place grains on plate
 - roll bars in grains so they stick to the surface
 - bake for 25 minutes

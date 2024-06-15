@@ -21,37 +21,37 @@ links: "[[Structural Design Patterns]]"
 - Manifestation of the bridge design pattern, hiding the implementation details
 - The implementation details are deferred
 
-> [!example] Person and PersonImpl classes
->
-> ```cpp
-> // header
-> struct Person 
-> {
-> 	std::string name;
-> 	struct PersonImpl;
-> 	PersonImpl* impl;
-> 
-> 	Person();
-> 	~Person();
-> 
-> 	void greet();
-> };
->
-> ////////////////////////////////////////////////////////////
-> // source
-> #include "PersonImpl.hpp"
-> Person::Person()
-> : impl{new PersonImpl}
-> {}
-> 
-> Person::~Person()
-> {
-> 	delete impl;
-> }
-> ```
->
-> - Does not need to be an inner class, important is the forward declaration of the impl class
-> - `Person` does not need any Details of what `PersonImpl` does
+## Person and PersonImpl Classes
+
+ ```cpp
+ // header
+ struct Person 
+ {
+ 	std::string name;
+ 	struct PersonImpl;
+ 	PersonImpl* impl;
+ 
+ 	Person();
+ 	~Person();
+ 
+ 	void greet();
+ };
+
+ ////////////////////////////////////////////////////////////
+ // source
+ #include "PersonImpl.hpp"
+ Person::Person()
+ : impl{new PersonImpl}
+ {}
+ 
+ Person::~Person()
+ {
+ 	delete impl;
+ }
+ ```
+
+ - Does not need to be an inner class, important is the forward declaration of the impl class
+ - `Person` does not need any Details of what `PersonImpl` does
 
 > [!check] Benefits
 > - No need to give away inner details of a class (that would normally be in the header files)
@@ -146,6 +146,8 @@ struct Circle : Shape
 
  > [!info]
  [[Non-intrusive Design]] by Igelberger seems more powerful (but also way more complex)
+
+# Summary
 
 > [!summary]
 > - Decouple abstraction from implementation
