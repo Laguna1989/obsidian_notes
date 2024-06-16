@@ -10,5 +10,6 @@
   "recipe-view",
   "templater-obsidian",
   "advanced-random-note",
-  "obsidian-vault-statistics-plugin"
+  "obsidian-vault-statistics-plugin",
+  "custom-sort"
 ]

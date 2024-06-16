@@ -1,3 +1,7 @@
+---
+tags:
+  - gaming
+---
 # Strength Build
 
 - Goldener Federtierfuß am Strand

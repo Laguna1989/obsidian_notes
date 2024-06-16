@@ -25,3 +25,4 @@ links: "[[Code Kata MOC]]"
 - 2022-06-15 @EB
 - 2023-09-13 @Aptiv
 - 2024-04-12 @Boxelware
+- 2024-05-05 [[SWEC 2024]]

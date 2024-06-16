@@ -16,7 +16,7 @@ links: "[[Conferences MOC]]"
 
 ## Slot 1 StPauli TDD
 
-- [[StPauli TDD]]
+- [[St. Pauli TDD]]
 
 ## Slot 2 Wissenverwaltung
 

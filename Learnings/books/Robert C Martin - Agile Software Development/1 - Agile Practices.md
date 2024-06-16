@@ -13,20 +13,8 @@ tags:
         - Producer No document until its need is immediate and signifikant
     - Customer collaboration over contract negotiation
     - Responding to Change over following a plan
-- 12 Agile principles
-    - Our highest priority is to satisfy the customer through early an continuous Delivery of valuable Software.
-        - Delivery early and often
-    - Welcome changing requirements, even late in development
-    - Delivery working Software frequently
-    - Business people and devlopers must Work together Daily throughout the Project
-    - Build Projects around motivated individuals. Give them the Environment, Support and Tools they need.
-    - The Most effective and efficient Methode of conveying information is face-to-face conversation
-    - Working Software ist the primary measure of Progress
-    - Agile Processes promote sustainable development
-    - Continuous attention to technical excellence and good Design enhances agility.
-    - Simplicity, the Art of maximizing the amount of work Not done, is Essential
-    - The best architectures, requirements and Designs emerge from self-organizing teams
-    - At regular Intervals the Team reflects on how to become more effective and adjusts. -> [[Retrospectives]]
+- 12 Agile principles 
+![[Agile Printicples]]
 
 # Overview of Extreme Programming XP
 
@@ -36,7 +24,7 @@ tags:
     - Short cycles
     - Acceptance Tests
     - Pair Programming
-    - Test Drive Development
+    - [[TDD|Test Driven Development]]
     - Collective ownership
     - Continuous Integration
         - Build and Test end to end, including all acceptance tests
@@ -66,7 +54,7 @@ tags:
 
 # Testing
 
-- Tests First means that the Software ist conveniently callable
+- Tests First means that the Software is conveniently callable
 - Tests First forces us to decouple the software
 - Writing Test before Code improves our Designs
 - Unit Test are White Box Tests, which verify the individual mechanisms of the system

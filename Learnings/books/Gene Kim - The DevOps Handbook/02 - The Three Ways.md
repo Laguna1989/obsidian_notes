@@ -87,7 +87,7 @@ The Second Way: the principles of Feedback
     - We can only make a complicated system safer, But never completely Safe
         - Problems in Design and operations are revealed
         - Problems are swarmed and solved, creating new knowledge
-        - News local knowledge ist exploited globally
+        - News local knowledge is exploited globally
         - Leaders grow Others Leaders
 - See Problems as they occur
     - Constantly Test Design and operating assumptions

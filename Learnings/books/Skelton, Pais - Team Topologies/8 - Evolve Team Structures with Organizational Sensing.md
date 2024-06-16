@@ -8,8 +8,8 @@ tags:
 - Accelerator learning and Adoption of new practices
 - Evolve different Team topologies for different parts of the org at different times to match the respective context and purpose
 - Triggers for Evolution
-    - Software hast großen too large
-    - Delivery, cadence ist becoming slower
+    - Software has grown too large
+    - Delivery, cadence is becoming slower
     - Multiple Business Services rely in a large Set of underlying services
 - Use Teams and Team Interactions as senses
 - Do Not optimize for lowest Costa But use Signals from maintainence via System thinking, Feedback loops and culture of learning

@@ -33,15 +33,15 @@ tags:
 - Input: Intent is to achieve synchronization between players intent and game actions
 - Mapping relationship between physical input and the actions they control
 - Control Exclusivity is the physical relationships between different controls and how they can be used in combination: Buttons that cannot be hit simultaneously
-- Control Feel is the moment by moment experience of projectint intent through an interface
+- Control Feel is the moment by moment experience of projecting intent through an interface
 - Input assistance: Preprocessing of the input: Intelligently guess what the player is going to do
 - Framerate 30 or 60fps
 
 # Questions/Discussions
 
-- Metaphor for imitation: Disketten symbol für speichern
+- Metaphor for imitation: floppy disc symbol for saving
 - “Real physics is complicated, everyone knows it. imitating it is an elegant way of creating powerful systems with almost no learning burden”. KSP oder Children of a dead earth? “No learning burden” puh….
-- Signal/Noise: Smash Brothers ist visuell sehr überladen. Ähnlich wie Borderlands 3 anstrengend zum anschauen war.
+- Signal/Noise: Smash Brothers is visually massively overburdened. Similar to Borderlands 3: very straining on the eyes.
 - Mechanical clear visuals: Proteus
 - Signal density: Pro Quake players reducing settings
 - Natural relationship between distance and size is useful in 3d euclidean space. Check out Hyperbolica

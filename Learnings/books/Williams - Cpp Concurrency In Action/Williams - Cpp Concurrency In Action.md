@@ -17,3 +17,8 @@ links: "[[Books MOC]]"
 # See also
 
 [[C++ Concurrency]]
+
+
+
+- Team members appreciate other team members for helping them, contributing to the goal, solving a problem, etc...
+- Offering appreciation is optional

@@ -9,18 +9,17 @@ links: "[[Tools MOC]]"
 
 > [!hint] See [[Intro to FMod Studio]]
 
-
 There are two versions of libraries available
 - `fmod core`:
 	- Audio library
 	- Can be used in code #cpp , #csharp , #unity and #unreal
 - `fmod studio`:
 	- Uses (and provides) the above above
-	- Offers additional integration with [[fmod studio]],
+	- Offers additional integration with fmod studio,
 	- This allows sound designers to do work in a DAW-like environment
 	- Support for Bank files
 
-> [!danger] Versions of [[fmod studio]] and fmod library need to match
+> [!danger] Versions of *fmod studio* and fmod library need to match excatly
 
 # Processing Modes
 
@@ -37,7 +36,7 @@ There are two versions of libraries available
 
 > [!info] A bank file contains all data for audio events
 
->[!info] A Bank file is the link between [[fmod studio]] and the code
+>[!info] A Bank file is the link between *fmod studio* and the code
 
 ![[IMG-2024-06-07-065959695.png]]
 
@@ -69,7 +68,7 @@ Three options
 
 Reference counting: If all instances of banks/events are unloaded, they are left out of memory
 
-# Live Update ([[fmod studio]])
+# Live Update (fmod studio)
 
 - This allows fmod studio to call into the code
 	- this enables hot-reload from fmod studio

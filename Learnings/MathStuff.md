@@ -1,3 +1,7 @@
+---
+tags:
+  - math
+---
 # Fibonacci Sphere
 
 Spawn N evenly spread out points on a sphere

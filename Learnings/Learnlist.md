@@ -1,6 +1,6 @@
 ---
-cssclasses:
-  - minecraft
+tags:
+  - MOC
 ---
 # In Progress
 

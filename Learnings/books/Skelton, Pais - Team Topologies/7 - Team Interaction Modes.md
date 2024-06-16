@@ -19,7 +19,7 @@ tags:
         - Consuming or providing Something with minimal collaboration
         - Lese context needed by consuming Team
         - High value gained because lowlevel Details can be ignored
-        - Only works If the Service boundary ist Well chosen
+        - Only works If the Service boundary is Well chosen
         - Behavior:
             - Focus on ux/DevEx
     - Facilitating

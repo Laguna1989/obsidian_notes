@@ -1,0 +1,53 @@
+---
+tags:
+  - book-chapter
+---
+Be explicit when your are acting as a facilitator and when you are acting as a team member
+- Managing Activities
+	- Introduce the activity
+	- If you do multi-step activities, introduce them step by step (not all at once upfront)
+	- While the activity is running:
+		- Be open to questions and
+		- monitor the room: check for the engery level and if people are talking about the topic or latest movie
+	- Debrief the activity (unless the results are not directly used in the next step of the retro)
+- Managing Group Dynamics
+	- There are more active and more passive people. Try to give everyone an equal voice
+	- "We have not heard from X and Y yet. What would you add?"
+	- Avoid statements like "you are not listening", "you don't understand" or "I disagree" are not that helpful
+	- ask "What happened?", "What can we do differently?", "If we try X a different way, what would happen?"
+- Avoid violating working agreements and blaming
+	- optional working agreements have no value. There can be strictly limited exceptions, but no optional agreements
+	- Blame starts a downward spiral of defensiveness an counter-blame. Listen for the language "You broke the build" or "you are immature".
+	- Better: Encourage "I language" from participants, e.g. "I am angry that we missed our target because we had so much trouble fixing the build"
+	- Avoid pointing fingers
+
+- Handling emotions
+	- You are not responsible for other peoples emotions, but you are responsible for keeping the retro productive
+	- Your primary goal is to the interactions as the team as a whole, not to any individual. That does not mean ignoring individual emotions
+	- Be prepared for emotions. Examples:
+		- **Tears**: offer a box of tissues. Once they are able to speak, ask them "what is happening to you? Can you share it with the team?"
+		- **Shouting**:
+			- If one person stops shouting, the rest of the people stop participating. Hold up one hand as a stop sign. Once they have stopped say "I want to hear what you are saying, and I can't when you are shouting. Can you tell us without shouting?"
+			- If shouting continues talk to the person in private. ask for an agreement to express emotions in a non-threatening way.
+		- **Stomping Out**: Let them go, then ask the team "What just happened?". Ask whether it is possible to continue without the leaver. Discuss the departure. If this happens more than once, talk to the person outside of the retro.
+		- **Inappropriate Laughther/Clowning**: "I have notice that every time we get to this topic someone tells a joke. What is happening?"
+- Managing Time
+	- Think about a sound to notice everyone about the end of an activity
+	- Have a shorter version of activities as a backup
+- Managing You
+	- As the retrospective leader you need to stay aware of all the turmoil
+	- Ask yourself:
+		- What just happened?
+		- How much was inside me, how much was outside me?
+		- How did the group get here?
+		- Where does the group need to go next?
+		- What are the three options I have next?
+		- What will I offer the group?
+	- Try to find a mentor who you have seen monitor emotions in a group successfully.
+- Taking your skills to the next level in these areas
+	- Working with activities
+	- Helping groups reach decisions
+	- understanding and managing group dynamics
+	- increasing self-awareness
+	- creating/using flip charts
+	- Practice facilitating other meetings

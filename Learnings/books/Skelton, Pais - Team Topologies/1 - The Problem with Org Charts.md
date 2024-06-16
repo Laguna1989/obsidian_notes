@@ -14,7 +14,7 @@ tags:
 - Org chart based decisions are ineffective and aim for local optimization; org charts are always out of date
 - Let’s do *System thinking* instead of *org chart thinking*
 - Team topologies focuses on setup of dynamic team structures and interaction modes
-- Relying on a single, static organization structure ist untenable.
+- Relying on a single, static organization structure is untenable.
 
  > [!quote] Conways Law
  > **Organizations which design systems are constrained to produce designs which are copies of the communication structures of these organizations**

@@ -8,9 +8,9 @@ links: "[[Talks MOC]]"
 ---
 # References
 
-> [!tip]- When TDD goes wrong
+> [!tip]- When [[TDD]] goes wrong
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/UWtEVKVPBQ0?si=3ElPQDuXJhzp8is6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-- First international TDD Conference, videos available [http://tddconf.com/](http://tddconf.com/)
+- First international [[TDD]] Conference, videos available [http://tddconf.com/](http://tddconf.com/)
 - yegor bugayenko test patterns and anit patterns
 - Martin Fowler: Eradication non-determinism in Tests
 

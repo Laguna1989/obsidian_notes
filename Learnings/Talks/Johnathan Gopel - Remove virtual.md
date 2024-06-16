@@ -39,7 +39,7 @@ auto func (std::unique_ptr<FooInterface foo2) {
 
 > [!warning] Rule of five
 
-- pointer use
+- Pointer use
 
 # Templates/Concepts
 
@@ -65,7 +65,7 @@ auto func(CFoo auto& foo2) {
 }
 ```
 
-- simple object creation and passing
+- Simple object creation and passing
 - Here we can use **Rule of zero** instead of **Rule of five**
 - We can bind more loosely (Concepts vs Interfaces) -> Duck Typing
 
@@ -168,9 +168,9 @@ private:
 ```
 
 Desired properties:
-- list of types that might be stored
-- container that can hold different types simultaneously
-- container that can hold multiple objects of a single type
+- List of types that might be stored
+- Container that can hold different types simultaneously
+- Container that can hold multiple objects of a single type
 
 ```cpp
 template <CFoo... TFoos>
@@ -192,9 +192,9 @@ baz.store(Foo1{});
 baz.store(Foo2{});
 ```
 
-- quite efficient code (no type erasure)
-- there is the overhead of empty vectors for every type in the list that is not used (vtable is one vector, here we have N vectors for N types)
-- ordering within each vector is stable. Ordering is **not** stable between different types
+- Quite efficient code (no type erasure)
+- There is the overhead of empty vectors for every type in the list that is not used (vtable is one vector, here we have N vectors for N types)
+- Ordering within each vector is stable. Ordering is **not** stable between different types
 
 # Downsides of Avoiding Virtual
 
@@ -208,5 +208,5 @@ baz.store(Foo2{});
 
 # Benefits of Avoiding Virtual
 
-- static and virtual is not possible at the same time
-- without virtual, finally static can be used
+- Static and virtual is not possible at the same time
+- Without virtual, finally static can be used

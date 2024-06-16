@@ -192,7 +192,7 @@ links: "[[Books MOC]]"
 ## 16. Share Reaponsibilities
 
 - When you recognize a pattern, try to come Up with a process to solve issues
-- Title ist a Bit misleading
+- Title is a Bit misleading
 
 ## 17. Take Responsibility and Own
 

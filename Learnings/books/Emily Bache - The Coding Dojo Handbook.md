@@ -84,7 +84,7 @@ links: "[[Books MOC]]"
 
 ### Programming Language:
 
-- If TDD is the focus: Some language you are familiar with
+- If [[TDD]] is the focus: Some language you are familiar with
 - If you want to learn a language, pick a new one
 
 ### Work time of Free Time:

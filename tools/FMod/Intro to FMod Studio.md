@@ -81,7 +81,7 @@ maxScale: "2.0"
 
 # Banks
 
-> [!info] The interface between [[fmod studio]] and the code
+> [!info] The interface between fmod studio and the code
 
 ![[IMG-2024-06-07-065959695.png]]
 

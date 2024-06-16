@@ -1,6 +1,7 @@
 ---
 tags:
   - agile
+links: "[[Agile MOC]]"
 ---
 > [!info] Individuals and interactions over processes and tools
 

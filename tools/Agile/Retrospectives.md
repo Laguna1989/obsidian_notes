@@ -3,6 +3,7 @@ tags:
   - scrum
   - agile
   - retrospective
+links: "[[Agile MOC]]"
 ---
 # Resources
 

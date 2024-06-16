@@ -58,7 +58,7 @@ Ask theme specific questions
 
 ### Generate Insights
 
-- Use dot voting to select topics to discuss
+- Use [[Dot Voting]] to select topics to discuss
 - As theme specific questions
 	- How does this topic sound in in a certain section of the orchestra?
 	- Why did that section play a part particularly well?
