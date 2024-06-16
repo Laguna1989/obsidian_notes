@@ -1,3 +1,8 @@
+---
+tags:
+  - book-chapter
+  - gamedev
+---
 - Busy idiocy
 - The failure of game design process usually springs from deeply rooted assumptions that we don’t know we are making
 - Borrowed assumptions

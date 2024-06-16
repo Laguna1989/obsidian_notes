@@ -1,3 +1,7 @@
+---
+tags:
+  - SoCraTes-2020
+---
 - Statt Termine mit 1h dauer - 45min  Termine weil Wegzeiten wegfallen.
 - Laptop am Abend abbauen
 - Morgens/Abends um den Block laufen um Arbeitsweg zu simulieren

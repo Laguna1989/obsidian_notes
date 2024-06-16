@@ -14,3 +14,23 @@ SORT length(file.inlinks) DESC
 WHERE !contains(file.name, "MOC")
 LIMIT 5
 ```
+
+# Non Existing Pages
+
+```dataviewjs
+const res = Object.values(app.metadataCache.unresolvedLinks)
+.flatMap(unresolved => Object.keys(unresolved))
+.sort(); 
+
+const resSet = new Set(res).values();
+dv.list(resSet);
+
+```
+
+# Notes without Tags
+
+```dataview
+LIST
+WHERE !file.tags
+```
+

@@ -1,3 +1,7 @@
+---
+tags:
+  - Seneca-2023
+---
 - Software Architect oder Lead Developer?
    - Lead dev: gibt orientierung, führt Entscheidungen zum richtigen Zeitpunkt (aber trifft sie nicht) und führt auf einer fachlichen Ebene
 - If you want to be a leader, the first person to lead is yourself

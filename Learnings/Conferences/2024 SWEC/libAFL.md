@@ -2,6 +2,7 @@
 tags:
   - rust
   - fuzzing
+  - SWEC-2024
 ---
 
 aus afl++ entstanden

@@ -2,6 +2,7 @@
 tags:
   - tinker
   - maker
+  - SWEC-2024
 ---
 - raspi 4
 - <https://www.hifiberry.com/> as audio interface

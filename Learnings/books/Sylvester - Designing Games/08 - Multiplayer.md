@@ -1,3 +1,8 @@
+---
+tags:
+  - book-chapter
+  - gamedev
+---
 # Excerpt
 
 - Game Theory helps analyze situations where players must anticipate and to one another’s decisions

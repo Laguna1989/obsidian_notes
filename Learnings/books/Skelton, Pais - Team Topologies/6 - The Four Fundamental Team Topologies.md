@@ -1,3 +1,7 @@
+---
+tags:
+  - book-chapter
+---
 # Excerpt
 
 Fundamental Team Topologies

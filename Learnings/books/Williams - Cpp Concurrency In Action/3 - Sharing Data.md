@@ -1,3 +1,7 @@
+---
+tags:
+  - book-chapter
+---
 - If all data used by threads is read-only, there is no problem
 - Update of complex data structures needs to break invariants while update is running (e.g. removing an node from a linked list)
 

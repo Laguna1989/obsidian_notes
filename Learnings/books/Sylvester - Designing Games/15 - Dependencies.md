@@ -1,3 +1,8 @@
+---
+tags:
+  - book-chapter
+  - gamedev
+---
 # Excerpt
 
 - Dependencies are relationship between two parts of the design, so that changes in A cause changes in B

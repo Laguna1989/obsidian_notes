@@ -1,3 +1,8 @@
+---
+tags:
+  - book-chapter
+  - gamedev
+---
 # Excerpt:
 
 - Game design cannot be learnt from a book. It needs experience.

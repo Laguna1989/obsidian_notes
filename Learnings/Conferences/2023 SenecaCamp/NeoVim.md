@@ -1,3 +1,8 @@
+---
+tags:
+  - Seneca-2023
+  - vim
+---
 - Man muss auch mit neovim viel konfigurieren
 - Config in lua
 - Neovim wird aktiv entwickelt

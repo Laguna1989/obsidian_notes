@@ -1,3 +1,8 @@
+---
+tags:
+  - book-chapter
+  - devops
+---
 # Excerpt
 
 - DevOps is the result of many managerial, cultural, architectural and technological changes and practices “convergence of dev and ops”
@@ -11,18 +16,21 @@
     - Output: value created by Services running in production
 - Lead Times
 
-> [!example]+ A Technology Value stream with a deployment lead time of three months
->
-![[devops_handbook_value_stream_complex.png]]
-[](IMG-2024-06-16-071309898.png) a deployment lead time of 25 minutes
-> ![](IMG-2024-06-16-071559853.png)simple.png]]
-[](IMG-2024-06-16-071310069.png) a Day](<https://www.youtube.com/watch?v=LdOe18KhtT4&ab_channel=O%27Reilly>) great video
-[](IMG-2024-06-16-071600329.png)ity movement
+ [!example]+ A Technology Value stream with a deployment lead time of three months
+
+![](IMG-2024-06-16-071600329.png)
+ a deployment lead time of 25 minutes
+
+ ![](IMG-2024-06-16-071559853.png)
+ A deployment lead time of multiple months
+
+- (<https://www.youtube.com/watch?v=LdOe18KhtT4&ab_channel=O%27Reilly>) great video
+ity movement
 - Continuous Delivery movement
 - Toyota Kata
     - Daily practice of improvement work
 
-The three ways
+## The Three Ways
 
 ![[IMG-2024-06-16-071600444.png]]
 

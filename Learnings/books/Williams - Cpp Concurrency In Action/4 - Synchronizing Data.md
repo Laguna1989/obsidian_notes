@@ -1,3 +1,7 @@
+---
+tags:
+  - book-chapter
+---
 # Synchronizing Data
 
 - Analogy: driving on a night train and waiting for the stop:

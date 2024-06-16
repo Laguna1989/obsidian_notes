@@ -1,3 +1,7 @@
+---
+tags:
+  - book-chapter
+---
 # Managing Threads
 
 - Every Program has at least one thread ( `main()` )

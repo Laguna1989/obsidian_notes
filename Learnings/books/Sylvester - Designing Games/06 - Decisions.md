@@ -1,3 +1,8 @@
+---
+tags:
+  - book-chapter
+  - gamedev
+---
 # Excerpt
 
 - Decisions are the basic building blocks for interactions

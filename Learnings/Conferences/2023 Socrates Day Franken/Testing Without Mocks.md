@@ -1,3 +1,7 @@
+---
+tags:
+  - SoCraTes-2023
+---
 - Beispiel: Flachwitze App
 - Architektur:
     - Browser -> request handler -> JokeRepo -> DB -> Filesystem (seiteneffekt)

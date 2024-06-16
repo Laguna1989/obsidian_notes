@@ -1,3 +1,8 @@
+---
+tags:
+  - book-chapter
+  - agile
+---
 # Code Smells
 
 - Odors of Rotting Software:

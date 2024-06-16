@@ -1,3 +1,7 @@
+---
+tags:
+  - SoCraTes-2020
+---
 
 - Motivation
     - Slides im terminal :O (“patat”)

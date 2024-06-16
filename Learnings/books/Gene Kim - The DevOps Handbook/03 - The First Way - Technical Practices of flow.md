@@ -1,3 +1,8 @@
+---
+tags:
+  - book-chapter
+  - devops
+---
 # Excerpt
 
 Create the foundations of your deployment pipeline

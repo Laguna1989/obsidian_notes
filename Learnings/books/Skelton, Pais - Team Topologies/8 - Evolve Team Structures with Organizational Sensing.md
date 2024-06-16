@@ -1,3 +1,7 @@
+---
+tags:
+  - book-chapter
+---
 # Excerpt
 
 - Limit Team collaboration to explicit value Activity

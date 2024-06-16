@@ -1,3 +1,7 @@
+---
+tags:
+  - SoCraTes-2021
+---
 Anforderungen
     - Kostenfrei
     - Im Firmenumfeld nutzbar

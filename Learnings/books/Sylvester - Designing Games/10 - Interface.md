@@ -1,3 +1,8 @@
+---
+tags:
+  - book-chapter
+  - gamedev
+---
 # Excerpt
 
 - What is never communicated to the player, might have never occurred at all

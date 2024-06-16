@@ -1,3 +1,7 @@
+---
+tags:
+  - MOC
+---
 # Conferences
 
 ```dataview

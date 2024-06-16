@@ -1,3 +1,8 @@
+---
+tags:
+  - book-chapter
+  - gamedev
+---
 # Excerpt
 
 - Every mechanic has a price tag (designing cost, computing power, cognitive load for the player, …)

@@ -1,3 +1,7 @@
+---
+tags:
+  - book-chapter
+---
 # Excerpt
 
 - Summary of the previous chapters

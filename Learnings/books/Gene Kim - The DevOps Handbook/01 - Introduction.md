@@ -1,3 +1,8 @@
+---
+tags:
+  - book-chapter
+  - devops
+---
 # Excerpt
 
 - DevOps Myths

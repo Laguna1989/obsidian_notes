@@ -1,3 +1,8 @@
+---
+tags:
+  - tool
+  - obsidian
+---
 Very useful diagrams, can be displayed directly in [[Obsidian]].
 
 [Mermaid](http://mermaid.js.org/#/) seems to be a valid alternative to [[plantuml]].

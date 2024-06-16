@@ -1,3 +1,8 @@
+---
+tags:
+  - book-chapter
+  - gamedev
+---
 # Excerpt
 
 - Rumination: Thinking about a problem for an extended period of time. Can be unconscious. Needs Knowledge and Relaxation in the shower

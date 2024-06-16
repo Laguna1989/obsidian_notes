@@ -1,3 +1,7 @@
+---
+tags:
+  - book-chapter
+---
 # Excerpt
 
 - Find a way of organizing boundaries

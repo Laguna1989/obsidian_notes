@@ -1,3 +1,8 @@
+---
+tags:
+  - gamedev
+  - book-chapter
+---
 # Excerpt
 
 - A game is fair when no player has an advantage at the start of the game

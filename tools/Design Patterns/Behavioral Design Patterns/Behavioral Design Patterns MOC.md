@@ -1,5 +1,7 @@
 ---
 links: "[[Design Patterns MOC]]"
+tags:
+  - MOC
 ---
 
 ```dataview

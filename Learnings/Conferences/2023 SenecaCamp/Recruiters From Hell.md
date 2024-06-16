@@ -1,3 +1,7 @@
+---
+tags:
+  - Seneca-2023
+---
 - Geschlechterrollen
 - Leute lesen nicht
 - Anfragen voll am Profil vorbei

@@ -1,3 +1,7 @@
+---
+tags:
+  - book-chapter
+---
 # Excerpt
 
 - Team dynamics matter more than who is actually on the team

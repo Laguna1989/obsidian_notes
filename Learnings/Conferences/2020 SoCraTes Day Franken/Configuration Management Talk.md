@@ -1,3 +1,7 @@
+---
+tags:
+  - SoCraTes-2020
+---
 - Früher wenig linux admins, sondern v.a. linux oder noch ältere systeme
 - admins loggen sich manuell remote ein und ändern configs manuell
 - next step: shell scripte, die sich selber einloggen, aber ebenfalls fehleranfällig

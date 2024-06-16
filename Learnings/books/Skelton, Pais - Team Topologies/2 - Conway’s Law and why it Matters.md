@@ -1,3 +1,7 @@
+---
+tags:
+  - book-chapter
+---
 # Excerpt
 
 - If the architecture of the system and the architecture of the company are at odds, the company wins

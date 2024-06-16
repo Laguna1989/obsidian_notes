@@ -2,6 +2,7 @@
 created: 2020-10-17
 tags:
   - conference
+  - SoCraTes-2020
 links: "[[Conferences MOC]]"
 ---
 # Timeline

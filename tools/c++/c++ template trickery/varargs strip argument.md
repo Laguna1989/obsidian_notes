@@ -1,3 +1,8 @@
+---
+tags:
+  - cpp
+  - templates
+---
 # Varargs Strip First Argument
 
 ```

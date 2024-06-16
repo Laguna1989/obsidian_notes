@@ -1,3 +1,7 @@
+---
+tags:
+  - book-chapter
+---
 # Intro
 
 - Based on 1994 [[Gang Of Four]] Book

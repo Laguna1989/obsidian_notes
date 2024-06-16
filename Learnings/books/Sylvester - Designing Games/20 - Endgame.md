@@ -1,3 +1,8 @@
+---
+tags:
+  - book-chapter
+  - gamedev
+---
 - This book is about hypothesis and theories, not about reality
 - Games are mental models for pieces of life
 - All of the best games are still waiting to be designed

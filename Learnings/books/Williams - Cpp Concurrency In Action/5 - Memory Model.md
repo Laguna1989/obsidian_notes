@@ -1,3 +1,7 @@
+---
+tags:
+  - book-chapter
+---
 # The c++ Memory Model
 
 - Two important aspects: Structure and concurrency
