@@ -3,8 +3,7 @@ tags:
   - design-patterns
 links: "[[Behavioral Design Patterns]]"
 ---
-
-## Overview
+# Overview
 
 > [!quote] An object which represents an instruction to perform a particular action. The object contains all the information necessary for the action to be taken
 
@@ -14,11 +13,15 @@ links: "[[Behavioral Design Patterns]]"
 Objects that represent an operation
 - Very helpful for multi-level undo/redo, macro recordings and more
 
-### Command Query Separation
+## Command Using Variant and Visit
 
-[[Command Query Separation]]
+> [!hint] See also [[Command using variant and visit]]
 
-## Command Design Pattern
+## Command Query Separation
+
+> [!hint] See also [[Command Query Separation]]
+
+# Command Design Pattern
 
 Bank account example
 
@@ -96,7 +99,7 @@ int main()
 }
 ```
 
-## Undo Functionality
+# Undo Functionality
 
 A `undo()` method can easily be added to the `Command` interface
 
@@ -211,7 +214,7 @@ struct BankAccountCommand : Command
 
 > [!danger] `undo()` operations need to be called in reverse order
 
-## Composite Command
+# Composite Command
 
 recording commands in macros
 
@@ -280,7 +283,7 @@ int main()
 
 > [!error] This works, but fails to `undo()` if the initial withdrawl is too big
 
-### DependentCompositeCommand
+## DependentCompositeCommand
 
 > [!hint] Idea
 > If the previous command fails, all following command(s) fail as well
@@ -310,8 +313,8 @@ struct DependentCompositeCommand : CompositeBankAccountCommand
 > [!info] Note
 > `undo()` does not need to be chanced
 
+# Summary
 
-## Summary
 - Encapsulate all details of an operation in a separate object
 - Define instruction for applying the command (either in the command or somewhere else)
 - Optionally define instructions for undoing the command

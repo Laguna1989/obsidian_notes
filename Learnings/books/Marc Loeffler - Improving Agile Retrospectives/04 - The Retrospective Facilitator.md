@@ -18,6 +18,8 @@ tags:
 
 # Tips on how to Improve Your Listening
 
+> [!hint] Taken from [[Julian Treasure - 5 Ways to listen better]]
+
 - Spend 3 min a day in as quiet a place as possible
 - When in a loud place, try to identify the individual sources
 - Concentrate on everyday noises, try to enjoy them and try to find patterns

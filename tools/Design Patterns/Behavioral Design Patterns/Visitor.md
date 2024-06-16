@@ -11,7 +11,7 @@ links: "[[Behavioral Design Patterns]]"
 
 ## Motivation
 
-- Need to define a new operation on an entire class hierrarchy
+- Need to define a new operation on an entire class hierarchy
 	- e.g. make a document model printable to HTML/Markdown
 - We do not want to keep modifying every class in the hierarchy
 - Need to access to the non-common aspects of classes in the hierarchy

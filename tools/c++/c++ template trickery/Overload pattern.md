@@ -1,3 +1,8 @@
+# Overview
+
+> [!check] Create a class with arbitrary call operators to be used in `std::visit`
+
+# Code Example and Explanation
 
 ```cpp
 template<typename ... Ts>
