@@ -2,7 +2,7 @@
 tags:
   - book
 created: 2021-01-01
-links: "[[Book reviews]]"
+links: "[[Books MOC]]"
 ---
 # Chapter 1 - The Age of Software
 

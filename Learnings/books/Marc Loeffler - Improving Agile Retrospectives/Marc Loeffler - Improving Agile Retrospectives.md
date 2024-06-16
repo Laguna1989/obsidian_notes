@@ -5,7 +5,7 @@ tags:
   - scrum
   - retrospective
 created: 2024-06-03
-links: "[[Book reviews]]"
+links: "[[Books MOC]]"
 ---
 # 1 Retrospective 101
 
@@ -26,3 +26,7 @@ links: "[[Book reviews]]"
 # 5 From the Metaphor to the Retrospective
 
 [[05 - From the Metaphor to the Retrospective]]
+
+# 6 Systemic Retrospectives
+
+[[06 - Systemic Retrospectives]]

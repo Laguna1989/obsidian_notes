@@ -57,3 +57,54 @@ Ask theme specific questions
 - Which solo did you like best?
 
 ### Generate Insights
+
+- Use dot voting to select topics to discuss
+- As theme specific questions
+	- How does this topic sound in in a certain section of the orchestra?
+	- Why did that section play a part particularly well?
+	- Why was section X unable to master a part?
+
+## Define Experiments
+
+- How can I help section X to master this part?
+- What load can I take of another section?
+- How can I play the part even better?
+- Where can musicians from other sections support better?
+
+## Closing
+
+- Close the retro with listening to some uplifting orchestral music
+
+# Soccer Retrospective
+
+Theme based vocabulary
+- Goals
+- Fouls
+- Yellow/Red cards
+- Counterattack
+- defender, striker, referee
+- tactics
+- substitution
+
+# Train Retrospective
+
+- Conductor, Ticket, Passenger
+- Tunnel, Bridge, Station
+- Derailment
+
+# Kitchen Retrospective
+
+- Spoon, Pan, pots, knife
+- Oven
+- Salt, Pepper, garlic, onions
+
+# Pirate Retrospective
+
+- Pirate, Pirate ship
+- Saber
+- Treasure Island
+- Wooden Leg, Eyepatch
+
+# Summary
+
+> [!summary] If you or your team grows tired of the ever same retrospectives, mix in a theme based retro.

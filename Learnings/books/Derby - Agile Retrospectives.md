@@ -1,12 +1,11 @@
 ---
-created:
-  2024-04-15
+created: 2024-04-15
 tags:
   - "#book"
   - scrum
   - agile
   - retrospective
-links: "[[Book reviews]]"
+links: "[[Books MOC]]"
 ---
 # 1 Helping Your Team Inspect and Adapt
 

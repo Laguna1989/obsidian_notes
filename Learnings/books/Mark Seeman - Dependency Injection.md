@@ -2,7 +2,7 @@
 tags:
   - book
 created: 2021-10-01
-links: "[[Book reviews]]"
+links: "[[Books MOC]]"
 ---
 # Dependency Injection
 

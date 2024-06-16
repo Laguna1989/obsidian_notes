@@ -3,7 +3,7 @@ tags:
   - book
   - gamedev
 created: 2022-05-01
-links: "[[Book reviews]]"
+links: "[[Books MOC]]"
 ---
 # Book Club Schedule
 

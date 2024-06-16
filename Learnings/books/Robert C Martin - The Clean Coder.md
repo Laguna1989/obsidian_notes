@@ -2,7 +2,7 @@
 tags:
   - book
 created: 2020-12-01
-links: "[[Book reviews]]"
+links: "[[Books MOC]]"
 ---
 # Takeaways
 

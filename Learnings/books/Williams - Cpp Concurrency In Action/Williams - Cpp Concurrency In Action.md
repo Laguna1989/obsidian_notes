@@ -4,7 +4,7 @@ tags:
   - cpp
   - conference
   - book
-links: "[[Book reviews]]"
+links: "[[Books MOC]]"
 ---
 # Chapters
 

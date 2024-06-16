@@ -3,7 +3,7 @@ tags:
   - book
   - xp
 created: 2022-05-01
-links: "[[Book reviews]]"
+links: "[[Books MOC]]"
 ---
 # Ultralearning
 

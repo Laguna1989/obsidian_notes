@@ -1,9 +1,8 @@
 ---
-created: 
-  2022-07-01
+created: 2022-07-01
 tags:
   - book
-links: "[[Book reviews]]"
+links: "[[Books MOC]]"
 ---
 
 ﻿- Three types of feedback: Appreciation, Evaluation, Coaching

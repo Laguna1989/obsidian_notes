@@ -2,7 +2,7 @@
 tags:
   - book
 created: 2023-09-01
-links: "[[Book reviews]]"
+links: "[[Books MOC]]"
 ---
 # Engineer’s Survival Guide
 

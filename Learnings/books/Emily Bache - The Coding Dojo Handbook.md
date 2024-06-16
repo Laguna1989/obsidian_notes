@@ -2,7 +2,7 @@
 tags:
   - book
 created: 2021-08-01
-links: "[[Book reviews]]"
+links: "[[Books MOC]]"
 ---
 # Collaborative Game Types for Programmers
 

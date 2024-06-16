@@ -2,7 +2,7 @@
 tags:
   - book
 created: 2022-04-01
-links: "[[Book reviews]]"
+links: "[[Books MOC]]"
 ---
 # Ultralearning Preface
 
