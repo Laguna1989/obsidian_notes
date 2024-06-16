@@ -2,7 +2,7 @@
 created: 2022-07-05
 tags:
   - Talk
-links: "[[Talks]]"
+links: "[[Talks MOC]]"
 ---
 
 Based on ![[COACH SS2022 - Lesson 11 - Leading Change - Peter Koning.pdf]]

@@ -2,7 +2,7 @@
 tags:
   - recipe
   - recipe/bread
-links: "[[Recipes]]"
+links: "[[Recipes MOC]]"
 ---
 # Ingredients
 

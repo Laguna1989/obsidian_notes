@@ -2,7 +2,7 @@
 tags:
   - design-patterns
   - tool
-links: "[[Design Patterns]]"
+links: "[[Design Patterns MOC]]"
 ---
 
 - Introduced by Robert C Martin

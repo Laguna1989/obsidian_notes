@@ -1,7 +1,7 @@
 ---
 tags:
   - design-patterns
-links: "[[Structural Design Patterns]]"
+links: "[[Structural Design Patterns MOC]]"
 ---
 
 - Concerned with Space optimization, avoid redundancy when storing data

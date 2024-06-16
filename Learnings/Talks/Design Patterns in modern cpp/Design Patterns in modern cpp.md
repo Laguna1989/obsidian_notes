@@ -4,7 +4,7 @@ tags:
   - design-patterns
   - udemy
 created: 2023-04-16
-links: "[[Talks]]"
+links: "[[Talks MOC]]"
 ---
 
 Based on [udemy course](https://www.udemy.com/course/patterns-cplusplus/)

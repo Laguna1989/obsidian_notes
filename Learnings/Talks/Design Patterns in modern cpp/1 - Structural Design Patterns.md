@@ -2,7 +2,7 @@
 tags: []
 ---
 
->[!hint] See also [[Structural Design Patterns]]
+>[!hint] See also [[Structural Design Patterns MOC]]
 
 # Adapter
 

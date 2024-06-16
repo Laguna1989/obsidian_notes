@@ -11,11 +11,11 @@ links: "[[Books MOC]]"
 
 1. Set the stage
 	- Welcome and appreciation of peoples time
-	- restate the purpose and goalof the retro
+	- Restate the purpose and goal of the retro
 	- Set a clear time frame
-	- invest time in working agreements (values)
+	- Invest time in working agreements (values)
 2. Gather Data
-	- start with hard data: events, metrics, features, ...
+	- Start with hard data: events, metrics, features, ...
 	- Don't ignore feelings. They tell what is important to the team. And emotions will not go away
 3. Generate Insights
 	- Try to understand what has happened and why, based on the gathered data
@@ -34,7 +34,7 @@ links: "[[Books MOC]]"
 
 - Learn about the history. Study the context, scan the workspace, check cartoons, whiteboards and other artifacts
 - Talk to people
-	- what did this iteration produce? what is going on elsewhere in the companty (layoffs/hirings)? What learnings are there from previous retros? What are team members feelings?
+	- What did this iteration produce? what is going on elsewhere in the company (layoffs/hirings)? What learnings are there from previous retros? What are team members feelings?
 - Determine a goal for the retro
 	- "find ways to improve our practices" or "understand reasons behind missed targets"
 - Determine duration: approximately one hour retro per work-week

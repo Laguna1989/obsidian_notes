@@ -1,7 +1,7 @@
 ---
 tags:
   - design-patterns
-links: "[[Creational Design Patterns]]"
+links: "[[Creational Design Patterns MOC]]"
 ---
 
 - Singleton is the only one that the GoF wanted to drop

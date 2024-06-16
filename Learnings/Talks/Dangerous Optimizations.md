@@ -2,7 +2,7 @@
 tags:
   - cpp
   - Talk
-links: "[[Talks]]"
+links: "[[Talks MOC]]"
 created: 2024-02-22
 ---
 

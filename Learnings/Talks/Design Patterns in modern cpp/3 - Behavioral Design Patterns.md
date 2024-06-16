@@ -3,7 +3,7 @@ tags:
 links:
 ---
 
->[!hint] See also [[Behavioral Design Patterns]]
+>[!hint] See also [[Behavioral Design Patterns MOC]]
 
 # Chain of Responsibility
 

@@ -3,7 +3,7 @@ tags:
   - cpp
   - Talk
   - templates
-links: "[[Talks]]"
+links: "[[Talks MOC]]"
 created: 2024-05-04
 ---
 # Reference

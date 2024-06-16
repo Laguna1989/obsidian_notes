@@ -3,7 +3,7 @@ tags:
   - Meetup
   - Talk
 created: 2020-08-28
-links: "[[Talks]]"
+links: "[[Talks MOC]]"
 ---
 # What to Aim for
 

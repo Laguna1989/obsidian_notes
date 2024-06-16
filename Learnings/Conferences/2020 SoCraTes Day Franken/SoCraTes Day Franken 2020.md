@@ -2,7 +2,7 @@
 created: 2020-10-17
 tags:
   - conference
-links: "[[Conferences]]"
+links: "[[Conferences MOC]]"
 ---
 # Timeline
 

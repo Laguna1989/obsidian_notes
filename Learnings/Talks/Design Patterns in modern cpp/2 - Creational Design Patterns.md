@@ -2,7 +2,7 @@
 tags: []
 ---
 
->[!hint] See also [[Creational Design Patterns]]
+>[!hint] See also [[Creational Design Patterns MOC]]
 
 # Builder
 

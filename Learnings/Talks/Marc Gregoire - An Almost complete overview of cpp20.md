@@ -4,7 +4,7 @@ tags:
   - cpp
   - cpp20
 created: 2020-09-30
-links: "[[Talks]]"
+links: "[[Talks MOC]]"
 ---
 # Reference
 

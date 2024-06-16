@@ -3,7 +3,7 @@ tags:
   - Talk
   - cpp
 created: 2020-10-08
-links: "[[Talks]]"
+links: "[[Talks MOC]]"
 ---
 # General Remarks
 

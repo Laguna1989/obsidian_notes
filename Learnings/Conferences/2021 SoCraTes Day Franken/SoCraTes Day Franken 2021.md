@@ -2,7 +2,7 @@
 created: 2021-10-09
 tags:
   - conference
-links: "[[Conferences]]"
+links: "[[Conferences MOC]]"
 ---
 # SoCraTesDay Franken 2021
 

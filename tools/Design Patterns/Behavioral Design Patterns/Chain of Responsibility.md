@@ -1,7 +1,7 @@
 ---
 tags:
   - design-patterns
-links: "[[Behavioral Design Patterns]]"
+links: "[[Behavioral Design Patterns MOC]]"
 ---
 ## Overview
 

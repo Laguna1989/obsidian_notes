@@ -2,7 +2,7 @@
 tags:
   - recipe
   - recipe/meal-prep
-links: "[[Recipes]]"
+links: "[[Recipes MOC]]"
 ---
 # Ingredients
 
