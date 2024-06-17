@@ -40,7 +40,7 @@ tags:
 - Binds a future to a callable object
 - can be used in threadpools
 - arguments/return value don’t have to match exaclty (conversions are ok)
-- If std::package_tast&lt;void()> is called with a function returning anything but void, the return value is silently discarded.
+- If std::package_tast<void()> is called with a function returning anything but void, the return value is silently discarded.
 
 ## Promise and Future
 

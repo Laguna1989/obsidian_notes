@@ -29,7 +29,7 @@ links: "[[Books MOC]]"
 
 - Objectified Function call
 - E.g. for input actions
-- Objects can be parametrized either via method argument or construction
+- Objects can be parameterized either via method argument or construction
 - Undo/Redo
 
 ## [[Flyweight]]
@@ -120,7 +120,7 @@ links: "[[Books MOC]]"
 - Carefully decide if you actually need this
 - Alternatives:
     - Lua. bindings for c++ are pretty good. e.g. [selene](https://github.com/jeremyong/Selene) or [luaaa](https://github.com/gengyong/luaaa)
-    - Console with ActionCommands
+    - Console with `ActionCommands`
 
 ## Subclass Sandbox
 
@@ -130,7 +130,7 @@ links: "[[Books MOC]]"
     - Reduce behavioral overlap between derived classes
     - provided operations can either be
         - functions like playSound() or spawnParticles()
-        - getters for interfaces (getGame()) &lt;- Hint: Only hand out interfaces to avoid a brittle base class
+        - getters for interfaces (getGame()) <- Hint: Only hand out interfaces to avoid a brittle base class
     - How does the base class get the needed features
         - Constructor injection - Bad because every class will have to provide all needed systems
         - Property Injection (whyever it is called init) - Good, but can easily be used wrongly
@@ -139,8 +139,8 @@ links: "[[Books MOC]]"
         - Not mentioned: Collection object that is passed in on construction - Mix of constructor and property injection, can be automated so that the user does not see it - See JamTemplate GameObject
 - Application:
     - GameObject with
-        - getGame() &lt;- provided operation via Facade Pattern
-        - create(), update(), draw() &lt;- sandbox methods
+        - getGame() <- provided operation via Facade Pattern
+        - create(), update(), draw() <- sandbox methods
 
 ## Type Object
 

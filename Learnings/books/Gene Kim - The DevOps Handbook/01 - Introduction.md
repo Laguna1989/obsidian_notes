@@ -38,7 +38,7 @@ tags:
     - Create fast feedback loops thanks to fast automated tests in production like environments
     - Problems are immediately fixed when they are found
     - Everyone feels productive
-    - (dark launch techniques &lt;- lookup!) enabling features via easy switches?
+    - (dark launch techniques <- lookup!) enabling features via easy switches?
     - Releases are controlled, predictable, reversible and low stress
     - Every fix creates organizational learning
     - Everyone is constantly learning, the scientific method is used and nothing is taken for granted

@@ -187,7 +187,7 @@ int main()
 }
 ```
 
-- f(float), f(double) &lt;- ambiguous & compiler error
+- f(float), f(double) <- ambiguous & compiler error
     - Templates:
         - void f(int) and void f(integral auto)
         - template function can be instantiated and will be the same. Compiler will select non-template function

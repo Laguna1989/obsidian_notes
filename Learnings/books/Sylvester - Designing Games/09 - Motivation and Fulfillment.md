@@ -6,7 +6,7 @@ tags:
 # Excerpt
 
 - We want things because they feel good
-- We can want something without liking it and like something without wanting it &lt;- so deep :o
+- We can want something without liking it and like something without wanting it <- so deep :o
 - The main way to generate motivation is by anticipation of rewards
 - Virtual rewards don’t have the same intensity as real rewards (money, status, safety, …)
 - Timing the rewards is important: Reinforcement Schedule

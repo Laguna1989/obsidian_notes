@@ -38,7 +38,7 @@ Online Board [https://miro.com/app/board/o9J_kjxiJlY=/](https://miro.com/app/boa
 
 # Conditional Untangling
 
-- v.a. java spezifische Umformungen, z.B. Try&lt;T>, bind oder flatmap
+- v.a. java specific refactorings, e.g. `Try<T>`, `bind` or `flatmap`
 
 # Corona Hacks
 

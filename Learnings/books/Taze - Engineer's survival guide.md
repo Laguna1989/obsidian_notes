@@ -286,7 +286,7 @@ links: "[[Books MOC]]"
 
 ## 34. Importance of the Culture
 
-- Pick companies with a culture that you can align to and add your own part to it&lt;
+- Pick companies with a culture that you can align to and add your own part to it.
 
 ## 35. Ambiguity
 
