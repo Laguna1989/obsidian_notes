@@ -128,7 +128,7 @@ FMOD::Studio::System* studioSystem;
 FMOD::Studio::System::create(&studioSystem);
 
 studioSystem->initialize(
-    <channels>, // effectively the max number of sounds playing 
+    <channels>, // the max number of sounds playing 
     <FMOD_STUDIO_INITFLAGS>, 
     <FMOD_INITFLAGS>, 
     nullptr
