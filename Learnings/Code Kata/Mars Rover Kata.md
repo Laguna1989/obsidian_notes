@@ -10,7 +10,7 @@ A squad of robotic rovers are to be landed by NASA on a plateau on Mars.
 # Notes
 
 - Works very well with Outside-In [[TDD]]
-- Can make great use of [[acceptance tests]]
+- Can make great use of [[Acceptance Test]]s
 
 # Links
 

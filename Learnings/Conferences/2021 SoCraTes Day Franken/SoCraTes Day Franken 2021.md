@@ -32,8 +32,13 @@ links: "[[Conferences MOC]]"
 ## Slot 4 Remote Onboarding
 
 ## Remote Oboarding
+
 [[Remote Onboarding]]
+
 ## Build Your Lerncoach
+
 [[Build Your Lerncoach]]
+
 ## Wie Lernt Ihr?
-[[Wie lernt ihr?]]
+
+[[Wie lernt ihr]]
