@@ -4,7 +4,7 @@ tags:
 ---
 # Questions
 
-- In this Chapter some patterns were introduced: Composition Root, Constructor Injection, Method Injection and Property Injection. Have you used any of those Patterns?
+- In this Chapter some patterns were introduced: [[Composition Root]], [[Constructor Injection]], [[Method Injection]] and [[Property Injection]]. Have you used any of those Patterns?
 - Were they helpful and if not, why?
 - Can you share an example when you used a specific pattern?
 

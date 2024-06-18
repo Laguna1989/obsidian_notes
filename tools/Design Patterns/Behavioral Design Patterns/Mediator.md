@@ -216,7 +216,7 @@ int main()
 
 > [!summary]
 > - Create the `Mediator` and have all objects refer to it
-> 	- e.g. via [[Mark Seeman - Dependency Injection|Dependency Injection]]
+> 	- e.g. via [[Dependency Injection]]
 > - `Mediator` engages in bidirectional communication with the connected `Component`s
 > 	- `Mediator` has functions the `Component`s can call
 > 	- `Component`s have functions the `Mediator` can call

@@ -63,17 +63,17 @@ links: "[[Books MOC]]"
 - json example:
     - I don’t like the mapping of data to behavior (e.g. spells, shortrange/longrange attacks)
     - inheritance comparison: prototype behaves as a class and not an interface, which will make it harder to maintain.
-    - It is nice to write it in json format, but I expect quite some pain when doing the object creation in game based on the data. Latest when it comes to using the modeled functionality
+    - It is nice to write it in `json` format, but I expect quite some pain when doing the object creation in game based on the data. Latest when it comes to using the modeled functionality
 - Not mentioned alternative: “ObjectRepository”
 
 ## [[Singleton]]
 
 - Chapter is mainly about how not to use a singleton
 - Singleton: Have only one instance and make it available globally
-- Alternative: Class with static members: This exactly what GameProperties does.
+- Alternative: Class with static members: This exactly what `GameProperties` does.
     - Problem: Initialization order
 - Unmentioned Drawback: Worst testing ever
-- Solution: [[Mark Seeman - Dependency Injection]]. Yes, it requires some thought, but it works out great in the JamTemplate.
+- Solution: [[Dependency Injection]]. Yes, it requires some thought, but it works out great in the JamTemplate.
 
 ## [[State]]
 
@@ -183,7 +183,7 @@ links: "[[Books MOC]]"
 - In fact, it hides the dependency and adds another one on top
 - Testing in isolation becomes more problematic
 - Better solution:
-    - Pass in dependency in constructor or via property injection
+    - Pass in dependency via [[Constructor Injection]] or [[Property Injection]]
 
 # Optimization Patterns
 

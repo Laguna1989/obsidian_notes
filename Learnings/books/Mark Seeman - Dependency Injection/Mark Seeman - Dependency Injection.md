@@ -6,6 +6,8 @@ links: "[[Books MOC]]"
 ---
 # Dependency Injection
 
+> [!note] See also [[Dependency Injection]]
+
 [[Scott Young - Ultralearning]] Plan
 <table>
   <tr>
@@ -249,12 +251,17 @@ links: "[[Books MOC]]"
 [[02 - Tightly and Loosely Coupled Code]]
 
 ## Week 3 (Dependency Injection Patterns)
+
 [[03 - Dependency Injection Patterns]]
+
 ## Week 4 (Anti Patterns)
+
 [[04 - Anti Patterns]]
 
 ## Week 5 (Code Smells and Application-Design)
+
 [[05 - Code Smells and Application Design]]
+
 ## Week 6 (Object Lifetime and Interception)
 
 [[06 - Object Lifetime and Interception]]

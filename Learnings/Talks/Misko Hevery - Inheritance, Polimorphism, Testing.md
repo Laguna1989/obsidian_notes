@@ -267,7 +267,7 @@ class I18NUpdate extends Update {
 - Pile of Objects
 	- Business logic
 	- Where the actual work is done
-- Pile of Construction (Ideally via [[Mark Seeman - Dependency Injection|Dependency Injection]])
+- Pile of Construction (Ideally via [[Dependency Injection]])
 	- Factories
 	- Builders
 	- `Provider<T>`

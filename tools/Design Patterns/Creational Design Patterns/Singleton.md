@@ -35,7 +35,7 @@ links: "[[Creational Design Patterns MOC]]"
 
 # Singleton Dependency Injection
 
-- Depending directly on the singleton is bad. [[Mark Seeman - Dependency Injection]] can help
+- Depending directly on the singleton is bad. [[Dependency Injection]] can help
 - This will help by allowing to hook in a Mock Database
 - In our example the `get_population()` is the function we are interested in varying
 ![Enter image alt description](IMG-2024-05-31-134636428.png)

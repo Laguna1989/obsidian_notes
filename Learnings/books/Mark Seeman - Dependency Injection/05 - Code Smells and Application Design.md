@@ -4,10 +4,10 @@ tags:
 ---
 # Questions
 
-- The code smells introduced were Constructor-overinjection, Abstract Factory and Cyclic Dependencies
+- The code smells introduced were [[Constructor-overinjection]], [[Abstract Factory]] and [[Cyclic Dependencies]]
 - Have you noticed any of the code smells in your current or previous project? Were they harmful or could you live with the code smell? Were you able to refactor or mitigate the effects of the code smells?
 - There are examples given for application composition. Do you follow the example given in your current or previous project? What is the outcome and effect?
-- One point not mentioned here is the design of middleware or library code. How would you proceed in this case? What smells might originate there?
+- One point not mentioned here is the design of middelware or library code. How would you proceed in this case? What smells might originate there?
 
 # Text Week 5
 
