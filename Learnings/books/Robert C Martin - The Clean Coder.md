@@ -8,4 +8,4 @@ links: "[[Books MOC]]"
 
 - Providing too much detail can be an invitation to micromanagement
 - You might work better, when you work alone. But your team does not work better, when you work alone
-- What you learn in school and what you need on the job are often very different things.
+- What you learn in school and what you need on the job are often very different things

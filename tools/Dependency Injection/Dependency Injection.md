@@ -9,5 +9,7 @@ links: "[[Tools MOC]]"
 - [[Mark Seeman - Dependency Injection]]
 
 # See also
+
 - [[Constructor Injection]]
+- [[Method Injection]]
 - [[Property Injection]]

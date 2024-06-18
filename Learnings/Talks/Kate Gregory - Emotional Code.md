@@ -16,7 +16,7 @@ links: "[[Talks MOC]]"
 
 ## Humility
 
-- Use libraries - include a link to documentation if it is not stl
+- Use libraries - include a link to documentation if it is not `stl`
 - Gentle comments - When things are not obvious, leave some help for your future self or coworker
 - Helpful names for everything
 - You are as good as me and will understand if I explain it to you
@@ -25,7 +25,7 @@ links: "[[Talks MOC]]"
 
 - Clean engineering to make next time easier
     - Well thought out encapsulation
-    - appropriate level of abstraction
+    - Appropriate level of abstraction
 - Take the time to clean up
 - Information sharing - my job is safe if everyone can do this and the company stays in business
 
@@ -37,12 +37,12 @@ links: "[[Talks MOC]]"
     - Tests are complete and well documented
 - I use modern constructs, libraries and tools
     - I have the mentality of always learning
-    - Toos not for the sake of tools
+    - Tools not for the sake of tools
 - Commitment to the future
     - For myself and for the Teams success
 
 ## Call to Action
 
 - Care about those who write/wrote the code you maintain
-- Show condifence, be generous and empathic
+- Show confidence, be generous and empathetic
 - Choose which emotions to show in your code
