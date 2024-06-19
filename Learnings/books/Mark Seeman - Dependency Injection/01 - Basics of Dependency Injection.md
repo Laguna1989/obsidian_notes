@@ -12,12 +12,12 @@ tags:
 - Name one stable and one volatile dependency in your current project
 
 Possible Exercises
-- Extend the HelloWorld Example with a simple FileWriter (without late binding)
+- Extend the `HelloWorld` Example with a simple `FileWriter` (without late binding)
 - Expectations towards the book
 
 # Text Week 1
 
-Hello everyone and welcome to the first week of the bookclub. Great to have you. Let’s embark on our journey with the first chapter of “Dependency Injection”.
+Hello everyone and welcome to the first week of the book club. Great to have you. Let’s embark on our journey with the first chapter of “Dependency Injection”.
 
 This week we are going to read Chapter 1: “The basics of Dependency Injection: What, why and how” (pages 1-34).
 

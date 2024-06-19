@@ -13,7 +13,7 @@ links: "[[Talks MOC]]"
 # Overview
 
 - C++20 is big
-- formally puglish is planned for end of 2020
+- formally publish is planned for end of 2020
 - Video is a high level overview
 
 # New Keywords
@@ -27,16 +27,16 @@ links: "[[Talks MOC]]"
     - `co_await`
     - `co_return`
     - `co_yield`
-- `char8_t`	(similat to char16_t from c++17)
+- `char8_t`	(similar to `char16_t` from c++17)
 
-# New Identifiers {#new-identifiers}
+# New Identifiers
 
 - `import`
 - `module`
 
 Identifiers are reserved tokens only in certain places, e.g. `final` or `override`
 
-# Modules {#modules}
+# Modules
 
 - Replace header files
 - What should be exported (classes/functions)
@@ -51,7 +51,7 @@ Identifiers are reserved tokens only in certain places, e.g. `final` or `overrid
 - Preprocessor macros will not leak outside of modules
 - Order of module imports is no longer important
 
-## How to Write and Use a Module {#how-to-write-and-use-a-module}
+## How to Write and Use a Module
 
 > [!example]+ Create a module
 >
@@ -78,10 +78,10 @@ Identifiers are reserved tokens only in certain places, e.g. `final` or `overrid
 - Regarding the STL
     - c++20 does not specify how to modularize the STL
     - STL headers are importable as modules
-    - Macros will be exported from stl headers
+    - Macros will be exported from STL headers
 - Custom headers can be made importable, but this is compiler dependent
 
-# Ranges {#ranges}
+# Ranges
 
 - Object referring to a sequence of elements
 - Similar to begin()/end() iterators
@@ -94,7 +94,7 @@ Identifiers are reserved tokens only in certain places, e.g. `final` or `overrid
 > ranges::sort(data); // new way of sorting
 > ```
 
-- Impossible to have mismatching begin()/end() iterators
+- Impossible to have mismatching `begin()`/`end()` iterators
 - Range adaptors e.g. a filter
 
 ## Major Components
@@ -176,7 +176,7 @@ void foo(Incrementable auto T);
     - template syntax with lambda expressions+
         - `[] <typename T> (T x) { /* … */ }`
     - gets rid of of decltype and `decay_t`
-> [!danger] `[=] is a breaking change
+> [!danger] `[=]` is a breaking change
 - `constexpr` changes
     - virtual functions can be constexpr
     - `constexpr` can use dynamic_cast and typeid
@@ -235,7 +235,7 @@ void foo(Incrementable auto T);
         - new functions: wait(), notify_one(), notify_all()
     - Atomic references
         - Normally atomics copies values, now pass by ref allowed
-    - Designated init
+    - Designated initialization
 
 > [!example]+
 >
@@ -272,7 +272,7 @@ void foo(Incrementable auto T);
     - Never owning
     - Pointer to begin and size
     - Passed by copy
-    - Stringview is only read, span can be read or write
+    - `string_view` is only read, span can be read or write
         - `span<const int>` and not `span<int> const`
     - Support for iterators
 - Feature testing macros
@@ -285,12 +285,12 @@ void foo(Incrementable auto T);
 - `constinit`
     - Help with static initialization fiasco
 - Using directive for class enums
-- Text formatting (std::format)
+- Text formatting `std::format`
     - Safe and extensible
-    - Rasy to read
+    - Easy to read
     - separation of format string and arguments
-    - Easily localizable
-    - More performant than sprintf, ostringstream and to_string()
+    - Easy localization
+    - More performant than `sprintf`, `ostringstream` and `to_string()`
 
 > [!example]+
 >
@@ -316,5 +316,5 @@ void foo(Incrementable auto T);
     - `starts_with` and `ends_with` for `std::string`, `std::stringview`
     - `contains()` for associative containers
     - `remove()`, `remove_if()` return how many items were removed
-    - `erase()`, `erase_if()`, no more remove-erase idiom ndeeded
+    - `erase()`, `erase_if()`, no more remove-erase idiom needed
     - `midpoint()`, `lerp()`
