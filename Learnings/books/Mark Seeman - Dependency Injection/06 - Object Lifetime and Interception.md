@@ -17,6 +17,6 @@ The book introduces Dependency lifetime and introduces singleton, transient and 
 I would like to discuss the following topics with you
 
 - Have you had to deal with bad lifestyle choices in you project and how did you solve/mitigate them?
-- How does the IDisposable idea translate to languages without garbage collection?
+- How does the `IDisposable` idea translate to languages without garbage collection?
 - Table 9.1 lists multiple cross cutting concerns. Do you have similar cross cutting concerns in you project and how did you solve them?
 - In listing 9.7 (interception for security) it is suggested to throw an exception if the user has insufficient rights to perform a certain action. This is a valid approach in c#, but in other languages, e.g. c++, exceptions should be exceptional. How would you handle the behavior there?

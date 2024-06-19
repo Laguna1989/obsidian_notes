@@ -9,14 +9,14 @@ date1: 2024-05-30
 ---
 # Local Graph
 
-- shows only the connections going out from the currently opened tab
-- can be linked in the sidebar
-- open with `ctrl + p`-> `local graph`
+- Shows only the connections going out from the currently opened tab
+- Can be linked in the sidebar
+- Open with `ctrl + p`-> `local graph`
 
 # Property view
 
-- disable properties being visible in files via `settings` - `editor` - `properties in document`-> hidden
-- enable property view in `settings`- `core plugins`
+- Disable properties being visible in files via `settings` - `editor` - `properties in document`-> hidden
+- Enable property view in `settings`- `core plugins`
 
 # Style
 
@@ -189,6 +189,10 @@ There is an awesome [linter plugin](https://github.com/platers/obsidian-linter) 
 # Alternate Checkboxes
 
 ![[IMG-2024-06-14-175114344.png]]
+
+# Sort order for Files and Folders
+
+[[Sort Order for Files and Folders]]
 
 # TODO
 
