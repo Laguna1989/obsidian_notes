@@ -194,6 +194,10 @@ There is an awesome [linter plugin](https://github.com/platers/obsidian-linter) 
 
 [[Sort Order for Files and Folders]]
 
+# Vault Stats
+
+[[Vault Stats]]
+
 # TODO
 
 - Check out <https://github.com/gapmiss/croppie-for-obsidian> for cropping images inside obisidian

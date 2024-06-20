@@ -1,6 +1,7 @@
 ---
 tags:
   - obsidian
+links: "[[Tools MOC]]"
 ---
 # Files in Repo by Size
 

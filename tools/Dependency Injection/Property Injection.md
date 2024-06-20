@@ -9,7 +9,7 @@ tags:
 # Notes
 
 - Property Injection is also known as Setter Injection
-- Only use this if there is a good local default
+- Only use this if there is a good [[Local Default]]
 
 # Example
 

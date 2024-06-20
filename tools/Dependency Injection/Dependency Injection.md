@@ -13,3 +13,4 @@ links: "[[Tools MOC]]"
 - [[Constructor Injection]]
 - [[Method Injection]]
 - [[Property Injection]]
+- [[Local Default]]
