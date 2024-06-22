@@ -31,3 +31,7 @@ links: "[[Recipes MOC]]"
 8) Put beans and corn in a sieve and clean under cold water, then add to the pan
 9) Add the chicken to the pan
 10) Cook for a short time with a lid
+
+# Link
+
+[Texanischer Auflauf-Rezept](https://www.gutekueche.at/texanischer-auflauf-rezept-13149)
