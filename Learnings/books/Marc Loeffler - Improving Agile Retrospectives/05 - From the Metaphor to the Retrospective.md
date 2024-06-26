@@ -2,6 +2,7 @@
 tags:
   - agile
   - retrospective
+  - book-chapter
 ---
 
 >[!hint] How to keep retrospectives varied and interesting even after some time?

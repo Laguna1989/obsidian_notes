@@ -4,6 +4,7 @@
 - 1 EL Tomato paste
 - 1 EL Butter/Magerine
 - A bit of Salt
+- 1 L Water
 Sauce
 - 200g (greek) Yoghurt
 - Garlic

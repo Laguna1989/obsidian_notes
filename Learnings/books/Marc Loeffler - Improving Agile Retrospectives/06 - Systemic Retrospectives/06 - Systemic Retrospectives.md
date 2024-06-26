@@ -2,6 +2,7 @@
 tags:
   - agile
   - retrospective
+  - book-chapter
 ---
 # Overview
 
@@ -47,39 +48,15 @@ System Thinking
 
 ## Causal Loop Diagrams
 
-Same Effect (s)
-![[IMG-2024-06-19-192300873.png|center]]
+[[Causal Loop Diagrams]]
 
-Opposite Effect (o)
-![[Pasted image 20240619192324.png|center]]
+## Current Reality Tree
 
-Balancing Loop (R)
+[[Current Reality Tree]]
 
-![[Pasted image 20240619192404.png|center]]
+## Limitations of System Thinking
 
-Reinforcing Loop (R)
+- No focus on problematic people
+- You cannot realistically analyze social behavior
 
-![[Pasted image 20240619192528.png]]
-
-Constraints (c)
-![[Pasted image 20240619192646.png]]
-
-Delay (//)
-![[Pasted image 20240619192722.png]]
-
-Complete Example
-![[Pasted image 20240619192827.png]]
-
-### CLD Examples from a Retro
-
-![[Pasted image 20240619193150.png|center]]
-![[Pasted image 20240619193206.png|center]]
-
->[!hint] Work out CLDs and keep them for reference in the next Retro
-
-> [!hint] Tips for CLDs
-> - Always use Nouns for variable names
-> - Use Variables that are quantitatively measurable
-> - Take unintended effects into account (increase flow might get higher productivity but also increased stress?)
-> - Balancing Loops always have a goal. The goal must be part of the loop
-> - If a connection is requires too much explanation, either rename or insert an intermediate step
+# Complexity Thinking

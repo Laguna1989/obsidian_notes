@@ -2,6 +2,7 @@
 tags:
   - agile
   - retrospective
+  - book-chapter
 ---
 # Preparation
 
