@@ -1,3 +1,8 @@
+---
+tags:
+  - recipe
+links: "[[Recipes MOC]]"
+---
 # Ingredients
 
 - 400g of [Manti](https://www.kaufland.de/product/438920308/)

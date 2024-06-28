@@ -30,3 +30,7 @@ links: "[[Books MOC]]"
 # 6 Systemic Retrospectives
 
 [[06 - Systemic Retrospectives]]
+
+# 7 Solution Focused Retrospectives
+
+[[07 - Solution Focused Retrospectives]]

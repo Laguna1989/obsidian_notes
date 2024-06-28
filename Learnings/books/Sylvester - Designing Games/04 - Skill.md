@@ -47,7 +47,7 @@ tags:
 - Skill ceiling: Tool assisted speedruns, e.g. for [Super Mario Bros](https://www.youtube.com/watch?v=7rIJNT7dCmE)
 - P64 “a solved game is worthless to players” - OBJECTION: Still story, world, … what about mastery?
 - Grafik Seite 67: Lieblingsspiele einordnen
-- Rimworld: Set own goals
+- Rimworld: Set your own goals
 - Wie bei funky trip elastic mechanics einbauen?
     - Elastic failure:
         - Tod führt nicht zu tod sondern zieht leben ab

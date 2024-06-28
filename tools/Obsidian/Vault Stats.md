@@ -3,7 +3,7 @@ tags:
   - obsidian
 links: "[[Tools MOC]]"
 ---
-# Files in Repo by Size
+# Files in Vault by Size
 
 ```dataview  
 TABLE round(file.size) as "File Size (b)"
