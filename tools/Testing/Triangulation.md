@@ -2,7 +2,7 @@
 tags:
   - tdd
   - tool
-links: "[[Tools MOC]]"
+links: "[[Testing MOC]]"
 ---
 > [!hint] When writing a failing unit test, try to look at the problem from a new perspective
 

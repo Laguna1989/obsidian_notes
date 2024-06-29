@@ -3,7 +3,7 @@ tags:
   - cpp
   - cpp17
   - tool
-links: "[[Tools MOC]]"
+links: "[[Cpp Tools MOC]]"
 created: 2022-04-12
 ---
 # C++17 Allocators

@@ -7,7 +7,7 @@ tags:
 
 # Example Presentations
 
-- [[Intro to FMod Studio]]
+- [Intro to FMod Studio](obsidian://open?vault=obsidian_notes&file=tools%2FFMod%2FIntro%20to%20FMod%20Studio)
 
 # Notes and Good Practices
 

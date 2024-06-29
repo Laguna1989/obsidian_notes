@@ -2,7 +2,7 @@
 tags:
   - cpp
   - templates
-links: "[[Tools MOC]]"
+links: "[[Cpp Tools MOC]]"
 ---
 # Varargs Strip First Argument
 

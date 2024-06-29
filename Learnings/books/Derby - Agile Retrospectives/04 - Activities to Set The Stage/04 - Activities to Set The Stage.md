@@ -17,3 +17,5 @@ tags:
 # Working Agreements
 
 ![[Working Agreements]]
+
+> [!note] See also [[Triangle Game]]

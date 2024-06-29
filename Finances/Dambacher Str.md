@@ -1,3 +1,8 @@
+---
+created: 2024-06-08
+tags:
+  - finances
+---
 # Value Estimation
 
 ## 25 Monatsmieten

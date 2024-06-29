@@ -1,9 +1,16 @@
-## Gründerzuschuss und Förderung
+---
+tags:
+  - SoCraTes-2024
+  - freelancing
+---
+# Gründerzuschuss Und Förderung
+
 - Wird vom Arbeitsamt gezahlt
 - 1 Tag Arbeitslosigkeit reicht aus
-- Ermessensleistung, wird nicht immer 
+- Ermessensleistung, wird nicht immer
 
-## Selbstständigkeit
+# Selbstständigkeit
+
 - Vorteile
 	- Bei 3 Arbeitgeber für je 3-4 Jahre, am Anfang immer cool, auf Dauer immer doof
 	- Unterschiedliche Technologien
@@ -16,29 +23,28 @@
 	- Saisonale Budgets
 	- Viel Papierkram
 
-## Übergang in die Selbstständigkeit
+# Übergang in Die Selbstständigkeit
+
 - 40h + Selbstständigkeit (nicht meine Grundlage)
 
+# Vertragsmodelle
 
-## Vertragsmodelle
 - Time and Material (Stunden werden abbezahlt) <- Klarer Favorit
 	- Abrechnung monatlich
 - Werkvertrag
 
+# Acquise
 
-## Acquise 
 - Mund zu Mind Propaganda
 - Konferenten/LinkedIn
 - Direkte Acquise
 - FreelancerPortale / Vermittler
 
+# Steuer Und Finanzen
 
-## Steuer und Finanzen
 - EÜR
 	- Bilanz für Kleine
 - Berufshaftpflicht (exali) -> [Berufshaftpflicht für Ihre Branche | exali.de](https://www.exali.de/Berufshaftpflicht,5752.php)
-- 
-
 
 Ist- vs SollVersteuerung
 
@@ -56,7 +62,6 @@ Sozialversicherung
 - Komplett dein eigenes Problem
 - Krankenkasse (gesetzlich/privat)
 - Rentenversicherungspflicht entfällt (alternativ: komplett selber+)
-
 
 Handyrechnung als Berufshandy
 5% absetzen

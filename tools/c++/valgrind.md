@@ -3,7 +3,7 @@ tags:
   - cpp
   - memory
   - tool
-links: "[[Tools MOC]]"
+links: "[[Cpp Tools MOC]]"
 ---
 
 > [!quote] `valgrind` is a tool to find memory leaks

@@ -29,8 +29,10 @@ by me [[Intro to FMod Studio]]
 
  [[The in and outs of Freelancing]]
 
-## 15:00 Leistungsbewertung Und Mob Programming
+## 15:00 Leistungsbewertung Und Mob Programming / Triangle Game
 
-[[Leistungsbewertung Und Mob Programming]]
+Diskussionsrunde
+
+[[Triangle Game]]
 
 ## 16:00 Retro

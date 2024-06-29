@@ -33,7 +33,7 @@ In .Net -> Stryker
 
 ### For C++
 
-[GitHub - nlohmann/mutate\_cpp: C++ Mutation Test Environment](https://github.com/nlohmann/mutate_cpp)
+[[mutate_cpp]]
 
 ## When to Do Mutation Testing
 
@@ -47,6 +47,7 @@ In .Net -> Stryker
 - mutate schemata (mutant switching) mutations are added with a lot of if statements and selectively switches on/off those mutations
 
 ## Fine-Tuning
+
 - Mutation Testing tests very long
 - -> files to be tested (e.g. via globbing patterns)
 - -> mutation levels (how smart are the mutations)
@@ -60,8 +61,3 @@ In .Net -> Stryker
 > - ⚠ Only useful when test coverage is high enough
 > - ⚠ Best used on Unit tests (no dependencies, runs fast)
 > - ⚠ Works very well when writing a new test+impl, as the mutation source is rather slow
-
-
-
-
-

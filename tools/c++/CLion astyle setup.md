@@ -2,7 +2,7 @@
 tags:
   - tool
   - cpp
-links: "[[Tools MOC]]"
+links: "[[Cpp Tools MOC]]"
 ---
 # Setup Process
 
