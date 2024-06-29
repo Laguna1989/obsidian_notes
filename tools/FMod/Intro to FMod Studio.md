@@ -8,7 +8,13 @@ maxScale: "2.0"
 ---
 # Intro to FMod Studio
 
-## 2024-06-13
+## 2024-06-29
+
+---
+ 
+# Werbeblock
+
+![[IMG-2024-06-29-100629048.png]]
 
 ---
 
