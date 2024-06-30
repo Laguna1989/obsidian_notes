@@ -23,3 +23,4 @@ Write a program that prints the numbers from 1 to 100. But for multiples of thre
 - 2021-03-xx @EB CDP
 - 2023-11-xx @Aptiv Interview
 - 2024-01-xx @Tanja GdI Prep
+- 2024-06-29 @SoCraTes Day Franken 2024 [[Mutation Tests - 100 Percent Test Coverage]]
