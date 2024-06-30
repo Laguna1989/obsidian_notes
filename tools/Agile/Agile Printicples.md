@@ -1,7 +1,6 @@
 ---
 tags:
   - agile
-links: "[[Agile MOC]]"
 ---
 > [!info] Our highest priority is to satisfy the customer through early and continuous delivery of valuable software
 

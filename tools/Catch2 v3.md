@@ -3,7 +3,7 @@ tags:
   - tool
   - cpp
   - testing
-links: "[[Tools MOC]]"
+links: "[[tools]]"
 ---
 
 - Modern c++14 testing framework

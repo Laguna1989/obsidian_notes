@@ -1,5 +1,5 @@
 ---
-links: "[[Design Patterns MOC]]"
+links: "[[Design Patterns]]"
 tags:
   - design-patterns
 ---

@@ -2,8 +2,18 @@
 tags:
   - design-patterns
   - tool
-links: "[[Design Patterns MOC]]"
+links: "[[Design Patterns]]"
 ---
+
+%% Begin Waypoint %%
+- [[Dependency Inversion Principle]]
+- [[Interface Segregation Principle]]
+- [[Liskov Substitution Principle]]
+- [[Open Close Principle]]
+- [[Single Responsibility Principle]]
+- [[SOLID Design Principles]]
+
+%% End Waypoint %%
 
 - Introduced by Robert C Martin
 - Not limited to c++, but clearly applicable

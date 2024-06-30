@@ -3,4 +3,4 @@ tags:
   - book-chapter
 ---
 
->[!hint] See also [[Structural Design Patterns MOC]]
+>[!hint] See also [[Structural Design Patterns]]

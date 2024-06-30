@@ -1,7 +1,7 @@
 ---
 tags:
   - design-patterns
-links: "[[Behavioral Design Patterns MOC]]"
+links: "[[Behavioral Design Patterns]]"
 ---
 # A Modern **Command** Design Pattern Using `std::variant` and `std::visit`
 

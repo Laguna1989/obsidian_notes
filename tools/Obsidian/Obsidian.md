@@ -4,9 +4,21 @@ tags:
   - tag
   - tool
   - obsidian
-links: "[[Tools MOC]]"
 date1: 2024-05-30
 ---
+
+%% Begin Waypoint %%
+- [[Advanced Slides]]
+- [[Callouts]]
+- [[Hotkeys]]
+- [[Images Alignment]]
+- [[Mermaid Diagrams]]
+- [[Obsidian]]
+- [[Sort Order for Files and Folders]]
+- [[Vault Stats]]
+
+%% End Waypoint %%
+
 # Local Graph
 
 - Shows only the connections going out from the currently opened tab

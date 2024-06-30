@@ -2,7 +2,6 @@
 tags:
   - tool
   - tdd
-links:
 ---
 
 > [!hint] Use the most simple (not stupid) implementation to make a red unit test go green

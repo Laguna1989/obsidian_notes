@@ -1,7 +1,6 @@
 ---
 tags:
   - code-kata
-links: "[[Code Kata MOC]]"
 ---
 # Summary
 

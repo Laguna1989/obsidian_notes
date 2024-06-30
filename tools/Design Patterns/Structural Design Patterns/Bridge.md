@@ -1,7 +1,7 @@
 ---
 tags:
   - design-patterns
-links: "[[Structural Design Patterns MOC]]"
+links: "[[Structural Design Patterns]]"
 ---
 # Overview
 

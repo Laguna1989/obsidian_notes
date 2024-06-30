@@ -6,16 +6,16 @@ tags:
 ---
 
 aus afl++ entstanden
-- rust library
-- korpus(testcase), target und objectives
+- #Rust library
+- Korpus(testcase), target und objectives
 - comile guided anleitung für fuzzer
-- erzeugt coverage und metriken
-- feedback loop der test cases anhand von objectives in fehler und warnings sortiert
-- mutators verändern input, evolutionärer ansatz UND zufällige werte
-- analyzer: treffe aussagen über inputs treffen
-- stages: baut pipeline auf
-- executor: kombiniert input, observer und porgamm (inkl hardware support)
-- ideal: programm direkt über memory parameter fuzzbar
+- creates coverage und metriken
+- Feedback loop der test cases anhand von objectives in fehler und warnings sortiert
+- Mutators verändern input, evolutionärer ansatz UND zufällige werte
+- Analyzer: treffe aussagen über inputs treffen
+- Stages: baut pipeline auf
+- Executor: kombiniert input, observer und porgamm (inkl hardware support)
+- Ideal: programm direkt über memory parameter fuzzbar
 
 # Beispiel Xpdf
 

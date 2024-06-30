@@ -2,7 +2,6 @@
 tags:
   - tool
   - tdd
-links: "[[Testing MOC]]"
 aliases:
   - Test Driven Development
 ---

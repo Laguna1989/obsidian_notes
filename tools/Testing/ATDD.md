@@ -2,7 +2,6 @@
 tags:
   - tdd
   - testing
-links: "[[Testing MOC]]"
 ---
 # Overview
 

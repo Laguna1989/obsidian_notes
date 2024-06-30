@@ -1,7 +1,7 @@
 ---
 tags:
   - tool
-links: "[[Tools MOC]]"
+links: "[[tools]]"
 ---
 Generally hard to do
 

@@ -43,7 +43,7 @@
       }
     },
     {
-      "query": "path:Cooking  ",
+      "query": "path:Recipes  ",
       "color": {
         "a": 1,
         "rgb": 14701228
@@ -60,6 +60,6 @@
   "repelStrength": 7.76041666666667,
   "linkStrength": 0.513020833333333,
   "linkDistance": 110,
-  "scale": 0.13873223932666073,
+  "scale": 0.23186026322502964,
   "close": true
 }

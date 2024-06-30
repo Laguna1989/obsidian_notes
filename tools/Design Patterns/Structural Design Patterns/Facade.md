@@ -1,7 +1,7 @@
 ---
 tags:
   - design-patterns
-links: "[[Structural Design Patterns MOC]]"
+links: "[[Structural Design Patterns]]"
 ---
 
 > [!quote] Expose several components through a single interface

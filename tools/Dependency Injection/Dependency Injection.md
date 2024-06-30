@@ -2,15 +2,17 @@
 tags:
   - tool
   - dependency-injection
-links: "[[Tools MOC]]"
 ---
+
+%% Begin Waypoint %%
+- [[Constructor Injection]]
+- [[Dependency Injection]]
+- [[Local Default]]
+- [[Method Injection]]
+- [[Property Injection]]
+
+%% End Waypoint %%
+
 # References
 
 - [[Mark Seeman - Dependency Injection]]
-
-# See also
-
-- [[Constructor Injection]]
-- [[Method Injection]]
-- [[Property Injection]]
-- [[Local Default]]

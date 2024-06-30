@@ -1,7 +1,6 @@
 ---
 tags:
   - obsidian
-links: "[[Tools MOC]]"
 ---
 # Files in Vault by Size
 

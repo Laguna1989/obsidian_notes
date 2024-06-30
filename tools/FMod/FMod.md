@@ -3,8 +3,14 @@ tags:
   - tool
   - audio
   - library
-links: "[[Tools MOC]]"
 ---
+
+%% Begin Waypoint %%
+- [[FMod]]
+- [[Intro to FMod Studio]]
+
+%% End Waypoint %%
+
 # Overview
 
 > [!hint] See [[Intro to FMod Studio]]

@@ -1,7 +1,7 @@
 ---
 tags:
   - design-patterns
-links: "[[Creational Design Patterns MOC]]"
+links: "[[Creational Design Patterns]]"
 ---
 # Overview
 

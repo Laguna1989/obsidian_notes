@@ -1,7 +1,6 @@
 ---
 tags:
   - testing
-links: "[[Testing MOC]]"
 ---
 # Overview
 

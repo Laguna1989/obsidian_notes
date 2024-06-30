@@ -4,4 +4,4 @@ tags:
 links:
 ---
 
->[!hint] See also [[Behavioral Design Patterns MOC]]
+>[!hint] See also [[Behavioral Design Patterns]]
