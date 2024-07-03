@@ -15,28 +15,28 @@
       }
     },
     {
-      "query": "path:Learnings/Talks  ",
+      "query": "path:Talks  ",
       "color": {
         "a": 1,
         "rgb": 15903777
       }
     },
     {
-      "query": "path: Learnings/books  ",
+      "query": "path: Books  ",
       "color": {
         "a": 1,
         "rgb": 6021202
       }
     },
     {
-      "query": "path:Learnings/Conferences  ",
+      "query": "path:Conferences  ",
       "color": {
         "a": 1,
         "rgb": 5412832
       }
     },
     {
-      "query": "path:\"Learnings/Code Kata\"  ",
+      "query": "path:\"Code Kata\"  ",
       "color": {
         "a": 1,
         "rgb": 5431473
@@ -57,9 +57,9 @@
   "lineSizeMultiplier": 0.776302083333333,
   "collapse-forces": false,
   "centerStrength": 0.3046875,
-  "repelStrength": 6.40625,
-  "linkStrength": 0.513020833333333,
+  "repelStrength": 7.55208333333333,
+  "linkStrength": 0.658854166666667,
   "linkDistance": 30,
   "scale": 0.15457350881668636,
-  "close": true
+  "close": false
 }
