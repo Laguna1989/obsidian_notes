@@ -9,6 +9,7 @@ tags:
 - [[C++ Concurrency]]
 - [[CLion astyle setup]]
 - **[[cpp template trickery]]**
+- [[cpp tools]]
 - [[cppcheck]]
 - [[mutate_cpp]]
 - [[pmccabe]]

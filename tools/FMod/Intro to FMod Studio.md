@@ -11,7 +11,7 @@ maxScale: "2.0"
 ## 2024-06-29
 
 ---
- 
+
 # Werbeblock
 
 ![[IMG-2024-06-29-100629048.png]]
@@ -103,7 +103,7 @@ maxScale: "2.0"
 
 ---
 
-# CMake Integration
+# CMake Integration (linux)
 
 - Download zip file and extract
 - `target_include_directories`
@@ -123,6 +123,37 @@ target_link_libraries(myTarget PUBLIC
     ${FMOD_DIR}/api/core/lib/x86_64/libfmod.so)
 target_link_libraries(myTarget PUBLIC 
     ${FMOD_DIR}/api/studio/lib/x86_64/libfmodstudio.so)
+```
+
+---
+
+# CMake Integration (emscripten)
+
+```cmake
+set(CMAKE_EXECUTABLE_SUFFIX ".html")
+
+add_link_options("SHELL:--use-preload-plugins"  
+        "SHELL:--preload-file assets")
+
+add_link_options("SHELL:-s EXPORTED_RUNTIME_METHODS=
+    ['cwrap','setValue','getValue']")
+    
+target_link_options(fmod_web PRIVATE 
+    "SHELL:-s TOTAL_MEMORY=256MB")
+target_link_options(fmod_web PRIVATE 
+    "SHELL:-s ALLOW_MEMORY_GROWTH=1")
+```
+
+```cmake
+target_include_directories(myTarget PUBLIC 
+    ${FMOD_DIR}/api/core/inc)  
+target_include_directories(fmod_web PUBLIC 
+    ${FMOD_DIR}/api/studio/inc)
+
+target_link_libraries(myTarget PUBLIC 
+    ${FMOD_LIB_DIR}/upstream/w32/fmod_wasm.a)
+target_link_libraries(myTarget PUBLIC 
+    ${FMOD_LIB_DIR}/upstream/w32/fmodstudio_wasm.a)
 ```
 
 ---
@@ -176,7 +207,7 @@ FMOD::Studio::Bank* bank;
 studioSystem->loadBankFile(
 	"path/to/my.bank", 
 	FMOD_STUDIO_LOAD_BANK_NORMAL, 
-	&bank)
+	&bank);
 ```
 
 Other flags include
