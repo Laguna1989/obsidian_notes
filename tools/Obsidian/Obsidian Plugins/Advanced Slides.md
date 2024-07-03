@@ -2,6 +2,7 @@
 tags:
   - obsidian
   - presentation
+  - plugin
 ---
 # Advanced Slides
 

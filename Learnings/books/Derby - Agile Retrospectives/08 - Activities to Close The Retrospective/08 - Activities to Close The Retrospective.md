@@ -2,6 +2,17 @@
 tags:
   - book-chapter
 ---
+
+%% Begin Waypoint %%
+- [[08 - Activities to Close The Retrospective]]
+- [[Appreciation]]
+- [[Helped Hindered Hypothesis]]
+- [[plus-delta]]
+- [[Return of Time Invested]]
+- [[Temperature Reading]]
+
+%% End Waypoint %%
+
 # +/Delta
 
 ![[plus-delta]]

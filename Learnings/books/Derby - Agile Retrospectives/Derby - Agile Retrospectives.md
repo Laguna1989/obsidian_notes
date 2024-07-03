@@ -7,6 +7,21 @@ tags:
   - retrospective
 links: "[[Books MOC]]"
 ---
+%% Begin Waypoint %%
+- [[01 - Helping Your Team Inspect and Adapt]]
+- [[02 - A Retro Custom Fit to Your Team]]
+- [[03 - Leading Retrospectives]]
+- **[[04 - Activities to Set The Stage]]**
+- **[[05 - Activities to Gather Data]]**
+- **[[06 - Activities to Generate Insights]]**
+- **[[07 - Activities to Decide What To Do]]**
+- **[[08 - Activities to Close The Retrospective]]**
+- [[Derby - Agile Retrospectives]]
+- [[sortspec.md]]
+
+%% End Waypoint %%
+
+
 # 1 Helping Your Team Inspect and Adapt
 
 [[01 - Helping Your Team Inspect and Adapt]]
@@ -25,7 +40,7 @@ links: "[[Books MOC]]"
 
 # 5 Activities to Gather Data
 
-[[05 - Activities To Gather Data]]
+[[05 - Activities to Gather Data]]
 
 # 6 Activities to Generate Insights
 

@@ -2,6 +2,20 @@
 tags:
   - book-chapter
 ---
+
+%% Begin Waypoint %%
+- [[05 - Activities to Gather Data]]
+- [[Color Coded Dots]]
+- [[Like To Like]]
+- [[Locate Strenghts]]
+- [[Mad-Sad-Glad]]
+- [[Satisfaction Histogram]]
+- [[Team Radar]]
+- [[Timeline]]
+- [[Triple Nickels]]
+
+%% End Waypoint %%
+
 # Timeline
 
 ![[Timeline]]

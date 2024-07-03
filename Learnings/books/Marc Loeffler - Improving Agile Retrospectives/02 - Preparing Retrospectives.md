@@ -40,7 +40,8 @@ Benefits are huge
 - Better results
 - Increased popularity of your retrospectives
 - Less stomach rumbling
+
 # Agenda
+
 - Meetings with no agenda are largely inefficient
 - Know the activities and have a (shorter) backup activity at hand
-

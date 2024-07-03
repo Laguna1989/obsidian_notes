@@ -1,3 +1,7 @@
+---
+tags:
+  - MOC
+---
 %% Begin Waypoint %%
 - [[ai trickery]]
 - [[Ollama]]

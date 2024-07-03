@@ -9,7 +9,12 @@ tags:
 
 > [!note] The CRTP enables Compile Time Polymorphism
 
-Consists of two things:
+> [!note]
+> - Normal public inheritance forms as "is-a" relationship
+> - CRTP means "the derived class expands its api" by using the Base classes functionality
+
+# CRTP Consists of Two Things
+
 - Inheriting from a templated base class
 - Use the derived class itself as the template argument of the base class
 

@@ -1,8 +1,11 @@
 ---
 tags:
   - book-chapter
+aliases:
+  - The Retrospective Phase Model
 ---
-Phase Model for Retrospectives
+# Phase Model for Retrospectives
+
 1. Set the stage
 	- Welcome and appreciation of peoples time
 	- Restate the purpose and goal of the retro
