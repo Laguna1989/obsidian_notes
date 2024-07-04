@@ -3,7 +3,7 @@ tags:
   - cpp
 ---
 
-> [!quote] `pmccabe` is a tool for measuring #cyclomaticComplexity.
+> [!summary] `pmccabe` is a tool for measuring cyclomatic Complexity
 
 # Call with
 

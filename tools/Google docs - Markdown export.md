@@ -1,9 +1,11 @@
 ---
 tags:
   - tool
+  - markdown
 links: "[[tools]]"
 ---
-To export google doc files there are two extensions available
+
+To export google doc files to [[Markdown]], there are two extensions available
 
 # Docs To Markdown
 
