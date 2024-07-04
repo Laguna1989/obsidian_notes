@@ -32,7 +32,7 @@ links: "[[Creational Design Patterns]]"
 
 ![Enter image alt description](IMG-2024-05-31-134528821.png)
 
-- Better now: using #oop structures to avoid piecing together individual strings manually. Can be easily tested.
+- Better now: using #OOP structures to avoid piecing together individual strings manually. Can be easily tested.
 - Use a dedicated component to build the objects we want
 - Fluent Interface:
 	- Change return type from void to HtmlBuilder&

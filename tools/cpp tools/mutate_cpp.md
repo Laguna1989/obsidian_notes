@@ -1,7 +1,6 @@
 ---
 tags:
   - testing
-  - framework
   - cpp
 ---
 # References

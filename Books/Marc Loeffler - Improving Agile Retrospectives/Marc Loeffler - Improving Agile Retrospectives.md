@@ -16,6 +16,7 @@ links: "[[Books]]"
 - [[05 - From the Metaphor to the Retrospective]]
 - **[[06 - Systemic Retrospectives]]**
 - [[07 - Solution Focused Retrospectives]]
+- [[08 - Distributed Retrospectives]]
 - [[Marc Loeffler - Improving Agile Retrospectives]]
 - [[sortspec.md]]
 - [[The Extended Retrospective Phase Model]]

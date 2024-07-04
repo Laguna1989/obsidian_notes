@@ -16,7 +16,7 @@ links: "[[Behavioral Design Patterns]]"
 > - Programming language compilers, interpreters or IDEs
 > - Numeric expressions (`3+4/5`)
 > - [[Regular expressions]]
-> - Turning strings into OOP based structures in a complicated process
+> - Turning strings into #OOP based structures in a complicated process
 
 # Handmade Interpreting: Lexing
 

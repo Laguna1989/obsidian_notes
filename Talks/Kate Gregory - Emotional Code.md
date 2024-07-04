@@ -1,6 +1,5 @@
 ---
 tags:
-  - Meetup
   - Talk
 created: 2020-08-28
 links: "[[Talks MOC]]"

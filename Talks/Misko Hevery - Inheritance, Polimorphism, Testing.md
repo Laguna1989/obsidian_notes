@@ -12,7 +12,7 @@ links: "[[Talks MOC]]"
 
 - History:
 	- when moving from basic languages to procedural languages, `goto` statements could be removed - nobody missed them
-- The idea is: if you go from prodedural languages to #object-oriented languages, you can get rid of most `if`s
+- The idea is: if you go from procedural languages to #OOP languages, you can get rid of most `if`s
 
 > [!info] Premise
 > Most `if`statements can be replaced by polymorphism

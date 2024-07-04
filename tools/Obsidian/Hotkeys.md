@@ -1,7 +1,6 @@
 ---
 tags:
   - obsidian
-  - hotkeys
 ---
 # Command Pallete
 

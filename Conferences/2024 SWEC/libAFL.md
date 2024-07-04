@@ -1,7 +1,6 @@
 ---
 tags:
   - rust
-  - fuzzing
   - SWEC-2024
 ---
 
