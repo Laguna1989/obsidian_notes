@@ -6,6 +6,7 @@ tags:
 - [[Advanced Slides]]
 - [[Custom File Explorer Sorting]]
 - [[Custom Style]]
+- [[Dataview]]
 - [[Linter]]
 - [[Meta Bind]]
 - [[Numerals]]

@@ -22,7 +22,6 @@ links: "[[Books]]"
 
 > [!note] See also [[Dependency Injection]]
 
-[[Scott Young - Ultralearning]] Plan
 <table>
   <tr>
    <td>What Topic and scope?

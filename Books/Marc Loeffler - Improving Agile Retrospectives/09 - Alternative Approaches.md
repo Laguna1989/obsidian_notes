@@ -3,8 +3,7 @@ tags:
   - retrospective
   - book-chapter
 ---
-
-#Overview
+# Overview
 
 A collection of alternative Retrospective approaches
 
@@ -44,3 +43,26 @@ The best retros have two things in common
 - Questions that challenge you
 
 Prepare Fortune cookies (can be ordered online with custom texts or made by yourself)
+
+# Powerful Questions
+
+- Rather a coaching tool
+- Collection of Questions that have no simple answer but want to get people thinking
+- Good for Set the Stage or Gather Data
+
+> [!example] A team member is going on about something that happened months before
+> **Weak**: Why we still talking about about that? (Implying "cut it out")
+> **Strong**: What can we learn from that?
+
+Other examples:
+- What can we afford to leave out?
+- What is something that already works and that you can build on?
+- What would your hero say?
+- What is today's theme tune?
+- What is not being said?
+- What is giving us the most value?
+- What is the worst that can happen?
+- How can we minimize the risks?
+- How is the team going to be perceived from the outside?
+- How can we create a learning space?
+- How often have we left our most pressing problem to one side?

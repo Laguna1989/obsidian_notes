@@ -6,8 +6,6 @@ links: "[[Books]]"
 ---
 # Ultralearning
 
-Source: [[Scott Young - Ultralearning]]
-
 <table>
   <tr>
    <td>What Topic and scope?

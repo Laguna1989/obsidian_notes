@@ -18,9 +18,8 @@ links: "[[Books]]"
 - [[Skelton, Pais - Team Topologies]]
 
 %% End Waypoint %%
-# Ultralearning Preface
 
-see [ultralearning](https://www.amazon.de/Ultralearning-Strategies-Mastering-Skills-Getting/dp/0008305706)
+# Ultralearning Preface
 
 <table>
   <tr>

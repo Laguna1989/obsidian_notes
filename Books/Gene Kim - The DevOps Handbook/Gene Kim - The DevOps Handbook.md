@@ -17,7 +17,7 @@ links: "[[Books]]"
 
 # Ultralearning Preface
 
-see [[Scott Young - Ultralearning]]
+
 
 <table>
   <tr>

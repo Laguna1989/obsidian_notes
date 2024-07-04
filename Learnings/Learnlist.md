@@ -4,8 +4,7 @@ tags:
 ---
 # In Progress
 
-- [/] Loeffler - "Improving agile retrospectives" book hardcover
-	- [Marc Loeffler - Improving Agile Retrospectives](obsidian://open?vault=obsidian_notes&file=Learnings%2Fbooks%2FMarc%20Loeffler%20-%20Improving%20Agile%20Retrospectives)
+- [/] Andrew Huang - Make Your Own Rules
 
 # TODO
 
@@ -35,3 +34,5 @@ tags:
 	- -> [mutate_cpp](obsidian://open?vault=obsidian_notes&file=tools%2Fc%2B%2B%2Fmutate_cpp)
 - [x] CRTP
 	- -> [CRTP](obsidian://open?vault=obsidian_notes&file=tools%2Fcpp%20tools%2Fcpp%20template%20trickery%2FCRTP)
+- [x] Loeffler - "Improving agile retrospectives" book hardcover
+	- [Marc Loeffler - Improving Agile Retrospectives](obsidian://open?vault=obsidian_notes&file=Learnings%2Fbooks%2FMarc%20Loeffler%20-%20Improving%20Agile%20Retrospectives)

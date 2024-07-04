@@ -18,6 +18,8 @@ links: "[[Books]]"
 - [[07 - Solution Focused Retrospectives]]
 - [[08 - Distributed Retrospectives]]
 - [[09 - Alternative Approaches]]
+- [[10 - Typical Problems and Pitfalls]]
+- [[11 - Change Management]]
 - [[Marc Loeffler - Improving Agile Retrospectives]]
 - [[sortspec.md]]
 - [[The Extended Retrospective Phase Model]]
