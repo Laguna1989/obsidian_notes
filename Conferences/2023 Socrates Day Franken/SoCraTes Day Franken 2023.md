@@ -9,7 +9,7 @@ links: "[[Conferences MOC]]"
 
 ## Timeline
 
-![[IMG-2024-07-03-173730551.png]]
+![[IMG-2024-07-05-153954363.png]]
 
 ## 10:00 Testing without Mocks
 

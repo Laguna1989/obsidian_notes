@@ -7,7 +7,7 @@ links: "[[Conferences MOC]]"
 ---
 # SoCraTes Day Franken 2024
 
-![[IMG-2024-07-03-173730559.jpeg]]
+![[IMG-2024-07-05-153954368.jpeg]]
 
 ## 10:00 Mutation Tests and 100 Percent Test Coverage
 

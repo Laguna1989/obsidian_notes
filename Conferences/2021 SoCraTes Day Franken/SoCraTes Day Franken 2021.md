@@ -12,7 +12,7 @@ links: "[[Conferences MOC]]"
 
 ## Timeline
 
-![[IMG-2024-07-03-173730533.png]]
+![[IMG-2024-07-05-153954353.png]]
 
 ## Slot 1 StPauli TDD
 

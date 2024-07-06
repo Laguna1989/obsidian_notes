@@ -7,7 +7,7 @@ links: "[[Conferences MOC]]"
 ---
 # Timeline
 
-![[IMG-2024-07-03-173730540.png]]
+![[IMG-2024-07-05-153954347.png]]
 
 # SoCraTes Day Franken Introduction
 
