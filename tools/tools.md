@@ -6,6 +6,8 @@ tags:
 %% Begin Waypoint %%
 - **[[Agile]]**
 - **[[ai trickery]]**
+- **bash**
+	- [[find]]
 - [[Catch2 v3]]
 - **[[cpp tools]]**
 - **[[Dependency Injection]]**
