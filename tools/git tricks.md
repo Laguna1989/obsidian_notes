@@ -1,7 +1,6 @@
 ---
 tags:
   - tool
-links: "[[tools]]"
 ---
 # Repo Size Badge
 

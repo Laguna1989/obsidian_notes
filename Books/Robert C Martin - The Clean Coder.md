@@ -2,7 +2,6 @@
 tags:
   - book
 created: 2020-12-01
-links: "[[Books]]"
 ---
 # Takeaways
 

@@ -2,7 +2,6 @@
 tags:
   - tool
   - ai
-links: "[[tools]]"
 ---
 [Reference](https://www.reddit.com/r/StableDiffusion/comments/xkjjf9/upscale_to_huge_sizes_and_add_detail_with_sd/)
 

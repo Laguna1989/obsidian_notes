@@ -1,7 +1,6 @@
 ---
 tags:
   - tool
-links: "[[tools]]"
 ---
 Generally hard to do
 

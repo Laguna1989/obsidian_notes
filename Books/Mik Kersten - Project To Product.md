@@ -2,7 +2,6 @@
 tags:
   - book
 created: 2021-01-01
-links: "[[Books]]"
 ---
 # Chapter 1 - The Age of Software
 

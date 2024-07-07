@@ -5,7 +5,6 @@ tags:
   - scrum
   - agile
   - retrospective
-links: "[[Books]]"
 ---
 %% Begin Waypoint %%
 - [[01 - Helping Your Team Inspect and Adapt]]

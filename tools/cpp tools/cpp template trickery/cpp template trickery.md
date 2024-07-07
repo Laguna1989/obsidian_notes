@@ -3,7 +3,6 @@ tags:
   - cpp
   - templates
   - MOC
-links: "[[cpp tools]]"
 ---
 
 %% Begin Waypoint %%

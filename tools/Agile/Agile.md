@@ -1,5 +1,4 @@
 ---
-links: "[[tools]]"
 tags:
   - MOC
 ---

@@ -5,7 +5,6 @@ tags:
   - scrum
   - retrospective
 created: 2024-06-03
-links: "[[Books]]"
 ---
 
 %% Begin Waypoint %%

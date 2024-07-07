@@ -1,7 +1,6 @@
 ---
 tags:
   - design-patterns
-links: "[[tools]]"
 ---
 %% Begin Waypoint %%
 - **[[Behavioral Design Patterns]]**

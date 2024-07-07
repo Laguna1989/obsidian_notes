@@ -2,7 +2,6 @@
 tags:
   - book
 created: 2022-04-01
-links: "[[Books]]"
 ---
 
 %% Begin Waypoint %%

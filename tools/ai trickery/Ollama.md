@@ -3,7 +3,6 @@ tags:
   - tool
   - ai
   - ai/llml
-links: "[[tools]]"
 ---
 
 > [!note] See [[AI Assisted Programming]]

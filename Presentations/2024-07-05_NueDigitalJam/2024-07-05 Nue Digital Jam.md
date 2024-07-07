@@ -1,3 +1,8 @@
+---
+tags:
+  - presentation
+  - gamedev
+---
 # Hallo Jam
 
 ![[Pasted image 20240705163613.png|center]]

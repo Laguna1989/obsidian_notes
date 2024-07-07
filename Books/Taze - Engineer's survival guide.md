@@ -2,7 +2,6 @@
 tags:
   - book
 created: 2023-09-01
-links: "[[Books]]"
 ---
 # Engineer’s Survival Guide
 

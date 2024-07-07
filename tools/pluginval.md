@@ -1,7 +1,6 @@
 ---
 tags:
   - tool
-links: "[[tools]]"
 ---
 > [!quote] Can be used to verify AU, VST and VST3 plugins
 

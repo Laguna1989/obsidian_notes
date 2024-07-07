@@ -2,7 +2,6 @@
 created: 2024-01-31
 tags:
   - "#book"
-links: "[[Books]]"
 ---
 
 #csharp

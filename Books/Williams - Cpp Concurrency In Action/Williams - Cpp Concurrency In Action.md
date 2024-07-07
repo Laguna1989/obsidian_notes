@@ -4,7 +4,6 @@ tags:
   - cpp
   - conference
   - book
-links: "[[Books]]"
 ---
 
 %% Begin Waypoint %%

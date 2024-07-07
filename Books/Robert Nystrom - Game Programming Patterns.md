@@ -4,7 +4,6 @@ tags:
   - gamedev
   - design-patterns
 created: 2021-11-17
-links: "[[Books]]"
 ---
 # How To?
 

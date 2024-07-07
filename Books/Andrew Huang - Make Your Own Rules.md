@@ -1,4 +1,7 @@
 ---
+tags:
+  - book
+  - music
 ---
 # Introduction
 

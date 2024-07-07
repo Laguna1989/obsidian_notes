@@ -3,7 +3,6 @@ tags:
   - book
   - learning
 created: 2021-10-01
-links: "[[Books]]"
 ---
 # Principles
 

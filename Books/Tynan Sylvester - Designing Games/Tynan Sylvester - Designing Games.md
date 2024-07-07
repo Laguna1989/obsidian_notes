@@ -3,7 +3,6 @@ tags:
   - book
   - gamedev
 created: 2022-05-01
-links: "[[Books]]"
 ---
 
 %% Begin Waypoint %%

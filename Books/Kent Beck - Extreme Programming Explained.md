@@ -2,7 +2,6 @@
 tags:
   - book
 created: 2022-05-01
-links: "[[Books]]"
 ---
 # Ultralearning
 

@@ -3,7 +3,6 @@ tags:
   - book
   - agile
 created: 2021-03-24
-links: "[[Books]]"
 ---
 
 %% Begin Waypoint %%

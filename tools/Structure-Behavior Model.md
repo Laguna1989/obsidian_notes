@@ -1,7 +1,6 @@
 ---
 tags:
   - tool
-links: "[[tools]]"
 ---
 # Overview
 
