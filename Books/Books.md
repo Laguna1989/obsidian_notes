@@ -4,7 +4,7 @@ tags:
 ---
 
 %% Begin Waypoint %%
-- [[Andrew Huang - Make Your Own Rules]]
+- **[[Andrew Huang - Make Your Own Rules]]**
 - [[Books]]
 - **[[Derby - Agile Retrospectives]]**
 - [[Emily Bache - The Coding Dojo Handbook]]
