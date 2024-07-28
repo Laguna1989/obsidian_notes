@@ -1,7 +1,9 @@
 ---
 tags:
   - tool
+  - debugging
 ---
+
 Generally hard to do
 
 # Glsl-debugger

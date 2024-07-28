@@ -8,7 +8,7 @@ tags:
 > [!info] *Constructor Injection* is the act of statically defining the list of required dependencies by specifying them as parameters to the class's constructor
 >
 
-Used as the preferred way for [[Dependency Injection]]. Constructor Injection allows to have a completely constructed and usable object.
+Used as the **preferred** way for [[Dependency Injection]]. Constructor Injection allows to have a completely constructed and usable object.
 
 Alternatives are [[Method Injection]] and [[Property Injection]].
 

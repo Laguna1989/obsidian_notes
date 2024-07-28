@@ -17,6 +17,7 @@ tags:
 - [[Google docs - Markdown export]]
 - **[[Obsidian]]**
 - [[OpenGL Debugging]]
+- [[Plugin Debugging in Reaper]]
 - [[pluginval]]
 - [[Structure-Behavior Model]]
 - **[[Testing]]**
