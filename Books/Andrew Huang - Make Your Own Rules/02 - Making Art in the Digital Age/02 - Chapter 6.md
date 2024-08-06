@@ -13,3 +13,8 @@
 
 
 
+> [!note] In what ways are you contributing to your artistic community? In what ways would you like to? Who can you support by sharing knowledge or telling others about their work?
+
+# Networking for Introverts
+
+- Play little games (talk to one person every time going out, ask people "can I meet you?")
