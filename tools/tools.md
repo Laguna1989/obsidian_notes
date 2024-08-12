@@ -9,6 +9,7 @@ tags:
 - **bash**
 	- [[find]]
 - [[Catch2 v3]]
+- [[Combine images on the commandline]]
 - **[[cpp tools]]**
 - **[[Dependency Injection]]**
 - **[[Design Patterns]]**

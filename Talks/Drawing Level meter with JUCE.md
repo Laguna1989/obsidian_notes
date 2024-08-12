@@ -91,7 +91,7 @@ This is a linear scale, we need to convert the result to decibels
 	- If new value is smaller, we apply smoothing
 - Juce offers a `LinearSmoothedValue` class
 - Instead of the raw float values, we use the `LinearSmoothedValue<float>` instance for the rms values in the Processor
-- When sample rate changes, we need to call `reset` on the rms value -> prepareToPlay
+- When sample rate changes, we need to call `reset` on the rms value -> `prepareToPlay`
 	- reset takes sampleRate ad a decay time
 - in `processBlock` update the rms values
 	- skip is needed, as we do not progress sample by sample, but in blocks
