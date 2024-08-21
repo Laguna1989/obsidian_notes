@@ -3,17 +3,28 @@ created: 2023-06-24
 tags:
   - conference
   - SoCraTes-2023
-links: "[[Conferences MOC]]"
+links: "[[Conferences]]"
 ---
 # SoCraTes Day Franken 2023
 
 ## Timeline
 
-![[IMG-2024-07-05-153954363.png]]
+![[IMG-2024-08-21-075227834.png]]
+
+%% Begin Waypoint %%
+- [[2023 SoCraTes Day Franken]]
+- [[DevOps Discussion]]
+- [[Local Large Language Models]]
+- [[Prompt Injection Attacks against Gandalf]]
+- [[Refuctoring Game]]
+- [[Testing Without Mocks]]
+
+%% End Waypoint %%
 
 ## 10:00 Testing without Mocks
 
 [[Testing Without Mocks]]
+
 ## 11:00 Multiplayer Games Are not that Hard
 
 - Selber gehalten

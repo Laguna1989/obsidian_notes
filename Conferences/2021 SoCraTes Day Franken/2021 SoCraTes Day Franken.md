@@ -3,7 +3,7 @@ created: 2021-10-09
 tags:
   - conference
   - SoCraTes-2021
-links: "[[Conferences MOC]]"
+links: "[[Conferences]]"
 ---
 # SoCraTesDay Franken 2021
 
@@ -12,7 +12,17 @@ links: "[[Conferences MOC]]"
 
 ## Timeline
 
-![[IMG-2024-07-05-153954353.png]]
+![[IMG-2024-08-21-075046287.png]]
+
+%% Begin Waypoint %%
+- [[2021 SoCraTes Day Franken]]
+- [[Build Your Lerncoach]]
+- [[Remote Onboarding]]
+- [[St. Pauli TDD]]
+- [[Wie lernt ihr]]
+- [[Wissensverwaltung]]
+
+%% End Waypoint %%
 
 ## Slot 1 StPauli TDD
 

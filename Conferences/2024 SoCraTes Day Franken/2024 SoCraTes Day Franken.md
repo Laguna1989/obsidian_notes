@@ -3,11 +3,20 @@ tags:
   - conference
   - SoCraTes-2024
 created: 2024-06-29
-links: "[[Conferences MOC]]"
+links: "[[Conferences]]"
 ---
 # SoCraTes Day Franken 2024
 
-![[IMG-2024-07-05-153954368.jpeg]]
+![[IMG-2024-08-21-075253289.jpeg]]
+
+%% Begin Waypoint %%
+- [[2024 SoCraTes Day Franken]]
+- [[AI Assisted Programming]]
+- [[Mutation Tests - 100 Percent Test Coverage]]
+- [[The In and Outs of Freelancing]]
+- [[Was ich an meinem Scrum Master nicht mag]]
+
+%% End Waypoint %%
 
 ## 10:00 Mutation Tests and 100 Percent Test Coverage
 

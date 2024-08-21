@@ -3,11 +3,11 @@ created: 2020-10-17
 tags:
   - conference
   - SoCraTes-2020
-links: "[[Conferences MOC]]"
+links: "[[Conferences]]"
 ---
 # Timeline
 
-![[IMG-2024-07-05-153954347.png]]
+![[IMG-2024-08-21-074947833.png]]
 
 # SoCraTes Day Franken Introduction
 
@@ -24,22 +24,11 @@ links: "[[Conferences MOC]]"
 
 Online Board [https://miro.com/app/board/o9J_kjxiJlY=/](https://miro.com/app/board/o9J_kjxiJlY=/)
 
-# Configuration Management
+%% Begin Waypoint %%
+- [[2020 SoCraTes Day Franken]]
+- [[Configuration Management Talk]]
+- [[Corona Hacks Discussion]]
+- [[Podcasts]]
+- [[Tmux Und Terminals]]
 
-[[Configuration Management Talk]]
-
-# Tmux Und Terminals
-
-[[Tmux Und Terminals]]
-
-# Podcasts
-
-[[Podcasts]]
-
-# Conditional Untangling
-
-- v.a. java specific refactorings, e.g. `Try<T>`, `bind` or `flatmap`
-
-# Corona Hacks
-
-[[Corona Hacks Discussion]]
+%% End Waypoint %%
