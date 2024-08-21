@@ -9,6 +9,7 @@ tags:
 - **[[2023 SenecaCamp]]**
 - **[[2023 SoCraTes Day Franken]]**
 - **[[2024 SoCraTes Day Franken]]**
+- **[[2024 SoCraTes Soltau]]**
 - **[[2024 SWEC]]**
 - [[Conferences]]
 
