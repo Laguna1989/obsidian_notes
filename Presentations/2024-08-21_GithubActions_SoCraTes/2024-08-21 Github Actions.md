@@ -69,20 +69,16 @@ jobs:
 # Jobs
 
 ```yml
-
 UnitTests:
 	runs-on: ubuntu-latest
 
 	steps:
-		- uses: actions/checkout@v2
-
+		- uses: actions/checkout@v4
 		- name: Configure CMake
 			run: cmake -B ${{github.workspace}}/build
-
 		- name: Build
 			working-directory: ${{github.workspace}}/build
 			run: make
-
 		- name: Test
 			working-directory: ${{github.workspace}}/build
 				run: ./tests
@@ -92,7 +88,7 @@ UnitTests:
 
 # In the Web UI
 
-**TODO Screenshot of github workflow page**
+![[IMG-2024-08-22-083154055.png]]
 
 ---
 
@@ -102,7 +98,6 @@ Github Actions Marketplace
 - Deployment to AWS, GoogleCloud, FTP, github pages, docker ...
 - Cove Coverage and Code Analysis
 - Linting, Security Checks, ...
-- Install specific versions of programs (e.g. `python 3.9`)
 - Integrates with JIRA
 - Automatic code reviews by ChatGPT
 - Any `bash` or `bat` script
@@ -110,13 +105,24 @@ Github Actions Marketplace
 
 ---
 
-# Dependabot
+# Tip: See Installed Software
+
+![[IMG-2024-08-22-083642189.png]]
+
+---
+
+# Tip: Setup Your Own Runner
+
+---
+
+# Tip: Dependabot
 
 - Automatically creates PRs for outdated dependencies
 
 ---
 
 # Summary
+
 - Very easy to get started
 - Powerful functionality
 
@@ -127,4 +133,3 @@ Github Actions Marketplace
 Hands-on workshop
 
 [github workshop repo](https://github.com/Laguna1989/CodeNummy_GithubActions)
-
