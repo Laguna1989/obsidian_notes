@@ -2,7 +2,7 @@
 
 Simon Weis
 
-SoCraTes Soltau 2024
+SoCraTes Germany 2024
 
 ---
 
@@ -29,22 +29,23 @@ SoCraTes Soltau 2024
 
 # Alternatives
 
-- Travis
 - Gitlab CI
+- Travis
 - Teamcity
 - Jenkins
+- ...
 
 ---
 
 # Workflow
 
-- Create a yaml file in
+- Create a `yml` file in
 
 ```
 .github/workflows
 ```
 
-- Tip: Get and Editor wih yml formatting/highlighting
+- Tip: Get and Editor with `yml` formatting/highlighting
 
 ---
 
@@ -94,12 +95,11 @@ UnitTests:
 
 # Community Power
 
-Github Actions Marketplace
+Github Actions [Marketplace](https://github.com/marketplace?type=actions)
 - Deployment to AWS, GoogleCloud, FTP, github pages, docker ...
 - Cove Coverage and Code Analysis
 - Linting, Security Checks, ...
 - Integrates with JIRA
-- Automatic code reviews by ChatGPT
 - Any `bash` or `bat` script
 - Docker images
 
@@ -113,23 +113,23 @@ Github Actions Marketplace
 
 # Tip: Setup Your Own Runner
 
+![[IMG-2024-08-23-070612598.png]]
+
 ---
 
 # Tip: Dependabot
 
 - Automatically creates PRs for outdated dependencies
-
----
-
-# Summary
-
-- Very easy to get started
-- Powerful functionality
+	- cargo, npm, docker, gradle, maven, pip, Terraform, yarn, ...
 
 ---
 
 # Let's Try it out
 
-Hands-on workshop
+## Hands-on Workshop
 
 [github workshop repo](https://github.com/Laguna1989/CodeNummy_GithubActions)
+
+or
+
+Your own repo

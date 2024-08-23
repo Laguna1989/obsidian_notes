@@ -17,6 +17,9 @@ tags:
 - [ ] [A Modern Command Pattern](https://trussel.ch/cpp/design%20patterns/2020/10/18/command-pattern.html)
 - [ ] [The Hitchhiker's Guide to Faster Builds - Viktor Kirilov \[C++ on Sea 2019\] - YouTube](https://www.youtube.com/watch?v=anbOy47fBYI)
 - [ ] Jetbrains Presentation Mode
+- [ ] [[The Mythical Man Month]], book, hardcover
+- [ ] [Letters to a New Developer](https://www.amazon.de/Letters-New-Developer-Starting-Development-ebook/dp/B08FD7DG94), book hardcover
+
 # Done
 
 - [x] Obsidian styles <https://www.youtube.com/watch?v=rAkerV8rlow>
