@@ -12,9 +12,9 @@ tags:
     - Delivery, cadence is becoming slower
     - Multiple Business Services rely in a large Set of underlying services
 - Use Teams and Team Interactions as senses
-- Do Not optimize for lowest Costa But use Signals from maintainence via System thinking, Feedback loops and culture of learning
+- Do Not optimize for lowest Cost, But use Signals from maintenance via [[System thinking]], Feedback loops and culture of learning
 - Software is not a"Product for" But rather a "conversation with"
-- Do Not create separate maintenance/business as usual Teams aus this prevents learning
+- Do Not create separate maintenance/business as usual Teams as this prevents learning
 
 # Questions
 

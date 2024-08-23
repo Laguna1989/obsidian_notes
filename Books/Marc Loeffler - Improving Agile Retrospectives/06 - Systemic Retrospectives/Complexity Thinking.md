@@ -5,7 +5,7 @@ tags:
   - retrospective
 ---
 
-> [!note] Complexity thinking is like System thinking including social complexity
+> [!note] Complexity thinking is like [[System Thinking]] including social complexity
 
 > [!danger] Any system with social interactions can not be controlled
 

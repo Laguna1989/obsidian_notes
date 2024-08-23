@@ -7,6 +7,7 @@ tags:
 %% Begin Waypoint %%
 - [[2024 SoCraTes Soltau]]
 - **[[2024-08-22_Training_Day]]**
+- **[[2024-08-23_Day1]]**
 
 %% End Waypoint %%
 

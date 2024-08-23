@@ -12,7 +12,7 @@ tags:
 ![[IMG-2024-07-03-173716638.png]]
 
 - Org chart based decisions are ineffective and aim for local optimization; org charts are always out of date
-- Let’s do *System thinking* instead of *org chart thinking*
+- Let’s do [[System Thinking]] instead of *org chart thinking*
 - Team topologies focuses on setup of dynamic team structures and interaction modes
 - Relying on a single, static organization structure is untenable.
 
