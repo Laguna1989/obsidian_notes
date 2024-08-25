@@ -19,6 +19,9 @@ tags:
 - [ ] Jetbrains Presentation Mode
 - [ ] [[The Mythical Man Month]], book, hardcover
 - [ ] [Letters to a New Developer](https://www.amazon.de/Letters-New-Developer-Starting-Development-ebook/dp/B08FD7DG94), book hardcover
+- [ ] [Optimize continuous delivery](https://www.youtube.com/watch?v=gDgAVqkFYWs) youtube video
+- [ ] [[Non-Blocking Code Reviews]] -> [Non Blocking Continuous Code Reviews, a case study - Thierry de Pauw - YouTube](https://www.youtube.com/watch?v=uzUPdQVdwp0)
+- [ ] [Unit Testing Principles, Practices, and Patterns - Khorikov, Vladimir](https://www.amazon.de/Unit-Testing-Principles-Practices-Patterns-ebook/dp/B09782L692) book
 
 # Done
 

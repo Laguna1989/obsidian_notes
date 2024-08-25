@@ -1,3 +1,9 @@
+---
+tags:
+  - book-chapter
+  - music
+---
+
 > [!quote] I feel it is important to acknowledge the privilege and extreme luck I have had.
 
 > [!quote] I was going to be me. And I would be so good, and so relentless, that a name could never stop me!
@@ -10,8 +16,6 @@
 >  - Connect with potential collaborators: Build connections
 >  - Don't spam: Your posts should provide value
 >  - Don't post right away: Unless you want to jump a rocketing trend, take your time. The cogs in your brain can work better that way.
-
-
 
 > [!note] In what ways are you contributing to your artistic community? In what ways would you like to? Who can you support by sharing knowledge or telling others about their work?
 

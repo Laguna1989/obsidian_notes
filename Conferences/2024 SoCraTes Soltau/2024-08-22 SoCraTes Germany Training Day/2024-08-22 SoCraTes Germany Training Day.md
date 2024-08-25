@@ -5,7 +5,7 @@ tags:
 ---
 
 %% Begin Waypoint %%
-- [[2024-08-22_Training_Day]]
+- [[2024-08-22 SoCraTes Germany Training Day]]
 - [[Code Reading]]
 - [[Intro To SystemsThinking]]
 - [[Untangle Your Test Code]]
@@ -14,7 +14,7 @@ tags:
 
 # Schedule
 
-![[IMG-2024-08-22-091653100.png]]
+![[IMG-2024-08-24-075754289.png]]
 
 # Intro to Systems Thinking (Room Hannover)
 

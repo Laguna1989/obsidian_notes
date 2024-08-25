@@ -1,3 +1,7 @@
+---
+tags:
+  - book-chapter
+---
 # Introduction
 
 > [!quote] Generic Stories and Characters are no good. A blank slate, a *dummy* is the least relatable creature of all. We relate to imperfect, human characters with specific facets, whether we mesh or collide with them.

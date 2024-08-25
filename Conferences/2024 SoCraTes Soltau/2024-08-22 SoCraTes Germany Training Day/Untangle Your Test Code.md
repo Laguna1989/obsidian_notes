@@ -11,7 +11,7 @@ tags:
 
 [TANGLES.md](https://github.com/mkutz/untangle-your-spaghetti-test-code/blob/main/TANGLES.md)
 
-![[IMG-2024-08-22-144114805.png]]
+![[IMG-2024-08-24-075754286.png]]
 
 - Hidden Arrange
 	- Issue: setup not visible `data.sql` is very hidden

@@ -1,3 +1,10 @@
+---
+tags:
+  - presentation
+  - conference
+  - SoCraTes-2024
+  - github-actions
+---
 # Github Actions
 
 Simon Weis
