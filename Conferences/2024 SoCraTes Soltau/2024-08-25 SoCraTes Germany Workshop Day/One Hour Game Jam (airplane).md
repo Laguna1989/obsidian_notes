@@ -2,6 +2,7 @@
 tags:
   - conference
   - SoCraTes-2024
+  - gamedev
 ---
 # Overview
 
@@ -26,4 +27,3 @@ tags:
 	- [x] you need to fly though those targets to get score
 	- [x] there is a timer
 	- [x] after 15 targets the time is the highscore
-
