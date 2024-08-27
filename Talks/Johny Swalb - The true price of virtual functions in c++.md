@@ -2,7 +2,6 @@
 tags:
   - Talk
 created: 2021-01-04
-links: "[[Talks MOC]]"
 ---
 
 > [!info] VTables

@@ -3,7 +3,6 @@ tags:
   - Talk
   - audio
 created: 2024-07-31
-links: "[[Talks MOC]]"
 ---
 # Reference
 

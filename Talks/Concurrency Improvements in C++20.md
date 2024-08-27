@@ -3,7 +3,6 @@ tags:
   - Talk
   - concurrency
 created: 2024-06-27
-links: "[[Talks MOC]]"
 ---
 # There is a Lot of New Features in Cpp20
 

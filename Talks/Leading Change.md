@@ -2,7 +2,6 @@
 created: 2022-07-05
 tags:
   - Talk
-links: "[[Talks MOC]]"
 ---
 
 Based on ![[IMG-2024-07-03-173748314.pdf]]

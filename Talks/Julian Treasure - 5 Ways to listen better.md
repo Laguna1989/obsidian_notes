@@ -2,7 +2,6 @@
 tags:
   - Talk
 created: 2024-06-15
-links: "[[Talks MOC]]"
 ---
 # Source
 

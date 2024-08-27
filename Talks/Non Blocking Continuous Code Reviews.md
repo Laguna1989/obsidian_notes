@@ -1,3 +1,8 @@
+---
+tags:
+  - Talk
+created: 2024-08-25
+---
 - Purpose of code Reviews:
 	- Teams should make a conscious decision
 	- Mentoring, learning

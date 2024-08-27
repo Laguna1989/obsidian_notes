@@ -2,7 +2,6 @@
 tags:
   - cpp
   - Talk
-links: "[[Talks MOC]]"
 created: 2024-02-22
 ---
 

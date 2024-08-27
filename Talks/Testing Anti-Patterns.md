@@ -4,7 +4,6 @@ tags:
   - testing
   - tdd
 created: 2021-10-14
-links: "[[Talks MOC]]"
 ---
 # References
 

@@ -4,7 +4,6 @@ tags:
   - audio
   - juce
 created: 2024-08-04
-links: "[[Talks MOC]]"
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ILMdPjFQ9ps?si=5aVMPgJXQPfv0Mwf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
