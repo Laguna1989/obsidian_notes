@@ -15,15 +15,17 @@ tags:
 - **[[Design Patterns]]**
 - **[[FMod]]**
 - [[git tricks]]
+- [[gobuster]]
 - [[Google docs - Markdown export]]
-- **Hacking**
-	- [[Hack The Box - Fawn]]
-	- [[Hack The Box - Meow]]
-	- [[HackTheBox]]
+- **[[Hacking]]**
+- [[nmap]]
 - **[[Obsidian]]**
 - [[OpenGL Debugging]]
 - [[Plugin Debugging in Reaper]]
 - [[pluginval]]
+- [[Redis]]
+- [[SMB]]
+- [[SQL]]
 - [[Structure-Behavior Model]]
 - **[[Testing]]**
 - [[tools]]

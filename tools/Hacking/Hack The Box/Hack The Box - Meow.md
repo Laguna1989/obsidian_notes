@@ -15,7 +15,7 @@ tags:
 ping <target_ip>
 ``` 
 
-- do a portscan
+- do a portscan via [[nmap]]
 
 ```bash
 nmap -sV <target_ip>

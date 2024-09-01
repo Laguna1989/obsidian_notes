@@ -20,7 +20,7 @@ openvpn starting_point_<name>.ovpn
 ping <target_ip>
 ```
 
-- do a portscan
+- do a portscan with [[nmap]]
 
 ```bash
 nmap -sV <target_ip>
