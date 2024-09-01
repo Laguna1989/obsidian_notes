@@ -4,7 +4,7 @@ tags:
 ---
 
 %% Begin Waypoint %%
-- [[Code Kata]]
+- [[Code Katas]]
 - [[FizzBuzz]]
 - [[Gilded Rose Refactoring Kata]]
 - [[Leap Years]]

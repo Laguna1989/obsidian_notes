@@ -17,7 +17,6 @@ tags:
 - [[git tricks]]
 - [[gobuster]]
 - [[Google docs - Markdown export]]
-- **[[Hacking]]**
 - [[nmap]]
 - **[[Obsidian]]**
 - [[OpenGL Debugging]]

@@ -30,7 +30,7 @@ Nmap done: 1 IP address (1 host up) scanned in 24.56 seconds
 ```
 
 - Connection to the server via a browser yields this website
-![[IMG-2024-08-31-235123937.png]]
+![[IMG-2024-09-01-070110624.png]]
 
 - Use [[gobuster]] to scan for any open websites
 
