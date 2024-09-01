@@ -4,9 +4,6 @@ tags:
 created: 2021-01-04
 ---
 
-> [!info] VTables
-> ![[IMG-2024-06-01-102526984.png]]
-[](IMG-2024-07-03-173748248.png)
 - Memory Layout is tremendously important for program performance
 - VTables are not the core problems (compilers/cpus are very good at dealing with vtables)
 - The real problem with performance is memory layout and jump destination guessing (jump prediction)

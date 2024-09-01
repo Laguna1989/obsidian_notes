@@ -13,7 +13,7 @@ tags:
 
 Hi everyone. This week we are going to read about Code Smells and Application design (page 163 236).
 
-The code smells introduced in the book are Constructor-overinjection, Abstract Factory and Cyclic Dependencies.
+The code smells introduced in the book are Constructor-overinjection, Abstract Factory and [[Cyclic Dependencies]].
 
 I would like to discuss with you:
 

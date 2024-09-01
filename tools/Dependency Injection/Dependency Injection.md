@@ -6,6 +6,7 @@ tags:
 
 %% Begin Waypoint %%
 - [[Constructor Injection]]
+- [[Cyclic Dependencies]]
 - [[Dependency Injection]]
 - [[Local Default]]
 - [[Method Injection]]

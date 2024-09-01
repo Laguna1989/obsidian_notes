@@ -6,7 +6,6 @@ tags:
 ---
 # Practices for CI
 
-
 - Make all changes small and incremental
 - **Commit frequently**
 	- Really small, incremental changes
@@ -50,4 +49,4 @@ If you work on branches the lead time is the same, but the cycle time is higher
 # When to Review with Minimal Commits?
 
 - Do pair programming
-- [[Non-Blocking Code Reviews]] -> [Non Blocking Continuous Code Reviews, a case study - Thierry de Pauw - YouTube](https://www.youtube.com/watch?v=uzUPdQVdwp0)
+- [[Thierry de Pauw - Non Blocking Continuous Code Reviews]] -> [Non Blocking Continuous Code Reviews, a case study - Thierry de Pauw - YouTube](https://www.youtube.com/watch?v=uzUPdQVdwp0)

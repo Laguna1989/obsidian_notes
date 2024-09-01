@@ -25,8 +25,8 @@ SORT created DESC
 - [[Learning And Teaching C++]]
 - [[Marc Gregoire - An Almost complete overview of cpp20]]
 - [[Misko Hevery - Inheritance, Polimorphism, Testing]]
-- [[Non Blocking Continuous Code Reviews]]
 - [[Talks]]
 - [[Testing Anti-Patterns]]
+- [[Thierry de Pauw - Non Blocking Continuous Code Reviews]]
 
 %% End Waypoint %%
