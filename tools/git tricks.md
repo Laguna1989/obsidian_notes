@@ -128,3 +128,15 @@ git update-index --skip-worktree .obsidian/workspace.json
 ```
 
 - Works for local and upstream changes
+
+# Show Remote Branches
+
+```bash
+git remove -vv
+```
+
+# Delete Local Commit
+
+```bash
+git reset --hard HEAD~1
+```
