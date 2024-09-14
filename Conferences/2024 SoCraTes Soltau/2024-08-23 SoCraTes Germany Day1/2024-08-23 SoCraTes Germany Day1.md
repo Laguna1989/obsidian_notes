@@ -9,7 +9,7 @@ tags:
 - [[Advent of Code in Vim]]
 - [[Capture the Flag (Security)]]
 - [[Intro To Music Live Coding]]
-- [[Learn about Ensemble Programming with "Baba is You"]]
+- [[Learn about Ensemble Programming with Baba is You]]
 - [[Readable Handwriting]]
 
 %% End Waypoint %%

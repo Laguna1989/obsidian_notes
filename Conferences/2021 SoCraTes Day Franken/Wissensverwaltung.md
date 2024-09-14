@@ -2,16 +2,20 @@
 tags:
   - SoCraTes-2021
 ---
-Anforderungen
-    - Kostenfrei
-    - Im Firmenumfeld nutzbar
-    - Multi OSS Support
-    - Offline verwendbar
-    - Synchronisation
-    - Syntax: Markdown
-    - Support von Bildern
-    - Daten als Plaintext verfügbar
-    - Suchfunktion
+# Anforderungen
+
+- Kostenfrei
+- Im Firmenumfeld nutzbar
+- Multi OSS Support
+- Offline verwendbar
+- Synchronisation
+- Syntax: Markdown
+- Support von Bildern
+- Daten als Plaintext verfügbar
+- Suchfunktion
+
+# Tools
+
 - Klebezettel: Nein Danke
 - TiddlyWiki
     - Wiki

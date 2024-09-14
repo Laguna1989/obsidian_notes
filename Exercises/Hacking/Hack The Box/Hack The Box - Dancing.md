@@ -10,7 +10,7 @@ tags:
 # Steps
 
 - connect via vpn
-- `nmap` reveals
+- [[nmap]] reveals
 
 ```bash
 $ nmap -sV <target_ip>

@@ -10,6 +10,7 @@ tags:
 - [[Hack The Box - Fawn]]
 - [[Hack The Box - Meow]]
 - [[Hack The Box - Redeemer]]
+- [[Hack The Box - Sequel]]
 - [[Hack The Box]]
 
 %% End Waypoint %%
