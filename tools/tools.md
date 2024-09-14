@@ -6,6 +6,7 @@ tags:
 %% Begin Waypoint %%
 - **[[Agile]]**
 - **[[ai trickery]]**
+- [[Apple Password and ID shenanigans]]
 - **bash**
 	- [[find]]
 - [[Catch2 v3]]
@@ -17,6 +18,7 @@ tags:
 - [[git tricks]]
 - [[gobuster]]
 - [[Google docs - Markdown export]]
+- [[MySQL]]
 - [[nmap]]
 - **[[Obsidian]]**
 - [[OpenGL Debugging]]
@@ -29,5 +31,6 @@ tags:
 - **[[Testing]]**
 - [[tools]]
 - [[Vim]]
+- [[VNC]]
 
 %% End Waypoint %%
