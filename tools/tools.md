@@ -15,7 +15,7 @@ tags:
 - **[[Dependency Injection]]**
 - **[[Design Patterns]]**
 - **[[FMod]]**
-- [[git tricks]]
+- **[[git tricks]]**
 - [[gobuster]]
 - [[Google docs - Markdown export]]
 - [[MySQL]]

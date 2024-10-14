@@ -4,6 +4,7 @@ tags:
   - conference
   - SoCraTes-2024
   - github-actions
+  - github
 ---
 # Github Actions
 
