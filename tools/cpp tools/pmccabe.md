@@ -28,3 +28,10 @@ pmccabe *.cpp | sort -nr | head -10
 
 > [!hint] Understanding the output:
 > **first** and **last** number are important: cyclomatic complexity and lines of code
+
+# Linux install
+
+```bash
+sudo apt install pmccabe
+```
+
