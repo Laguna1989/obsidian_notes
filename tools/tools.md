@@ -14,6 +14,8 @@ tags:
 - **[[cpp tools]]**
 - **[[Dependency Injection]]**
 - **[[Design Patterns]]**
+- **firefox**
+	- [[Search Highlight All]]
 - **[[FMod]]**
 - **[[git tricks]]**
 - [[gobuster]]

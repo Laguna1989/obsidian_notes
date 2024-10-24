@@ -37,6 +37,10 @@ tags:
 
 # Git Config --gobal rerere.enabled
 
+```bash
+git config --global rerere.enabled
+```
+
 - REuse REcorded Resolution
 - whenever you solve a merge conflict, me git remember that and reuse it to solve a similar merge conflict in the future
 
