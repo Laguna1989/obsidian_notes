@@ -46,6 +46,10 @@ git config --global rerere.enabled
 
 # Git Push --force-with-lease
 
+```bash
+git push --force-with-lease
+```
+
 - like force push, but works out only if the reference is correct.
 - This will avoid deleting commits of other people
 
