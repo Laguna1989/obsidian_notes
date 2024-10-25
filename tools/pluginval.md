@@ -9,6 +9,7 @@ tags:
 
 - [github repo](https://github.com/Tracktion/pluginval)
 - [blog post describing how to use pluginval](https://melatonin.dev/blog/pluginval-is-a-plugin-devs-best-friend/)
+- [online version of pluginval](https://validatemyplugin.com/)
 
 # Process
 
