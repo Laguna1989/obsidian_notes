@@ -1,6 +1,7 @@
 ---
 tags:
   - tool
+  - remote
 ---
 # Overview
 
@@ -9,14 +10,19 @@ VNC stands for *Virtual Network Computing* and is software that allows to contro
 This can be used to connect to #apple machines
 
 # Tools
+
 ## Windows
 
 [TightVNC](https://www.tightvnc.com/)
 
 ## Linux
 
-[Remmima](<<https://remmina.org/>)
+[Remmima](<https://remmina.org/>)
 
-# Better Option
+# Issues
+
+Poor performance, especially from windows -> mac
+
+## Better Option
 
 [[NoMachine]]

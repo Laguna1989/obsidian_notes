@@ -1,5 +1,6 @@
 %% Begin Waypoint %%
 - [[Force git to use ssh instead of https]]
+- [[git bisect]]
 - [[git command line tricks]]
 - [[git tricks]]
 - [[github - repo size badge]]

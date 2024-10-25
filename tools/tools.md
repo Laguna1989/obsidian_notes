@@ -22,6 +22,7 @@ tags:
 - [[Google docs - Markdown export]]
 - [[MySQL]]
 - [[nmap]]
+- [[NoMachine]]
 - **[[Obsidian]]**
 - [[OpenGL Debugging]]
 - [[Plugin Debugging in Reaper]]
