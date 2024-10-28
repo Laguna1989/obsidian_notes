@@ -2,6 +2,7 @@
 - [[Force git to use ssh instead of https]]
 - [[git bisect]]
 - [[git command line tricks]]
+- [[git rename branch]]
 - [[git tricks]]
 - [[github - repo size badge]]
 - [[github actions - CI access to private repos]]
