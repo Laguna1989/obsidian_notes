@@ -16,5 +16,6 @@ tags:
 - [[pmccabe]]
 - [[SEQLock]]
 - [[valgrind]]
+- [[vcperf]]
 
 %% End Waypoint %%
