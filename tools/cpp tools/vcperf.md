@@ -39,11 +39,11 @@ cd .\vcperf\out\Release\x64\
 	- `/start` start profiling
 	- `/level3` highest profiling level
 	- `2024-10-30_session_name` vcperf session name to be used
-- clean project to be built working directory
+- clean project to be analyzed
 	- `ccache -C`
 	- delete `build` folder content
-- open project for build performance analysis in visual studio
-- instantiate build
+- open project to be analyzed in visual studio
+- start build
 
 # Create Analysis File
 
@@ -57,16 +57,8 @@ cd .\vcperf\out\Release\x64\
 	- `2024-10-30_test_session` session name (same as with the `/start` command)
 	- `2024-10-30_test_session.etl` output `etl` file
 - Creates an `etl` file that can be opened with windows
-- Coneole Output
 
-```
-Stopping and analyzing tracing session 2024-10-30_test_session...
-Dropped MSVC events: 0
-Dropped MSVC buffers: 0
-Dropped system events: 0
-Dropped system buffers: 0
-The trace "[path]" may contain personally identifiable information. This includes, but is not limited to, paths of files that were accessed and names of processes that were running during the collection. Please be aware of this when sharing this trace with others.
-Tracing session stopped successfully!
-```
+## Analyze Build Performance
 
 - Open the file via double click
+- [C++ Build Insights SDK: event table | Microsoft Learn](https://learn.microsoft.com/en-us/cpp/build-insights/reference/sdk/event-table?view=msvc-170)
