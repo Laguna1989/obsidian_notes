@@ -12,6 +12,7 @@ SORT created DESC
 
 %% Begin Waypoint %%
 - [[An Introduction to CLAP, a new Plug-In Standard]]
+- [[An Introduction To Tracy Profiler in C++]]
 - [[Concurrency Improvements in C++20]]
 - [[Dangerous Optimizations]]
 - **[[Design Patterns in modern cpp]]**
