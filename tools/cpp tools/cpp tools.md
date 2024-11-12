@@ -5,6 +5,7 @@ tags:
 ---
 
 %% Begin Waypoint %%
+- [[Branchless Programming]]
 - [[C++ 17 Allocators]]
 - [[C++ Concurrency]]
 - [[ccache]]
@@ -15,6 +16,7 @@ tags:
 - [[mutate_cpp]]
 - [[pmccabe]]
 - [[SEQLock]]
+- [[Tracy]]
 - [[valgrind]]
 - [[vcperf]]
 

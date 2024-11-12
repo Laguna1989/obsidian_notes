@@ -7,6 +7,8 @@ tags:
 - **[[Agile]]**
 - **[[ai trickery]]**
 - [[Apple Password and ID shenanigans]]
+- **audio**
+	- [[Audio Plugin Advent Calendar 2024]]
 - **bash**
 	- [[find]]
 - [[Catch2 v3]]
@@ -14,8 +16,7 @@ tags:
 - **[[cpp tools]]**
 - **[[Dependency Injection]]**
 - **[[Design Patterns]]**
-- **firefox**
-	- [[Search Highlight All]]
+- **[[firefox]]**
 - **[[FMod]]**
 - **[[git tricks]]**
 - [[gobuster]]
