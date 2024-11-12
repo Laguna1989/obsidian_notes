@@ -1,3 +1,10 @@
+---
+tags:
+  - tool
+  - git
+  - MOC
+---
+
 %% Begin Waypoint %%
 - [[Force git to use ssh instead of https]]
 - [[git bisect]]

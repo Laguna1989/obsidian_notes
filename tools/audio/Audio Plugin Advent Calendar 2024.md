@@ -1,3 +1,10 @@
+---
+tags:
+  - audio
+  - plugin
+  - calendar
+---
+
 1. [Chowtape](https://chowdsp.com/products.html)
 2. [Chow Multi Tool](https://chowdsp.com/products.html)
 3. [Diopser](https://github.com/robbert-vdh/nih-plug/tree/master/plugins/diopser)
