@@ -2,33 +2,34 @@
 tags:
   - Seneca-2023
 ---
+
 - Software Architect oder Lead Developer?
-   - Lead dev: gibt orientierung, führt Entscheidungen zum richtigen Zeitpunkt (aber trifft sie nicht) und führt auf einer fachlichen Ebene
+   - Lead dev: gibt Orientierung, führt Entscheidungen zum richtigen Zeitpunkt (aber trifft sie nicht) und führt auf einer fachlichen Ebene
 - If you want to be a leader, the first person to lead is yourself
-- Buch 7 Habits of highly effective people
+- Buch: [[7 Habits of highly effective people]]
 - Was kann man beeinflussen, was nicht?
    - Circle of concern vs circle of influence
 - Klare Erwartung äußern
-- Habit1: Be proactive!
-- Habit2: Keep the end in mind
+- Habit 1: Be proactive!
+- Habit 2: Keep the end in mind
    - “Shallow work” . nie so richtig da, immer am hin und her hüpfen zwischen meetings und mails, erbringt wenig neuen Wert
    - Vs “Deep work”. Erfordert Konzentration, keine ablenkung möglich, erschafft neue Werte, schwer nachzuahmen
-- Habit3: First things first
+- Habit 3: First things first
    - Information ist nicht mehr knapp, informationen für sich behalten, bringt keinen vorteil
-- Habit4: Think Win/Win
+- Habit 4: Think Win/Win
    - Zusammenarbeit schlägt immer gegeneinander arbeiten
 - Software is a people business
-- Habit5: Seek to understand first, then to be understood
+- Habit 5: Seek to understand first, then to be understood
    - Vertrauensverhältnis hilft massiv für effizientes arbeiten
 - Zwei arten von meetings:
    - Bullet point meetings
    - Campfire meetings
-- Habit6: Synergize
+- Habit 6: Synergize
    - Ein gut eingespieltes team mit 3 Leuten ist viel effektiver als 3 individuen
 - Sharpen the saw
    - No time to sharpen the saw because there is so much sawing to do
 - Körper - Geist - Spiritualität - Herz
-- Habit7: Sharpen the Saw
+- Habit 7: Sharpen the Saw
 - Gutes Leadership:
    - Vorantreiben, Gelegenheiten schaffen, Leute unterstützen
    - Servant Leader
