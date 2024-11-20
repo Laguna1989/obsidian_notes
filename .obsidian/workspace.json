@@ -8,18 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f4e3af911f4f448e",
+            "id": "43d9779ccfcdbdbe",
             "type": "leaf",
             "pinned": true,
             "state": {
-              "type": "beautitab-react-view",
+              "type": "graph",
               "state": {},
               "pinned": true,
-              "title": "New tab"
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
-            "id": "d5c054d5dae755f0",
+            "id": "f13dfe8bff0f4a5d",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -33,9 +34,37 @@
               "icon": "lucide-file",
               "title": "Vault Stats"
             }
+          },
+          {
+            "id": "0a17dbb592304464",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tools/cpp tools/Branchless Programming.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Branchless Programming"
+            }
+          },
+          {
+            "id": "098f10ab3dafd986",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tools/cpp tools/perf.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "perf"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -66,7 +95,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#firefox",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,7 +130,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 363.5
+    "width": 365.5,
+    "collapsed": true
   },
   "right": {
     "id": "d02a40f61708ec57",
@@ -110,6 +140,7 @@
       {
         "id": "35151d3fef305f64",
         "type": "tabs",
+        "dimension": 38.59649122807017,
         "children": [
           {
             "id": "ce26b2f5289de1fb",
@@ -117,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/Obsidian/Vault Stats.md",
+                "file": "tools/cpp tools/perf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +158,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Vault Stats"
+              "title": "Backlinks for perf"
             }
           },
           {
@@ -136,12 +167,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/Obsidian/Vault Stats.md",
+                "file": "tools/Apple Password and ID shenanigans.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Vault Stats"
+              "title": "Outgoing links from Apple Password and ID shenanigans"
             }
           },
           {
@@ -150,7 +181,7 @@
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "frequency",
                 "useHierarchy": true
               },
               "icon": "lucide-tags",
@@ -163,10 +194,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/Obsidian/Vault Stats.md"
+                "file": "tools/Apple Password and ID shenanigans.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Vault Stats"
+              "title": "Outline of Apple Password and ID shenanigans"
             }
           },
           {
@@ -183,30 +214,74 @@
               "title": "All properties"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
-        "id": "84ba8d1e2ed3699e",
+        "id": "c24e3fc87849ed52",
         "type": "tabs",
+        "dimension": 34.88132094943241,
         "children": [
           {
-            "id": "3cd0a2744153ccd1",
+            "id": "cd0ac7030edf4db2",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "tools/cpp tools/perf.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": false,
+                  "showArrow": false,
+                  "textFadeMultiplier": -3,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.4444444444444444,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of perf"
+            }
+          }
+        ]
+      },
+      {
+        "id": "4bcf31b48f11b2bc",
+        "type": "tabs",
+        "dimension": 26.522187822497422,
+        "children": [
+          {
+            "id": "f0c0787f5be5ee0d",
             "type": "leaf",
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "tools/Obsidian/Vault Stats.md"
+                "file": "tools/cpp tools/perf.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Vault Stats"
+              "title": "File properties for perf"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 304.5
+    "width": 333.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,9 +291,9 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "recipe-view:Toggle recipe view": false,
       "templater-obsidian:Templater": false,
       "advanced-random-note:Open random note modal": false,
+      "recipe-view:Toggle recipe view": false,
       "custom-sort:Toggle custom sorting": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
       "3d-graph-new:Global 3D Graph": false,
@@ -226,54 +301,54 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "b4017a2eff9594db",
+  "active": "098f10ab3dafd986",
   "lastOpenFiles": [
-    "tools/audio/Audio Plugin Advent Calendar 2024.md",
-    "tools/Obsidian/Vault Stats.md",
-    "tools/Apple Password and ID shenanigans.md",
-    "Exercises/Exercises.md",
-    "tools/firefox/firefox.md",
-    "tools/git tricks/git tricks.md",
-    "tools/Obsidian/Obsidian.md",
-    "Talks/Design Patterns in modern cpp/3 - Behavioral Design Patterns.md",
-    "DeMorgan's Law.md",
-    "Conferences/2023 SenecaCamp/Habits of highly effective Devs.md",
-    "Conferences/2023 SenecaCamp/2023 SenecaCamp.md",
-    "7 Habits of highly effective people.md",
-    "Exercises/Code Katas/Gilded Rose Refactoring Kata.md",
-    "tools/Design Patterns/Behavioral Design Patterns/Behavioral Design Patterns.md",
-    "Talks/Design Patterns in modern cpp/2 - Creational Design Patterns.md",
-    "tools/Design Patterns/Creational Design Patterns/Creational Design Patterns.md",
-    "Talks/Design Patterns in modern cpp/0 - Design Patterns Intro.md",
-    "Talks/Design Patterns in modern cpp/1 - Structural Design Patterns.md",
-    "tools/Design Patterns/Structural Design Patterns/Structural Design Patterns.md",
-    "Talks/Design Patterns in modern cpp/Design Patterns in modern cpp.md",
+    "tools/git tricks/git tricks.md.orig",
+    "tools/git tricks/git tricks_REMOTE_17409.md",
+    "tools/git tricks/git tricks_LOCAL_17409.md",
+    "tools/git tricks/git tricks_BASE_17409.md",
+    "tools/git tricks/git tricks_BACKUP_17409.md",
     "Talks/Ben Saks - What Volatile Means.md",
-    "tools/Agile/Agile Printicples.md",
-    "tools/FMod/FMod.md",
-    "assets/tools/FMod/FMod",
-    "assets/tools/FMod",
-    "assets/tools/FMod/FMod/IMG-2024-06-06-143828000.png",
-    "Learnings/Learnlist.md",
-    "tools/FMod",
-    "Learnings/books/Marc Loeffler - Improving Agile Retrospectives/02 - Preparing Retrospectives.md",
-    "Learnings/books/Marc Loeffler - Improving Agile Retrospectives/01 - Retrospective 101.md",
-    "assets/Learnings/books/Marc Loeffler - Improving Agile Retrospectives/01 - Retrospective 101",
-    "assets/Learnings/books/Marc Loeffler - Improving Agile Retrospectives/Marc Loeffler - Improving Agile Retrospectives",
-    "Learnings/books/Marc Loeffler - Improving Agile Retrospectives",
-    "assets/Learnings/books/Marc Loeffler - Improving Agile Retrospectives/01 - Retrospective 101/IMG-2024-06-03-212224941.png",
-    "assets/Learnings/books/Marc Loeffler - Improving Agile Retrospectives",
-    "assets/Learnings/books",
-    "tools/Agile",
-    "Cooking",
-    "assets/tools/Design Patterns/Creational Design Patterns/Prototype/IMG-2024-05-31-134636258.png",
-    "assets/tools/Design Patterns/Creational Design Patterns/Prototype/IMG-2024-05-31-134636245.png",
-    "connyfotografie/2022-01-11_19-04-25_UTC.jpg",
-    "connyfotografie/2022-01-13_17-57-05_UTC.jpg",
-    "connyfotografie/2022-01-27_16-24-54_UTC.jpg",
-    "connyfotografie/2022-02-03_17-51-39_UTC.jpg",
-    "connyfotografie/2022-02-10_17-51-55_UTC.jpg",
-    "connyfotografie/2022-02-17_18-24-26_UTC.jpg",
+    "tools/git tricks/git tricks.md",
+    "tools/Obsidian/Vault Stats.md",
+    "tools/cpp tools/Branchless Programming.md",
+    "tools/cpp tools/perf.md",
+    "tools/cpp tools/C++ 17 Allocators.md",
+    "tools/cpp tools/vcperf.md",
+    "tools/Vim.md",
+    "Talks/Design Patterns in modern cpp/0 - Design Patterns Intro.md",
+    "Talks/Jeff Garland - Cpp26 Preview.md",
+    "tools/firefox/Search Highlight All.md",
+    "tools/firefox/firefox.md",
+    "tools/audio/Audio Plugin Advent Calendar 2024.md",
+    "tools/audio",
+    "7 Habits of highly effective people.md",
+    "Books/Andrew Huang - Make Your Own Rules/01 - Foundations/01 - Chapter 3 and 4.md",
+    "Conferences/2024 SoCraTes Soltau/2024-08-22 SoCraTes Germany Training Day/Untangle Your Test Code.md",
+    "tools/MySQL.md",
+    "Exercises/Hacking/Hack The Box/Hack The Box - Dancing.md",
+    "Conferences/2021 SoCraTes Day Franken/Wissensverwaltung.md",
+    "Conferences/2023 SenecaCamp/Habits of highly effective Devs.md",
+    "DeMorgan's Law.md",
+    "Presentations/2024-11-05_ApprovalTests/loop_of_doom_2.png",
+    "Presentations/2024-11-05_ApprovalTests/loop_of_doom_1.png",
+    "Presentations/2024-11-05_ApprovalTests/golden_master.png",
+    "Presentations/2024-11-05_ApprovalTests/approvals_workflow.png",
+    "Presentations/2024-11-05_ApprovalTests/approvals_new_test_workflow.png",
+    "Presentations/2024-11-05_ApprovalTests",
+    "assets/tools/Apple Password and ID shenanigans",
+    "assets/tools/Apple Password and ID shenanigans/IMG-2024-09-13-214923459.png",
+    "assets/tools/Apple Codesign",
+    "assets/tools/VNC",
+    "assets/tools/MySQL",
+    "assets/Exercises/Hacking/Hack The Box/Hack The Box - Sequel",
+    "assets/Exercises/Hacking/Hack The Box/Hack The Box - Appointment",
+    "assets/Exercises/Hacking/Hack The Box/Hack The Box",
+    "assets/Exercises/Hacking/Hack The Box/Hack The Box - Redeemer",
+    "assets/Exercises/Hacking/Hack The Box/Hack The Box - Appointment/IMG-2024-09-01-070110624.png",
+    "assets/tools/Hacking/Hack The Box - Dancing/IMG-2024-08-27-145632535.png",
+    "export/2024-08-21 Github Actions/assets/Presentations/2024-08-21_GithubActions_SoCraTes/2024-08-21 Github Actions/IMG-2024-08-23-070612598.png",
+    "export/2024-08-21 Github Actions/assets/Presentations/2024-08-21_GithubActions_SoCraTes/2024-08-21 Github Actions/IMG-2024-08-22-083642189.png",
     "Untitled.canvas"
   ]
 }

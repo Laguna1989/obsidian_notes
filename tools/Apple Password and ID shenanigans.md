@@ -1,3 +1,8 @@
+---
+tags:
+  - tool
+  - apple
+---
 # Links
 
 [Good tutorial](https://melatonin.dev/blog/how-to-code-sign-and-notarize-macos-audio-plugins-in-ci/)

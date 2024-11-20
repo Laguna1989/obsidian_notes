@@ -1,7 +1,6 @@
 ---
 Progress: 51
 tags:
-  - tag
   - tool
   - obsidian
 date1: 2024-05-30

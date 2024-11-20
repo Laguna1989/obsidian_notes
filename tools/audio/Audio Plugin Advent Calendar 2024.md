@@ -1,3 +1,10 @@
+---
+tags:
+  - audio
+  - plugin
+  - calendar
+---
+
 1. [Chowtape](https://chowdsp.com/products.html)
 2. [Chow Multi Tool](https://chowdsp.com/products.html)
 3. [Diopser](https://github.com/robbert-vdh/nih-plug/tree/master/plugins/diopser)
@@ -22,3 +29,4 @@
 22. [https://github.com/t-sin/soyboy-sp.vst3](https://github.com/t-sin/soyboy-sp.vst3 "https://github.com/t-sin/soyboy-sp.vst3")
 23. [https://kilohearts.com/products/kilohearts_essentials](https://kilohearts.com/products/kilohearts_essentials "https://kilohearts.com/products/kilohearts_essentials")
 24. [Xfer OTT](https://xferrecords.com/freeware)
+25. [airwindows](https://www.airwindows.com/)
