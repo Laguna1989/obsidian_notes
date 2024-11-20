@@ -14,6 +14,7 @@ tags:
 - [[cpp tools]]
 - [[cppcheck]]
 - [[mutate_cpp]]
+- [[perf]]
 - [[pmccabe]]
 - [[SEQLock]]
 - [[Tracy]]
