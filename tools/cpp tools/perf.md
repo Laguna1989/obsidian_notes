@@ -39,4 +39,4 @@ This results in a `perf.data` file
 sudo perf report perf.data
 ```
 
--> press `a` on any symbol
+-> press `a` on any symbol to get annotated information
