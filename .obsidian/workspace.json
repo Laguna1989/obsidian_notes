@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -130,8 +130,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.5,
-    "collapsed": true
+    "width": 365.5
   },
   "right": {
     "id": "d02a40f61708ec57",
@@ -148,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/cpp tools/perf.md",
+                "file": "tools/Obsidian/Vault Stats.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +157,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for perf"
+              "title": "Backlinks for Vault Stats"
             }
           },
           {
@@ -227,7 +226,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "tools/cpp tools/perf.md",
+                "file": "tools/Obsidian/Vault Stats.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -255,7 +254,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of perf"
+              "title": "Graph of Vault Stats"
             }
           }
         ]
@@ -271,10 +270,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "tools/cpp tools/perf.md"
+                "file": "tools/Obsidian/Vault Stats.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for perf"
+              "title": "File properties for Vault Stats"
             }
           }
         ]
@@ -301,8 +300,9 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "098f10ab3dafd986",
+  "active": "f13dfe8bff0f4a5d",
   "lastOpenFiles": [
+    "tools/cpp tools/perf.md",
     "tools/git tricks/git tricks.md.orig",
     "tools/git tricks/git tricks_REMOTE_17409.md",
     "tools/git tricks/git tricks_LOCAL_17409.md",
@@ -312,7 +312,6 @@
     "tools/git tricks/git tricks.md",
     "tools/Obsidian/Vault Stats.md",
     "tools/cpp tools/Branchless Programming.md",
-    "tools/cpp tools/perf.md",
     "tools/cpp tools/C++ 17 Allocators.md",
     "tools/cpp tools/vcperf.md",
     "tools/Vim.md",
@@ -344,7 +343,6 @@
     "assets/Exercises/Hacking/Hack The Box/Hack The Box - Sequel",
     "assets/Exercises/Hacking/Hack The Box/Hack The Box - Appointment",
     "assets/Exercises/Hacking/Hack The Box/Hack The Box",
-    "assets/Exercises/Hacking/Hack The Box/Hack The Box - Redeemer",
     "assets/Exercises/Hacking/Hack The Box/Hack The Box - Appointment/IMG-2024-09-01-070110624.png",
     "assets/tools/Hacking/Hack The Box - Dancing/IMG-2024-08-27-145632535.png",
     "export/2024-08-21 Github Actions/assets/Presentations/2024-08-21_GithubActions_SoCraTes/2024-08-21 Github Actions/IMG-2024-08-23-070612598.png",
