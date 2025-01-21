@@ -21,6 +21,7 @@ tags:
 - [ ] [Letters to a New Developer](https://www.amazon.de/Letters-New-Developer-Starting-Development-ebook/dp/B08FD7DG94), book hardcover
 - [ ] [Optimize continuous delivery](https://www.youtube.com/watch?v=gDgAVqkFYWs) youtube video
 - [ ] [Unit Testing Principles, Practices, and Patterns - Khorikov, Vladimir](https://www.amazon.de/Unit-Testing-Principles-Practices-Patterns-ebook/dp/B09782L692) book
+- [ ] [native-instruments.com/fileadmin/ni\_media/downloads/pdf/VAFilterDesign\_2.1.0.pdf](https://www.native-instruments.com/fileadmin/ni_media/downloads/pdf/VAFilterDesign_2.1.0.pdf) PDF Filter Design
 
 # Done
 

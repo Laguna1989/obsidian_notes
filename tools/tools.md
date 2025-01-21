@@ -9,6 +9,7 @@ tags:
 - [[Apple Password and ID shenanigans]]
 - **audio**
 	- [[Audio Plugin Advent Calendar 2024]]
+	- [[Plugin Debugging in Reaper]]
 - **bash**
 	- [[find]]
 - [[Catch2 v3]]
@@ -26,7 +27,6 @@ tags:
 - [[NoMachine]]
 - **[[Obsidian]]**
 - [[OpenGL Debugging]]
-- [[Plugin Debugging in Reaper]]
 - [[pluginval]]
 - [[Redis]]
 - [[SMB]]

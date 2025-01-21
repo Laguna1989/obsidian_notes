@@ -1,0 +1,30 @@
+- Founded my own company
+	- Audio programming, 
+	- Juce framework, 
+	- dsp
+	- All the financial stuff and administrative stuff
+	- Marketing
+	- Setting up my website
+	- Released two plugins, third one on the way
+- Game Jams
+	- Organized two game jams with two amazing games
+- OpenGL Programming
+- Took part in one 30k and two 50k hikes
+- Started using Obsidian
+- Conferences
+	- SWEC camp
+	- Socrates Franken
+	- Socrates Germany
+- Music 
+	- Released 4 Synthwave Singles 
+	- Started Recording with a Metal band, first song just released
+	- Organized twelve Synthwave Challenges
+- Games
+	- Elden Ring DLC
+	- Path of Exile 2
+	- Halo CE and Halo 2
+	- Nobody wants to Die
+	- TMNT Shredders Revenge
+	- Monument Valley
+	- Skyrim
+- 
