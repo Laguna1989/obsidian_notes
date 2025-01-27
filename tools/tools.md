@@ -26,6 +26,7 @@ tags:
 - [[NoMachine]]
 - **[[Obsidian]]**
 - [[OpenGL Debugging]]
+- [[Performance Monitor - Perfmon]]
 - [[pluginval]]
 - [[Redis]]
 - [[SMB]]
