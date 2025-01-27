@@ -2,7 +2,13 @@
 tags:
   - tool
   - hacking
+  - network
+  - command-line
 ---
+
+> [!info] Gobuster
+> `gobuster` is a tool used for directory and file brute-forcing, commonly used in web application penetration testing.
+
 # Installation
 
 ``` bash

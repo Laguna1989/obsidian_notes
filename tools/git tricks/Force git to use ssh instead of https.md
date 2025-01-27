@@ -3,6 +3,7 @@ tags:
   - tool
   - git
   - github
+  - command-line
 ---
 # Force Git to Use Ssh instead of Https
 

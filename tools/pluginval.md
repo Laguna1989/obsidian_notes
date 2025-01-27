@@ -25,3 +25,7 @@ tags:
 - Wait until tests complete
 - Click `save log`
 - Open log file, scroll to bottom and check for `ALL TESTS PASSED`
+
+## Command line Verification
+
+Can also be called from the #command-line

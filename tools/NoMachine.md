@@ -2,6 +2,7 @@
 tags:
   - tool
   - remote
+  - network
 ---
 
 > [!hint] NoMachine is a remote desktop tool

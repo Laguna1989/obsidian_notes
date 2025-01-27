@@ -6,19 +6,18 @@ tags:
 %% Begin Waypoint %%
 - **[[Agile]]**
 - **[[ai trickery]]**
-- [[Apple Password and ID shenanigans]]
 - **audio**
 	- [[Audio Plugin Advent Calendar 2024]]
 	- [[Plugin Debugging in Reaper]]
 - **bash**
 	- [[find]]
-- [[Catch2 v3]]
 - [[Combine images on the commandline]]
 - **[[cpp tools]]**
 - **[[Dependency Injection]]**
 - **[[Design Patterns]]**
 - **[[firefox]]**
 - **[[FMod]]**
+- **[[GameDev]]**
 - **[[git tricks]]**
 - [[gobuster]]
 - [[Google docs - Markdown export]]

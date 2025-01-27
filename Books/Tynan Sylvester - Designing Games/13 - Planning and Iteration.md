@@ -35,6 +35,7 @@ tags:
 
 - Overplanning: Pen and paper: Kein Abenteuer überlebt die Spieler
 - GameJams: Ich sehe uns auf der “underplanner” Seite. Meinungen?
+	- Siehe [[GameJam Listings]]
 - Wie können wir bei gamejams den feedback loop kurz halten?
 - Hindsight Bias: “Blood Sweat and Pixels” ist eine gute Lektüre dagegen
 - Wie playtests sinnvoll in Gamejams einbauen?
