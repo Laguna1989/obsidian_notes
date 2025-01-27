@@ -482,9 +482,18 @@ function formatFileSize(fileSize) {
 function getFolderStructure(folder) {
   const folders = folder.split("/").slice(0, -1);
   if (folders.length === 0) {
-    return "//";
+    return "/";
   }
   return "/" + folders.join("/");
+}
+function formatFileSizeKBMB(total_bytes) {
+  if (total_bytes < 1024) {
+    return "";
+  } else if (total_bytes < 1048576) {
+    return ` (${(total_bytes / 1024).toFixed(2)} KB)`;
+  } else {
+    return ` (${(total_bytes / (1024 * 1024)).toFixed(2)} MB)`;
+  }
 }
 
 // src/utils/tags.ts
@@ -504,8 +513,9 @@ function getTagsPerFile(file) {
     }
     if (frontmatter_tags !== void 0 && frontmatter_tags.tags) {
       for (let i = 0, len = frontmatter_tags.tags.length; i < len; i++) {
-        if (arrTags.indexOf(frontmatter_tags.tags[i]) < 0) {
-          arrTags.push("#" + frontmatter_tags.tags[i]);
+        const fmTag = "#" + frontmatter_tags.tags[i];
+        if (arrTags.indexOf(fmTag) < 0) {
+          arrTags.push(fmTag);
         }
       }
     }
@@ -641,6 +651,7 @@ var DNModal = class extends import_obsidian2.Modal {
     this.colored_files = false;
     // Hide columns
     this.hide_columns = [];
+    this._previewComponent = new import_obsidian2.Component();
     this.dnHandleIntersection = (entries) => {
       entries.forEach((entry) => {
         if (!entry.isIntersecting) {
@@ -655,6 +666,8 @@ var DNModal = class extends import_obsidian2.Modal {
   async onOpen() {
     var _a;
     const { contentEl } = this;
+    this._previewComponent.load();
+    this._hoverDiv = this.contentEl.createEl("div", { cls: "dn-preview" });
     await this.updateModalData();
     const leaf = (_a = this.app.workspace) == null ? void 0 : _a.getMostRecentLeaf();
     if (leaf !== null) {
@@ -665,11 +678,15 @@ var DNModal = class extends import_obsidian2.Modal {
     this.dnSetSelectLayoutValue(this.selected_table_layout);
     this.dnSetSelectSortValue(this.selected_sort_value);
     this.dnToggleColoredFiles();
+    this._isDraggingPreview = false;
+    this._hoverDivLeft = "";
+    this._hoverDivTop = "";
   }
   async updateModalData() {
     this._files = [];
     this._folders = [];
     this._recent = [];
+    this._last_opened = [];
     this._notes = [];
     this._images = [];
     this._canvas = [];
@@ -693,6 +710,13 @@ var DNModal = class extends import_obsidian2.Modal {
     this._files_results = this._files_excluded_filters;
     await this.dnOrganizeFiles({ arr: this._files_excluded_filters });
     this._recent = await this.dnGetRecentFiles(this._files_excluded_filters);
+    const arrStrLastOpened = this.app.workspace.getLastOpenFiles();
+    arrStrLastOpened.forEach(async (file) => {
+      const f_temp = await this.app.vault.getAbstractFileByPath(file);
+      if (f_temp instanceof import_obsidian2.TFile) {
+        this._last_opened.push(f_temp);
+      }
+    });
   }
   async dnCreateMainUI(el) {
     const mainContainer = el.createEl("div", { cls: "dn-container" });
@@ -755,6 +779,8 @@ var DNModal = class extends import_obsidian2.Modal {
     divVaultStats.setAttribute("id", "dn-vault-stats");
     const divVaultGraph = this._VIEW_DASHBOARD.createEl("div");
     divVaultGraph.setAttribute("id", "dn-vault-graph");
+    const divLastOpenedFiles = this._VIEW_DASHBOARD.createEl("div");
+    divLastOpenedFiles.setAttribute("id", "dn-last-opened-files");
     const divRecentFiles = this._VIEW_DASHBOARD.createEl("div");
     divRecentFiles.setAttribute("id", "dn-recent-files");
     const divRecentNotes = this._VIEW_DASHBOARD.createEl("div");
@@ -843,6 +869,7 @@ var DNModal = class extends import_obsidian2.Modal {
     const divStatsFrame = divVaultGraph.createEl("div", { cls: "dn-stats-files-folders" });
     divStatsFrame.createEl("div", { cls: "dn-stats-files", text: "Files: " + this._files_excluded_filters.length });
     divStatsFrame.createEl("div", { cls: "dn-stats-folders", text: "Folders: " + this._folders.length });
+    await this.dnCreateRecentFiles("Recently opened", divLastOpenedFiles, this._last_opened, this.num_recent_files);
     await this.dnCreateRecentFiles("Recent files", divRecentFiles, this._recent, this.num_recent_files);
     await this.dnCreateRecentFiles("Recent notes", divRecentNotes, this._notes, this.num_recent_files);
     await this.dnCreateRecentFiles("Recent canvases", divCanvas, this._canvas, this.num_recent_files);
@@ -891,6 +918,10 @@ var DNModal = class extends import_obsidian2.Modal {
         return param.slice(1, -1);
       } else if (param.startsWith("'") && param.endsWith("'")) {
         return param.slice(1, -1);
+      } else if (param.startsWith(".")) {
+        return "\\" + param + "$";
+      } else if (param.startsWith("/") && param.length === 1) {
+        return "^/$";
       } else {
         return param;
       }
@@ -905,7 +936,7 @@ var DNModal = class extends import_obsidian2.Modal {
   // Search
   async searchAction(val, files) {
     let rExp;
-    const isExcludeSearch = val.startsWith("!") && val.length >= 2;
+    const isExcludeSearch = val.startsWith("!") && val.length >= 1;
     let excludeParam = isExcludeSearch ? val.slice(1) : val;
     if (excludeParam.startsWith('"') && excludeParam.endsWith('"')) {
       excludeParam = excludeParam.slice(1, -1);
@@ -932,10 +963,18 @@ var DNModal = class extends import_obsidian2.Modal {
       this._INPUT_SEARCH.classList.remove("dn-input-datesearch");
     }
     if (isExcludeSearch) {
-      this._files_results = files.filter((file) => {
-        const isMatch = file.name.toLowerCase().includes(excludeParam) || getFolderStructure(file.path).toLowerCase().includes(excludeParam) || (0, import_obsidian3.moment)(file.stat.mtime).format(this.date_format).toLowerCase().includes(excludeParam) || getTagsPerFile(file).toLowerCase().includes(excludeParam) || getPropsPerFile(file).toLowerCase().includes(excludeParam);
-        return isExcludeSearch ? !isMatch : isMatch;
-      });
+      let isMatch;
+      if (excludeParam === "/") {
+        this._files_results = files.filter((file) => {
+          isMatch = getFolderStructure(file.path).toLowerCase() === "/";
+          return isExcludeSearch ? !isMatch : isMatch;
+        });
+      } else {
+        this._files_results = files.filter((file) => {
+          isMatch = file.name.toLowerCase().includes(excludeParam) || getFolderStructure(file.path).toLowerCase().includes(excludeParam) || (0, import_obsidian3.moment)(file.stat.mtime).format(this.date_format).toLowerCase().includes(excludeParam) || getTagsPerFile(file).toLowerCase().includes(excludeParam) || getPropsPerFile(file).toLowerCase().includes(excludeParam);
+          return isExcludeSearch ? !isMatch : isMatch;
+        });
+      }
     } else {
       this._files_results = files.filter(
         (file) => {
@@ -1010,7 +1049,13 @@ var DNModal = class extends import_obsidian2.Modal {
         tr2.addEventListener("dblclick", (evt) => {
           this.dnHandleDblClick(evt, file);
         });
+        tr2.addEventListener("mouseover", async (evt) => {
+          this.dnHandleHoverPreview(evt, file);
+        });
         this.intersectionObserver.observe(tr2);
+        tr2.removeEventListener("mouseover", async (evt) => {
+          this.dnHandleHoverPreview(evt, file);
+        });
         const td1 = tr2.createEl("td");
         td1.createEl("a", { cls: this.dnSetFileIconClass(file.extension), text: file.name }).onClickEvent((evt) => {
           if (leaf !== null && file !== null) {
@@ -1045,34 +1090,38 @@ var DNModal = class extends import_obsidian2.Modal {
         const tags_per_file = getTagsPerFile(file);
         const props_per_file = getPropsPerFile(file);
         const td6 = tr2.createEl("td", { title: tags_per_file });
-        const fTags = tags_per_file.split(" ");
-        fTags.forEach((tag) => {
-          td6.createEl("a", { cls: "dn-tag", text: tag }).onClickEvent((evt) => {
-            if (evt.button === 2) {
-              evt.preventDefault();
-            } else {
-              this._INPUT_SEARCH.value = tag;
-              this.dnModalSearchVault(this._INPUT_SEARCH.value);
-            }
+        if (tags_per_file !== "") {
+          const fTags = tags_per_file.split(" ");
+          fTags.forEach((tag) => {
+            td6.createEl("a", { cls: "tag", text: tag, href: tag }).onClickEvent((evt) => {
+              if (evt.button === 2) {
+                evt.preventDefault();
+              } else {
+                this._INPUT_SEARCH.value = tag;
+                this.dnModalSearchVault(this._INPUT_SEARCH.value);
+              }
+            });
           });
-        });
-        const td7 = tr2.createEl("td", { title: props_per_file });
-        const fProps = props_per_file.split("\n");
-        fProps.forEach((prop) => {
-          td7.createEl("a", { cls: "dn-tag", text: prop }).onClickEvent((evt) => {
-            if (evt.button === 2) {
-              evt.preventDefault();
-            } else {
-              this._INPUT_SEARCH.value = prop;
-              this.dnModalSearchVault(this._INPUT_SEARCH.value);
-            }
+        }
+        const td7 = tr2.createEl("td");
+        if (props_per_file !== "") {
+          const fProps = props_per_file.split("\n");
+          fProps.forEach((prop) => {
+            td7.createEl("a", { cls: "dn-tag", text: prop, title: props_per_file }).onClickEvent((evt) => {
+              if (evt.button === 2) {
+                evt.preventDefault();
+              } else {
+                this._INPUT_SEARCH.value = prop;
+                this.dnModalSearchVault(this._INPUT_SEARCH.value);
+              }
+            });
           });
-        });
+        }
       });
       paginationContainer.empty();
-      paginationContainer.createEl("span", { cls: "dn-pagination-total-results", text: `File(s): ${f.length}` });
-      paginationContainer.createEl("span", { cls: "dn-pagination-current-page", text: `Page ${currentPage} of ${this._total_pages}` });
-      const btnPrev = paginationContainer.createEl("button", { cls: "dn-btn-prev", text: "\u25C0", title: "Previous" });
+      paginationContainer.createEl("div", { cls: "dn-pagination-total-results", text: `File(s): ${f.length} ` });
+      const rightPagDiv = paginationContainer.createEl("div", { cls: "dn-pagination-current-page", text: `Page ${currentPage} of ${this._total_pages} ` });
+      const btnPrev = rightPagDiv.createEl("button", { cls: "dn-btn-prev", text: "\u25C0", title: "Previous" });
       if (currentPage === 1) {
         btnPrev.disabled = true;
       } else {
@@ -1083,7 +1132,7 @@ var DNModal = class extends import_obsidian2.Modal {
           this.dnShowModalSearchResults({ f, el, leaf, currentPage: currentPage - 1 });
         }
       });
-      const btnNext = paginationContainer.createEl("button", { cls: "dn-btn-next", text: "\u25B6", title: "Next" });
+      const btnNext = rightPagDiv.createEl("button", { cls: "dn-btn-next", text: "\u25B6", title: "Next" });
       if (currentPage === this._total_pages) {
         btnNext.disabled = true;
       } else {
@@ -1107,6 +1156,7 @@ var DNModal = class extends import_obsidian2.Modal {
       dnTableManager.hideColumns(this.hide_columns);
     } else {
       tr.empty();
+      paginationContainer.createEl("div", { cls: "dn-pagination-total-results", text: `File(s): 0 ` });
       this._divSearchResults.createEl("p", { cls: "dn-no-results-found", text: "No files found." });
     }
   }
@@ -1313,9 +1363,19 @@ var DNModal = class extends import_obsidian2.Modal {
       divF.classList.add("dn-display-none");
     } else {
       divF.createEl("h3", { cls: "dn-subtitles", text: title });
-      const sortedFiles = await this.dnGetRecentFiles(files);
+      let sortedFiles = [];
+      if (title === "Recently opened") {
+        sortedFiles = files.slice(0, this.num_recent_files);
+      } else {
+        sortedFiles = await this.dnGetRecentFiles(files);
+      }
       sortedFiles.forEach((sfile) => {
-        divF.createEl("a", { cls: this.dnSetFileIconClass(sfile.extension), text: sfile.basename, title: sfile.path }).onClickEvent((evt) => {
+        const aLink = divF.createEl("a", {
+          cls: this.dnSetFileIconClass(sfile.extension),
+          text: sfile.basename,
+          title: sfile.path
+        });
+        aLink.onClickEvent((evt) => {
           if (sfile !== null) {
             this.dnOpenFileAlt(sfile, evt);
           }
@@ -1324,6 +1384,7 @@ var DNModal = class extends import_obsidian2.Modal {
           divF.createEl("span", { cls: "nav-file-tag", text: sfile.extension });
         }
         divF.createEl("br");
+        aLink.addEventListener("mouseover", (evt) => this.dnHandleHoverPreview(evt, sfile));
       });
     }
   }
@@ -1549,20 +1610,28 @@ var DNModal = class extends import_obsidian2.Modal {
     );
     this._DN_CTX_MENU.addSeparator();
     this._DN_CTX_MENU.addItem(
+      (item) => item.setTitle("Show preview").setIcon("eye").onClick((evt2) => {
+        this.dnShowPreviewFile(evt2, file);
+      })
+    );
+    this._DN_CTX_MENU.addSeparator();
+    this._DN_CTX_MENU.addItem(
       (item) => item.setTitle("Frontmatter").setIcon("text").onClick(() => {
         const fpModal = new import_obsidian2.Modal(this.app);
+        fpModal.contentEl.setAttribute("class", "dn-frontmatter-modal");
         fpModal.contentEl.createEl("h4", { text: "Frontmatter" });
-        const fpFile = fpModal.contentEl.createEl("div");
-        fpFile.createEl("span", { text: "File: ", cls: "dn-properties" });
-        fpFile.createEl("span", { text: file.name });
-        fpModal.contentEl.createEl("br");
-        const fpPath = fpModal.contentEl.createEl("div");
-        fpPath.createEl("span", { text: "Path: ", cls: "dn-properties" });
-        fpPath.createEl("span", { text: getFolderStructure(file.path) });
+        const rowName = fpModal.contentEl.createEl("div", { cls: "dn-property-row" });
+        rowName.createEl("div", { text: "Name: ", cls: "dn-property-name-sm" });
+        rowName.createEl("div", { text: file.name, cls: "dn-property-value" });
+        const rowPath = fpModal.contentEl.createEl("div", { cls: "dn-property-row" });
+        rowPath.createEl("div", { text: "Path: ", cls: "dn-property-name-sm" });
+        rowPath.createEl("div", { text: getFolderStructure(file.path), cls: "dn-property-value" });
         fpModal.contentEl.createEl("br");
         fpModal.contentEl.createEl("span", { text: "Frontmatter: ", cls: "dn-properties" });
         fpModal.contentEl.createEl("br");
         const frontmatterDiv = fpModal.contentEl.createEl("div", { cls: "dn-properties-frontmatter-modal" });
+        frontmatterDiv.setAttribute("contenteditable", "true");
+        frontmatterDiv.setAttribute("spellcheck", "false");
         const curProps = getPropsPerFile(file);
         if (curProps) {
           const prop = curProps.split(" \n");
@@ -1583,47 +1652,54 @@ var DNModal = class extends import_obsidian2.Modal {
         }
         fpModal.contentEl.createEl("br");
         const divBottom = fpModal.contentEl.createEl("div", { cls: "dn-div-bottom-properties" });
-        const btnCloseProps = divBottom.createEl("button", { text: "Ok", cls: "dn-btn-close-properties" });
+        const btnPropsOpen = divBottom.createEl("button", { text: "Open", cls: "dn-btn-properties-open-file" });
+        btnPropsOpen.onClickEvent(() => {
+          fpModal.close();
+          this.dnOpenFile(file);
+        });
+        const btnCloseProps = divBottom.createEl("button", { text: "Close", cls: "dn-btn-properties-close" });
         btnCloseProps.onClickEvent(() => {
           fpModal.close();
         });
         fpModal.open();
+        frontmatterDiv.blur();
       })
     );
-    this._DN_CTX_MENU.addSeparator();
     this._DN_CTX_MENU.addItem(
       (item) => item.setTitle("File properties").setIcon("file-cog").onClick(() => {
         const mdFileProps = new import_obsidian2.Modal(this.app);
-        mdFileProps.contentEl.createEl("h4", { text: "Properties" });
-        const propFileName = mdFileProps.contentEl.createEl("div");
-        propFileName.createEl("span", { text: "File name: ", cls: "dn-properties" });
-        propFileName.createEl("span", { text: file.basename });
-        const propFileExt = mdFileProps.contentEl.createEl("div");
-        propFileExt.createEl("span", { text: "Extension: ", cls: "dn-properties" });
-        propFileExt.createEl("span", { text: file.extension, cls: "nav-file-tag" });
+        mdFileProps.contentEl.setAttribute("class", "dn-properties-modal");
+        mdFileProps.contentEl.createEl("h4", { text: "File properties" });
+        const rowName = mdFileProps.contentEl.createEl("div", { cls: "dn-property-row" });
+        rowName.createEl("div", { text: "Name: ", cls: "dn-property-name" });
+        rowName.createEl("div", { text: file.name, cls: "dn-property-value" });
+        const rowExt = mdFileProps.contentEl.createEl("div", { cls: "dn-property-row" });
+        rowExt.createEl("div", { text: "Extension: ", cls: "dn-property-name" });
+        const rowExtValue = rowExt.createEl("div", { cls: "dn-property-value" });
+        rowExtValue.createEl("span", { text: file.extension, cls: "nav-file-tag" });
+        const rowPath = mdFileProps.contentEl.createEl("div", { cls: "dn-property-row" });
+        rowPath.createEl("div", { text: "Path: ", cls: "dn-property-name" });
+        rowPath.createEl("div", { text: getFolderStructure(file.path), cls: "dn-property-value" });
         mdFileProps.contentEl.createEl("br");
-        const propFilePath = mdFileProps.contentEl.createEl("div");
-        propFilePath.createEl("span", { text: "Path: ", cls: "dn-properties" });
-        propFilePath.createEl("span", { text: getFolderStructure(file.path) });
+        const rowSize = mdFileProps.contentEl.createEl("div", { cls: "dn-property-row" });
+        rowSize.createEl("div", { text: "Size: ", cls: "dn-property-name" });
+        rowSize.createEl("div", { text: formatFileSize(file.stat.size) + " bytes" + formatFileSizeKBMB(file.stat.size) });
         mdFileProps.contentEl.createEl("br");
-        const propFileSize = mdFileProps.contentEl.createEl("div");
-        propFileSize.createEl("span", { text: "Size: ", cls: "dn-properties" });
-        propFileSize.createEl("span", { text: formatFileSize(file.stat.size) + " bytes" });
+        const rowDateCreated = mdFileProps.contentEl.createEl("div", { cls: "dn-property-row" });
+        rowDateCreated.createEl("div", { text: "Created: ", cls: "dn-property-name" });
+        rowDateCreated.createEl("div", { text: (0, import_obsidian3.moment)(file.stat.ctime).format(this.date_format) });
+        const rowDateModified = mdFileProps.contentEl.createEl("div", { cls: "dn-property-row" });
+        rowDateModified.createEl("div", { text: "Modified: ", cls: "dn-property-name" });
+        rowDateModified.createEl("div", { text: (0, import_obsidian3.moment)(file.stat.mtime).format(this.date_format) });
         mdFileProps.contentEl.createEl("br");
-        const propDateCreated = mdFileProps.contentEl.createEl("div");
-        propDateCreated.createEl("span", { text: "Created: ", cls: "dn-properties" });
-        propDateCreated.createEl("span", { text: (0, import_obsidian3.moment)(file.stat.ctime).format(this.date_format) });
-        const propDateModified = mdFileProps.contentEl.createEl("div");
-        propDateModified.createEl("span", { text: "Modified: ", cls: "dn-properties" });
-        propDateModified.createEl("span", { text: (0, import_obsidian3.moment)(file.stat.mtime).format(this.date_format) });
-        mdFileProps.contentEl.createEl("br");
-        const propTags = mdFileProps.contentEl.createEl("div");
+        const rowTags = mdFileProps.contentEl.createEl("div", { cls: "dn-property-row" });
+        rowTags.createEl("div", { text: "Tag(s): ", cls: "dn-property-name" });
+        const propTags = rowTags.createEl("div");
         const curTags = getTagsPerFile(file);
-        propTags.createEl("span", { text: "Tag(s): ", cls: "dn-properties" });
-        if (curTags) {
+        if (curTags !== "") {
           const tags = curTags.split(" ");
           for (let i = 0, len = tags.length; i < len; i++) {
-            propTags.createEl("a", { text: tags[i], cls: "dn-tag" }).onClickEvent((evt2) => {
+            propTags.createEl("a", { text: tags[i], href: tags[i], cls: "tag" }).onClickEvent((evt2) => {
               if (evt2.button === 2) {
                 evt2.preventDefault();
               } else {
@@ -1640,6 +1716,8 @@ var DNModal = class extends import_obsidian2.Modal {
         mdFileProps.contentEl.createEl("span", { text: "Frontmatter: ", cls: "dn-properties" });
         mdFileProps.contentEl.createEl("br");
         const frontmatterProps = mdFileProps.contentEl.createEl("div", { cls: "dn-properties-frontmatter" });
+        frontmatterProps.setAttribute("contenteditable", "true");
+        frontmatterProps.setAttribute("spellcheck", "false");
         const curProps = getPropsPerFile(file);
         if (curProps) {
           const prop = curProps.split(" \n");
@@ -1660,11 +1738,17 @@ var DNModal = class extends import_obsidian2.Modal {
         }
         mdFileProps.contentEl.createEl("br");
         const divBottom = mdFileProps.contentEl.createEl("div", { cls: "dn-div-bottom-properties" });
-        const btnCloseProps = divBottom.createEl("button", { text: "Ok", cls: "dn-btn-close-properties" });
+        const btnPropsOpen = divBottom.createEl("button", { text: "Open", cls: "dn-btn-properties-open-file" });
+        btnPropsOpen.onClickEvent(() => {
+          mdFileProps.close();
+          this.dnOpenFile(file);
+        });
+        const btnCloseProps = divBottom.createEl("button", { text: "Close", cls: "dn-btn-properties-close" });
         btnCloseProps.onClickEvent(() => {
           mdFileProps.close();
         });
         mdFileProps.open();
+        frontmatterProps.blur();
       })
     );
     this._DN_CTX_MENU.showAtMouseEvent(evt);
@@ -1686,6 +1770,76 @@ var DNModal = class extends import_obsidian2.Modal {
     evt.preventDefault();
     this.dnSelectTableRow(evt);
     this.dnOpenFile(file);
+  }
+  dnHandleHoverPreview(evt, file) {
+    evt.stopImmediatePropagation();
+    if (evt.ctrlKey || evt.metaKey) {
+      this.dnShowPreviewFile(evt, file);
+    }
+  }
+  dnShowPreviewFile(evt, file) {
+    this._hoverDiv.empty();
+    const topBar = this._hoverDiv.createEl("div", { cls: "dn-preview-top-bar" });
+    const btnClosePreview = topBar.createEl("div", { cls: "modal-close-button" });
+    btnClosePreview.onClickEvent((evt2) => {
+      evt2.stopPropagation();
+      this.dnHidePreview();
+    });
+    const previewTop = topBar.createEl("div", "dn-preview-titlebar");
+    const divPreviewName = previewTop.createEl("div", { cls: "dn-property-row" });
+    divPreviewName.createEl("div", { text: "Name: ", cls: "dn-property-name-sm" });
+    divPreviewName.createEl("div", { text: file.name, cls: "dn-property-value" });
+    const divPreviewPath = previewTop.createEl("div", { cls: "dn-property-row" });
+    divPreviewPath.createEl("div", { text: "Path: ", cls: "dn-property-name-sm" });
+    divPreviewPath.createEl("div", { text: getFolderStructure(file.path), cls: "dn-property-value" });
+    const divButtons = topBar.createEl("div", { cls: "dn-div-top-preview-btns" });
+    const btnPreviewOpenFile = divButtons.createEl("button", { text: "Open", cls: "dn-btn-properties-open-file" });
+    btnPreviewOpenFile.onClickEvent(() => {
+      this.dnHidePreview();
+      this.close();
+      this.dnOpenFile(file);
+    });
+    const btnPreviewOpenFileNewTab = divButtons.createEl("button", { text: "Open in new tab", cls: "dn-btn-properties-open-file" });
+    btnPreviewOpenFileNewTab.onClickEvent(() => {
+      this.dnHidePreview();
+      this.close();
+      this.app.workspace.getLeaf("tab").openFile(file);
+    });
+    const btnPreviewOpenFileNewWindow = divButtons.createEl("button", { text: "Open in new window", cls: "dn-btn-properties-open-file" });
+    btnPreviewOpenFileNewWindow.onClickEvent(() => {
+      this.dnHidePreview();
+      this.app.workspace.getLeaf("window").openFile(file);
+    });
+    this._hoverRender = this._hoverDiv.createEl("div", { cls: "dn-pr-content" });
+    try {
+      import_obsidian2.MarkdownRenderer.render(
+        this.app,
+        "![[" + (0, import_obsidian2.normalizePath)(file.path) + "]]",
+        this._hoverRender,
+        (0, import_obsidian2.normalizePath)(file.path),
+        this._previewComponent
+      );
+    } catch (error) {
+      return;
+    }
+    this._hoverDiv.style.display = "block";
+    previewTop.addEventListener("mousedown", (evt2) => this.dnHoverDragOnMouseDown(evt2));
+    this._hoverDiv.addEventListener("mousemove", (evt2) => this.dnHoverDragOnMouseMove(evt2));
+    this._hoverDiv.addEventListener("mouseup", (evt2) => this.dnHoverDragOnMouseUp(evt2));
+    const screenWidth = window.innerWidth;
+    const screenHeight = window.innerHeight;
+    const divW = this._hoverDiv.offsetWidth;
+    const divH = this._hoverDiv.offsetHeight;
+    if (this._hoverDivLeft === "") {
+      this._hoverDiv.style.left = ((screenWidth - divW) / 2).toString() + "px";
+      this._hoverDiv.style.top = ((screenHeight - divH) / 2).toString() + "px";
+    }
+    previewTop.removeEventListener("mousedown", (evt2) => this.dnHoverDragOnMouseDown(evt2));
+  }
+  dnHidePreview() {
+    this._isDraggingPreview = false;
+    this._hoverDiv.style.display = "none";
+    this._hoverDiv.empty();
   }
   dnHandleNormalSearch(rExp, file) {
     return rExp.test(file.name.toLowerCase()) || rExp.test(getFolderStructure(file.path).toLowerCase()) || rExp.test((0, import_obsidian3.moment)(file.stat.mtime).format(this.date_format)) || rExp.test(getTagsPerFile(file).toLowerCase()) || rExp.test(getPropsPerFile(file).toLowerCase());
@@ -1814,9 +1968,37 @@ var DNModal = class extends import_obsidian2.Modal {
     this.app.workspace.getLeaf(false).openFile(file);
     this.close();
   }
+  dnHoverDragOnMouseDown(evt) {
+    evt.stopPropagation();
+    this._isDraggingPreview = true;
+    this.initialX = evt.screenX - this._hoverDiv.offsetLeft;
+    this.initialY = evt.screenY - this._hoverDiv.offsetTop;
+    this.previousX = evt.screenX;
+    this.previousY = evt.screenY;
+  }
+  dnHoverDragOnMouseMove(evt) {
+    evt.stopPropagation();
+    if (this._isDraggingPreview) {
+      const newX = evt.screenX - this.initialX;
+      const newY = evt.screenY - this.initialY;
+      if (Math.abs(evt.screenX - this.previousX) > 5 || Math.abs(evt.screenY - this.previousY) > 5) {
+        this._hoverDiv.style.left = newX + "px";
+        this._hoverDiv.style.top = newY + "px";
+        this.previousX = evt.screenX;
+        this.previousY = evt.screenY;
+      }
+      this._hoverDivLeft = newX + "px";
+      this._hoverDivTop = newY + "px";
+    }
+  }
+  dnHoverDragOnMouseUp(evt) {
+    evt.stopPropagation();
+    this._isDraggingPreview = false;
+  }
   onClose() {
     const { contentEl } = this;
     contentEl.empty();
+    this._previewComponent.unload();
     if (this._INPUT_SEARCH && this._INPUT_SEARCH.removeEventListener) {
       this._INPUT_SEARCH.removeEventListener("input", (0, import_obsidian2.debounce)(() => this.dnModalSearchVault(this._INPUT_SEARCH.value), 300, true));
     }
@@ -1828,6 +2010,8 @@ var DNModal = class extends import_obsidian2.Modal {
     this._SELECT_SORT.removeEventListener("change", () => {
       this.dnSortColumnWithSelect();
     });
+    this._hoverDiv.removeEventListener("mousemove", (evt) => this.dnHoverDragOnMouseMove(evt));
+    this._hoverDiv.removeEventListener("mouseup", (evt) => this.dnHoverDragOnMouseUp(evt));
     if (this.intersectionObserver) {
       this.intersectionObserver.disconnect();
     }

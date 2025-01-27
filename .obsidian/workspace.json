@@ -62,9 +62,107 @@
               "icon": "lucide-file",
               "title": "perf"
             }
+          },
+          {
+            "id": "f5c47f7ded7c5a8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tools/git tricks/git tricks.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "git tricks"
+            }
+          },
+          {
+            "id": "3a0764b8b4b46bf5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tools/git tricks/git tricks.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "git tricks"
+            }
+          },
+          {
+            "id": "3f62dab1057558e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tools/tools.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "tools"
+            }
+          },
+          {
+            "id": "381ca79f05874881",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tools/OpenGL Debugging.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "OpenGL Debugging"
+            }
+          },
+          {
+            "id": "7694080f2ebb5ef7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Conferences/2024 SoCraTes Soltau/2024-08-25 SoCraTes Germany Workshop Day/One Hour Game Jam (airplane).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "One Hour Game Jam (airplane)"
+            }
+          },
+          {
+            "id": "b0edaa4054f01ac8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tools/bash/find.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "find"
+            }
+          },
+          {
+            "id": "cd092f35ca1014d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Conferences/2023 SenecaCamp/Habits of highly effective Devs.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Habits of highly effective Devs"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -95,7 +193,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "color",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -130,7 +228,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.5
+    "width": 362.5
   },
   "right": {
     "id": "d02a40f61708ec57",
@@ -147,7 +245,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/Obsidian/Vault Stats.md",
+                "file": "Conferences/2023 SenecaCamp/Habits of highly effective Devs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +255,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Vault Stats"
+              "title": "Backlinks for Habits of highly effective Devs"
             }
           },
           {
@@ -226,7 +324,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "tools/Obsidian/Vault Stats.md",
+                "file": "Conferences/2023 SenecaCamp/Habits of highly effective Devs.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -254,7 +352,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Vault Stats"
+              "title": "Graph of Habits of highly effective Devs"
             }
           }
         ]
@@ -270,10 +368,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "tools/Obsidian/Vault Stats.md"
+                "file": "Conferences/2023 SenecaCamp/Habits of highly effective Devs.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Vault Stats"
+              "title": "File properties for Habits of highly effective Devs"
             }
           }
         ]
@@ -300,35 +398,39 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "f13dfe8bff0f4a5d",
+  "active": "cd092f35ca1014d3",
   "lastOpenFiles": [
-    "tools/cpp tools/perf.md",
-    "tools/git tricks/git tricks.md.orig",
-    "tools/git tricks/git tricks_REMOTE_17409.md",
-    "tools/git tricks/git tricks_LOCAL_17409.md",
-    "tools/git tricks/git tricks_BASE_17409.md",
-    "tools/git tricks/git tricks_BACKUP_17409.md",
-    "Talks/Ben Saks - What Volatile Means.md",
+    "tools/bash/find.md",
+    "tools/git tricks/gitignore.io.md",
+    "tools/git tricks/github actions - use custom xcode version on mac runner.md",
+    "tools/git tricks/github actions - CI access to private repos.md",
+    "tools/git tricks/github - repo size badge.md",
     "tools/git tricks/git tricks.md",
-    "tools/Obsidian/Vault Stats.md",
-    "tools/cpp tools/Branchless Programming.md",
-    "tools/cpp tools/C++ 17 Allocators.md",
-    "tools/cpp tools/vcperf.md",
-    "tools/Vim.md",
-    "Talks/Design Patterns in modern cpp/0 - Design Patterns Intro.md",
-    "Talks/Jeff Garland - Cpp26 Preview.md",
-    "tools/firefox/Search Highlight All.md",
-    "tools/firefox/firefox.md",
-    "tools/audio/Audio Plugin Advent Calendar 2024.md",
-    "tools/audio",
-    "7 Habits of highly effective people.md",
-    "Books/Andrew Huang - Make Your Own Rules/01 - Foundations/01 - Chapter 3 and 4.md",
-    "Conferences/2024 SoCraTes Soltau/2024-08-22 SoCraTes Germany Training Day/Untangle Your Test Code.md",
+    "tools/git tricks/git rename branch.md",
+    "tools/git tricks/git command line tricks.md",
+    "tools/git tricks/git bisect.md",
+    "tools/git tricks/Force git to use ssh instead of https.md",
+    "tools/Combine images on the commandline.md",
+    "tools/gobuster.md",
+    "tools/Google docs - Markdown export.md",
     "tools/MySQL.md",
-    "Exercises/Hacking/Hack The Box/Hack The Box - Dancing.md",
-    "Conferences/2021 SoCraTes Day Franken/Wissensverwaltung.md",
-    "Conferences/2023 SenecaCamp/Habits of highly effective Devs.md",
-    "DeMorgan's Law.md",
+    "tools/nmap.md",
+    "tools/NoMachine.md",
+    "tools/OpenGL Debugging.md",
+    "tools/pluginval.md",
+    "tools/Redis.md",
+    "tools/SMB.md",
+    "tools/SQL.md",
+    "tools/Structure-Behavior Model.md",
+    "tools/tools.md",
+    "tools/Vim.md",
+    "tools/VNC.md",
+    "Conferences/2024 SoCraTes Soltau/2024-08-25 SoCraTes Germany Workshop Day/One Hour Game Jam (airplane).md",
+    "assets/tools/Testing/Apple Password and ID shenanigans",
+    "assets/tools/Testing",
+    "tools/GameDev",
+    "tools/git tricks/git tricks.md.orig",
+    "tools/audio",
     "Presentations/2024-11-05_ApprovalTests/loop_of_doom_2.png",
     "Presentations/2024-11-05_ApprovalTests/loop_of_doom_1.png",
     "Presentations/2024-11-05_ApprovalTests/golden_master.png",
@@ -336,13 +438,10 @@
     "Presentations/2024-11-05_ApprovalTests/approvals_new_test_workflow.png",
     "Presentations/2024-11-05_ApprovalTests",
     "assets/tools/Apple Password and ID shenanigans",
-    "assets/tools/Apple Password and ID shenanigans/IMG-2024-09-13-214923459.png",
+    "assets/tools/Testing/Apple Password and ID shenanigans/IMG-2025-01-27-081903332.png",
     "assets/tools/Apple Codesign",
     "assets/tools/VNC",
     "assets/tools/MySQL",
-    "assets/Exercises/Hacking/Hack The Box/Hack The Box - Sequel",
-    "assets/Exercises/Hacking/Hack The Box/Hack The Box - Appointment",
-    "assets/Exercises/Hacking/Hack The Box/Hack The Box",
     "assets/Exercises/Hacking/Hack The Box/Hack The Box - Appointment/IMG-2024-09-01-070110624.png",
     "assets/tools/Hacking/Hack The Box - Dancing/IMG-2024-08-27-145632535.png",
     "export/2024-08-21 Github Actions/assets/Presentations/2024-08-21_GithubActions_SoCraTes/2024-08-21 Github Actions/IMG-2024-08-23-070612598.png",
