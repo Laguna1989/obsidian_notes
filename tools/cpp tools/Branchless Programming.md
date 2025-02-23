@@ -3,6 +3,7 @@ tags:
   - tool
   - cpp
   - performance
+  - branchless
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bVJ-mWWL7cE?si=77_olZl7_V9rRtOb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

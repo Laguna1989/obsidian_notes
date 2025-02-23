@@ -25,3 +25,15 @@ tags:
 - Wait until tests complete
 - Click `save log`
 - Open log file, scroll to bottom and check for `ALL TESTS PASSED`
+
+## CLI Verification
+
+call
+
+```bash
+--verbose --strictness-level 10 "<path_to_plugin>"
+```
+
+Optional cli arguments
+- `--skip-gui-tests` helpful for headless mode
+- `--timeout-ms` Set this to a high value when debugging to avoid timeouts
