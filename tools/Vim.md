@@ -2,6 +2,7 @@
 tags:
   - tool
   - vim
+  - command-line
 ---
 # Load Vim without Config
 

@@ -24475,7 +24475,7 @@ module.exports = __toCommonJS(main_exports);
 var import_obsidian4 = require("obsidian");
 
 // src/view/MainModal.ts
-var import_obsidian = require("obsidian");
+var import_obsidian3 = require("obsidian");
 
 // node_modules/echarts/node_modules/tslib/tslib.es6.js
 var extendStatics = function(d, b) {
@@ -99377,240 +99377,12 @@ var formatTimezone = function formatTimezone2(date) {
   return (String(date).match(timezone) || [""]).pop().replace(timezoneClip, "").replace(/GMT\+0000/g, "UTC");
 };
 
-// src/view/MainModal.ts
-var LineData = class {
-  constructor(category) {
-    this.series = {};
-    this.category = category;
-  }
-  addEntry(dayDate) {
-    let counter = this.series[dayDate.getTime()];
-    if (!counter)
-      counter = 0;
-    counter++;
-    this.series[dayDate.getTime()] = counter;
-    if (this.minDate == null || this.minDate > dayDate) {
-      this.minDate = new Date(dayDate);
-    }
-    if (this.maxDate == null || this.maxDate < dayDate) {
-      this.maxDate = new Date(dayDate);
-    }
-  }
-  getEntries() {
-    return this.series;
-  }
-  getCategory() {
-    return this.category;
-  }
-};
-var GraphData = class {
-  constructor(plugin) {
-    this.lines = [];
-    this.minDate = null;
-    this.maxDate = null;
-    this.plugin = plugin;
-  }
-  addEntry(category, dayDate) {
-    let normalizedDate = new Date(dayDate);
-    normalizedDate.setHours(12, 0, 0, 0);
-    let lineData = this.lines.find((ld) => ld.category == category);
-    if (!lineData) {
-      lineData = new LineData(category);
-      this.lines.push(lineData);
-    }
-    lineData.addEntry(normalizedDate);
-    if ([null, -1].contains(this.plugin.settings.startDateBasedOn) || this.plugin.settings.startDateBasedOn == category.id) {
-      if (this.minDate == null || this.minDate > normalizedDate) {
-        this.minDate = new Date(normalizedDate);
-      }
-    }
-    if (this.maxDate == null || this.maxDate < normalizedDate) {
-      this.maxDate = new Date(normalizedDate);
-    }
-  }
-  getLegendStrings() {
-    return this.lines.map((ld) => ld.getCategory().name);
-  }
-  __getDateRange() {
-    if (this.minDate == null)
-      this.minDate = this.lines[0].minDate;
-    if (this.maxDate == null)
-      this.maxDate = this.lines[0].maxDate;
-    let result = [];
-    for (let date = new Date(this.minDate); date <= this.maxDate; date.setDate(date.getDate() + 1)) {
-      result.push(new Date(date));
-    }
-    return result;
-  }
-  getXScaleItems() {
-    return this.__getDateRange().map((d) => dateFormat(d, this.plugin.settings.dateFormat));
-  }
-  getEChartSeries() {
-    let result = [];
-    const dateRange = this.__getDateRange();
-    for (let line of this.lines) {
-      let echartItem = {
-        data: [],
-        name: line.category.name,
-        type: "line"
-      };
-      let resultLineNumbers = [];
-      let lineSumm = 0;
-      let lineEntries = line.getEntries();
-      let lineTimestamps = Object.keys(lineEntries).map((key) => {
-        return parseInt(key);
-      }).sort();
-      for (let date of dateRange) {
-        const timestampCursor = date.getTime();
-        let earliestLineRecord = lineTimestamps[0];
-        while (timestampCursor >= earliestLineRecord) {
-          lineSumm += lineEntries[earliestLineRecord];
-          lineTimestamps.shift();
-          earliestLineRecord = lineTimestamps[0];
-        }
-        resultLineNumbers.push(lineSumm);
-      }
-      echartItem.data = resultLineNumbers;
-      result.push(echartItem);
-    }
-    return result;
-  }
-};
-var GraphModal = class extends import_obsidian.Modal {
-  constructor(app, plugin) {
-    super(app);
-    this.plugin = plugin;
-  }
-  checkPattern(patternSrc, filePath) {
-    const pattern = patternSrc.trim();
-    if (pattern.startsWith(":regex:")) {
-      try {
-        const regex = new RegExp(pattern.replace(":regex:", ""));
-        return regex.test(filePath);
-      } catch (e2) {
-        return false;
-      }
-    } else if (pattern.startsWith(":in:[") || pattern.startsWith(":not_in:[")) {
-      let include = pattern.startsWith(":in:[");
-      let namesStr = pattern.replace(":in:[", "").replace(":not_in:[", "");
-      if (pattern.endsWith("]")) {
-        namesStr = namesStr.substring(0, namesStr.length - 1);
-      }
-      const names = namesStr.split(":");
-      for (const name of names) {
-        if (filePath.startsWith(name)) {
-          return include;
-        }
-      }
-      return !include;
-    }
-    return filePath.startsWith(pattern);
-  }
-  async getGraphData() {
-    const { vault } = this.app;
-    const plugin = this.plugin;
-    const allFiles = vault.getFiles();
-    const categories = plugin.settings.categories;
-    let result = new GraphData(plugin);
-    for (const file of allFiles) {
-      const filePath = file.path;
-      let matchingCategories = [];
-      let matchFound = false;
-      const singleApplyCategories = categories.filter((c) => !c.alwaysApply);
-      const alwaysApplyCategories = categories.filter((c) => c.alwaysApply);
-      for (const category of singleApplyCategories) {
-        const pattern = category.pattern;
-        matchFound = this.checkPattern(pattern, filePath);
-        if (matchFound) {
-          matchingCategories.push(category);
-          break;
-        }
-      }
-      for (const category of alwaysApplyCategories) {
-        const pattern = category.pattern;
-        if (this.checkPattern(pattern, filePath)) {
-          matchingCategories.push(category);
-        }
-      }
-      if (matchingCategories) {
-        let fileCDate = new Date(file.stat.ctime);
-        for (const category of matchingCategories) {
-          result.addEntry(category, fileCDate);
-        }
-      }
-    }
-    return result;
-  }
-  async onOpen() {
-    let { contentEl, modalEl } = this;
-    modalEl.addClass("technerium-vshp-graph-modal");
-    let graphContainer = document.createElement("div");
-    graphContainer.classList.add("technerium-vshp-graph-container");
-    contentEl.append(graphContainer);
-    const backgroundColor2 = window.getComputedStyle(graphContainer, null).getPropertyValue("background-color");
-    const fontColor = window.getComputedStyle(graphContainer, null).getPropertyValue("color");
-    let myChart = init2(graphContainer);
-    const graphData = await this.getGraphData();
-    const legendItems = graphData.getLegendStrings();
-    const keys2 = graphData.getXScaleItems();
-    const graphSeries = graphData.getEChartSeries();
-    let option = {
-      title: {
-        text: "Vault size history",
-        textStyle: {
-          color: fontColor
-        }
-      },
-      textStyle: {
-        color: fontColor
-      },
-      tooltip: {
-        trigger: "axis"
-      },
-      legend: {
-        data: legendItems,
-        textStyle: {
-          color: fontColor
-        }
-      },
-      grid: {
-        left: "6%",
-        right: "4%",
-        bottom: "3%",
-        containLabel: false
-      },
-      xAxis: {
-        type: "category",
-        boundaryGap: false,
-        data: keys2
-      },
-      yAxis: {
-        type: "value",
-        splitLine: {
-          show: true,
-          lineStyle: {
-            type: "dashed",
-            opacity: 0.3
-          }
-        },
-        splitNumber: 10
-      },
-      series: graphSeries
-    };
-    myChart.setOption(option);
-  }
-  onClose() {
-    let { contentEl } = this;
-    contentEl.empty();
-  }
-};
-
 // src/view/Settings.ts
-var import_obsidian3 = require("obsidian");
+var import_obsidian2 = require("obsidian");
 var import_client = __toESM(require_client());
 
 // src/view/SettingsForm.tsx
-var import_obsidian2 = require("obsidian");
+var import_obsidian = require("obsidian");
 var import_react7 = __toESM(require_react());
 
 // node_modules/@dnd-kit/core/dist/core.esm.js
@@ -103731,6 +103503,7 @@ var SettingsForm = (props) => {
   const singleMatchListId = "single";
   const multiMatchListId = "multi";
   const [dateFormatStr, setDateFormatStr] = (0, import_react7.useState)(plugin.settings.dateFormat);
+  const [legendOrder, setLegendOrder] = (0, import_react7.useState)(plugin.settings.legendOrder);
   const [singleMatchCategories, setSingleMatchCategories] = (0, import_react7.useState)(plugin.settings.categories.filter((c) => !c.alwaysApply));
   const [multiMatchCategories, setMultiMatchCategories] = (0, import_react7.useState)(plugin.settings.categories.filter((c) => c.alwaysApply));
   const [startDateBasedOn, setStartDateBasedOn] = (0, import_react7.useState)(plugin.settings.startDateBasedOn);
@@ -103740,6 +103513,11 @@ var SettingsForm = (props) => {
     plugin.saveSettings().then(() => {
     });
   }, [dateFormatStr]);
+  (0, import_react7.useEffect)(() => {
+    plugin.settings.legendOrder = legendOrder;
+    plugin.saveSettings().then(() => {
+    });
+  }, [legendOrder]);
   (0, import_react7.useEffect)(() => {
     plugin.settings.startDateBasedOn = startDateBasedOn;
     plugin.saveSettings().then(() => {
@@ -103822,7 +103600,7 @@ var SettingsForm = (props) => {
   const generateReport = async () => {
     const { vault } = obsidianApp;
     const files = vault.getFiles();
-    new import_obsidian2.Notice("[Vault size history] Generating CSV report");
+    new import_obsidian.Notice("[Vault size history] Generating CSV report");
     let csvFile = obsidianApp.vault.getFileByPath(reportFilePath);
     if (csvFile == null) {
       csvFile = await obsidianApp.vault.create(reportFilePath, "");
@@ -103833,7 +103611,7 @@ var SettingsForm = (props) => {
       await obsidianApp.vault.append(csvFile, `"${file.path}", ${formattedDate}
 `);
     }
-    new import_obsidian2.Notice("[Vault size history] CSV report has been generated successfully");
+    new import_obsidian.Notice("[Vault size history] CSV report has been generated successfully");
   };
   return /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "technerium-vshp-settings-form", children: [
     /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "technerium-vshp-settings-setting", children: [
@@ -103851,6 +103629,16 @@ var SettingsForm = (props) => {
           onChange: (e2) => setDateFormatStr(e2.target.value)
         }
       ) })
+    ] }),
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "technerium-vshp-settings-setting", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "technerium-vshp-settings-setting-info", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "technerium-vshp-settings-setting-info-name", children: "Legend Sorting Order" }),
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "technerium-vshp-settings-setting-info-desc", children: "Control how line titles are displayed in the legend based on their chart values." })
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "technerium-vshp-settings-setting-control", children: /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("select", { defaultValue: legendOrder, onChange: (e2) => setLegendOrder(e2.target.value), children: [
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("option", { value: "ASCENDING_CHART_VALUE" /* ASCENDING_CHART_VALUE */, children: "Ascending Value" }, "ASCENDING_CHART_VALUE" /* ASCENDING_CHART_VALUE */),
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("option", { value: "DESCENDING_CHART_VALUE" /* DESCENDING_CHART_VALUE */, children: "Descending Value" }, "DESCENDING_CHART_VALUE" /* DESCENDING_CHART_VALUE */)
+      ] }) })
     ] }),
     /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "technerium-vshp-settings-setting-categories", children: /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "technerium-vshp-settings-setting-info", children: [
       /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "technerium-vshp-settings-setting-info-name", children: "Exclusive File Categories" }),
@@ -103887,7 +103675,19 @@ var SettingsForm = (props) => {
         listId: multiMatchListId
       }
     ),
-    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("br", {}),
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "technerium-vshp-settings-setting", children: /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "technerium-vshp-settings-setting-info", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "technerium-vshp-settings-setting-info-name", children: "\xA0" }),
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "technerium-vshp-settings-setting-info-desc", children: [
+        "Documentation and examples are available on our GitHub page: ",
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(
+          "a",
+          {
+            href: "https://github.com/technerium/obsidian-vault-size-history",
+            children: "Vault Size History for Obsidian"
+          }
+        )
+      ] })
+    ] }) }),
     /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "technerium-vshp-settings-setting", children: [
       /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "technerium-vshp-settings-setting-info", children: [
         /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "technerium-vshp-settings-setting-info-name", children: "Graph Start" }),
@@ -103937,6 +103737,7 @@ var createForm = (app, plugin) => {
 // src/view/Settings.ts
 var DEFAULT_SETTINGS = {
   dateFormat: "m/d/yy",
+  legendOrder: "ASCENDING_CHART_VALUE" /* ASCENDING_CHART_VALUE */,
   categories: [
     {
       id: 1,
@@ -103962,7 +103763,7 @@ var DEFAULT_SETTINGS = {
   ],
   startDateBasedOn: -1
 };
-var MainSettingTab = class extends import_obsidian3.PluginSettingTab {
+var MainSettingTab = class extends import_obsidian2.PluginSettingTab {
   constructor(app, plugin) {
     super(app, plugin);
     this.plugin = plugin;
@@ -103980,6 +103781,247 @@ var MainSettingTab = class extends import_obsidian3.PluginSettingTab {
     }
     this.reactRoot = null;
     return super.hide();
+  }
+};
+
+// src/view/MainModal.ts
+var LineData = class {
+  constructor(category) {
+    this.series = {};
+    this.category = category;
+    this.cumulativeTotal = 0;
+  }
+  addEntry(dayDate) {
+    let counter = this.series[dayDate.getTime()];
+    if (!counter)
+      counter = 0;
+    counter++;
+    this.series[dayDate.getTime()] = counter;
+    this.cumulativeTotal++;
+    if (this.minDate == null || this.minDate > dayDate) {
+      this.minDate = new Date(dayDate);
+    }
+    if (this.maxDate == null || this.maxDate < dayDate) {
+      this.maxDate = new Date(dayDate);
+    }
+  }
+  getEntries() {
+    return this.series;
+  }
+  getCategory() {
+    return this.category;
+  }
+};
+var GraphData = class {
+  constructor(plugin) {
+    this.lines = [];
+    this.minDate = null;
+    this.maxDate = null;
+    this.plugin = plugin;
+  }
+  orderLines() {
+    this.lines.sort((a, b) => {
+      const factor = this.plugin.settings.legendOrder == "ASCENDING_CHART_VALUE" /* ASCENDING_CHART_VALUE */ ? 1 : -1;
+      return (a.cumulativeTotal - b.cumulativeTotal) * factor;
+    });
+  }
+  addEntry(category, dayDate) {
+    let normalizedDate = new Date(dayDate);
+    normalizedDate.setHours(12, 0, 0, 0);
+    let lineData = this.lines.find((ld) => ld.category == category);
+    if (!lineData) {
+      lineData = new LineData(category);
+      this.lines.push(lineData);
+    }
+    lineData.addEntry(normalizedDate);
+    if ([null, -1].contains(this.plugin.settings.startDateBasedOn) || this.plugin.settings.startDateBasedOn == category.id) {
+      if (this.minDate == null || this.minDate > normalizedDate) {
+        this.minDate = new Date(normalizedDate);
+      }
+    }
+    if (this.maxDate == null || this.maxDate < normalizedDate) {
+      this.maxDate = new Date(normalizedDate);
+    }
+  }
+  getLegendStrings() {
+    return this.lines.map((ld) => ld.getCategory().name);
+  }
+  __getDateRange() {
+    if (this.minDate == null)
+      this.minDate = this.lines[0].minDate;
+    if (this.maxDate == null)
+      this.maxDate = this.lines[0].maxDate;
+    let result = [];
+    for (let date = new Date(this.minDate); date <= this.maxDate; date.setDate(date.getDate() + 1)) {
+      result.push(new Date(date));
+    }
+    return result;
+  }
+  getXScaleItems() {
+    return this.__getDateRange().map((d) => dateFormat(d, this.plugin.settings.dateFormat));
+  }
+  getEChartSeries() {
+    let result = [];
+    const dateRange = this.__getDateRange();
+    for (let line of this.lines) {
+      let echartItem = {
+        data: [],
+        name: line.category.name,
+        type: "line"
+      };
+      let resultLineNumbers = [];
+      let lineSumm = 0;
+      let lineEntries = line.getEntries();
+      let lineTimestamps = Object.keys(lineEntries).map((key) => {
+        return parseInt(key);
+      }).sort();
+      for (let date of dateRange) {
+        const timestampCursor = date.getTime();
+        let earliestLineRecord = lineTimestamps[0];
+        while (timestampCursor >= earliestLineRecord) {
+          lineSumm += lineEntries[earliestLineRecord];
+          lineTimestamps.shift();
+          earliestLineRecord = lineTimestamps[0];
+        }
+        resultLineNumbers.push(lineSumm);
+      }
+      echartItem.data = resultLineNumbers;
+      result.push(echartItem);
+    }
+    return result;
+  }
+};
+var GraphModal = class extends import_obsidian3.Modal {
+  constructor(app, plugin) {
+    super(app);
+    this.plugin = plugin;
+  }
+  checkPattern(patternSrc, filePath) {
+    const pattern = patternSrc.trim();
+    if (pattern.startsWith(":regex:")) {
+      try {
+        const regex = new RegExp(pattern.replace(":regex:", ""));
+        return regex.test(filePath);
+      } catch (e2) {
+        return false;
+      }
+    } else if (pattern.startsWith(":in:[") || pattern.startsWith(":not_in:[")) {
+      let include = pattern.startsWith(":in:[");
+      let namesStr = pattern.replace(":in:[", "").replace(":not_in:[", "");
+      if (pattern.endsWith("]")) {
+        namesStr = namesStr.substring(0, namesStr.length - 1);
+      }
+      const names = namesStr.split(":");
+      for (const name of names) {
+        if (filePath.startsWith(name)) {
+          return include;
+        }
+      }
+      return !include;
+    }
+    return filePath.startsWith(pattern);
+  }
+  async getGraphData() {
+    const { vault } = this.app;
+    const plugin = this.plugin;
+    const allFiles = vault.getFiles();
+    const categories = plugin.settings.categories;
+    let result = new GraphData(plugin);
+    for (const file of allFiles) {
+      const filePath = file.path;
+      let matchingCategories = [];
+      let matchFound = false;
+      const singleApplyCategories = categories.filter((c) => !c.alwaysApply);
+      const alwaysApplyCategories = categories.filter((c) => c.alwaysApply);
+      for (const category of singleApplyCategories) {
+        const pattern = category.pattern;
+        matchFound = this.checkPattern(pattern, filePath);
+        if (matchFound) {
+          matchingCategories.push(category);
+          break;
+        }
+      }
+      for (const category of alwaysApplyCategories) {
+        const pattern = category.pattern;
+        if (this.checkPattern(pattern, filePath)) {
+          matchingCategories.push(category);
+        }
+      }
+      if (matchingCategories) {
+        let fileCDate = new Date(file.stat.ctime);
+        for (const category of matchingCategories) {
+          result.addEntry(category, fileCDate);
+        }
+      }
+    }
+    result.orderLines();
+    return result;
+  }
+  async onOpen() {
+    let { titleEl, contentEl, modalEl } = this;
+    modalEl.addClass("technerium-vshp-graph-modal");
+    let graphContainer = document.createElement("div");
+    graphContainer.classList.add("technerium-vshp-graph-container");
+    contentEl.append(graphContainer);
+    titleEl.append("Vault size history");
+    const backgroundColor2 = window.getComputedStyle(graphContainer, null).getPropertyValue("background-color");
+    const fontColor = window.getComputedStyle(graphContainer, null).getPropertyValue("color");
+    let myChart = init2(graphContainer);
+    const graphData = await this.getGraphData();
+    const legendItems = graphData.getLegendStrings();
+    const keys2 = graphData.getXScaleItems();
+    const graphSeries = graphData.getEChartSeries();
+    let option = {
+      // title: {
+      // 	text: 'Vault size history 11',
+      // 	textStyle: {
+      // 		color: fontColor,
+      // 	}
+      // },
+      textStyle: {
+        color: fontColor
+      },
+      tooltip: {
+        trigger: "axis"
+      },
+      legend: {
+        data: legendItems,
+        textStyle: {
+          color: fontColor
+        }
+      },
+      grid: {
+        left: "10px",
+        right: "10px",
+        bottom: "10px",
+        containLabel: true
+      },
+      xAxis: {
+        type: "category",
+        boundaryGap: false,
+        data: keys2
+      },
+      yAxis: {
+        type: "value",
+        splitLine: {
+          show: true,
+          lineStyle: {
+            type: "dashed",
+            opacity: 0.3
+          }
+        },
+        splitNumber: 10,
+        axisLabel: {
+          align: "right"
+        }
+      },
+      series: graphSeries
+    };
+    myChart.setOption(option);
+  }
+  onClose() {
+    let { contentEl } = this;
+    contentEl.empty();
   }
 };
 

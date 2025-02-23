@@ -18,6 +18,7 @@ SORT created DESC
 - [[Dangerous Optimizations]]
 - **[[Design Patterns in modern cpp]]**
 - [[Drawing Level meter with JUCE]]
+- [[Jeff Garland - Cpp26 Preview]]
 - [[Johnathan Gopel - Remove virtual]]
 - [[Johny Swalb - The true price of virtual functions in c++]]
 - [[Julian Treasure - 5 Ways to listen better]]

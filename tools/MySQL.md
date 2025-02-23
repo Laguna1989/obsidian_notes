@@ -1,6 +1,8 @@
 ---
 tags:
   - tool
+  - network
+  - command-line
 ---
 # Installation
 

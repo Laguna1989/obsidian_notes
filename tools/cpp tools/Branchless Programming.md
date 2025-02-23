@@ -5,8 +5,16 @@ tags:
   - performance
   - branchless
 ---
+# Sources
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bVJ-mWWL7cE?si=77_olZl7_V9rRtOb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/g-WPhYREFjk?si=bUEreGj_zxuAufCB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+# Analysis Tool
+
+- [[perf]] via `perf stat ./performancetest`
+- e.g. on a [[Google Benchmark]]
 
 # What is a Branch
 

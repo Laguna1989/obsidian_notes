@@ -1,6 +1,7 @@
 ---
 tags:
   - tool
+  - command-line
 ---
 # Make Find Print the Absolute Path
 

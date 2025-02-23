@@ -2,6 +2,7 @@
 tags:
   - tool
   - git
+  - command-line
 ---
 
 > [!info] Performs bisection between good and bad commits to find the commit that caused an issue

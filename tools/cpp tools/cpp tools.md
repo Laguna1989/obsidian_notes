@@ -13,7 +13,9 @@ tags:
 - **[[cpp template trickery]]**
 - [[cpp tools]]
 - [[cppcheck]]
+- [[Jetbrains CLion]]
 - [[mutate_cpp]]
+- [[perf]]
 - [[pmccabe]]
 - [[SEQLock]]
 - [[Tracy]]

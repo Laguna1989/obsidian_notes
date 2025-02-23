@@ -2,6 +2,7 @@
 tags:
   - tool
   - git
+  - command-line
 ---
 # Git Stash --all
 

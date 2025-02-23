@@ -1,7 +1,7 @@
 ---
 tags:
   - tool
-links:
+  - command-line
 ---
 
 ```bash
