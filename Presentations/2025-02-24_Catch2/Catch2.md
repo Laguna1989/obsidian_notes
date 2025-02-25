@@ -16,10 +16,6 @@ tags:
 
 ---
 
-# Expectations for Tests?
-
----
-
 # Overview of Catch2
 
 - Modern c++14 testing framework
@@ -28,11 +24,11 @@ tags:
 
 ---
 
-# A Simple Example
+# A First Example
 
 ---
 
-# A Simple Example
+# A First Example
 
 ```cpp
 #include <catch2/catch_test_macros.hpp>
@@ -93,13 +89,53 @@ CATCH_REQUIRE_THAT(1.0, WithinRel(1.01, 0.1);
 ## Strings
 
 ```cpp
-CATCH_REQUIRE_THAT(some_string, EndsWith("abc") && ContainsSubstring("def"));
+CATCH_REQUIRE_THAT(some_string, ContainsSubstring("bcde"));
 ```
+
+```cpp
+CATCH_REQUIRE_THAT(some_string, StartsWith("abc") && EndsWith("def"));
+```
+
+- Optional argument for case sensitivity
+
+---
+
+# Test Matchers
 
 ## Vectors
 
 ```cpp
+CATCH_REQUIRE_THAT(some_vec, VectorContains(1337));
+```
+
+```cpp
+CATCH_REQUIRE_THAT(some_vec, Contains(std::vector<int>{42, 43}));
+```
+
+```cpp
 CATCH_REQUIRE_THAT(some_vec, UnorderedEquals(std::vector<int>{ 3, 2, 1 }));
+```
+
+---
+
+# Test Matchers
+
+## Exceptions
+
+```cpp
+CATCH_REQUIRE_NOTHROW(foo());
+```
+
+```cpp
+CATCH_REQUIRE_THROWS(bar());
+```
+
+```cpp
+CATCH_REQUIRE_THROWS_AS(baz(), std::logic_error);
+```
+
+```cpp
+REQUIRE_THROWS_MATCHES(quz(), std::logic_error, Message("expected message"));
 ```
 
 ---
@@ -273,7 +309,22 @@ TEMPLATE_PRODUCT_TEST_CASE("Type products", "[product]",
 
 ---
 
-# Command line
+# Command Line
+
+## Test Code
+
+```cpp
+TEST_CASE("Test 1") {}
+TEST_CASE("Test 2", "[tick]") {}
+TEST_CASE("Test 3", "[tock]") {}
+TEST_CASE("Test 4", "[tick][tock]") {}
+```
+
+---
+
+# Command Line
+
+## CLI Quiz
 
 ```bash
 ./test "Test 1"
@@ -285,6 +336,46 @@ TEMPLATE_PRODUCT_TEST_CASE("Type products", "[product]",
 ./test "Test 1",[tick]
 ./test [tick][tock]
 ```
+
+---
+
+# Command Line
+
+## Quiz Solution
+
+```bash
+./test "Test 1"           // 1
+./test "Test *"           // 1, 2, 3, 4
+./test ~"Test 2"          // 1, 3, 4
+./test [tick]             // 2, 4
+./test ~[tock]            // 1, 2
+
+./test "Test 1",[tick]    // 1, 2, 4
+./test [tick][tock]       // 4
+```
+
+---
+
+# More CLI
+
+- `-s` show results for successful tests (default: off)
+- `-v <quiet|normal|high>` set verbosity
+- `--order <decl|lex|rand>` order of test execution
+
+---
+
+# Even More CLI
+
+- `-c <secion_name>` only run specific secions
+- `--list-tests` and `--list-tags`
+- `-#` use filenames as additional tags
+
+---
+
+# The Most CLI
+
+- `-d yes` show timing for all tests
+- `-D <min_seconds>` show all tests that took longer than
 
 ---
 
@@ -341,6 +432,20 @@ TEST_CASE("Fibonacci") {
 # Integrating Catch2 with GTest
 
 - Use `CATCH_CONFIG_PREFIX_ALL` define, prefixes all Catch2 macros with `CATCH_...`
-- Introduce `TestWrapperWithMain` lib, that provides a custom main
-	- Run both GTest and Catch2 tests
-- Catch2 reports no tests a failure: silently accept that return value as a successful run
+- Introduce `TestWrapperWithMain` lib
+	- Custom main runs both gtest and Catch2
+- Catch2 reporting "no tests" a failure:
+	- silently accept that return value as a successful run
+
+---
+
+# Integrating Catch2 with GTest
+
+- Write Catch2 code in parallel to gtest code
+- Test executable runs all tests
+
+IDE Integration
+- `ctest` runs as expected
+- If an IDE picks one specific test framework:
+	- only tests from that framework visible
+	- still all tests executed
