@@ -4,6 +4,7 @@ tags:
   - git
   - command-line
 ---
+
 # Git Stash --all
 
 - `git stash` ignores ignored and untracked files, use `git stash --all` to include those.
@@ -87,3 +88,9 @@ git rebase -i HEAD~2
 - In the editor, change `pick` to `reword`. Do not yet change the commit message
 - After saving and closing the editor, a new editor will open, once for each commit to be changed
 - Type the new committ messages here
+
+# Show Unpushed Commits
+
+```bash
+git log --branches --not --remotes
+```
