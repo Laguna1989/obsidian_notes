@@ -3,6 +3,7 @@ tags:
   - conference
   - SoCraTes-2024
 ---
+
 # Intro
 
 - We read code more than we write it
@@ -30,7 +31,7 @@ Take one minute to read the code and write down the one thing that strikes most
 
 # Exercise 2
 
-Mark variables, classes and functions and build a "dependecy graph" where they are used
+Mark variables, classes and functions and build a "dependency graph" where they are used
 
 Findings:
 - It is hard to distinguish what a variable or a method call is
@@ -97,5 +98,3 @@ Summarize what the code does
 - cucumber jvm
 - natural language to bdd transpiler
 - Generator for I18N
-
-27.1.2023
