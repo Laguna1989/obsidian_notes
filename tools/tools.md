@@ -8,7 +8,6 @@ tags:
 - **[[ai trickery]]**
 - **audio**
 	- [[Audio Plugin Advent Calendar 2024]]
-	- [[Plugin Debugging in Reaper]]
 - **bash**
 	- [[find]]
 - [[Combine images on the commandline]]
@@ -26,7 +25,6 @@ tags:
 - [[NoMachine]]
 - **[[Obsidian]]**
 - [[OpenGL Debugging]]
-- [[Performance Monitor - Perfmon]]
 - [[pluginval]]
 - [[Redis]]
 - [[SMB]]
