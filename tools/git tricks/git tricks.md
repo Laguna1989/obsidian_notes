@@ -8,8 +8,11 @@ tags:
 %% Begin Waypoint %%
 - [[Force git to use ssh instead of https]]
 - [[git bisect]]
+- [[git blame tricks]]
 - [[git command line tricks]]
 - [[git rename branch]]
+- [[git show unpushed branches]]
+- [[git stash all files]]
 - [[git tricks]]
 - [[github - repo size badge]]
 - [[github actions - CI access to private repos]]

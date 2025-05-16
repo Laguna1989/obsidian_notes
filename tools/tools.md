@@ -4,10 +4,18 @@ tags:
 ---
 
 %% Begin Waypoint %%
-- **[[Agile]]**
+- **agile**
+	- [[Agile Printicples]]
+	- [[Agile Values]]
+	- [[Agile]]
+	- [[Gamestorming]]
+	- [[Retrospectives]]
+	- [[Triangle Game]]
 - **[[ai trickery]]**
 - **audio**
 	- [[Audio Plugin Advent Calendar 2024]]
+	- [[Audio Plugin Advent Calendar 2025]]
+	- [[Plugin Debugging in Reaper]]
 - **bash**
 	- [[find]]
 - [[Combine images on the commandline]]
@@ -20,17 +28,28 @@ tags:
 - **[[git tricks]]**
 - [[gobuster]]
 - [[Google docs - Markdown export]]
+- [[gruenderplattform_rechnungstool]]
 - [[MySQL]]
 - [[nmap]]
 - [[NoMachine]]
 - **[[Obsidian]]**
 - [[OpenGL Debugging]]
+- [[Performance Monitor - Perfmon]]
 - [[pluginval]]
 - [[Redis]]
 - [[SMB]]
 - [[SQL]]
 - [[Structure-Behavior Model]]
-- **[[Testing]]**
+- **testing**
+	- [[Apple Password and ID shenanigans]]
+	- [[ApprovalTests]]
+	- [[ATDD]]
+	- [[Catch2 v3]]
+	- [[Fake it til you make it]]
+	- [[Property Based Testing]]
+	- [[TDD]]
+	- [[Testing]]
+	- [[Triangulation]]
 - [[tools]]
 - [[Vim]]
 - [[VNC]]

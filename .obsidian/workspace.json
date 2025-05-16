@@ -153,16 +153,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Conferences/2023 SenecaCamp/Habits of highly effective Devs.md",
+                "file": "Talks/Jeff Garland - Cpp26 Preview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Habits of highly effective Devs"
+              "title": "Jeff Garland - Cpp26 Preview"
+            }
+          },
+          {
+            "id": "e50166912d4fe561",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tools/git tricks/git command line tricks.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "git command line tricks"
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -181,7 +195,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -193,7 +208,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "color",
+                "query": "audio",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -245,7 +260,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Conferences/2023 SenecaCamp/Habits of highly effective Devs.md",
+                "file": "tools/git tricks/git command line tricks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -255,7 +270,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Habits of highly effective Devs"
+              "title": "Backlinks for git command line tricks"
             }
           },
           {
@@ -324,7 +339,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Conferences/2023 SenecaCamp/Habits of highly effective Devs.md",
+                "file": "tools/git tricks/git command line tricks.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -352,7 +367,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Habits of highly effective Devs"
+              "title": "Graph of git command line tricks"
             }
           }
         ]
@@ -368,10 +383,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Conferences/2023 SenecaCamp/Habits of highly effective Devs.md"
+                "file": "tools/git tricks/git command line tricks.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Habits of highly effective Devs"
+              "title": "File properties for git command line tricks"
             }
           }
         ]
@@ -393,55 +408,54 @@
       "recipe-view:Toggle recipe view": false,
       "custom-sort:Toggle custom sorting": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
-      "3d-graph-new:Global 3D Graph": false,
       "vault-size-history:Vault size history": false,
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "cd092f35ca1014d3",
+  "active": "e50166912d4fe561",
   "lastOpenFiles": [
-    "tools/bash/find.md",
-    "tools/git tricks/gitignore.io.md",
-    "tools/git tricks/github actions - use custom xcode version on mac runner.md",
-    "tools/git tricks/github actions - CI access to private repos.md",
-    "tools/git tricks/github - repo size badge.md",
-    "tools/git tricks/git tricks.md",
-    "tools/git tricks/git rename branch.md",
-    "tools/git tricks/git command line tricks.md",
-    "tools/git tricks/git bisect.md",
+    "Conferences/2025 KreativGarage/Participants.md",
+    "Talks/2025-03-27_DigitalBonusBayern.md",
+    "tools/audio/Audio Plugin Advent Calendar 2024.md",
+    "Conferences/2025 KreativGarage",
+    "tools/audio/Audio Plugin Advent Calendar 2025.md",
+    "tools/gruenderplattform_rechnungstool.md",
+    "Gaming/2025-03-23_new_gaming_setup.md",
     "tools/git tricks/Force git to use ssh instead of https.md",
-    "tools/Combine images on the commandline.md",
-    "tools/gobuster.md",
-    "tools/Google docs - Markdown export.md",
-    "tools/MySQL.md",
-    "tools/nmap.md",
-    "tools/NoMachine.md",
-    "tools/OpenGL Debugging.md",
-    "tools/pluginval.md",
-    "tools/Redis.md",
-    "tools/SMB.md",
-    "tools/SQL.md",
-    "tools/Structure-Behavior Model.md",
-    "tools/tools.md",
-    "tools/Vim.md",
-    "tools/VNC.md",
-    "Conferences/2024 SoCraTes Soltau/2024-08-25 SoCraTes Germany Workshop Day/One Hour Game Jam (airplane).md",
-    "assets/tools/Testing/Apple Password and ID shenanigans",
-    "assets/tools/Testing",
-    "tools/GameDev",
-    "tools/git tricks/git tricks.md.orig",
-    "tools/audio",
+    "assets/Learnings/books/Marc Loeffler - Improving Agile Retrospectives/06 - Systemic Retrospectives",
+    "assets/Learnings/books/Derby - Agile Retrospectives/06 - Activities to Generate Insights",
+    "assets/Learnings/books/Marc Loeffler - Improving Agile Retrospectives",
+    "assets/Learnings/books/Tynan Sylvester - Designing Games",
+    "assets/Learnings/books/Skelton, Pais - Team Topologies",
+    "assets/Learnings/books/Gene Kim - The DevOps Handbook",
+    "assets/Learnings/books/Derby - Agile Retrospectives",
+    "assets/Learnings/books/Sylvester - Designing Games",
+    "tools/testing/Apple Password and ID shenanigans.md",
+    "tools/testing/Catch2 v3.md",
+    "tools/testing/TDD.md",
+    "tools/testing/ApprovalTests.md",
+    "tools/testing/Property Based Testing.md",
+    "tools/testing/Fake it til you make it.md",
+    "tools/testing/ATDD.md",
+    "tools/testing/Testing.md",
+    "tools/testing/Triangulation.md",
+    "tools/testing",
+    "tools/agile/Agile Printicples.md",
+    "tools/agile/Triangle Game.md",
+    "tools/agile/Retrospectives.md",
+    "tools/agile/Agile Values.md",
+    "tools/agile/Gamestorming.md",
+    "tools/agile/Agile.md",
+    "tools/git tricks/github actions - CI access to private repos.md",
+    "tools/git tricks/git command line tricks.md",
+    "tools/git tricks/gitignore.io.md",
+    "tools/git tricks/git show unpushed branches.md",
     "Presentations/2024-11-05_ApprovalTests/loop_of_doom_2.png",
     "Presentations/2024-11-05_ApprovalTests/loop_of_doom_1.png",
     "Presentations/2024-11-05_ApprovalTests/golden_master.png",
     "Presentations/2024-11-05_ApprovalTests/approvals_workflow.png",
     "Presentations/2024-11-05_ApprovalTests/approvals_new_test_workflow.png",
-    "Presentations/2024-11-05_ApprovalTests",
-    "assets/tools/Apple Password and ID shenanigans",
     "assets/tools/Testing/Apple Password and ID shenanigans/IMG-2025-01-27-081903332.png",
-    "assets/tools/Apple Codesign",
-    "assets/tools/VNC",
-    "assets/tools/MySQL",
     "assets/Exercises/Hacking/Hack The Box/Hack The Box - Appointment/IMG-2024-09-01-070110624.png",
     "assets/tools/Hacking/Hack The Box - Dancing/IMG-2024-08-27-145632535.png",
     "export/2024-08-21 Github Actions/assets/Presentations/2024-08-21_GithubActions_SoCraTes/2024-08-21 Github Actions/IMG-2024-08-23-070612598.png",
