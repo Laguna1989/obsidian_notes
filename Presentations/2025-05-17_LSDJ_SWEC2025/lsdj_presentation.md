@@ -44,78 +44,90 @@ tags:
   - music
 ---
 
-<!-- 
+<!--
 Build with:
 marp lsdj_presentation.md --pdf --allow-local-files
 -->
 
 # Little Sound DJ (LSDJ)
-## Music Creation on Game Boy
 
-2025-05-17 | SWEC 2025
+## Chiptune on Game Boy
 
-**Simon Weis** 
+2025-05-18 | SWEC 2025
 
----
-
-# What is LSDJ?
-
-- Music tracker software for the Nintendo Game Boy
-- Created by Johan Kotlinski (aka [johan.kotlinski](https://www.littlesounddj.com/))
-- Turns the Game Boy into a powerful music production tool
+**Simon Weis**
 
 ---
 
-# Key Features
-
-- 4-channel tracker interface
-- Sample-based synthesis
-- Pattern-based sequencing
-- Real-time performance controls
-- Save songs to cartridge
-
----
-
-# LSDJ Interface
-
-```
-[PATTERN EDITOR]  [INSTRUMENT EDITOR]
-
-  C-4 01 .. .. 80    WAVE
-  ... .. .. .. ..     
-  ... .. .. .. ..     ENV
-  ... .. .. .. ..     LEN  
-  ... .. .. .. ..     
-```
-
----
-
-# Workflow
-
-1. Create instruments (WAV, SYN, KIT)
-2. Sequence patterns (16 steps per pattern)
-3. Chain patterns into songs
-4. Use phrases for variations
-5. Perform live with keyboard mode
+![](gameboy_music.png)
 
 ---
 
 # Why Game Boy?
 
 - Limited hardware → creative constraints
-- Unique 8-bit sound chip (LR35902)
+- Unique 4-bit sound
 - Portable music studio
 - Nostalgic appeal
 - Active chiptune community
 
 ---
 
-# Getting Started
+![](chip_layout.png)
 
-1. Get a Game Boy + Flash Cart
-2. Download LSDJ ROM
-3. Transfer to flash cart
-4. Start making music!
+---
+
+# Game Boy Audio System
+
+![](apu_channels.png)
+
+---
+
+# Four Channels (monophonic)
+
+- Pulse-based channel with sweep function
+- Pulse-based channel without sweep
+- Wave based channel
+- Noise channel
+
+---
+
+# The APU
+
+- Clocked by the master clock (runs faster on SGB1)
+- 4 Bit Volume register and DAC
+- Internally uses Durations instead of Frequencies
+
+---
+
+![](apu_flow.png)
+
+---
+
+```
+Step   Length Ctr  Vol Env     Sweep
+---------------------------------------
+0      Clock       -           -
+1      -           -           -
+2      Clock       -           Clock
+3      -           -           -
+4      Clock       -           -
+5      -           -           -
+6      Clock       -           Clock
+7      -           Clock       -
+---------------------------------------
+Rate   256 Hz      64 Hz       128 Hz
+```
+
+---
+
+# LSDJ
+
+![](lsdj.png)
+
+---
+
+# Demo
 
 ---
 
@@ -125,11 +137,9 @@ marp lsdj_presentation.md --pdf --allow-local-files
 - [LSDJ Wiki](https://littlesounddj.fandom.com/)
 - [Kits (Samples)](https://github.com/psgcabal/lsdj-kits)
 - [Community Forum](https://www.littlesounddj.com/forum/)
+- [gbdev.io](https://gbdev.io/pandocs/Audio.html)
 
 ---
 
 # Thank You!
-
-- Questions?
-- Let's make some chiptunes!
-- @your_handle
+k
