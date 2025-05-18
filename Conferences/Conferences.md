@@ -13,6 +13,7 @@ tags:
 - **[[2024 SWEC]]**
 - **2025 KreativGarage**
 	- [[Participants]]
+- **[[2025 SWEC]]**
 - [[Conferences]]
 
 %% End Waypoint %%

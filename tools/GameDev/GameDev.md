@@ -1,3 +1,9 @@
+---
+tags:
+  - MOC
+  - gamedev
+---
+
 %% Begin Waypoint %%
 - [[GameDev]]
 - [[GameJam Listings]]
