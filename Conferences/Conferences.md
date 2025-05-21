@@ -11,6 +11,9 @@ tags:
 - **[[2024 SoCraTes Day Franken]]**
 - **[[2024 SoCraTes Soltau]]**
 - **[[2024 SWEC]]**
+- **2025 KreativGarage**
+	- [[Participants]]
+- **[[2025 SWEC]]**
 - [[Conferences]]
 
 %% End Waypoint %%

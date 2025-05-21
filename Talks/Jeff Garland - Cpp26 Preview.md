@@ -1,3 +1,8 @@
+---
+tags:
+  - Talk
+---
+
 - C++26 will ship on time in 2026
 	- Train Model (if a feature is ready, it will be shipped with the release)
 	- There is a good understanding of what will be in c++26

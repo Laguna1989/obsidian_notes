@@ -4,9 +4,9 @@ tags:
   - SWEC-2024
 ---
 
-aus afl++ entstanden
+Aus afl++ entstanden
 - #Rust library
-- Korpus(testcase), target und objectives
+- Korpus (testcase), target und objectives
 - comile guided anleitung für fuzzer
 - creates coverage und metriken
 - Feedback loop der test cases anhand von objectives in fehler und warnings sortiert

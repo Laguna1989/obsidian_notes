@@ -1,0 +1,4 @@
+- https://www.mindfactory.de/product_info.php/AMD-Ryzen-9-9950X-16x-4-30GHz-So-AM5-TRAY_1576892.html
+- https://www.mindfactory.de/product_info.php/MSI-Gaming-Plus-WIFI-AMD-X870-So-AM5-DDR5-ATX-Retail_1604437.html
+- https://www.mindfactory.de/product_info.php/64GB-Corsair-Vengeance-schwarz-DDR5-6400-DIMM-CL32-Dual-Kit_1483020.html
+- https://www.mindfactory.de/product_info.php/be-quiet--Dark-Rock-5-Tower-Kuehler_1539308.html

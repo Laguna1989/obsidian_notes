@@ -36,133 +36,48 @@
             }
           },
           {
-            "id": "0a17dbb592304464",
+            "id": "cf3285326a7c8ed7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/cpp tools/Branchless Programming.md",
+                "file": "Conferences/2025 SWEC/Developing your Senior Developers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Branchless Programming"
+              "title": "Developing your Senior Developers"
             }
           },
           {
-            "id": "098f10ab3dafd986",
+            "id": "33df92ce1ffc8879",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/cpp tools/perf.md",
+                "file": "Talks/Jeff Garland - Cpp26 Preview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "perf"
+              "title": "Jeff Garland - Cpp26 Preview"
             }
           },
           {
-            "id": "f5c47f7ded7c5a8e",
+            "id": "35c1d7165c8e63dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/git tricks/git tricks.md",
+                "file": "Conferences/2025 KreativGarage/Participants.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "git tricks"
-            }
-          },
-          {
-            "id": "3a0764b8b4b46bf5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tools/git tricks/git tricks.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "git tricks"
-            }
-          },
-          {
-            "id": "3f62dab1057558e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tools/tools.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "tools"
-            }
-          },
-          {
-            "id": "381ca79f05874881",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tools/OpenGL Debugging.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "OpenGL Debugging"
-            }
-          },
-          {
-            "id": "7694080f2ebb5ef7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Conferences/2024 SoCraTes Soltau/2024-08-25 SoCraTes Germany Workshop Day/One Hour Game Jam (airplane).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "One Hour Game Jam (airplane)"
-            }
-          },
-          {
-            "id": "b0edaa4054f01ac8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tools/bash/find.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "find"
-            }
-          },
-          {
-            "id": "cd092f35ca1014d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Conferences/2023 SenecaCamp/Habits of highly effective Devs.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Habits of highly effective Devs"
+              "title": "Participants"
             }
           }
-        ],
-        "currentTab": 10
+        ]
       }
     ],
     "direction": "vertical"
@@ -181,7 +96,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -193,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "color",
+                "query": "gameboy",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -224,11 +140,13 @@
               "title": "Plugin no longer active"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 362.5
+    "width": 360.5,
+    "collapsed": true
   },
   "right": {
     "id": "d02a40f61708ec57",
@@ -245,7 +163,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Conferences/2023 SenecaCamp/Habits of highly effective Devs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -255,7 +172,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Habits of highly effective Devs"
+              "title": "Backlinks"
             }
           },
           {
@@ -264,12 +181,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/Apple Password and ID shenanigans.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Apple Password and ID shenanigans"
+              "title": "Outgoing links"
             }
           },
           {
@@ -316,7 +232,7 @@
       {
         "id": "c24e3fc87849ed52",
         "type": "tabs",
-        "dimension": 34.88132094943241,
+        "dimension": 39.1124871001032,
         "children": [
           {
             "id": "cd0ac7030edf4db2",
@@ -324,7 +240,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Conferences/2023 SenecaCamp/Habits of highly effective Devs.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -352,7 +267,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Habits of highly effective Devs"
+              "title": "Graph view"
             }
           }
         ]
@@ -360,25 +275,23 @@
       {
         "id": "4bcf31b48f11b2bc",
         "type": "tabs",
-        "dimension": 26.522187822497422,
+        "dimension": 22.291021671826623,
         "children": [
           {
             "id": "f0c0787f5be5ee0d",
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "Conferences/2023 SenecaCamp/Habits of highly effective Devs.md"
-              },
+              "state": {},
               "icon": "lucide-info",
-              "title": "File properties for Habits of highly effective Devs"
+              "title": "File properties"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 333.5
+    "width": 464.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -393,59 +306,58 @@
       "recipe-view:Toggle recipe view": false,
       "custom-sort:Toggle custom sorting": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
-      "3d-graph-new:Global 3D Graph": false,
       "vault-size-history:Vault size history": false,
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "cd092f35ca1014d3",
+  "active": "43d9779ccfcdbdbe",
   "lastOpenFiles": [
-    "tools/bash/find.md",
-    "tools/git tricks/gitignore.io.md",
-    "tools/git tricks/github actions - use custom xcode version on mac runner.md",
-    "tools/git tricks/github actions - CI access to private repos.md",
-    "tools/git tricks/github - repo size badge.md",
-    "tools/git tricks/git tricks.md",
-    "tools/git tricks/git rename branch.md",
-    "tools/git tricks/git command line tricks.md",
-    "tools/git tricks/git bisect.md",
-    "tools/git tricks/Force git to use ssh instead of https.md",
-    "tools/Combine images on the commandline.md",
-    "tools/gobuster.md",
-    "tools/Google docs - Markdown export.md",
-    "tools/MySQL.md",
-    "tools/nmap.md",
-    "tools/NoMachine.md",
-    "tools/OpenGL Debugging.md",
-    "tools/pluginval.md",
-    "tools/Redis.md",
-    "tools/SMB.md",
-    "tools/SQL.md",
-    "tools/Structure-Behavior Model.md",
+    "Conferences/2025 KreativGarage/Participants.md",
+    "Talks/Jeff Garland - Cpp26 Preview.md",
+    "tools/Obsidian/Vault Stats.md",
+    "Conferences/2025 SWEC/Developing your Senior Developers.md",
+    "Books/Stone, Heed - Thanks for the feedback.md",
+    "Conferences/2025 SWEC/2025 SWEC.md",
+    "Conferences/Conferences.md",
+    "Conferences/2024 SoCraTes Soltau/2024-08-23 SoCraTes Germany Day1/Advent of Code in Vim.md",
+    "tools/GameDev/GameJam Listings.md",
+    "tools/GameDev/GameDev.md",
+    "tools/testing/Testing.md",
+    "tools/FMod/FMod.md",
+    "tools/Obsidian/Obsidian.md",
+    "Conferences/2025 SWEC/Awesome Software Collection.md",
+    "Conferences/2025 SWEC/Obsidian Selbsthilfegruppe.md",
+    "Conferences/2025 SWEC/Typst Intro (LaTeX replacement).md",
+    "Conferences/2025 SWEC/Embedded Testing in Rust.md",
+    "Conferences/2023 SoCraTes Day Franken/2023 SoCraTes Day Franken.md",
+    "tools/testing/TDD.md",
+    "Conferences/2024 SoCraTes Soltau/2024-08-25 SoCraTes Germany Workshop Day/Rust.md",
+    "tools/Obsidian/Callouts.md",
+    "tools/cpp tools/Branchless Programming.md",
+    "tools/cpp tools/perf.md",
     "tools/tools.md",
-    "tools/Vim.md",
-    "tools/VNC.md",
-    "Conferences/2024 SoCraTes Soltau/2024-08-25 SoCraTes Germany Workshop Day/One Hour Game Jam (airplane).md",
-    "assets/tools/Testing/Apple Password and ID shenanigans",
-    "assets/tools/Testing",
-    "tools/GameDev",
-    "tools/git tricks/git tricks.md.orig",
-    "tools/audio",
+    "tools/OpenGL Debugging.md",
+    "Presentations/2025-05-17_LSDJ_SWEC2025/lsdj_presentation.md",
+    "Presentations/2025-02-24_Catch2/benchmark_result.png",
+    "Presentations/2025-05-17_LSDJ_SWEC2025/chip_layout.png",
+    "Presentations/2025-05-17_LSDJ_SWEC2025/Pasted image.png",
+    "Presentations/2025-05-17_LSDJ_SWEC2025/lsdj.png",
+    "Presentations/2025-05-17_LSDJ_SWEC2025/apu_flow.png",
+    "Presentations/2025-05-17_LSDJ_SWEC2025/apu_channels.png",
+    "assets/Presentations/2025-05-17_LSDJ_SWEC2025/lsdj_presentation",
+    "assets/Presentations/2025-05-17_LSDJ_SWEC2025",
+    "Conferences/2025 SWEC",
+    "Conferences/2025 KreativGarage",
+    "assets/Learnings/books/Marc Loeffler - Improving Agile Retrospectives/06 - Systemic Retrospectives",
+    "assets/Learnings/books/Derby - Agile Retrospectives/06 - Activities to Generate Insights",
+    "assets/Learnings/books/Marc Loeffler - Improving Agile Retrospectives",
+    "assets/Learnings/books/Tynan Sylvester - Designing Games",
+    "assets/Learnings/books/Skelton, Pais - Team Topologies",
+    "assets/Learnings/books/Gene Kim - The DevOps Handbook",
     "Presentations/2024-11-05_ApprovalTests/loop_of_doom_2.png",
     "Presentations/2024-11-05_ApprovalTests/loop_of_doom_1.png",
     "Presentations/2024-11-05_ApprovalTests/golden_master.png",
     "Presentations/2024-11-05_ApprovalTests/approvals_workflow.png",
-    "Presentations/2024-11-05_ApprovalTests/approvals_new_test_workflow.png",
-    "Presentations/2024-11-05_ApprovalTests",
-    "assets/tools/Apple Password and ID shenanigans",
-    "assets/tools/Testing/Apple Password and ID shenanigans/IMG-2025-01-27-081903332.png",
-    "assets/tools/Apple Codesign",
-    "assets/tools/VNC",
-    "assets/tools/MySQL",
-    "assets/Exercises/Hacking/Hack The Box/Hack The Box - Appointment/IMG-2024-09-01-070110624.png",
-    "assets/tools/Hacking/Hack The Box - Dancing/IMG-2024-08-27-145632535.png",
-    "export/2024-08-21 Github Actions/assets/Presentations/2024-08-21_GithubActions_SoCraTes/2024-08-21 Github Actions/IMG-2024-08-23-070612598.png",
-    "export/2024-08-21 Github Actions/assets/Presentations/2024-08-21_GithubActions_SoCraTes/2024-08-21 Github Actions/IMG-2024-08-22-083642189.png",
     "Untitled.canvas"
   ]
 }

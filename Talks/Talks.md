@@ -11,6 +11,7 @@ SORT created DESC
 ```
 
 %% Begin Waypoint %%
+- [[2025-03-27_DigitalBonusBayern]]
 - [[An Introduction to CLAP, a new Plug-In Standard]]
 - [[An Introduction To Tracy Profiler in C++]]
 - [[Ben Saks - What Volatile Means]]

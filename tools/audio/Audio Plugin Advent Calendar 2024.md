@@ -3,6 +3,7 @@ tags:
   - audio
   - plugin
   - calendar
+  - tool
 ---
 
 1. [Chowtape](https://chowdsp.com/products.html)
@@ -30,3 +31,4 @@ tags:
 23. [https://kilohearts.com/products/kilohearts_essentials](https://kilohearts.com/products/kilohearts_essentials "https://kilohearts.com/products/kilohearts_essentials")
 24. [Xfer OTT](https://xferrecords.com/freeware)
 25. [airwindows](https://www.airwindows.com/)
+26. https://github.com/smiarx/aether

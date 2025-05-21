@@ -1,0 +1,31 @@
+---
+tags:
+  - SWEC-2025
+  - career
+---
+- Starting point: 
+	- Dev since multiple years. Where is the next step and how to get there?
+	- Special situation: No experienced colleagues
+- Weiterbildung und Ziele mit Führungskraft diskutieren
+- Aufpassen was man sich wünscht "senior werden" heisst oftmals "mehr meetings"
+- Die eigenen Erfahrungen von Team A -> Team B tragen
+- Wie groß ist dein Wirkradius im Unternehmen?
+- "Senior" muss Umsatz generieren, der das Gehalt rechtfertigt
+- Eigene Ziele vs Ziele vom Unternehmen
+- "Muss ich ein schlechter Leader werden um weiter zu kommen?"
+- In einer guten (Firmen-)Kultur wird jegliches Wirken gewertschätzt
+- Aktiv mitgestalten
+- Notfalls Team oder Firma wechseln
+- Was würde helfen (von seiten Führungskraft)
+	- Cooles comittment zum learning
+	- Fehlerkultur
+- Junioren eingeschüchtert
+	- Vormachen, was passiert wenn man einen Fehler macht
+	- "Pädagogische Distanz"
+- Gute Führungskräfte fordern aktiv feedback ein
+	- Regelmäßig und kontinuierlich
+	- Auch in Reviews/PRs
+	- Siehe [[Stone, Heed - Thanks for the feedback]]
+- Partner in Crime suchen
+- "Neu sein" ist eine superpower
+	- Nicht betriebsblind/brainwashed
