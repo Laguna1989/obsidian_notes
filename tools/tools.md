@@ -14,7 +14,6 @@ tags:
 - **[[ai trickery]]**
 - **audio**
 	- [[Audio Plugin Advent Calendar 2024]]
-	- [[Audio Plugin Advent Calendar 2025]]
 	- [[Plugin Debugging in Reaper]]
 - **bash**
 	- [[find]]
@@ -28,7 +27,6 @@ tags:
 - **[[git tricks]]**
 - [[gobuster]]
 - [[Google docs - Markdown export]]
-- [[gruenderplattform_rechnungstool]]
 - [[MySQL]]
 - [[nmap]]
 - [[NoMachine]]

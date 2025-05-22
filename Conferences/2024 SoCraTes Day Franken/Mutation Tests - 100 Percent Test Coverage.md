@@ -49,8 +49,8 @@ In .Net -> Stryker
 ## Fine-Tuning
 
 - Mutation Testing tests very long
-- -> files to be tested (e.g. via globbing patterns)
-- -> mutation levels (how smart are the mutations)
+- ▶ files to be tested (e.g. via globbing patterns)
+- ▶ mutation levels (how smart are the mutations)
 - Git integration (only check changes since last tag/commit)
 
 > [!summary] Summary
