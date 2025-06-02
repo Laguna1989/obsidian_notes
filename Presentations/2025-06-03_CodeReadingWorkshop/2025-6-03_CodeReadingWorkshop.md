@@ -84,21 +84,20 @@ npx @marp-team/marp-cli@latest 2025-6-03_CodeReadingWorkshop.md --pdf --allow-lo
 - Series of Exercises
 	- From "First Impression"
 	- To "Getting a good understanding"
-- No IDE support
 
 ---
 
 # Expectations III
 
-- No objective right answers
-- Part of the experience is to learn how others think about code
+- No correct answers
+- Part of the workshop is to learn how others think about code
 - There are different instincts and strategies, all are valid
 
 ---
 
 # Exercise 1: First Glance
 
-- Practice to get a first impression of the code
+- Practice to get a quick first impression of the code
 - It doesn't matter how trivial your findings are
 - This is about the immediate reaction
 
@@ -123,7 +122,7 @@ npx @marp-team/marp-cli@latest 2025-6-03_CodeReadingWorkshop.md --pdf --allow-lo
 
 # Dependency Graph
 
-- Unfamiliar code can be scary.
+- Unfamiliar code can be scary 👻
 - Having a concrete activity to do will help!
 - Creating a dependency graph visualizes the structure
 
@@ -133,11 +132,14 @@ npx @marp-team/marp-cli@latest 2025-6-03_CodeReadingWorkshop.md --pdf --allow-lo
 
 Variables
 - Underline all the variables
-- Draw a link between the declaration and their usage(s)
 
 Functions
 - Circle all the function definitions
-- Draw a link between the definition and their usage(s)
+
+Classes
+- Square all the class definitions
+
+Draw a link between the definitions and their usage(s)
 
 ---
 
@@ -166,7 +168,7 @@ Functions
 Good IDEs support via
 - Syntax highlighting
 - Search
-- Peek options (go to definition)
+- Peek (go to definition)
 - Collapse/Expand
 - ...
 
@@ -174,7 +176,7 @@ Good IDEs support via
 
 # Find Concepts (5 min)
 
-- What are the five most important concepts in the code?
+- What are the three most important concepts in the code?
 - Could be names, classes, functions, variables, algorithms, data structures, assumptions or techniques
 
 There is no correct answer here.
@@ -211,6 +213,7 @@ There is no correct answer here.
 # Discuss
 
 - What strategies were used to come to a summary?
+- Does the team agree?
 
 ---
 
