@@ -53,6 +53,20 @@ npx @marp-team/marp-cli@latest 2025-6-03_CodeReadingWorkshop.md --pdf --allow-lo
 
 ---
 
+![](mountain_of_code.png)
+
+---
+
+# Reading Code is Scary
+
+- Provide concrete methods that are better than
+	- (Aimlessly) browsing in the IDE
+	- Debugging
+	- Reading (outdated) Documentation
+	- Waiting on an Epiphany
+
+---
+
 # Introduction
 
 - We spend more time **reading** code than **writing** code
@@ -63,8 +77,6 @@ npx @marp-team/marp-cli@latest 2025-6-03_CodeReadingWorkshop.md --pdf --allow-lo
 
 # Further References
 
-> A Code Reading Club is half Book Club, half Escape Room
-
 - [Code Reading Club](https://codereading.club/)
 - [Code Reading Club – Felienne Hermans](https://www.felienne.com/archives/6472)
 - [GitHub - CodeReadingClubs/Resources](https://github.com/CodeReadingClubs/Resources)
@@ -74,24 +86,34 @@ npx @marp-team/marp-cli@latest 2025-6-03_CodeReadingWorkshop.md --pdf --allow-lo
 
 # Expectations
 
-![](meme.png)
+> A Code Reading Club is half Book Club, half Escape Room
 
 ---
 
 # Expectations II
 
-- Unfamiliar Code
-- Series of Exercises
-	- From "First Impression"
-	- To "Getting a good understanding"
+![](meme.png)
 
 ---
 
 # Expectations III
 
+- Unfamiliar Code
+- Consecutive, concrete and fast exercises
+	- From "First Impression"
+	- To "Getting a good understanding"
+
+---
+
+# Expectations IV
+
 - No correct answers
-- Part of the workshop is to learn how others think about code
+- Learn how you and others reason about code
 - There are different instincts and strategies, all are valid
+
+---
+
+# Hands-on Workshop
 
 ---
 
@@ -99,7 +121,7 @@ npx @marp-team/marp-cli@latest 2025-6-03_CodeReadingWorkshop.md --pdf --allow-lo
 
 - Practice to get a quick first impression of the code
 - It doesn't matter how trivial your findings are
-- This is about the immediate reaction
+- This is about the immediate, intuitive reaction
 
 ---
 
@@ -112,31 +134,46 @@ npx @marp-team/marp-cli@latest 2025-6-03_CodeReadingWorkshop.md --pdf --allow-lo
 
 # Discussion
 
-- Talk about why you picked your points
-- How do those observations help with deciding what to look for next
+- What did you pick and why?
+- Do those observations help with deciding what to look for next?
 - Are there lines or statements that were chosen by everyone vs by only a few?
+
+---
+
+# Technical Discussion
+
 - What is the domain, framework and programming language?
 - What knowledge do you think is required to better understand the code?
 
 ---
 
+# Sidetrack: IDE Support
+
+> Code is not read linearly
+
+Good IDEs support via
+- Syntax highlighting
+- Search
+- Find Usages
+- Peek (go to definition)
+- Collapse/Expand
+- ...
+
+---
+
 # Dependency Graph
 
-- Unfamiliar code can be scary 👻
-- Having a concrete activity to do will help!
-- Creating a dependency graph visualizes the structure
+> Bring order to the chaos
+
+- Manually create a dependency graph
+- Visualize the structure
 
 ---
 
 # Examine the Code (5 min)
 
-Variables
 - Underline all the variables
-
-Functions
 - Circle all the function definitions
-
-Classes
 - Square all the class definitions
 
 Draw a link between the definitions and their usage(s)
@@ -161,30 +198,27 @@ Draw a link between the definitions and their usage(s)
 
 ---
 
-# Sidetrack: IDE Support
+# Understanding the Domain
 
-- Code is often not read linearly
+> Glance at the bigger picture
 
-Good IDEs support via
-- Syntax highlighting
-- Search
-- Peek (go to definition)
-- Collapse/Expand
-- ...
+> The limits of my language are the limits of my world
+
+- Discover the main concepts
+- Learn the vocabulary of the domain
 
 ---
 
 # Find Concepts (5 min)
 
-- What are the three most important concepts in the code?
+- Note down the three most important concepts
 - Could be names, classes, functions, variables, algorithms, data structures, assumptions or techniques
-
-There is no correct answer here.
 
 ---
 
 # Discussion
 
+- What concepts did you pick?
 - Topics covered by many vs by few
 - What strategies were used to decide?
 
@@ -204,16 +238,16 @@ There is no correct answer here.
 
 ---
 
-# Summary (5 min)
+# Summary (3 min)
 
-- Try to write down the concise essence of the code in no more than three short sentences.
+- Try to write down the concise essence of the code in no more than two short sentences.
 
 ---
 
 # Discuss
 
-- What strategies were used to come to a summary?
-- Does the team agree?
+- Can the team agree on a combined summary?
+- What would you ask the original developer?
 
 ---
 
@@ -221,5 +255,6 @@ There is no correct answer here.
 
 - Take a few moments to reflect on the session
 - What methods felt good, what felt awkward?
+- Were there any impediments?
 - What did you learn?
 - How can you apply what you have learned in your daily work?
