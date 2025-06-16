@@ -105,6 +105,22 @@ npx @marp-team/marp-cli@latest 2025-06-17_PropertyBasedTesting.md --pdf --allow-
 
 ---
 
+# Rapidcheck I
+
+> QuickCheck clone for C++ with the goal of being simple to use with as little boilerplate as possible.
+
+---
+
+# Rapidcheck II
+
+- Integration with gtest, catch2 and others
+- Support for STL types
+- Create your own generators for custom types
+- Shrinking
+- Stateful testing
+
+---
+
 # Example 1
 
 ## String Concatenation
@@ -113,6 +129,7 @@ npx @marp-team/marp-cli@latest 2025-06-17_PropertyBasedTesting.md --pdf --allow-
 
 ## Finding Properties
 
+- Finding properties is the most difficult part
 - Consider the `cool_sort` function
 - What are possible properties?
 
@@ -126,6 +143,25 @@ npx @marp-team/marp-cli@latest 2025-06-17_PropertyBasedTesting.md --pdf --allow-
 
 # Shrinking
 
+- *Randomly* generated input can be complex
+- A failing test is often hard to interpret
+- Shrinking provides the minimal failing example
+
+---
+
+# Shrinking Internal Steps
+
+1. Generate random input
+2. Test if the input fails the property
+3. Systematically produce "simpler" candidates
+4. -> 2.
+
+---
+
+# Example 3
+
+## Shrinking
+
 ---
 
 # Misc
@@ -136,3 +172,16 @@ npx @marp-team/marp-cli@latest 2025-06-17_PropertyBasedTesting.md --pdf --allow-
 - Preconditions
 	- `RC_PRE`
 - `rc::gen()`
+
+---
+
+# Summary
+
+- No replacement for Unit Tests, but a great addition
+- Many existing unit tests can benefit from using generated input
+
+---
+
+# References
+
+- [An introduction to property based testing \| F# for fun and profit](https://fsharpforfunandprofit.com/pbt/)
