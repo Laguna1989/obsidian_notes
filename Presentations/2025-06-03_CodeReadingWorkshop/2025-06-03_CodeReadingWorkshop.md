@@ -53,7 +53,7 @@ npx @marp-team/marp-cli@latest 2025-6-03_CodeReadingWorkshop.md --pdf --allow-lo
 
 ---
 
-![](mountain_of_code.png)
+![](IMG-2025-06-16-071238750.png)
 
 ---
 
@@ -92,7 +92,7 @@ npx @marp-team/marp-cli@latest 2025-6-03_CodeReadingWorkshop.md --pdf --allow-lo
 
 # Expectations II
 
-![](meme.png)
+![](IMG-2025-06-16-073207821.png)
 
 ---
 
