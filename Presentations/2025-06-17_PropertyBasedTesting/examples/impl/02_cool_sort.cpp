@@ -9,7 +9,7 @@ void cool_sort(Args &&... args) {
 }
 
 
-TEST_CASE("cool sort unit tests") {
+TEST_CASE("CoolSortUnitTest") {
     std::vector data{2, 7, 1, 5, 1, 8};
 
     REQUIRE(!std::ranges::is_sorted(data));
@@ -17,11 +17,11 @@ TEST_CASE("cool sort unit tests") {
     auto const input_copy = data;
     cool_sort(data);
 
-    SECTION("is sorted") {
+    SECTION("is_sorted") {
         REQUIRE(std::ranges::is_sorted(data));
     }
 
-    SECTION("is permutation") {
+    SECTION("is_permutation") {
         REQUIRE(std::ranges::is_permutation(data, input_copy));
     }
 }
@@ -38,8 +38,8 @@ TEST_CASE("cool sort unit tests") {
 //
 //
 
-TEST_CASE("cool sort property based tests") {
-    SECTION("prop A") {
+TEST_CASE("CoolSortPropertyTest") {
+    SECTION("???") {
         rc::check([](std::vector<int> const &data) {
         });
     }

@@ -14,12 +14,11 @@ TEST_CASE("string concatenation") {
         });
     }
 
-    SECTION("result contains b") {
-        rc::check([](std::string const &a, std::string const &b) {
-            auto const concatenated_result = concatenate(a, b);
-            RC_ASSERT(concatenated_result.contains(b));
-        });
-    }
+    // rc::prop creates a dedicated catch2 section
+    rc::prop("result contains b", [](std::string const &a, std::string const &b) {
+        auto const concatenated_result = concatenate(a, b);
+        RC_ASSERT(concatenated_result.contains(b));
+    });
 
 
     //
@@ -37,6 +36,14 @@ TEST_CASE("string concatenation") {
     //
     //
 
+    // SECTION("test values") {
+    //     rc::check([](std::string const &a, std::string const &b) {
+    //         std::cout << a << " ___ " << b << std::endl;
+    //         auto const concatenated_result = concatenate(a, b);
+    //         RC_ASSERT(concatenated_result.contains(a));
+    //     });
+    // }
+    //
     // SECTION("test values") {
     //     rc::check([](std::string const &a, std::string const &b) {
     //         std::cout << a << " ___ " << b << std::endl;

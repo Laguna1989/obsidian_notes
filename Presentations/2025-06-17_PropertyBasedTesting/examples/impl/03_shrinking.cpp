@@ -9,7 +9,7 @@
  */
 
 // TEST_CASE("shrinking") {
-//     rc::check([](int const a, int const b) {#
+//     rc::prop("bla", [](int const a, int const b) {
 //         std::cout << a << " _____ " << b << std::endl;
 //         RC_ASSERT(a + b > -20);
 //     });

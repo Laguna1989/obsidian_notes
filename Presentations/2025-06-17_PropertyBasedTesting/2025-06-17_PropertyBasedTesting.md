@@ -39,7 +39,7 @@ date: 2025-06-03
 tags:
   - presentation
   - code
-  - reading
+  - testing
 ---
 
 <!--
@@ -63,10 +63,21 @@ npx @marp-team/marp-cli@latest 2025-06-17_PropertyBasedTesting.md --pdf --allow-
 
 # Existing Issues I
 
-- Static Analysis ignores domain and use cases
+- Static Analysis is for coding standards/compliance
+- Unaware of domain and use cases
+- Prone to false positives/false negatives
+- Unable to detect runtime issues
 ---
 
 # Existing Issues II
+
+- Random Tests are often hard to set up
+- Time consuming to run
+- Unable to catch logic flaws
+
+---
+
+# Existing Issues III
 
 - Unit tests only test the inputs we create
 - Limited Code coverage
@@ -74,22 +85,16 @@ npx @marp-team/marp-cli@latest 2025-06-17_PropertyBasedTesting.md --pdf --allow-
 
 ---
 
-# Existing Issues III
-
-- Random Tests are often hard to set up
-- Time consuming to run
-
----
-
 # Property Based Testing
 
- > PBT is a testing method that verifies general properties or invariants by utilizing generated input data.
+ > PBT is a testing method that verifies general properties or invariants by utilizing *randomly* generated input data.
 
 ---
 
-# Benefits
+# Benefits of PBT
 
-- Easy to write
+- Encourages thinking about code invariants
+- Discovers logic flaws
 - Cover the scope of all possible inputs
 - Smart about selecting values
 - Give minimal failing example (shrink)
@@ -99,9 +104,9 @@ npx @marp-team/marp-cli@latest 2025-06-17_PropertyBasedTesting.md --pdf --allow-
 
 # History Lesson
 
-- First research in 1990
+- First mentioned around 1990
 - Popular Library: QuickCheck (Haskell) around 2000
-- Growing acceptance for various languages
+- Growing acceptance for various languages/frameworks
 
 ---
 
@@ -114,10 +119,11 @@ npx @marp-team/marp-cli@latest 2025-06-17_PropertyBasedTesting.md --pdf --allow-
 # Rapidcheck II
 
 - Integration with gtest, catch2 and others
-- Support for STL types
-- Create your own generators for custom types
+- Support for (most) STL types
+- Generators for custom types
 - Shrinking
 - Stateful testing
+- Easy to set up
 
 ---
 
@@ -127,11 +133,27 @@ npx @marp-team/marp-cli@latest 2025-06-17_PropertyBasedTesting.md --pdf --allow-
 
 ---
 
-## Finding Properties
+# Finding Properties
 
-- Finding properties is the most difficult part
-- Consider the `cool_sort` function
-- What are possible properties?
+Finding properties is the most difficult part
+
+## What is a Property?
+
+- A logical assertion that remains true for all inputs
+- Focus on general behavior, not specific input/output
+
+---
+
+# Cool Sort
+
+```cpp
+template<typename... Args>  
+void cool_sort(Args &&... args) {  
+    std::ranges::sort(std::forward<Args>(args)...);  
+}
+```
+
+ What are possible properties?
 
 ---
 
@@ -149,29 +171,88 @@ npx @marp-team/marp-cli@latest 2025-06-17_PropertyBasedTesting.md --pdf --allow-
 
 ---
 
-# Shrinking Internal Steps
-
-1. Generate random input
-2. Test if the input fails the property
-3. Systematically produce "simpler" candidates
-4. -> 2.
-
----
-
 # Example 3
 
 ## Shrinking
 
 ---
 
-# Misc
+# Generators for Fundamental Types
+
+- Often Fundamental types are not enough
+- Limit range
+
+```cpp
+auto const i = *rc::gen::inRange(0, 10);
+```
+
+---
+
+# Generators for Custom Types
+
+```cpp
+namespace rc {  
+    template<>  
+    struct Arbitrary<Vec2i> {  
+        static Gen<Vec2i> arbitrary() {  
+            return gen::build<Vec2i>(  
+                // clang-format off  
+                gen::set(&Vec2i::x),  
+                gen::set(&Vec2i::y)  
+                // clang-format on  
+            );  
+        }  
+    };  
+} // namespace rc
+```
+
+---
+
+# Example 4
+
+## Vec2i (part 1)
+
+---
+
+# Printing Custom Types
+
+```cpp
+void showValue(CustomType const &v, std::ostream &os) {
+	os << ... << std::endl;
+}
+```
+
+---
+
+# Example 4
+
+## Finding Bugs - Vec2i (part 2)
+
+---
+
+# Advanced Features I
 
 - Tagging:
 	- `RC_TAG`
 	- `RC_CLASSIFY`
 - Preconditions
 	- `RC_PRE`
-- `rc::gen()`
+
+---
+
+# Example 5
+
+## Advanced
+
+---
+
+# Advanced Features II
+
+## Configuration
+
+- `seed` - random seed used for generating values
+- `max_success` and `max_size` - Tweak the number of runs
+- `noshrink` and `verbose_shrinking` - configure shrinking
 
 ---
 
