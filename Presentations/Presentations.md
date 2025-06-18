@@ -14,8 +14,11 @@ tags:
 	- [[Catch2]]
 - **2025-05-17_LSDJ_SWEC2025**
 	- [[lsdj_presentation]]
-- **2025-06-03_CodeReadingWorkshop**
+- **[[2025-06-03_CodeReadingWorkshop]]**
 	- [[2025-6-03_CodeReadingWorkshop]]
+	- [[2025-06-03_CodeReadingWorkshop]]
+	- **examples**
+
 - [[marp_template]]
 - [[Presentations]]
 
