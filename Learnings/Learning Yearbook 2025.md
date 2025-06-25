@@ -1,0 +1,24 @@
+---
+tags:
+  - learning
+---
+- Grew my audio company and learned a lot
+	- Started with 200 newsletter subscribers (**now 2.5k**)
+	- Released 2 plugins and a freebie
+- Joined KreativGarage and learned a massive amount about business, marketing and sales
+- Game Jams
+	- Organized GGJ in January
+	- Organized FGJ in November
+- Took part in two 30k hikes (München in March) (Nürnberg in May)
+- Gave multiple presentations/Katas at work
+	- Catch2
+	- Approval Tests
+	- Property Based Testin
+	- Gilded Rose Refactoring Kata
+- Conferences
+	- SWEC camp
+	- Socrates Franken
+- Music 
+	- 
+- Games
+- 
