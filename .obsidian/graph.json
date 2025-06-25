@@ -48,6 +48,13 @@
         "a": 1,
         "rgb": 14701228
       }
+    },
+    {
+      "query": "path:Presentations  ",
+      "color": {
+        "a": 1,
+        "rgb": 4718674
+      }
     }
   ],
   "collapse-display": true,
@@ -60,6 +67,6 @@
   "repelStrength": 10.0520833333333,
   "linkStrength": 0.565104166666667,
   "linkDistance": 105,
-  "scale": 0.27827064274481383,
-  "close": true
+  "scale": 0.21713926058435362,
+  "close": false
 }

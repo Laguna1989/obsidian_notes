@@ -36,48 +36,105 @@
             }
           },
           {
-            "id": "cf3285326a7c8ed7",
+            "id": "b75bd8d91935eada",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Conferences/2025 SWEC/Developing your Senior Developers.md",
+                "file": "Conferences/2024 SoCraTes Soltau/2024-08-22 SoCraTes Germany Training Day/Untangle Your Test Code.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Developing your Senior Developers"
+              "title": "Untangle Your Test Code"
             }
           },
           {
-            "id": "33df92ce1ffc8879",
+            "id": "030e1af835c61252",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Talks/Jeff Garland - Cpp26 Preview.md",
+                "file": "Learnings/Learnlist.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Jeff Garland - Cpp26 Preview"
+              "title": "Learnlist"
             }
           },
           {
-            "id": "35c1d7165c8e63dc",
+            "id": "c2115effb444e024",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Conferences/2025 KreativGarage/Participants.md",
+                "file": "tools/cpp tools/Branchless Programming.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Participants"
+              "title": "Branchless Programming"
+            }
+          },
+          {
+            "id": "6e2872a1b40aece0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Books/Marc Loeffler - Improving Agile Retrospectives/01 - Retrospective 101.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "01 - Retrospective 101"
+            }
+          },
+          {
+            "id": "d6b79da8b9529d75",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Conferences/2023 SoCraTes Day Franken/DevOps Discussion.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DevOps Discussion"
+            }
+          },
+          {
+            "id": "84d5eb4f76db38f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Conferences/2023 SoCraTes Day Franken/Refuctoring Game.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Refuctoring Game"
+            }
+          },
+          {
+            "id": "86894c7072f0a701",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Conferences/2020 SoCraTes Day Franken/Configuration Management Talk.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Configuration Management Talk"
             }
           }
-        ]
+        ],
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -109,7 +166,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "gameboy",
+                "query": "learnli",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -140,13 +197,11 @@
               "title": "Plugin no longer active"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 360.5,
-    "collapsed": true
+    "width": 360.5
   },
   "right": {
     "id": "d02a40f61708ec57",
@@ -163,6 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Conferences/2020 SoCraTes Day Franken/Configuration Management Talk.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +228,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Configuration Management Talk"
             }
           },
           {
@@ -181,11 +237,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Conferences/2025 SWEC/Awesome Software Collection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Awesome Software Collection"
             }
           },
           {
@@ -240,6 +297,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Conferences/2020 SoCraTes Day Franken/Configuration Management Talk.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -267,7 +325,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Graph of Configuration Management Talk"
             }
           }
         ]
@@ -282,9 +340,11 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "Conferences/2020 SoCraTes Day Franken/Configuration Management Talk.md"
+              },
               "icon": "lucide-info",
-              "title": "File properties"
+              "title": "File properties for Configuration Management Talk"
             }
           }
         ]
@@ -310,34 +370,45 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "43d9779ccfcdbdbe",
+  "active": "86894c7072f0a701",
   "lastOpenFiles": [
-    "Conferences/2025 KreativGarage/Participants.md",
-    "Talks/Jeff Garland - Cpp26 Preview.md",
-    "tools/Obsidian/Vault Stats.md",
-    "Conferences/2025 SWEC/Developing your Senior Developers.md",
-    "Books/Stone, Heed - Thanks for the feedback.md",
-    "Conferences/2025 SWEC/2025 SWEC.md",
-    "Conferences/Conferences.md",
-    "Conferences/2024 SoCraTes Soltau/2024-08-23 SoCraTes Germany Day1/Advent of Code in Vim.md",
-    "tools/GameDev/GameJam Listings.md",
-    "tools/GameDev/GameDev.md",
-    "tools/testing/Testing.md",
-    "tools/FMod/FMod.md",
-    "tools/Obsidian/Obsidian.md",
-    "Conferences/2025 SWEC/Awesome Software Collection.md",
-    "Conferences/2025 SWEC/Obsidian Selbsthilfegruppe.md",
-    "Conferences/2025 SWEC/Typst Intro (LaTeX replacement).md",
-    "Conferences/2025 SWEC/Embedded Testing in Rust.md",
-    "Conferences/2023 SoCraTes Day Franken/2023 SoCraTes Day Franken.md",
-    "tools/testing/TDD.md",
-    "Conferences/2024 SoCraTes Soltau/2024-08-25 SoCraTes Germany Workshop Day/Rust.md",
-    "tools/Obsidian/Callouts.md",
+    "Conferences/2023 SoCraTes Day Franken/Refuctoring Game.md",
+    "Conferences/2023 SoCraTes Day Franken/DevOps Discussion.md",
+    "Books/Marc Loeffler - Improving Agile Retrospectives/01 - Retrospective 101.md",
+    "Books/Marc Loeffler - Improving Agile Retrospectives/Marc Loeffler - Improving Agile Retrospectives.md",
+    "Books/Marc Loeffler - Improving Agile Retrospectives/The Extended Retrospective Phase Model.md",
+    "Books/Mik Kersten - Project To Product.md",
+    "Books/Gene Kim - The DevOps Handbook/Gene Kim - The DevOps Handbook.md",
+    "Books/Mark Seeman - Dependency Injection/Mark Seeman - Dependency Injection.md",
+    "Books/Taze - Engineer's survival guide.md",
+    "Learnings/Learnlist.md",
     "tools/cpp tools/Branchless Programming.md",
-    "tools/cpp tools/perf.md",
-    "tools/tools.md",
-    "tools/OpenGL Debugging.md",
-    "Presentations/2025-05-17_LSDJ_SWEC2025/lsdj_presentation.md",
+    "tools/Obsidian/Vault Stats.md",
+    "Conferences/2024 SoCraTes Soltau/2024-08-22 SoCraTes Germany Training Day/Untangle Your Test Code.md",
+    "Conferences/2025 SoCraTes Day Franken/Schach - Java - Latex.md",
+    "Conferences/2025 SoCraTes Day Franken/Property Based Testing (Socrates 2025).md",
+    "Conferences/2025 SoCraTes Day Franken/Lebenslanges Lernen.md",
+    "Conferences/2025 SoCraTes Day Franken/2025 SoCraTes Day Franken.md",
+    "Conferences/2025 SoCraTes Day Franken/ATDD - BDD.md",
+    "Talks/Jeff Garland - Cpp26 Preview.md",
+    "Presentations/Presentations.md",
+    "tools/testing/ATDD.md",
+    "assets/socrates_2025.jpg",
+    "Presentations/2025-06-03_CodeReadingWorkshop/2025-06-03_CodeReadingWorkshop.md",
+    "Conferences/2025 SoCraTes Day Franken",
+    "Presentations/2025-06-03_CodeReadingWorkshop/2025-06-03_CodeReadingWorkshop.pdf",
+    "Learnings/Learning Yearbook 2025.md",
+    "Learnings/Learning Yearbook 2024.md",
+    "Presentations/2025-06-17_PropertyBasedTesting/2025-06-17_PropertyBasedTesting.md",
+    "Presentations/2025-06-03_CodeReadingWorkshop/mountain_of_code.png",
+    "Presentations/2025-06-03_CodeReadingWorkshop/examples/sleepy.pdf",
+    "Presentations/2025-06-03_CodeReadingWorkshop/examples/parameditor.pdf",
+    "Presentations/2025-06-03_CodeReadingWorkshop/examples",
+    "Presentations/2025-06-03_CodeReadingWorkshop/2025-6-03_CodeReadingWorkshop.md",
+    "assets/Presentations/2025-06-03_CodeReadingWorkshop/2025-06-03_CodeReadingWorkshop",
+    "assets/Presentations/2025-06-03_CodeReadingWorkshop",
+    "assets/Presentations/2025-06-03_CodeReadingWorkshop/2025-06-03_CodeReadingWorkshop/IMG-2025-06-06-133141757.png",
+    "Presentations/2025-06-03_CodeReadingWorkshop",
     "Presentations/2025-02-24_Catch2/benchmark_result.png",
     "Presentations/2025-05-17_LSDJ_SWEC2025/chip_layout.png",
     "Presentations/2025-05-17_LSDJ_SWEC2025/Pasted image.png",
@@ -346,18 +417,7 @@
     "Presentations/2025-05-17_LSDJ_SWEC2025/apu_channels.png",
     "assets/Presentations/2025-05-17_LSDJ_SWEC2025/lsdj_presentation",
     "assets/Presentations/2025-05-17_LSDJ_SWEC2025",
-    "Conferences/2025 SWEC",
-    "Conferences/2025 KreativGarage",
-    "assets/Learnings/books/Marc Loeffler - Improving Agile Retrospectives/06 - Systemic Retrospectives",
-    "assets/Learnings/books/Derby - Agile Retrospectives/06 - Activities to Generate Insights",
-    "assets/Learnings/books/Marc Loeffler - Improving Agile Retrospectives",
-    "assets/Learnings/books/Tynan Sylvester - Designing Games",
-    "assets/Learnings/books/Skelton, Pais - Team Topologies",
-    "assets/Learnings/books/Gene Kim - The DevOps Handbook",
     "Presentations/2024-11-05_ApprovalTests/loop_of_doom_2.png",
-    "Presentations/2024-11-05_ApprovalTests/loop_of_doom_1.png",
-    "Presentations/2024-11-05_ApprovalTests/golden_master.png",
-    "Presentations/2024-11-05_ApprovalTests/approvals_workflow.png",
     "Untitled.canvas"
   ]
 }
