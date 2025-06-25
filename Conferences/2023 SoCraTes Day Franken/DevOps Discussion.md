@@ -2,6 +2,9 @@
 tags:
   - SoCraTes-2023
 ---
+
+> [!info] See also[[Gene Kim - The DevOps Handbook]]
+
 Development und Operations in einem Team
 - Keine Rolle, keine Org-Struktur, kein Tool sondern eine Kultur
 - 3 Companies doing devops well

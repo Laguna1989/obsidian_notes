@@ -57,7 +57,7 @@ In .Net -> Stryker
 > - Non-invasive: No code changes required
 > - Great for discovering important corner cases
 > - Requires a lot of resources
-> - A nice tool next to [[TDD]], [[ApprovalTests]] und [[Property Based Testing]]
+> - A nice tool next to [[TDD]], [[ApprovalTests]] und [[tools/testing/Property Based Testing]]
 > - ⚠ Only useful when test coverage is high enough
 > - ⚠ Best used on Unit tests (no dependencies, runs fast)
 > - ⚠ Works very well when writing a new test+impl, as the mutation source is rather slow

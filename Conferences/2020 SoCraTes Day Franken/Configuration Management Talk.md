@@ -2,20 +2,21 @@
 tags:
   - SoCraTes-2020
 ---
+
 - Früher wenig linux admins, sondern v.a. linux oder noch ältere systeme
-- admins loggen sich manuell remote ein und ändern configs manuell
-- next step: shell scripte, die sich selber einloggen, aber ebenfalls fehleranfällig
-- Erstes gutes und weit verbreitetes Tool: Puppet
+- Admins loggen sich manuell remote ein und ändern configs manuell
+- Next step: shell scripte, die sich selber einloggen, aber ebenfalls fehleranfällig
+- Erstes gutes und weit verbreitetes Tool: [Puppet](https://www.puppet.com/)
     - deklarative beschreibung des Zielzustands
     - Client muss auf zielrechner laufen
     - Server speichert Konfigurationen
 - Chef ähnlich zu Puppet
-- beide vor containern und cloud. Alte Rechenzentrumswelt
+- Beide vor containern und cloud. Alte Rechenzentrumswelt
 - Ab jetzt dynamische Infrastruktur
 - 2010 Amazon startet cloud Anwendungen mit AWS mit proprietären Konfigurationsmanagement
 - Jetzt Saltstack oder Ansible (super einfach) auch noch für statische Welt
 - Heat, Terraform v.a. für dynamisches Umfeld
-- terraform:
+- [terraform](https://developer.hashicorp.com/terraform):
     - deklarativer Zustand
 - Pets vs Cattle
     - Pets sind die alte generation, um die man sich individuell kümmert
@@ -25,6 +26,6 @@ tags:
     - Automatisierung des Image Builds
     - Kann für beliebige Targets kompilieren (docker, aws, google cloud, …)
 - Vagrant: lokales testing ohne Cloud oder VM
-    - provisionierung lokal - wie terraform für cloud, hier lokal
-    - docker steuert container
-    - vagrant steuert vms oder docker
+    - Provisionierung lokal - wie terraform für cloud, hier lokal
+    - Docker steuert container
+    - Vagrant steuert vms oder docker

@@ -24,4 +24,4 @@ tags:
 - Use random valid values as test input as a way of expressing "I don't care which valid value I get"
 - Use the [[Builder]] and/or [[Prototype]] design pattern also in test code
 - Think about testing on the right level (unit, integration, ...)
-- Think about using [[ApprovalTests]] or [[Property Based Testing]] when appropriate
+- Think about using [[ApprovalTests]] or [[tools/testing/Property Based Testing]] when appropriate
