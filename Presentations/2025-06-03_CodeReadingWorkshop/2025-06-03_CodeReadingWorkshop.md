@@ -43,6 +43,15 @@ tags:
 ---
 
 <!--
+%% Begin Waypoint %%
+- [[2025-06-03_CodeReadingWorkshop]]
+- **examples**
+
+
+%% End Waypoint %%
+-->
+
+<!--
 Build with:
 npx @marp-team/marp-cli@latest 2025-6-03_CodeReadingWorkshop.md --pdf --allow-local-files
 -->
@@ -53,7 +62,7 @@ npx @marp-team/marp-cli@latest 2025-6-03_CodeReadingWorkshop.md --pdf --allow-lo
 
 ---
 
-![](IMG-2025-06-16-071238750.png)
+![](mountain_of_code.png)
 
 ---
 
@@ -92,7 +101,7 @@ npx @marp-team/marp-cli@latest 2025-6-03_CodeReadingWorkshop.md --pdf --allow-lo
 
 # Expectations II
 
-![](IMG-2025-06-16-073207821.png)
+![](meme.png)
 
 ---
 
@@ -172,9 +181,9 @@ Good IDEs support via
 
 # Examine the Code (5 min)
 
-- Underline all the variables
-- Circle all the function definitions
 - Square all the class definitions
+- Circle all the function definitions
+- Underline all the variables
 
 Draw a link between the definitions and their usage(s)
 

@@ -43,6 +43,18 @@ tags:
 ---
 
 <!--
+%% Begin Waypoint %%
+- [[2025-06-17_PropertyBasedTesting]]
+- **examples**
+	- **external**
+
+	- **impl**
+
+
+%% End Waypoint %%
+-->
+
+<!--
 Build with:
 npx @marp-team/marp-cli@latest 2025-06-17_PropertyBasedTesting.md --pdf --allow-local-files
 -->
