@@ -1,3 +1,7 @@
+---
+tags:
+  - learning
+---
 - Founded my own company
 	- Audio programming, 
 	- Juce framework, 
@@ -17,7 +21,7 @@
 	- Socrates Germany
 - Music 
 	- Released 4 Synthwave Singles 
-	- Started Recording with a Metal band, first song just released
+	- Started Recording with a Metal band Erbdie, first song just released
 	- Organized twelve Synthwave Challenges
 - Games
 	- Elden Ring DLC

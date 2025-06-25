@@ -1,6 +1,7 @@
 ---
 tags:
   - book
+  - bookclub
 created: 2022-08-01
 ---
 

@@ -1,6 +1,7 @@
 ---
 tags:
   - book
+  - bookclub
 created: 2021-01-01
 ---
 # Chapter 1 - The Age of Software

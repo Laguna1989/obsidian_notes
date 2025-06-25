@@ -1,6 +1,7 @@
 ---
 tags:
   - book
+  - bookclub
 created: 2023-09-01
 ---
 # Engineer’s Survival Guide
