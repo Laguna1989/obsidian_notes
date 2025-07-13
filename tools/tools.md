@@ -12,8 +12,10 @@ tags:
 	- [[Retrospectives]]
 	- [[Triangle Game]]
 - **[[ai trickery]]**
+- [[Apple Password and ID shenanigans]]
 - **audio**
 	- [[Audio Plugin Advent Calendar 2024]]
+	- [[Audio Plugin Advent Calendar 2025]]
 	- [[Plugin Debugging in Reaper]]
 - **bash**
 	- [[find]]
@@ -27,6 +29,7 @@ tags:
 - **[[git tricks]]**
 - [[gobuster]]
 - [[Google docs - Markdown export]]
+- [[gruenderplattform_rechnungstool]]
 - [[MySQL]]
 - [[nmap]]
 - [[NoMachine]]
@@ -39,14 +42,15 @@ tags:
 - [[SQL]]
 - [[Structure-Behavior Model]]
 - **testing**
-	- [[Apple Password and ID shenanigans]]
 	- [[ApprovalTests]]
 	- [[ATDD]]
 	- [[Catch2 v3]]
 	- [[Fake it til you make it]]
-	- [[tools/testing/Property Based Testing]]
+	- [[Given When Then Pattern]]
+	- [[Property Based Testing]]
 	- [[TDD]]
 	- [[Testing]]
+	- [[Three As of Unit Testing]]
 	- [[Triangulation]]
 - [[tools]]
 - [[Vim]]

@@ -5,6 +5,7 @@ tags:
 aliases:
   - Test Driven Development
 ---
+
 # Overview
 
 > [!note] TDD = Test Driven Development
@@ -22,4 +23,5 @@ Development practice that consists of three distinct phases
 - Try to stay in green as much as possible
 
 # Links
+
 - [What is Test Driven Development (TDD)? | Agile Alliance](https://www.agilealliance.org/glossary/tdd/)

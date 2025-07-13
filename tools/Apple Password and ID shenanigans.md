@@ -10,7 +10,7 @@ tags:
 # How to Get App-specific Password (needed for Notary tool)
 
 - go to [appleid.apple.com](https://appleid.apple.com/)
-![[IMG-2025-01-27-081903332.png]]
+![[IMG-2025-06-28-082922913.png]]
 - Go to App-specific Passwords
 - Create a password and immediately safe it (it will only be shown on creation)
 

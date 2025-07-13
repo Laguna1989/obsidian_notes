@@ -10,6 +10,7 @@ tags:
 - [[Emily Bache - The Coding Dojo Handbook]]
 - **[[Gene Kim - The DevOps Handbook]]**
 - [[Kent Beck - Extreme Programming Explained]]
+- **[[Khorikov - Unit Testing - Principles, Practices and Patterns]]**
 - **[[Marc Loeffler - Improving Agile Retrospectives]]**
 - [[Mark Seeman - Code that fits in your head]]
 - **[[Mark Seeman - Dependency Injection]]**

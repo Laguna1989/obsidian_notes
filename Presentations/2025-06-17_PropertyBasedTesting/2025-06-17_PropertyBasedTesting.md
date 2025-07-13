@@ -47,9 +47,7 @@ tags:
 - [[2025-06-17_PropertyBasedTesting]]
 - **examples**
 	- **external**
-
 	- **impl**
-
 
 %% End Waypoint %%
 -->

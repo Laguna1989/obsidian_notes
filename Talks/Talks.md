@@ -17,6 +17,7 @@ SORT created DESC
 - [[Ben Saks - What Volatile Means]]
 - [[Concurrency Improvements in C++20]]
 - [[Dangerous Optimizations]]
+- [[Dave Rowland - Pluginval]]
 - **[[Design Patterns in modern cpp]]**
 - [[Drawing Level meter with JUCE]]
 - [[Jeff Garland - Cpp26 Preview]]
