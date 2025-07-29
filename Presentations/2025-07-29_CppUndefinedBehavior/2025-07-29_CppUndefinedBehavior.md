@@ -168,7 +168,7 @@ std::cout << sizeof(char) << std::endl;
 
 ---
 
-# UB Examples
+# Examples
 
 - Dereference a nullptr
 - Lock twice in one thread
@@ -178,7 +178,7 @@ std::cout << sizeof(char) << std::endl;
 
 ---
 
-# UB Examples (cont)
+# Examples (cont)
 
 - Array access outside bounds
 - Allegedly clever expressions
@@ -290,15 +290,16 @@ std::unreachable();
 - with MSVC 17.14.7, c++23
 
 Both Debug and Release
-- print assert log
-- terminate the program
+- Print assert log
+- Terminate the program
 
 ---
 
 ## End of Time-Travel with c++26
 
-- With C++26 output happening before undefined behavior is guaranteed to happen
-- Earlier versions still show the same behavior
+- With C++26: Output happening before undefined behavior is guaranteed to happen
+- Earlier c++ versions still show the same behavior
+- Effectively there is no time travel
 
 ---
 
