@@ -16,6 +16,7 @@ tags:
 	- [[lsdj_presentation]]
 - **[[2025-06-03_CodeReadingWorkshop]]**
 - **[[2025-06-17_PropertyBasedTesting]]**
+- **[[2025-07-29_CppUndefinedBehavior]]**
 - [[marp_template]]
 - [[Presentations]]
 

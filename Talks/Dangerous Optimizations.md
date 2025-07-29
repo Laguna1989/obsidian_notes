@@ -8,16 +8,16 @@ created: 2024-02-22
 - Premise: Compiler writers use undefined behavior to perform optimizations
 	- after all, a compiler is a big optimizer
 - Difficult for programmers but for static analysis tools as well
-- UD:
-	- implementations may ignore UD completely with unpredictable results
-	- UD "might start to play game of life in your program"
+- UB:
+	- implementations may ignore UB completely with unpredictable results
+	- UB "might start to play game of life in your program"
 	- might behave in a documented manner of the environment (without issuing a diagnostic)
-	- best case: UD might terminate the program with a diagnostic
+	- best case: UB might terminate the program with a diagnostic
 - Optimization: replace a computation with a more efficient method that computes the same result
 - There is an **as if** rule: compiler can remove unused code if it produces the same output
 - Three optimization strategies:
 	- **hardware**: generate corresponding assembly and let the hardware do whatever it does -> almost the universal policy in c and c++
-	- **Super debug**: trapping undefined behaviour (e.g. in debugging) but very slow performance
+	- **Super debug**: trapping undefined behavior (e.g. in debugging) but very slow performance
 	- **total license**: UB can't happen, just terminate
 
 # Constant Folding:
