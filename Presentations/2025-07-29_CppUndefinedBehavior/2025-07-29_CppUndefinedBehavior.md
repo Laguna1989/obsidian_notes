@@ -279,11 +279,8 @@ std::cout << sizeof(char) << std::endl;
 ## Example from Our Code
 
 ```c++
-#include <ElabUtil/Assert.h>
-
-assert(false);
+assert(false); // assert logs
 std::unreachable();
-
 ```
 
 ---
